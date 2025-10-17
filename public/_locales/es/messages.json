@@ -1,6 +1,6 @@
 {
   "extDesc": {
-    "message": "Jira. Añade botones para Colapsar el Panel Derecho, Expandir el Modal de Creación, Ampliar Imágenes y Ver Tickets Vinculados.",
+    "message": "Jira. Añade botones para Colapsar el Panel Derecho, Expandir el Modal de Creación, Expandir Imágenes y Ver Tickets Vinculados.",
     "description": "Descripción de la extensión"
   },
   "extName": {
@@ -64,7 +64,7 @@
     "description": "Título del botón para expandir/colapsar imágenes"
   },
   "byExtension": {
-    "message": "Por Jira Expand Extension",
+    "message": "Por Optimizador Jira Extension",
     "description": "Texto de atribución de la extensión"
   },
   "linkedTicketsTitle": {

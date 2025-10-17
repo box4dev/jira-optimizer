@@ -64,7 +64,7 @@
     "description": "படங்களை விரிவாக்கு/மூடுவதற்கான பொத்தானின் தலைப்பு"
   },
   "byExtension": {
-    "message": "Jira விரிவாக்க நீட்டிப்பு மூலம்",
+    "message": "Jira ஆக்டிமைசர் நீட்டிப்பு மூலம்",
     "description": "நீட்டிப்பு உரிமையியல் உரை"
   },
   "linkedTicketsTitle": {

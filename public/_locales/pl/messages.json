@@ -1,6 +1,6 @@
 {
   "extDesc": {
-    "message": "Jira. Dodaje przyciski do zwinięcia prawego panelu, rozwinięcia modala tworzenia, powiększania obrazów i wyświetlania powiązanych zgłoszeń.",
+    "message": "Jira. Dodaje przyciski do zwinięcia prawego panelu, rozwinięcia modala tworzenia, rozszerzania obrazów i wyświetlania powiązanych zgłoszeń.",
     "description": "Opis rozszerzenia"
   },
   "extName": {
@@ -64,7 +64,7 @@
     "description": "Tytuł przycisku rozszerzania/zwijania obrazów"
   },
   "byExtension": {
-    "message": "Przez rozszerzenie Jira Rozwiń",
+    "message": "Przez Optymalizator Jira Rozszerzenie",
     "description": "Tekst przypisania rozszerzenia"
   },
   "linkedTicketsTitle": {

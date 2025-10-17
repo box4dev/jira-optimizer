@@ -1,6 +1,6 @@
 {
   "extDesc": {
-    "message": "Jira. Sağ paneli daraltmak, oluşturma modalini genişletmek, görselleri büyütmek ve bağlı biletleri görüntülemek için düğmeler ekler.",
+    "message": "Jira. Sağ paneli daraltmak, oluşturma modalini genişletmek, görselleri genişletmek ve bağlı biletleri görüntülemek için düğmeler ekler.",
     "description": "Uzantı açıklaması"
   },
   "extName": {
@@ -64,7 +64,7 @@
     "description": "Resimleri genişlet/daralt düğmesi başlığı"
   },
   "byExtension": {
-    "message": "Jira Genişlet Uzantısı tarafından",
+    "message": "Jira Optimizatörü Uzantısı tarafından",
     "description": "Uzantı atıf metni"
   },
   "linkedTicketsTitle": {

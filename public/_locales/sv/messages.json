@@ -1,14 +1,14 @@
 {
   "extDesc": {
-    "message": "Jira. Lägger till knappar för att dölja högra panelen, expandera skapa‑modal, zooma bilder och visa länkade ärenden.",
+    "message": "Jira. Lägger till knappar för att dölja högra panelen, expandera skapa-modal, expandera bilder och visa länkade ärenden.",
     "description": "Tilläggsbeskrivning"
   },
   "extName": {
-    "message": "Jira‑optimiserare",
+    "message": "Jira-optimiserare",
     "description": "Tilläggsnamn"
   },
   "settingsTitle": {
-    "message": "Jira‑optimiserare - Inställningar",
+    "message": "Jira-optimiserare - Inställningar",
     "description": "Huvudrubrik för inställnings-popup"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Titel för utöka/kollapsa bilder-knapp"
   },
   "byExtension": {
-    "message": "Av Jira Expand Tillägg",
+    "message": "Av Jira-Optimiserare Tillägg",
     "description": "Tilläggs-attributions-text"
   },
   "linkedTicketsTitle": {

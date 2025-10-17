@@ -1,6 +1,6 @@
 {
   "extDesc": {
-    "message": "Jira. Menambahkan tombol untuk Mengecilkan Panel Kanan, Memperluas Modal Pembuatan, Memperbesar Gambar, dan Melihat Tiket Terkait.",
+    "message": "Jira. Menambahkan tombol untuk Mengecilkan Panel Kanan, Memperluas Modal Pembuatan, Memperluas Gambar, dan Melihat Tiket Terkait.",
     "description": "Deskripsi ekstensi"
   },
   "extName": {
@@ -64,7 +64,7 @@
     "description": "Judul tombol untuk perluas/lipat gambar"
   },
   "byExtension": {
-    "message": "Oleh Ekstensi Perluas Jira",
+    "message": "Oleh Pengoptimal Jira Ekstensi",
     "description": "Teks atribusi ekstensi"
   },
   "linkedTicketsTitle": {

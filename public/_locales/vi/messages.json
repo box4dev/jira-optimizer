@@ -1,6 +1,6 @@
 {
   "extDesc": {
-    "message": "Jira. Thêm nút để thu gọn bảng phải, mở rộng modal tạo, phóng to hình ảnh và xem vé liên kết.",
+    "message": "Jira. Thêm nút để thu gọn bảng phải, mở rộng modal tạo, mở rộng hình ảnh và xem vé liên kết.",
     "description": "Mô tả tiện ích"
   },
   "extName": {
@@ -64,7 +64,7 @@
     "description": "Tiêu đề nút mở rộng/thu gọn hình ảnh"
   },
   "byExtension": {
-    "message": "Bởi tiện ích mở rộng Jira Expand",
+    "message": "Bởi tiện ích tối ưu Jira",
     "description": "Văn bản ghi công tiện ích"
   },
   "linkedTicketsTitle": {

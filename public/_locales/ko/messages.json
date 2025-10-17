@@ -1,6 +1,6 @@
 {
   "extDesc": {
-    "message": "Jira. 오른쪽 패널 축소, 생성 모달 확장, 이미지 확대, 연결된 티켓 보기 버튼을 추가합니다.",
+    "message": "Jira. 오른쪽 패널 축소, 생성 모달 확장, 이미지 확장, 연결된 티켓 보기 버튼을 추가합니다.",
     "description": "확장 프로그램 설명"
   },
   "extName": {
@@ -64,7 +64,7 @@
     "description": "이미지를 확장/접는 버튼의 제목"
   },
   "byExtension": {
-    "message": "Jira 확장 프로그램에 의해",
+    "message": "Jira 최적화 확장 프로그램에 의해",
     "description": "확장 프로그램 속성 텍스트"
   },
   "linkedTicketsTitle": {

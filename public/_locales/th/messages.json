@@ -64,7 +64,7 @@
     "description": "หัวเรื่องปุ่มขยาย/ยุบรูปภาพ"
   },
   "byExtension": {
-    "message": "โดยส่วนขยาย Jira ขยาย",
+    "message": "โดยส่วนขยาย Jira Optimizer",
     "description": "ข้อความการอ้างอิงส่วนขยาย"
   },
   "linkedTicketsTitle": {

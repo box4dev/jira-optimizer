@@ -1,6 +1,6 @@
 {
   "extDesc": {
-    "message": "Jira. Menambah butang untuk Mengecilkan Panel Kanan, Mengembangkan Modal Penciptaan, Memperbesar Imej, dan Melihat Tiket Berkaitan.",
+    "message": "Jira. Menambah butang untuk Mengecilkan Panel Kanan, Mengembangkan Modal Penciptaan, Mengembangkan Imej, dan Melihat Tiket Berkaitan.",
     "description": "Penerangan sambungan"
   },
   "extName": {
@@ -64,7 +64,7 @@
     "description": "Tajuk butang kembangkan/runtuhkan imej"
   },
   "byExtension": {
-    "message": "Oleh Sambungan Jira Kembangkan",
+    "message": "Oleh Pengoptimum Jira Sambungan",
     "description": "Teks atribusi sambungan"
   },
   "linkedTicketsTitle": {

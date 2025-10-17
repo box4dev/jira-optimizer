@@ -1,6 +1,6 @@
 {
   "extDesc": {
-    "message": "Jira. Aggiunge pulsanti per Ridurre il Pannello Destro, Espandere il modal di creazione, Ingrandire le immagini e Visualizzare i ticket collegati.",
+    "message": "Jira. Aggiunge pulsanti per Ridurre il Pannello Destro, Espandere il modal di creazione, Espandere le immagini e Visualizzare i ticket collegati.",
     "description": "Descrizione dell'estensione"
   },
   "extName": {
@@ -64,7 +64,7 @@
     "description": "Titolo del pulsante per espandi/comprimi immagini"
   },
   "byExtension": {
-    "message": "Da Estensione Espandi Jira",
+    "message": "Da Ottimizzatore Jira Estensione",
     "description": "Testo di attribuzione estensione"
   },
   "linkedTicketsTitle": {

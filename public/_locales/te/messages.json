@@ -64,7 +64,7 @@
     "description": "చిత్రాలను విస్తరించు/మూసివేయే బటన్ శీర్షిక"
   },
   "byExtension": {
-    "message": "Jira విస్తరించు పొడిగింత ద్వారా",
+    "message": "Jira ఆప్టిమైజర్ పొడిగింత ద్వారా",
     "description": "పొడిగింత ఆపాదన పాఠ్యం"
   },
   "linkedTicketsTitle": {

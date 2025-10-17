@@ -1,14 +1,14 @@
 {
   "extDesc": {
-    "message": "Jira. Fügt Schaltflächen hinzu, um das rechte Panel zu reduzieren, das Erstellungs‑Modal zu erweitern, Bilder zu vergrößern und verknüpfte Tickets anzuzeigen.",
+    "message": "Jira. Fügt Schaltflächen hinzu, um das rechte Panel zu reduzieren, das Erstellungsmodal zu erweitern, Bilder zu vergrößern und verknüpfte Tickets anzuzeigen.",
     "description": "Erweiterungsbeschreibung"
   },
   "extName": {
-    "message": "Jira‑Optimierer",
+    "message": "Jira-Optimierer",
     "description": "Name der Erweiterung"
   },
   "settingsTitle": {
-    "message": "Jira‑Optimierer - Einstellungen",
+    "message": "Jira-Optimierer - Einstellungen",
     "description": "Haupttitel des Einstellungs-Popups"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Titel für Bilder erweitern/zuklappen Schaltfläche"
   },
   "byExtension": {
-    "message": "Von Jira Expand Extension",
+    "message": "Von Jira-Optimierer Extension",
     "description": "Extension Zuschreibungstext"
   },
   "linkedTicketsTitle": {

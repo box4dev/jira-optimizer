@@ -1,6 +1,6 @@
 {
   "extDesc": {
-    "message": "Jira. જમણી પેનલ સંકોચવા, ક્રિએટ મોડલ વધારવા, છબીઓ વધારવા અને સંબંધિત ટિકિટ જોવા માટે બટનો ઉમેરે છે.",
+    "message": "Jira. જમણી પેનલને ભંગ કરવા, ક્રિએટ મોડલ વિસ્તૃત કરવા, છબીઓ વિસ્તૃત કરવા અને સંબંધિત ટિકિટ જોવા માટે બટનો ઉમેરે છે.",
     "description": "એક્સટેંશનનું વર્ણન"
   },
   "extName": {
@@ -8,7 +8,7 @@
     "description": "એક્સટેંશનનું નામ"
   },
   "settingsTitle": {
-    "message": "Jira Optimizer - Settings",
+    "message": "Jira Optimizer - સેટિંગ્સ",
     "description": "સેટિંગ્સ પોપઅપનું મુખ્ય શીર્ષક"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "ઇમેજીસ વિસ્તૃત/ભંગ કરવાના બટનનું શીર્ષક"
   },
   "byExtension": {
-    "message": "Jira વિસ્તૃત એક્સટેંશન દ્વારા",
+    "message": "Jira ઑપ્ટિમાઇઝર એક્સટેંશન દ્વારા",
     "description": "એક્સટેંશન અટ્રિબ્યુશન ટેક્સ્ટ"
   },
   "linkedTicketsTitle": {

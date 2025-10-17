@@ -64,7 +64,7 @@
     "description": "Titre du bouton pour étendre/réduire les images"
   },
   "byExtension": {
-    "message": "Par Jira Expand Extension",
+    "message": "Par Optimiseur Jira Extension",
     "description": "Texte d'attribution de l'extension"
   },
   "linkedTicketsTitle": {

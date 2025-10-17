@@ -1,14 +1,14 @@
 {
   "extDesc": {
-    "message": "Jira. إضافة أزرار لتوسيع مساحة العمل، طي اللوحة اليمنى والنافذة المنبثقة لعرض المشاكل ذات الصلة.",
+    "message": "Jira. يضيف أزرارًا لتصغير اللوحة اليمنى، توسيع مودال الإنشاء، توسيع الصور، وعرض التذاكر المرتبطة.",
     "description": "وصف الإضافة"
   },
   "extName": {
-    "message": "محسّن Jira",
+    "message": "محسن Jira",
     "description": "اسم الإضافة"
   },
   "settingsTitle": {
-    "message": "محسّن Jira - الإعدادات",
+    "message": "محسن Jira - الإعدادات",
     "description": "العنوان الرئيسي لنافذة الإعدادات"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "عنوان زر توسيع/طي الصور"
   },
   "byExtension": {
-    "message": "بواسطة إضافة توسيع Jira",
+    "message": "بواسطة إضافة محسن Jira",
     "description": "نص نسبة الإضافة"
   },
   "linkedTicketsTitle": {

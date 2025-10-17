@@ -1,14 +1,14 @@
 {
   "extDesc": {
-    "message": "Jira. Voegt knoppen toe om het rechterpaneel in te klappen, het aanmaak‑modal uit te klappen, afbeeldingen te vergroten en gekoppelde tickets te bekijken.",
+    "message": "Jira. Voegt knoppen toe om het rechterpaneel in te klappen, het aanmaakmodal uit te klappen, afbeeldingen uit te breiden en gekoppelde tickets te bekijken.",
     "description": "Extensiebeschrijving"
   },
   "extName": {
-    "message": "Jira‑Optimizer",
+    "message": "Jira-Optimizer",
     "description": "Extensienaam"
   },
   "settingsTitle": {
-    "message": "Jira‑Optimizer - Instellingen",
+    "message": "Jira-Optimizer - Instellingen",
     "description": "Hoofdtitel van instellingen popup"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Titel van afbeeldingen uitbreiden/inklappen knop"
   },
   "byExtension": {
-    "message": "Door Jira Uitbreiden Extensie",
+    "message": "Door Jira-Optimizer Extensie",
     "description": "Extensie toeschrijving tekst"
   },
   "linkedTicketsTitle": {

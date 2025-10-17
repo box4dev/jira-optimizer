@@ -64,7 +64,7 @@
     "description": "Title for expand/collapse images button"
   },
   "byExtension": {
-    "message": "By Jira Expand Extension",
+    "message": "By Jira Optimizer Extension",
     "description": "Extension attribution text"
   },
   "linkedTicketsTitle": {

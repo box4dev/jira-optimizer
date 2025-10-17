@@ -1,6 +1,6 @@
 {
   "extDesc": {
-    "message": "Jira。添加按钮以折叠右侧面板、展开创建模态窗口、放大图片并查看关联工单.",
+    "message": "Jira。添加按钮以折叠右侧面板、展开创建模态窗口、扩展图片并查看关联工单.",
     "description": "扩展描述"
   },
   "extName": {
@@ -64,7 +64,7 @@
     "description": "扩展/折叠图片按钮的标题"
   },
   "byExtension": {
-    "message": "由 Jira 扩展插件提供",
+    "message": "由 Jira 优化器插件提供",
     "description": "插件归属文本"
   },
   "linkedTicketsTitle": {
