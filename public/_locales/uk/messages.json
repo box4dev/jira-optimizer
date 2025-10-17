@@ -8,7 +8,7 @@
     "description": "Назва розширення"
   },
   "settingsTitle": {
-    "message": "Налаштування розширення Jira",
+    "message": "Оптимізатор Jira - Налаштування",
     "description": "Головна назва спливаючого вікна налаштувань"
   },
   "reloadRequired": {

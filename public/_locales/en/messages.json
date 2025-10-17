@@ -8,7 +8,7 @@
     "description": "Extension name"
   },
   "settingsTitle": {
-    "message": "Jira Expand Settings",
+    "message": "Jira Optimizer - Settings",
     "description": "Main settings popup title"
   },
   "reloadRequired": {

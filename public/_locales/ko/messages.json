@@ -8,7 +8,7 @@
     "description": "확장 프로그램 이름"
   },
   "settingsTitle": {
-    "message": "Jira 확장 설정",
+    "message": "Jira 최적화 - 설정",
     "description": "설정 팝업의 메인 제목"
   },
   "reloadRequired": {

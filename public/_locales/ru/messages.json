@@ -8,7 +8,7 @@
     "description": "Название расширения"
   },
   "settingsTitle": {
-    "message": "Настройки Расширения Jira",
+    "message": "Оптимизатор Jira - Настройки",
     "description": "Главный заголовок всплывающего окна настроек"
   },
   "reloadRequired": {

@@ -8,7 +8,7 @@
     "description": "Nome dell'estensione"
   },
   "settingsTitle": {
-    "message": "Impostazioni Jira Expand",
+    "message": "Ottimizzatore Jira - Impostazioni",
     "description": "Titolo principale del popup delle impostazioni"
   },
   "reloadRequired": {

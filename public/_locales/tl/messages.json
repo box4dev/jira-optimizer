@@ -8,7 +8,7 @@
     "description": "Pangalan ng extension"
   },
   "settingsTitle": {
-    "message": "Mga Setting ng Jira Expand",
+    "message": "Jira Optimizer - Mga Setting",
     "description": "Pangunahing pamagat ng popup ng mga setting"
   },
   "reloadRequired": {

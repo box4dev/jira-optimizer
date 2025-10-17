@@ -8,7 +8,7 @@
     "description": "扩展名称"
   },
   "settingsTitle": {
-    "message": "Jira 扩展设置",
+    "message": "Jira 优化器 - 设置",
     "description": "设置弹出窗口的主要标题"
   },
   "reloadRequired": {
