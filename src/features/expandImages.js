@@ -102,10 +102,10 @@ export const ExpandImages = {
         }
       }
 
-      console.log(`Jira Expand Extension: Total images found: ${images ? images.length : 0}`);
+      // console.log(`Jira Expand Extension: Total images found: ${images ? images.length : 0}`);
 
       if (!images || images.length === 0) {
-        console.log('Jira Expand Extension: No images found with any selector');
+        // console.log('Jira Expand Extension: No images found with any selector');
         return;
       }
 
@@ -157,7 +157,7 @@ export const ExpandImages = {
         }
       });
 
-      console.log(`Jira Expand Extension: Toggled ${images.length} images`);
+      // console.log(`Jira Expand Extension: Toggled ${images.length} images`);
     } catch (error) {
       console.error('Jira Expand Extension: Error in toggleImageExpansion:', error);
     }
@@ -237,8 +237,8 @@ export const ExpandImages = {
 
       if (isInputActive) return;
 
-      // Ctrl+Shift+I to toggle all images
-      if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+      // Ctrl+Shift+Z to toggle all images
+      if (event.ctrlKey && event.shiftKey && event.key === 'Z') {
         event.preventDefault();
         this.toggleImageExpansion(event);
       }

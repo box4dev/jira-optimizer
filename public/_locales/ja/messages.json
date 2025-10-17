@@ -4,7 +4,7 @@
       "description": "拡張機能の説明"
    },
    "extName": {
-      "message": "Jira ワークスペース拡張",
+      "message": "Jira ワークスペースエキスパンダー",
       "description": "拡張機能の名前"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "モーダルが折りたたまれている場合のタイトル"
    },
    "expandImagesTitle": {
-      "message": "画像を拡張/折りたたむ (Ctrl+Shift+I)",
+      "message": "画像を拡張/折りたたむ (Ctrl+Shift+Z)",
       "description": "画像を拡張/折りたたむボタンのタイトル"
    },
    "byExtension": {

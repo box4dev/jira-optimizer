@@ -4,7 +4,7 @@
       "description": "Extension description"
    },
    "extName": {
-      "message": "Jira Expand Workspace",
+      "message": "Jira Workspace Expander",
       "description": "Extension name"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Title when modal is collapsed"
    },
    "expandImagesTitle": {
-      "message": "Expand/Collapse images (Ctrl+Shift+I)",
+      "message": "Expand/Collapse images (Ctrl+Shift+Z)",
       "description": "Title for expand/collapse images button"
    },
    "byExtension": {

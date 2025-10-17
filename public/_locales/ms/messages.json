@@ -4,7 +4,7 @@
       "description": "Penerangan sambungan"
    },
    "extName": {
-      "message": "Jira Kembangkan Ruang Kerja",
+      "message": "Pengembang Ruang Kerja Jira",
       "description": "Nama sambungan"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Tajuk apabila modal runtuh"
    },
    "expandImagesTitle": {
-      "message": "Kembangkan/Runtuhkan imej (Ctrl+Shift+I)",
+      "message": "Kembangkan/Runtuhkan imej (Ctrl+Shift+Z)",
       "description": "Tajuk butang kembangkan/runtuhkan imej"
    },
    "byExtension": {

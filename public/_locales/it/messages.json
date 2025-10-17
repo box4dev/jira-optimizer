@@ -1,10 +1,10 @@
 {
    "extDesc": {
-      "message": "Aggiungi pulsanti per espandere l'area di lavoro, piega il pannello destro e aggiungi un modale per visualizzare i problemi correlati.",
+      "message": "Aggiungi pulsanti per espandere l'area di lavoro, piega il pannello destro e il modale per visualizzare i problemi correlati.",
       "description": "Descrizione dell'estensione"
    },
    "extName": {
-      "message": "Espandi Area di Lavoro di Jira",
+      "message": "Espansore Area di Lavoro Jira",
       "description": "Nome dell'estensione"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Titolo quando il modale è compresso"
    },
    "expandImagesTitle": {
-      "message": "Espandi/Comprimi immagini (Ctrl+Shift+I)",
+      "message": "Espandi/Comprimi immagini (Ctrl+Shift+Z)",
       "description": "Titolo del pulsante per espandi/comprimi immagini"
    },
    "byExtension": {

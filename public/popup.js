@@ -243,7 +243,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (chrome.runtime.lastError) {
         console.error('Error saving default settings:', chrome.runtime.lastError.message);
       } else {
-        console.log('Default settings saved successfully');
+        // console.log('Default settings saved successfully');
       }
     });
   }

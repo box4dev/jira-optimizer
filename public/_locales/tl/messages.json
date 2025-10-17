@@ -4,7 +4,7 @@
       "description": "Paglalarawan ng extension"
    },
    "extName": {
-      "message": "Jira Palawakin ang Workspace",
+      "message": "Tagapagpalawak ng Workspace ng Jira",
       "description": "Pangalan ng extension"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Pamagat kapag nakatago ang modal"
    },
    "expandImagesTitle": {
-      "message": "Palawakin/Tago ang mga larawan (Ctrl+Shift+I)",
+      "message": "Palawakin/Tago ang mga larawan (Ctrl+Shift+Z)",
       "description": "Pamagat ng button ng palawakin/tago ang mga larawan"
    },
    "byExtension": {

@@ -4,7 +4,7 @@
       "description": "Kiterjesztés leírása"
    },
    "extName": {
-      "message": "Jira Munkaterület Kibővítése",
+      "message": "Jira Munkaterület-bővítő",
       "description": "Kiterjesztés neve"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Modális összecsukott állapotban lévő cím"
    },
    "expandImagesTitle": {
-      "message": "Képek kibővítése/összecsukása (Ctrl+Shift+I)",
+      "message": "Képek kibővítése/összecsukása (Ctrl+Shift+Z)",
       "description": "Képek kibővítése/összecsukása gomb címe"
    },
    "byExtension": {

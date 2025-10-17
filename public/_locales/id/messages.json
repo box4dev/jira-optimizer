@@ -4,7 +4,7 @@
       "description": "Deskripsi ekstensi"
    },
    "extName": {
-      "message": "Perluas Ruang Kerja Jira",
+      "message": "Pembesar Ruang Kerja Jira",
       "description": "Nama ekstensi"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Judul saat modal dilipat"
    },
    "expandImagesTitle": {
-      "message": "Perluas/Lipat gambar (Ctrl+Shift+I)",
+      "message": "Perluas/Lipat gambar (Ctrl+Shift+Z)",
       "description": "Judul tombol untuk perluas/lipat gambar"
    },
    "byExtension": {

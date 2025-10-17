@@ -4,7 +4,7 @@
       "description": "Uzantı açıklaması"
    },
    "extName": {
-      "message": "Jira Çalışma Alanını Genişlet",
+      "message": "Jira Çalışma Alanı Genişletici",
       "description": "Uzantı adı"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Modal daraltıldığında başlık"
    },
    "expandImagesTitle": {
-      "message": "Resimleri Genişlet/Daralt (Ctrl+Shift+I)",
+      "message": "Resimleri Genişlet/Daralt (Ctrl+Shift+Z)",
       "description": "Resimleri genişlet/daralt düğmesi başlığı"
    },
    "byExtension": {

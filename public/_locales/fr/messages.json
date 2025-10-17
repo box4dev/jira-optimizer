@@ -1,10 +1,10 @@
 {
    "extDesc": {
-      "message": "Jira. Ajoute des boutons pour étendre l'espace de travail, réduire le volet droit et la fenêtre modale pour afficher les problèmes associés.",
+      "message": "Jira. Ajoute des boutons pour étendre l'espace de travail, réduire le volet droit et le modal pour afficher les problèmes associés.",
       "description": "Description de l'extension"
    },
    "extName": {
-      "message": "Étendre l'espace de travail de Jira",
+      "message": "Expanseur d'Espace de Travail Jira",
       "description": "Nom de l'extension"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Titre quand la modale est réduite"
    },
    "expandImagesTitle": {
-      "message": "Étendre/Réduire les images (Ctrl+Shift+I)",
+      "message": "Étendre/Réduire les images (Ctrl+Shift+Z)",
       "description": "Titre du bouton pour étendre/réduire les images"
    },
    "byExtension": {

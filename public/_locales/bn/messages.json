@@ -4,7 +4,7 @@
       "description": "এক্সটেনশনের বর্ণনা"
    },
    "extName": {
-      "message": "Jira ওয়ার্কস্পেস প্রসারিত করুন",
+      "message": "Jira ওয়ার্কস্পেস এক্সপ্যান্ডার",
       "description": "এক্সটেনশনের নাম"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "মোডাল কোলাপস হলে শিরোনাম"
    },
    "expandImagesTitle": {
-      "message": "ছবি প্রসারিত/কোলাপস করুন (Ctrl+Shift+I)",
+      "message": "ছবি প্রসারিত/কোলাপস করুন (Ctrl+Shift+Z)",
       "description": "ছবি প্রসারিত/কোলাপস বোতামের শিরোনাম"
    },
    "byExtension": {

@@ -4,7 +4,7 @@
       "description": "扩展描述"
    },
    "extName": {
-      "message": "Jira 扩展工作区",
+      "message": "Jira 工作区扩展器",
       "description": "扩展名称"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "模态框折叠时的标题"
    },
    "expandImagesTitle": {
-      "message": "扩展/折叠图片 (Ctrl+Shift+I)",
+      "message": "扩展/折叠图片 (Ctrl+Shift+Z)",
       "description": "扩展/折叠图片按钮的标题"
    },
    "byExtension": {

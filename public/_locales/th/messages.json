@@ -4,7 +4,7 @@
       "description": "คำอธิบายส่วนขยาย"
    },
    "extName": {
-      "message": "ขยายพื้นที่ทำงานของ Jira",
+      "message": "ตัวขยายพื้นที่ทำงาน Jira",
       "description": "ชื่อส่วนขยาย"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "หัวเรื่องเมื่อโมเดลถูกยุบ"
    },
    "expandImagesTitle": {
-      "message": "ขยาย/ยุบรูปภาพ (Ctrl+Shift+I)",
+      "message": "ขยาย/ยุบรูปภาพ (Ctrl+Shift+Z)",
       "description": "หัวเรื่องปุ่มขยาย/ยุบรูปภาพ"
    },
    "byExtension": {

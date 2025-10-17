@@ -1,10 +1,10 @@
 {
    "extDesc": {
-      "message": "Jira. Adicione botões para expandir o espaço de trabalho, recolher o painel direito e adicionar um modal para visualizar problemas relacionados.",
+      "message": "Jira. Adiciona botões para expandir o espaço de trabalho, recolher o painel direito e o modal para visualizar problemas relacionados.",
       "description": "Descrição da extensão"
    },
    "extName": {
-      "message": "Jira Expandir Espaço de Trabalho",
+      "message": "Expansor de Espaço de Trabalho do Jira",
       "description": "Nome da extensão"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Título quando o modal está recolhido"
    },
    "expandImagesTitle": {
-      "message": "Expandir/Recolher imagens (Ctrl+Shift+I)",
+      "message": "Expandir/Recolher imagens (Ctrl+Shift+Z)",
       "description": "Título do botão para expandir/recolher imagens"
    },
    "byExtension": {

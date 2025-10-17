@@ -4,7 +4,7 @@
       "description": "Descrierea extensiei"
    },
    "extName": {
-      "message": "Extinde spațiul de lucru Jira",
+      "message": "Extensor Spațiu de Lucru Jira",
       "description": "Numele extensiei"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Titlul când modalul este pliat"
    },
    "expandImagesTitle": {
-      "message": "Extindeți/Pliați imaginile (Ctrl+Shift+I)",
+      "message": "Extindeți/Pliați imaginile (Ctrl+Shift+Z)",
       "description": "Titlul butonului pentru extinderea/plierea imaginilor"
    },
    "byExtension": {

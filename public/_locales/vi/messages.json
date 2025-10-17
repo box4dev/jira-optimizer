@@ -4,7 +4,7 @@
       "description": "Mô tả tiện ích"
    },
    "extName": {
-      "message": "Mở rộng Không gian Làm việc của Jira",
+      "message": "Bộ Mở rộng Không gian Làm việc Jira",
       "description": "Tên tiện ích"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Tiêu đề khi modal được thu gọn"
    },
    "expandImagesTitle": {
-      "message": "Mở rộng/Thu gọn hình ảnh (Ctrl+Shift+I)",
+      "message": "Mở rộng/Thu gọn hình ảnh (Ctrl+Shift+Z)",
       "description": "Tiêu đề nút mở rộng/thu gọn hình ảnh"
    },
    "byExtension": {

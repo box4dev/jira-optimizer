@@ -4,7 +4,7 @@
       "description": "Опис розширення"
    },
    "extName": {
-      "message": "Jira: Розширення робочого простору",
+      "message": "Розширювач робочого простору Jira",
       "description": "Назва розширення"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Заголовок коли модальне вікно згорнуте"
    },
    "expandImagesTitle": {
-      "message": "Розширити/Згорнути зображення (Ctrl+Shift+I)",
+      "message": "Розширити/Згорнути зображення (Ctrl+Shift+Z)",
       "description": "Заголовок кнопки розширення/згортання зображень"
    },
    "byExtension": {

@@ -4,7 +4,7 @@
       "description": "एक्सटेंशन विवरण"
    },
    "extName": {
-      "message": "Jira कार्यक्षेत्र का विस्तार करें",
+      "message": "Jira कार्यक्षेत्र प्रसारक",
       "description": "एक्सटेंशन नाम"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "मोडल संकुचित होने पर शीर्षक"
    },
    "expandImagesTitle": {
-      "message": "छवियों का विस्तार/संकुचन करें (Ctrl+Shift+I)",
+      "message": "छवियों का विस्तार/संकुचन करें (Ctrl+Shift+Z)",
       "description": "छवियों का विस्तार/संकुचन करने के बटन का शीर्षक"
    },
    "byExtension": {

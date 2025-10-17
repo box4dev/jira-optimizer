@@ -4,7 +4,7 @@
       "description": "అప్లికేషన్ వివరణ"
    },
    "extName": {
-      "message": "జిరా వర్క్‌స్పేస్‌ని విస్తరించండి",
+      "message": "జిరా వర్క్‌స్పేస్ విస్తరణకర్త",
       "description": "అప్లికేషన్ పేరు"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "మోడల్ మూసివేయబడినప్పుడు శీర్షిక"
    },
    "expandImagesTitle": {
-      "message": "చిత్రాలను విస్తరించు/మూసివేయి (Ctrl+Shift+I)",
+      "message": "చిత్రాలను విస్తరించు/మూసివేయి (Ctrl+Shift+Z)",
       "description": "చిత్రాలను విస్తరించు/మూసివేయే బటన్ శీర్షిక"
    },
    "byExtension": {

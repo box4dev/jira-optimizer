@@ -4,7 +4,7 @@
       "description": "확장 프로그램 설명"
    },
    "extName": {
-      "message": "Jira 작업 공간 확장",
+      "message": "Jira 작업 공간 익스팬더",
       "description": "확장 프로그램 이름"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "모달이 접혀 있는 경우 제목"
    },
    "expandImagesTitle": {
-      "message": "이미지 확장/접기 (Ctrl+Shift+I)",
+      "message": "이미지 확장/접기 (Ctrl+Shift+Z)",
       "description": "이미지를 확장/접는 버튼의 제목"
    },
    "byExtension": {

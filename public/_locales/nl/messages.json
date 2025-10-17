@@ -4,7 +4,7 @@
       "description": "Extensiebeschrijving"
    },
    "extName": {
-      "message": "Jira Werkruimte Uitbreiden",
+      "message": "Jira Werkruimte-Expander",
       "description": "Extensienaam"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Titel wanneer modal is ingeklapt"
    },
    "expandImagesTitle": {
-      "message": "Afbeeldingen uitbreiden/inklappen (Ctrl+Shift+I)",
+      "message": "Afbeeldingen uitbreiden/inklappen (Ctrl+Shift+Z)",
       "description": "Titel van afbeeldingen uitbreiden/inklappen knop"
    },
    "byExtension": {

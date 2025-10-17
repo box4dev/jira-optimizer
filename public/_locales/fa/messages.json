@@ -4,7 +4,7 @@
       "description": "توضیح افزونه"
    },
    "extName": {
-      "message": "گسترش فضای کاری Jira",
+      "message": "گسترش‌دهنده فضای کاری Jira",
       "description": "نام افزونه"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "عنوان وقتی مدال جمع شده است"
    },
    "expandImagesTitle": {
-      "message": "گسترش/جمع کردن تصاویر (Ctrl+Shift+I)",
+      "message": "گسترش/جمع کردن تصاویر (Ctrl+Shift+Z)",
       "description": "عنوان دکمه گسترش/جمع کردن تصاویر"
    },
    "byExtension": {

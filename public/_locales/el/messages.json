@@ -4,7 +4,7 @@
       "description": "Περιγραφή επέκτασης"
    },
    "extName": {
-      "message": "Jira Επέκταση Χώρου Εργασίας",
+      "message": "Επεκτατής Χώρου Εργασίας Jira",
       "description": "Όνομα επέκτασης"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Τίτλος όταν το modal είναι συμπτυγμένο"
    },
    "expandImagesTitle": {
-      "message": "Επέκταση/Σύμπτυξη εικόνων (Ctrl+Shift+I)",
+      "message": "Επέκταση/Σύμπτυξη εικόνων (Ctrl+Shift+Z)",
       "description": "Τίτλος κουμπιού επέκτασης/σύμπτυξης εικόνων"
    },
    "byExtension": {

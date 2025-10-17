@@ -1,10 +1,10 @@
 {
    "extDesc": {
-      "message": "Jira. إضافة أزرار لتوسيع مساحة العمل، طي اللوحة اليمنى ونافذة لعرض المشاكل ذات الصلة.",
+      "message": "Jira. إضافة أزرار لتوسيع مساحة العمل، طي اللوحة اليمنى والنافذة المنبثقة لعرض المشاكل ذات الصلة.",
       "description": "وصف الإضافة"
    },
    "extName": {
-      "message": "توسيع مساحة عمل Jira",
+      "message": "موسع مساحة عمل Jira",
       "description": "اسم الإضافة"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "العنوان عند طي النافذة المنبثقة"
    },
    "expandImagesTitle": {
-      "message": "توسيع/طي الصور (Ctrl+Shift+I)",
+      "message": "توسيع/طي الصور (Ctrl+Shift+Z)",
       "description": "عنوان زر توسيع/طي الصور"
    },
    "byExtension": {

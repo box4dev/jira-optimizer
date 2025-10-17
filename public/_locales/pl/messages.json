@@ -4,7 +4,7 @@
       "description": "Opis rozszerzenia"
    },
    "extName": {
-      "message": "Jira Rozwiń Przestrzeń Roboczą",
+      "message": "Rozszerzacz Przestrzeni Roboczej Jira",
       "description": "Nazwa rozszerzenia"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Tytuł gdy modal jest zwinięty"
    },
    "expandImagesTitle": {
-      "message": "Rozszerz/Zwiń obrazy (Ctrl+Shift+I)",
+      "message": "Rozszerz/Zwiń obrazy (Ctrl+Shift+Z)",
       "description": "Tytuł przycisku rozszerzania/zwijania obrazów"
    },
    "byExtension": {

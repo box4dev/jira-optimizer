@@ -1,10 +1,10 @@
 {
    "extDesc": {
-      "message": "Jira. Agrega botones para expandir el espacio de trabajo, colapsar el panel derecho y modal para ver los problemas relacionados.",
+      "message": "Jira. Agrega botones para expandir el espacio de trabajo, colapsar el panel derecho y el modal para ver los problemas relacionados.",
       "description": "Descripción de la extensión"
    },
    "extName": {
-      "message": "Jira Expandir Espacio de Trabajo",
+      "message": "Expansor de Espacio de Trabajo de Jira",
       "description": "Nombre de la extensión"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Título cuando el modal está colapsado"
    },
    "expandImagesTitle": {
-      "message": "Expandir/Colapsar imágenes (Ctrl+Shift+I)",
+      "message": "Expandir/Colapsar imágenes (Ctrl+Shift+Z)",
       "description": "Título del botón para expandir/colapsar imágenes"
    },
    "byExtension": {

@@ -4,7 +4,7 @@
       "description": "நீட்டிப்பு விளக்கம்"
    },
    "extName": {
-      "message": "Jira பணி இடத்தை விரிவாக்கு",
+      "message": "Jira பணி இட விரிவாக்கம்",
       "description": "நீட்டிப்பு பெயர்"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "மோடல் மூடப்பட்டிருக்கும்போது தலைப்பு"
    },
    "expandImagesTitle": {
-      "message": "படங்களை விரிவாக்கு/மூடு (Ctrl+Shift+I)",
+      "message": "படங்களை விரிவாக்கு/மூடு (Ctrl+Shift+Z)",
       "description": "படங்களை விரிவாக்கு/மூடுவதற்கான பொத்தானின் தலைப்பு"
    },
    "byExtension": {

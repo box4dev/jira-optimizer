@@ -4,7 +4,7 @@
       "description": "एक्स्टेंशनचे वर्णन"
    },
    "extName": {
-      "message": "Jira काम करण्याची जागा वाढवा",
+      "message": "Jira वर्कस्पेस विस्तारक",
       "description": "एक्स्टेंशनचे नाव"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "मोडल कोलॅप्स झाल्यास शीर्षक"
    },
    "expandImagesTitle": {
-      "message": "इमेजेस विस्तारित/कोलॅप्स करा (Ctrl+Shift+I)",
+      "message": "इमेजेस विस्तारित/कोलॅप्स करा (Ctrl+Shift+Z)",
       "description": "इमेजेस विस्तारित/कोलॅप्स करण्याच्या बटणाचे शीर्षक"
    },
    "byExtension": {

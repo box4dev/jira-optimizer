@@ -4,7 +4,7 @@
       "description": "Tilläggsbeskrivning"
    },
    "extName": {
-      "message": "Jira Expandera Arbetsyta",
+      "message": "Jira Arbetsytor-Expander",
       "description": "Tilläggsnamn"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Titel när modal är kollapsad"
    },
    "expandImagesTitle": {
-      "message": "Utöka/Kollapsa bilder (Ctrl+Shift+I)",
+      "message": "Utöka/Kollapsa bilder (Ctrl+Shift+Z)",
       "description": "Titel för utöka/kollapsa bilder-knapp"
    },
    "byExtension": {

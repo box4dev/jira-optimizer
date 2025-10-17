@@ -4,7 +4,7 @@
       "description": "ایکسٹینشن کی تفصیل"
    },
    "extName": {
-      "message": "جیرا ورک سپیس کو بڑھائیں",
+      "message": "جیرا ورک سپیس ایکسپینڈر",
       "description": "ایکسٹینشن کا نام"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "جب ماڈل چھپا ہوا ہو تو عنوان"
    },
    "expandImagesTitle": {
-      "message": "تصاویر کو بڑھائیں/چھپائیں (Ctrl+Shift+I)",
+      "message": "تصاویر کو بڑھائیں/چھپائیں (Ctrl+Shift+Z)",
       "description": "تصاویر کو بڑھانے/چھپانے کے بٹن کا عنوان"
    },
    "byExtension": {

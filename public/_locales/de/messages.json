@@ -1,10 +1,10 @@
 {
    "extDesc": {
-      "message": "Jira. Fügt Schaltflächen hinzu, um den Arbeitsbereich zu erweitern, das rechte Fenster zu reduzieren und ein Modalfenster anzuzeigen, um verwandte Probleme anzuzeigen.",
+      "message": "Jira. Fügt Schaltflächen hinzu, um den Arbeitsbereich zu erweitern, das rechte Panel zu reduzieren und das Modal für verwandte Probleme anzuzeigen.",
       "description": "Erweiterungsbeschreibung"
    },
    "extName": {
-      "message": "Jira Arbeitsbereich erweitern",
+      "message": "Jira Arbeitsbereich-Expander",
       "description": "Name der Erweiterung"
    },
    "settingsTitle": {
@@ -60,7 +60,7 @@
       "description": "Titel wenn Modal zugeklappt ist"
    },
    "expandImagesTitle": {
-      "message": "Bilder erweitern/zuklappen (Ctrl+Shift+I)",
+      "message": "Bilder erweitern/zuklappen (Ctrl+Shift+Z)",
       "description": "Titel für Bilder erweitern/zuklappen Schaltfläche"
    },
    "byExtension": {
