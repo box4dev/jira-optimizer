@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. कार्यक्षेत्र का विस्तार करने के लिए बटन जोड़ें, दाएं पैनल और संबंधित समस्याएं देखने के लिए मॉडल जोड़ें।",
-      "description": "एक्सटेंशन विवरण"
-   },
-   "extName": {
-      "message": "Jira कार्यक्षेत्र प्रसारक",
-      "description": "एक्सटेंशन नाम"
-   },
-   "settingsTitle": {
-      "message": "Jira विस्तार सेटिंग्स",
-      "description": "सेटिंग्स पॉपअप का मुख्य शीर्षक"
-   },
-   "reloadRequired": {
-      "message": "रीलोड आवश्यक!",
-      "description": "रीलोड आवश्यक होने पर चेतावनी संदेश"
-   },
-   "globalSettings": {
-      "message": "ग्लोबल सेटिंग्स",
-      "description": "ग्लोबल सेटिंग्स अनुभाग"
-   },
-   "enableFeatures": {
-      "message": "सुविधाएं सक्षम करें",
-      "description": "सभी सुविधाओं को सक्षम करने के लिए टॉगल लेबल"
-   },
-   "features": {
-      "message": "सुविधाएं",
-      "description": "व्यक्तिगत सुविधाएं अनुभाग"
-   },
-   "collapseRightPanel": {
-      "message": "दाएँ पैनल को संकुचित करें",
-      "description": "दाएँ पैनल को संकुचित करने की सुविधा"
-   },
-   "expandCreateModal": {
-      "message": "क्रिएट मोडल का विस्तार करें",
-      "description": "क्रिएट मोडल का विस्तार करने की सुविधा"
-   },
-   "viewLinkedTickets": {
-      "message": "लिंक्ड टिकट देखें",
-      "description": "लिंक्ड टिकट देखने की सुविधा"
-   },
-   "expandImages": {
-      "message": "छवियों का विस्तार करें",
-      "description": "छवियों का विस्तार करने की सुविधा"
-   },
-   "collapseRightPaneTitle": {
-      "message": "दाएँ पैनल को संकुचित करें ]",
-      "description": "दाएँ पैनल को संकुचित करने के बटन का शीर्षक"
-   },
-   "openRightPaneTitle": {
-      "message": "दाएँ पैनल खोलें ]",
-      "description": "दाएँ पैनल संकुचित होने पर शीर्षक"
-   },
-   "collapseModalTitle": {
-      "message": "मोडल को संकुचित करें ]",
-      "description": "मोडल को संकुचित करने के बटन का शीर्षक"
-   },
-   "expandModalTitle": {
-      "message": "मोडल का विस्तार करें ]",
-      "description": "मोडल संकुचित होने पर शीर्षक"
-   },
-   "expandImagesTitle": {
-      "message": "छवियों का विस्तार/संकुचन करें (Ctrl+Shift+Z)",
-      "description": "छवियों का विस्तार/संकुचन करने के बटन का शीर्षक"
-   },
-   "byExtension": {
-      "message": "Jira विस्तार एक्सटेंशन द्वारा",
-      "description": "एक्सटेंशन एट्रिब्यूशन टेक्स्ट"
-   },
-   "linkedTicketsTitle": {
-      "message": "लिंक्ड टिकट",
-      "description": "लिंक्ड टिकट टूलटिप का शीर्षक"
-   },
-   "noLinkedTickets": {
-      "message": "कोई लिंक्ड टिकट नहीं।",
-      "description": "कोई लिंक्ड टिकट नहीं मिलने पर संदेश"
-   },
-   "errorTitle": {
-      "message": "त्रुटि",
-      "description": "त्रुटि का शीर्षक"
-   },
-   "assigneeTitle": {
-      "message": "असाइन: $assignee$",
-      "description": "असाइन टूलटिप",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "जॉन डो"
-         }
+  "extDesc": {
+    "message": "Jira. दाएँ पैनल को संक्षेप करने, क्रिएट मॉडाल बढ़ाने, छवियों का विस्तार करने और संबंधित टिकट्स देखने के लिए बटन जोड़ता है.",
+    "description": "एक्सटेंशन विवरण"
+  },
+  "extName": {
+    "message": "Jira ऑप्टिमाइज़र",
+    "description": "एक्सटेंशन नाम"
+  },
+  "settingsTitle": {
+    "message": "Jira विस्तार सेटिंग्स",
+    "description": "सेटिंग्स पॉपअप का मुख्य शीर्षक"
+  },
+  "reloadRequired": {
+    "message": "रीलोड आवश्यक!",
+    "description": "रीलोड आवश्यक होने पर चेतावनी संदेश"
+  },
+  "globalSettings": {
+    "message": "ग्लोबल सेटिंग्स",
+    "description": "ग्लोबल सेटिंग्स अनुभाग"
+  },
+  "enableFeatures": {
+    "message": "सुविधाएं सक्षम करें",
+    "description": "सभी सुविधाओं को सक्षम करने के लिए टॉगल लेबल"
+  },
+  "features": {
+    "message": "सुविधाएं",
+    "description": "व्यक्तिगत सुविधाएं अनुभाग"
+  },
+  "collapseRightPanel": {
+    "message": "दाएँ पैनल को संकुचित करें",
+    "description": "दाएँ पैनल को संकुचित करने की सुविधा"
+  },
+  "expandCreateModal": {
+    "message": "क्रिएट मोडल का विस्तार करें",
+    "description": "क्रिएट मोडल का विस्तार करने की सुविधा"
+  },
+  "viewLinkedTickets": {
+    "message": "लिंक्ड टिकट देखें",
+    "description": "लिंक्ड टिकट देखने की सुविधा"
+  },
+  "expandImages": {
+    "message": "छवियों का विस्तार करें",
+    "description": "छवियों का विस्तार करने की सुविधा"
+  },
+  "collapseRightPaneTitle": {
+    "message": "दाएँ पैनल को संकुचित करें ]",
+    "description": "दाएँ पैनल को संकुचित करने के बटन का शीर्षक"
+  },
+  "openRightPaneTitle": {
+    "message": "दाएँ पैनल खोलें ]",
+    "description": "दाएँ पैनल संकुचित होने पर शीर्षक"
+  },
+  "collapseModalTitle": {
+    "message": "मोडल को संकुचित करें ]",
+    "description": "मोडल को संकुचित करने के बटन का शीर्षक"
+  },
+  "expandModalTitle": {
+    "message": "मोडल का विस्तार करें ]",
+    "description": "मोडल संकुचित होने पर शीर्षक"
+  },
+  "expandImagesTitle": {
+    "message": "छवियों का विस्तार/संकुचन करें (Ctrl+Shift+Z)",
+    "description": "छवियों का विस्तार/संकुचन करने के बटन का शीर्षक"
+  },
+  "byExtension": {
+    "message": "Jira विस्तार एक्सटेंशन द्वारा",
+    "description": "एक्सटेंशन एट्रिब्यूशन टेक्स्ट"
+  },
+  "linkedTicketsTitle": {
+    "message": "लिंक्ड टिकट",
+    "description": "लिंक्ड टिकट टूलटिप का शीर्षक"
+  },
+  "noLinkedTickets": {
+    "message": "कोई लिंक्ड टिकट नहीं।",
+    "description": "कोई लिंक्ड टिकट नहीं मिलने पर संदेश"
+  },
+  "errorTitle": {
+    "message": "त्रुटि",
+    "description": "त्रुटि का शीर्षक"
+  },
+  "assigneeTitle": {
+    "message": "असाइन: $assignee$",
+    "description": "असाइन टूलटिप",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "जॉन डो"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "अंक प्रकार टूलटिप",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "बग"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "ब्लॉक करता है"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "अंक प्रकार टूलटिप",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "बग"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "ब्लॉक करता है"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "अंक aria लेबल",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "प्रगति में"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "अंक aria लेबल",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "प्रगति में"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "लिंक्ड टिकट लोड हो रहे हैं...",
-      "description": "लिंक्ड टिकट टूलटिप के लिए लोडिंग संदेश"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "लिंक्ड टिकट लोड हो रहे हैं...",
+    "description": "लिंक्ड टिकट टूलटिप के लिए लोडिंग संदेश"
+  }
 }

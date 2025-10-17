@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Tambah butang untuk mengembangkan ruang kerja, sembunyi panel kanan dan tambah modal untuk melihat isu berkaitan.",
-      "description": "Penerangan sambungan"
-   },
-   "extName": {
-      "message": "Pengembang Ruang Kerja Jira",
-      "description": "Nama sambungan"
-   },
-   "settingsTitle": {
-      "message": "Tetapan Jira Kembangkan",
-      "description": "Tajuk utama pop timbul tetapan"
-   },
-   "reloadRequired": {
-      "message": "Muat Semula Diperlukan!",
-      "description": "Mesej amaran apabila muat semula diperlukan"
-   },
-   "globalSettings": {
-      "message": "Tetapan Global",
-      "description": "Bahagian tetapan global"
-   },
-   "enableFeatures": {
-      "message": "Dayakan Ciri",
-      "description": "Label togol untuk mendayakan semua ciri"
-   },
-   "features": {
-      "message": "Ciri",
-      "description": "Bahagian ciri individu"
-   },
-   "collapseRightPanel": {
-      "message": "Runtuhkan Panel Kanan",
-      "description": "Ciri untuk meruntuhkan panel kanan"
-   },
-   "expandCreateModal": {
-      "message": "Kembangkan Modal Cipta",
-      "description": "Ciri untuk mengembangkan modal cipta"
-   },
-   "viewLinkedTickets": {
-      "message": "Lihat Tiket Berkaitan",
-      "description": "Ciri untuk melihat tiket berkaitan"
-   },
-   "expandImages": {
-      "message": "Kembangkan Imej",
-      "description": "Ciri untuk mengembangkan imej"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Runtuhkan panel kanan ]",
-      "description": "Tajuk butang runtuhkan panel kanan"
-   },
-   "openRightPaneTitle": {
-      "message": "Buka panel kanan ]",
-      "description": "Tajuk apabila panel kanan runtuh"
-   },
-   "collapseModalTitle": {
-      "message": "Runtuhkan modal ]",
-      "description": "Tajuk butang runtuhkan modal"
-   },
-   "expandModalTitle": {
-      "message": "Kembangkan modal ]",
-      "description": "Tajuk apabila modal runtuh"
-   },
-   "expandImagesTitle": {
-      "message": "Kembangkan/Runtuhkan imej (Ctrl+Shift+Z)",
-      "description": "Tajuk butang kembangkan/runtuhkan imej"
-   },
-   "byExtension": {
-      "message": "Oleh Sambungan Jira Kembangkan",
-      "description": "Teks atribusi sambungan"
-   },
-   "linkedTicketsTitle": {
-      "message": "Tiket Berkaitan",
-      "description": "Tajuk tooltip tiket berkaitan"
-   },
-   "noLinkedTickets": {
-      "message": "Tiada tiket berkaitan dijumpai.",
-      "description": "Mesej apabila tiket berkaitan tidak dijumpai"
-   },
-   "errorTitle": {
-      "message": "Ralat",
-      "description": "Tajuk ralat"
-   },
-   "assigneeTitle": {
-      "message": "Ditugaskan: $assignee$",
-      "description": "Tooltip penugasan",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "John Doe"
-         }
+  "extDesc": {
+    "message": "Jira. Menambah butang untuk Mengecilkan Panel Kanan, Mengembangkan Modal Penciptaan, Memperbesar Imej, dan Melihat Tiket Berkaitan.",
+    "description": "Penerangan sambungan"
+  },
+  "extName": {
+    "message": "Pengoptimum Jira",
+    "description": "Nama sambungan"
+  },
+  "settingsTitle": {
+    "message": "Tetapan Jira Kembangkan",
+    "description": "Tajuk utama pop timbul tetapan"
+  },
+  "reloadRequired": {
+    "message": "Muat Semula Diperlukan!",
+    "description": "Mesej amaran apabila muat semula diperlukan"
+  },
+  "globalSettings": {
+    "message": "Tetapan Global",
+    "description": "Bahagian tetapan global"
+  },
+  "enableFeatures": {
+    "message": "Dayakan Ciri",
+    "description": "Label togol untuk mendayakan semua ciri"
+  },
+  "features": {
+    "message": "Ciri",
+    "description": "Bahagian ciri individu"
+  },
+  "collapseRightPanel": {
+    "message": "Runtuhkan Panel Kanan",
+    "description": "Ciri untuk meruntuhkan panel kanan"
+  },
+  "expandCreateModal": {
+    "message": "Kembangkan Modal Cipta",
+    "description": "Ciri untuk mengembangkan modal cipta"
+  },
+  "viewLinkedTickets": {
+    "message": "Lihat Tiket Berkaitan",
+    "description": "Ciri untuk melihat tiket berkaitan"
+  },
+  "expandImages": {
+    "message": "Kembangkan Imej",
+    "description": "Ciri untuk mengembangkan imej"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Runtuhkan panel kanan ]",
+    "description": "Tajuk butang runtuhkan panel kanan"
+  },
+  "openRightPaneTitle": {
+    "message": "Buka panel kanan ]",
+    "description": "Tajuk apabila panel kanan runtuh"
+  },
+  "collapseModalTitle": {
+    "message": "Runtuhkan modal ]",
+    "description": "Tajuk butang runtuhkan modal"
+  },
+  "expandModalTitle": {
+    "message": "Kembangkan modal ]",
+    "description": "Tajuk apabila modal runtuh"
+  },
+  "expandImagesTitle": {
+    "message": "Kembangkan/Runtuhkan imej (Ctrl+Shift+Z)",
+    "description": "Tajuk butang kembangkan/runtuhkan imej"
+  },
+  "byExtension": {
+    "message": "Oleh Sambungan Jira Kembangkan",
+    "description": "Teks atribusi sambungan"
+  },
+  "linkedTicketsTitle": {
+    "message": "Tiket Berkaitan",
+    "description": "Tajuk tooltip tiket berkaitan"
+  },
+  "noLinkedTickets": {
+    "message": "Tiada tiket berkaitan dijumpai.",
+    "description": "Mesej apabila tiket berkaitan tidak dijumpai"
+  },
+  "errorTitle": {
+    "message": "Ralat",
+    "description": "Tajuk ralat"
+  },
+  "assigneeTitle": {
+    "message": "Ditugaskan: $assignee$",
+    "description": "Tooltip penugasan",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "John Doe"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Tooltip jenis isu",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Bug"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "menyekat"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Tooltip jenis isu",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Bug"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "menyekat"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Label aria isu",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "Sedang Berjalan"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Label aria isu",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "Sedang Berjalan"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Memuatkan tiket berkaitan...",
-      "description": "Mesej pemuatan untuk tooltip tiket berkaitan"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Memuatkan tiket berkaitan...",
+    "description": "Mesej pemuatan untuk tooltip tiket berkaitan"
+  }
 }

@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Lägg till knappar för att expandera arbetsyta, dölja högerpanel och lägga till modal för att visa relaterade problem.",
-      "description": "Tilläggsbeskrivning"
-   },
-   "extName": {
-      "message": "Jira Arbetsytor-Expander",
-      "description": "Tilläggsnamn"
-   },
-   "settingsTitle": {
-      "message": "Jira Expandera Inställningar",
-      "description": "Huvudrubrik för inställnings-popup"
-   },
-   "reloadRequired": {
-      "message": "Omladdning krävs!",
-      "description": "Varningsmeddelande när omladdning krävs"
-   },
-   "globalSettings": {
-      "message": "Globala Inställningar",
-      "description": "Sektion för globala inställningar"
-   },
-   "enableFeatures": {
-      "message": "Aktivera Funktioner",
-      "description": "Etikett för att aktivera alla funktioner"
-   },
-   "features": {
-      "message": "Funktioner",
-      "description": "Sektion för individuella funktioner"
-   },
-   "collapseRightPanel": {
-      "message": "Dölj Högerpanel",
-      "description": "Funktion för att dölja högerpanel"
-   },
-   "expandCreateModal": {
-      "message": "Expandera Skapa Modal",
-      "description": "Funktion för att expandera skapa modal"
-   },
-   "viewLinkedTickets": {
-      "message": "Visa Länkade Ärendekort",
-      "description": "Funktion för att visa länkade ärendekort"
-   },
-   "expandImages": {
-      "message": "Expandera Bilder",
-      "description": "Funktion för att expandera bilder"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Kollapsa höger panel ]",
-      "description": "Titel för kollapsa höger panel-knapp"
-   },
-   "openRightPaneTitle": {
-      "message": "Öppna höger panel ]",
-      "description": "Titel när höger panel är kollapsad"
-   },
-   "collapseModalTitle": {
-      "message": "Kollapsa modal ]",
-      "description": "Titel för kollapsa modal-knapp"
-   },
-   "expandModalTitle": {
-      "message": "Utöka modal ]",
-      "description": "Titel när modal är kollapsad"
-   },
-   "expandImagesTitle": {
-      "message": "Utöka/Kollapsa bilder (Ctrl+Shift+Z)",
-      "description": "Titel för utöka/kollapsa bilder-knapp"
-   },
-   "byExtension": {
-      "message": "Av Jira Expand Tillägg",
-      "description": "Tilläggs-attributions-text"
-   },
-   "linkedTicketsTitle": {
-      "message": "Länkade Ärenden",
-      "description": "Titel för länkade ärenden tooltip"
-   },
-   "noLinkedTickets": {
-      "message": "Inga länkade ärenden.",
-      "description": "Meddelande när länkade ärenden inte hittades"
-   },
-   "errorTitle": {
-      "message": "Fel",
-      "description": "Fel-titel"
-   },
-   "assigneeTitle": {
-      "message": "Tilldelad: $assignee$",
-      "description": "Tooltip för tilldelad person",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "Anna Andersson"
-         }
+  "extDesc": {
+    "message": "Jira. Lägger till knappar för att dölja högra panelen, expandera skapa‑modal, zooma bilder och visa länkade ärenden.",
+    "description": "Tilläggsbeskrivning"
+  },
+  "extName": {
+    "message": "Jira‑optimiserare",
+    "description": "Tilläggsnamn"
+  },
+  "settingsTitle": {
+    "message": "Jira Expandera Inställningar",
+    "description": "Huvudrubrik för inställnings-popup"
+  },
+  "reloadRequired": {
+    "message": "Omladdning krävs!",
+    "description": "Varningsmeddelande när omladdning krävs"
+  },
+  "globalSettings": {
+    "message": "Globala Inställningar",
+    "description": "Sektion för globala inställningar"
+  },
+  "enableFeatures": {
+    "message": "Aktivera Funktioner",
+    "description": "Etikett för att aktivera alla funktioner"
+  },
+  "features": {
+    "message": "Funktioner",
+    "description": "Sektion för individuella funktioner"
+  },
+  "collapseRightPanel": {
+    "message": "Dölj Högerpanel",
+    "description": "Funktion för att dölja högerpanel"
+  },
+  "expandCreateModal": {
+    "message": "Expandera Skapa Modal",
+    "description": "Funktion för att expandera skapa modal"
+  },
+  "viewLinkedTickets": {
+    "message": "Visa Länkade Ärendekort",
+    "description": "Funktion för att visa länkade ärendekort"
+  },
+  "expandImages": {
+    "message": "Expandera Bilder",
+    "description": "Funktion för att expandera bilder"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Kollapsa höger panel ]",
+    "description": "Titel för kollapsa höger panel-knapp"
+  },
+  "openRightPaneTitle": {
+    "message": "Öppna höger panel ]",
+    "description": "Titel när höger panel är kollapsad"
+  },
+  "collapseModalTitle": {
+    "message": "Kollapsa modal ]",
+    "description": "Titel för kollapsa modal-knapp"
+  },
+  "expandModalTitle": {
+    "message": "Utöka modal ]",
+    "description": "Titel när modal är kollapsad"
+  },
+  "expandImagesTitle": {
+    "message": "Utöka/Kollapsa bilder (Ctrl+Shift+Z)",
+    "description": "Titel för utöka/kollapsa bilder-knapp"
+  },
+  "byExtension": {
+    "message": "Av Jira Expand Tillägg",
+    "description": "Tilläggs-attributions-text"
+  },
+  "linkedTicketsTitle": {
+    "message": "Länkade Ärenden",
+    "description": "Titel för länkade ärenden tooltip"
+  },
+  "noLinkedTickets": {
+    "message": "Inga länkade ärenden.",
+    "description": "Meddelande när länkade ärenden inte hittades"
+  },
+  "errorTitle": {
+    "message": "Fel",
+    "description": "Fel-titel"
+  },
+  "assigneeTitle": {
+    "message": "Tilldelad: $assignee$",
+    "description": "Tooltip för tilldelad person",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "Anna Andersson"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Tooltip för problemtyp",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Bug"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "blockerar"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Tooltip för problemtyp",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Bug"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "blockerar"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Aria-etikett för problem",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "I arbete"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Aria-etikett för problem",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "I arbete"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Laddar länkade ärenden...",
-      "description": "Laddningsmeddelande för länkade ärenden tooltip"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Laddar länkade ärenden...",
+    "description": "Laddningsmeddelande för länkade ärenden tooltip"
+  }
 }

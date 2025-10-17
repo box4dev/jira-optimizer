@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "జిరా. వర్క్‌స్పేస్‌ని విస్తరించడానికి బటన్‌లను జోడించండి, కుడి పానెల్‌ను మూసివేయండి మరియు సంబంధిత సమస్యలను చూడడానికి మోడల్‌ను జోడించండి.",
-      "description": "అప్లికేషన్ వివరణ"
-   },
-   "extName": {
-      "message": "జిరా వర్క్‌స్పేస్ విస్తరణకర్త",
-      "description": "అప్లికేషన్ పేరు"
-   },
-   "settingsTitle": {
-      "message": "జిరా విస్తరించు సెట్టింగులు",
-      "description": "సెట్టింగుల పాప్అప్ ప్రధాన శీర్షిక"
-   },
-   "reloadRequired": {
-      "message": "రీలోడ్ అవసరం!",
-      "description": "రీలోడ్ అవసరమైనప్పుడు హెచ్చరిక సందేశం"
-   },
-   "globalSettings": {
-      "message": "గ్లోబల్ సెట్టింగులు",
-      "description": "గ్లోబల్ సెట్టింగుల విభాగం"
-   },
-   "enableFeatures": {
-      "message": "సౌలభ్యాలను ప్రారంభించు",
-      "description": "అన్ని సౌలభ్యాలను ప్రారంభించడానికి టోగుల్ లేబుల్"
-   },
-   "features": {
-      "message": "సౌలభ్యాలు",
-      "description": "వ్యక్తిగత సౌలభ్యాల విభాగం"
-   },
-   "collapseRightPanel": {
-      "message": "కుడి ప్యానెల్‌ను మూసివేయి",
-      "description": "కుడి ప్యానెల్‌ను మూసివేయే సౌలభ్యం"
-   },
-   "expandCreateModal": {
-      "message": "సృష్టించు మోడల్‌ను విస్తరించు",
-      "description": "సృష్టించు మోడల్‌ను విస్తరించే సౌలభ్యం"
-   },
-   "viewLinkedTickets": {
-      "message": "లింక్ చేయబడిన టికెట్లను చూడు",
-      "description": "లింక్ చేయబడిన టికెట్లను చూడే సౌలభ్యం"
-   },
-   "expandImages": {
-      "message": "చిత్రాలను విస్తరించు",
-      "description": "చిత్రాలను విస్తరించే సౌలభ్యం"
-   },
-   "collapseRightPaneTitle": {
-      "message": "కుడి ప్యానెల్‌ను మూసివేయి ]",
-      "description": "కుడి ప్యానెల్‌ను మూసివేయే బటన్ శీర్షిక"
-   },
-   "openRightPaneTitle": {
-      "message": "కుడి ప్యానెల్‌ను తెరవండి ]",
-      "description": "కుడి ప్యానెల్ మూసివేయబడినప్పుడు శీర్షిక"
-   },
-   "collapseModalTitle": {
-      "message": "మోడల్‌ను మూసివేయి ]",
-      "description": "మోడల్‌ను మూసివేయే బటన్ శీర్షిక"
-   },
-   "expandModalTitle": {
-      "message": "మోడల్‌ను విస్తరించు ]",
-      "description": "మోడల్ మూసివేయబడినప్పుడు శీర్షిక"
-   },
-   "expandImagesTitle": {
-      "message": "చిత్రాలను విస్తరించు/మూసివేయి (Ctrl+Shift+Z)",
-      "description": "చిత్రాలను విస్తరించు/మూసివేయే బటన్ శీర్షిక"
-   },
-   "byExtension": {
-      "message": "Jira విస్తరించు పొడిగింత ద్వారా",
-      "description": "పొడిగింత ఆపాదన పాఠ్యం"
-   },
-   "linkedTicketsTitle": {
-      "message": "లింక్ చేయబడిన టికెట్లు",
-      "description": "లింక్ చేయబడిన టికెట్ల సూచన శీర్షిక"
-   },
-   "noLinkedTickets": {
-      "message": "లింక్ చేయబడిన టికెట్లు కనుగొనబడలేదు.",
-      "description": "లింక్ చేయబడిన టికెట్లు కనుగొనబడనప్పుడు సందేశం"
-   },
-   "errorTitle": {
-      "message": "దోషం",
-      "description": "దోష శీర్షిక"
-   },
-   "assigneeTitle": {
-      "message": "అసైనీ: $assignee$",
-      "description": "అసైనీ సూచన",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "జాన్ డో"
-         }
+  "extDesc": {
+    "message": "Jira. కుడి ప్యానెల్‌ను సంకుచ్చి, క్రియేట్ మోడల్‌ను విస్తరించి, చిత్రాలను విస్తరించి సంబంధిత టికెట్లు చూడటానికి బటన్లు జోడిస్తుంది.",
+    "description": "అప్లికేషన్ వివరణ"
+  },
+  "extName": {
+    "message": "Jira ఆప్టిమైజర్",
+    "description": "అప్లికేషన్ పేరు"
+  },
+  "settingsTitle": {
+    "message": "జిరా విస్తరించు సెట్టింగులు",
+    "description": "సెట్టింగుల పాప్అప్ ప్రధాన శీర్షిక"
+  },
+  "reloadRequired": {
+    "message": "రీలోడ్ అవసరం!",
+    "description": "రీలోడ్ అవసరమైనప్పుడు హెచ్చరిక సందేశం"
+  },
+  "globalSettings": {
+    "message": "గ్లోబల్ సెట్టింగులు",
+    "description": "గ్లోబల్ సెట్టింగుల విభాగం"
+  },
+  "enableFeatures": {
+    "message": "సౌలభ్యాలను ప్రారంభించు",
+    "description": "అన్ని సౌలభ్యాలను ప్రారంభించడానికి టోగుల్ లేబుల్"
+  },
+  "features": {
+    "message": "సౌలభ్యాలు",
+    "description": "వ్యక్తిగత సౌలభ్యాల విభాగం"
+  },
+  "collapseRightPanel": {
+    "message": "కుడి ప్యానెల్‌ను మూసివేయి",
+    "description": "కుడి ప్యానెల్‌ను మూసివేయే సౌలభ్యం"
+  },
+  "expandCreateModal": {
+    "message": "సృష్టించు మోడల్‌ను విస్తరించు",
+    "description": "సృష్టించు మోడల్‌ను విస్తరించే సౌలభ్యం"
+  },
+  "viewLinkedTickets": {
+    "message": "లింక్ చేయబడిన టికెట్లను చూడు",
+    "description": "లింక్ చేయబడిన టికెట్లను చూడే సౌలభ్యం"
+  },
+  "expandImages": {
+    "message": "చిత్రాలను విస్తరించు",
+    "description": "చిత్రాలను విస్తరించే సౌలభ్యం"
+  },
+  "collapseRightPaneTitle": {
+    "message": "కుడి ప్యానెల్‌ను మూసివేయి ]",
+    "description": "కుడి ప్యానెల్‌ను మూసివేయే బటన్ శీర్షిక"
+  },
+  "openRightPaneTitle": {
+    "message": "కుడి ప్యానెల్‌ను తెరవండి ]",
+    "description": "కుడి ప్యానెల్ మూసివేయబడినప్పుడు శీర్షిక"
+  },
+  "collapseModalTitle": {
+    "message": "మోడల్‌ను మూసివేయి ]",
+    "description": "మోడల్‌ను మూసివేయే బటన్ శీర్షిక"
+  },
+  "expandModalTitle": {
+    "message": "మోడల్‌ను విస్తరించు ]",
+    "description": "మోడల్ మూసివేయబడినప్పుడు శీర్షిక"
+  },
+  "expandImagesTitle": {
+    "message": "చిత్రాలను విస్తరించు/మూసివేయి (Ctrl+Shift+Z)",
+    "description": "చిత్రాలను విస్తరించు/మూసివేయే బటన్ శీర్షిక"
+  },
+  "byExtension": {
+    "message": "Jira విస్తరించు పొడిగింత ద్వారా",
+    "description": "పొడిగింత ఆపాదన పాఠ్యం"
+  },
+  "linkedTicketsTitle": {
+    "message": "లింక్ చేయబడిన టికెట్లు",
+    "description": "లింక్ చేయబడిన టికెట్ల సూచన శీర్షిక"
+  },
+  "noLinkedTickets": {
+    "message": "లింక్ చేయబడిన టికెట్లు కనుగొనబడలేదు.",
+    "description": "లింక్ చేయబడిన టికెట్లు కనుగొనబడనప్పుడు సందేశం"
+  },
+  "errorTitle": {
+    "message": "దోషం",
+    "description": "దోష శీర్షిక"
+  },
+  "assigneeTitle": {
+    "message": "అసైనీ: $assignee$",
+    "description": "అసైనీ సూచన",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "జాన్ డో"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "సమస్య రకం సూచన",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "బగ్"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "బ్లాక్స్"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "సమస్య రకం సూచన",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "బగ్"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "బ్లాక్స్"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "సమస్య aria లేబుల్",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "ప్రోగ్రెస్‌లో ఉంది"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "సమస్య aria లేబుల్",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "ప్రోగ్రెస్‌లో ఉంది"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "లింక్ చేయబడిన టికెట్లను లోడ్ చేస్తోంది...",
-      "description": "లింక్ చేయబడిన టికెట్ల సూచన కోసం లోడింగ్ సందేశం"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "లింక్ చేయబడిన టికెట్లను లోడ్ చేస్తోంది...",
+    "description": "లింక్ చేయబడిన టికెట్ల సూచన కోసం లోడింగ్ సందేశం"
+  }
 }

@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Magdagdag ng mga button upang palawakin ang workspace, itago ang kanang panel at magdagdag ng modal upang tingnan ang mga kaugnay na isyu.",
-      "description": "Paglalarawan ng extension"
-   },
-   "extName": {
-      "message": "Tagapagpalawak ng Workspace ng Jira",
-      "description": "Pangalan ng extension"
-   },
-   "settingsTitle": {
-      "message": "Mga Setting ng Jira Expand",
-      "description": "Pangunahing pamagat ng popup ng mga setting"
-   },
-   "reloadRequired": {
-      "message": "Kailangan ang Reload!",
-      "description": "Babala na mensahe kapag kailangan ang reload"
-   },
-   "globalSettings": {
-      "message": "Mga Global na Setting",
-      "description": "Bahagi ng mga global na setting"
-   },
-   "enableFeatures": {
-      "message": "Paganahin ang Mga Tampok",
-      "description": "Label ng toggle upang paganahin ang lahat ng tampok"
-   },
-   "features": {
-      "message": "Mga Tampok",
-      "description": "Bahagi ng mga indibidwal na tampok"
-   },
-   "collapseRightPanel": {
-      "message": "Itago ang Kanang Panel",
-      "description": "Tampok upang itago ang kanang panel"
-   },
-   "expandCreateModal": {
-      "message": "Palawakin ang Create Modal",
-      "description": "Tampok upang palawakin ang create modal"
-   },
-   "viewLinkedTickets": {
-      "message": "Tingnan ang mga Link na Ticket",
-      "description": "Tampok upang tingnan ang mga link na ticket"
-   },
-   "expandImages": {
-      "message": "Palawakin ang mga Larawan",
-      "description": "Tampok upang palawakin ang mga larawan"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Itago ang kanang panel ]",
-      "description": "Pamagat ng button ng itago ang kanang panel"
-   },
-   "openRightPaneTitle": {
-      "message": "Buksan ang kanang panel ]",
-      "description": "Pamagat kapag nakatago ang kanang panel"
-   },
-   "collapseModalTitle": {
-      "message": "Itago ang modal ]",
-      "description": "Pamagat ng button ng itago ang modal"
-   },
-   "expandModalTitle": {
-      "message": "Palawakin ang modal ]",
-      "description": "Pamagat kapag nakatago ang modal"
-   },
-   "expandImagesTitle": {
-      "message": "Palawakin/Tago ang mga larawan (Ctrl+Shift+Z)",
-      "description": "Pamagat ng button ng palawakin/tago ang mga larawan"
-   },
-   "byExtension": {
-      "message": "Sa pamamagitan ng Jira Expand Extension",
-      "description": "Teksto ng atribusyon ng extension"
-   },
-   "linkedTicketsTitle": {
-      "message": "Mga Link na Ticket",
-      "description": "Pamagat ng tooltip ng mga link na ticket"
-   },
-   "noLinkedTickets": {
-      "message": "Walang natagpuang link na ticket.",
-      "description": "Mensahe kapag walang natagpuang link na ticket"
-   },
-   "errorTitle": {
-      "message": "Error",
-      "description": "Pamagat ng error"
-   },
-   "assigneeTitle": {
-      "message": "Itinalaga: $assignee$",
-      "description": "Tooltip ng assignee",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "Juan Dela Cruz"
-         }
+  "extDesc": {
+    "message": "Jira. Nagdaragdag ng mga button para i-collapse ang Right Panel, i-expand ang Create Modal, palakihin ang mga imahe at tingnan ang mga linked tickets.",
+    "description": "Paglalarawan ng extension"
+  },
+  "extName": {
+    "message": "Jira Optimizer",
+    "description": "Pangalan ng extension"
+  },
+  "settingsTitle": {
+    "message": "Mga Setting ng Jira Expand",
+    "description": "Pangunahing pamagat ng popup ng mga setting"
+  },
+  "reloadRequired": {
+    "message": "Kailangan ang Reload!",
+    "description": "Babala na mensahe kapag kailangan ang reload"
+  },
+  "globalSettings": {
+    "message": "Mga Global na Setting",
+    "description": "Bahagi ng mga global na setting"
+  },
+  "enableFeatures": {
+    "message": "Paganahin ang Mga Tampok",
+    "description": "Label ng toggle upang paganahin ang lahat ng tampok"
+  },
+  "features": {
+    "message": "Mga Tampok",
+    "description": "Bahagi ng mga indibidwal na tampok"
+  },
+  "collapseRightPanel": {
+    "message": "Itago ang Kanang Panel",
+    "description": "Tampok upang itago ang kanang panel"
+  },
+  "expandCreateModal": {
+    "message": "Palawakin ang Create Modal",
+    "description": "Tampok upang palawakin ang create modal"
+  },
+  "viewLinkedTickets": {
+    "message": "Tingnan ang mga Link na Ticket",
+    "description": "Tampok upang tingnan ang mga link na ticket"
+  },
+  "expandImages": {
+    "message": "Palawakin ang mga Larawan",
+    "description": "Tampok upang palawakin ang mga larawan"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Itago ang kanang panel ]",
+    "description": "Pamagat ng button ng itago ang kanang panel"
+  },
+  "openRightPaneTitle": {
+    "message": "Buksan ang kanang panel ]",
+    "description": "Pamagat kapag nakatago ang kanang panel"
+  },
+  "collapseModalTitle": {
+    "message": "Itago ang modal ]",
+    "description": "Pamagat ng button ng itago ang modal"
+  },
+  "expandModalTitle": {
+    "message": "Palawakin ang modal ]",
+    "description": "Pamagat kapag nakatago ang modal"
+  },
+  "expandImagesTitle": {
+    "message": "Palawakin/Tago ang mga larawan (Ctrl+Shift+Z)",
+    "description": "Pamagat ng button ng palawakin/tago ang mga larawan"
+  },
+  "byExtension": {
+    "message": "Sa pamamagitan ng Jira Expand Extension",
+    "description": "Teksto ng atribusyon ng extension"
+  },
+  "linkedTicketsTitle": {
+    "message": "Mga Link na Ticket",
+    "description": "Pamagat ng tooltip ng mga link na ticket"
+  },
+  "noLinkedTickets": {
+    "message": "Walang natagpuang link na ticket.",
+    "description": "Mensahe kapag walang natagpuang link na ticket"
+  },
+  "errorTitle": {
+    "message": "Error",
+    "description": "Pamagat ng error"
+  },
+  "assigneeTitle": {
+    "message": "Itinalaga: $assignee$",
+    "description": "Tooltip ng assignee",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "Juan Dela Cruz"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Tooltip ng uri ng isyu",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Bug"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "humaharang"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Tooltip ng uri ng isyu",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Bug"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "humaharang"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Aria label ng isyu",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "In Progress"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Aria label ng isyu",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "In Progress"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Naglo-load ng mga link na ticket...",
-      "description": "Mensahe ng loading para sa tooltip ng mga link na ticket"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Naglo-load ng mga link na ticket...",
+    "description": "Mensahe ng loading para sa tooltip ng mga link na ticket"
+  }
 }

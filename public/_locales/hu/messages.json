@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Munkaterület kibővítése gomb hozzáadásával, jobb panel összecsukásával és kapcsolódó problémák megtekintésére szolgáló modális ablak hozzáadásával.",
-      "description": "Kiterjesztés leírása"
-   },
-   "extName": {
-      "message": "Jira Munkaterület-bővítő",
-      "description": "Kiterjesztés neve"
-   },
-   "settingsTitle": {
-      "message": "Jira Kiterjesztés Beállítások",
-      "description": "Beállítások felugró ablak fő címe"
-   },
-   "reloadRequired": {
-      "message": "Újratöltés szükséges!",
-      "description": "Figyelmeztető üzenet újratöltés szükségeskor"
-   },
-   "globalSettings": {
-      "message": "Globális Beállítások",
-      "description": "Globális beállítások szakasz"
-   },
-   "enableFeatures": {
-      "message": "Funkciók Engedélyezése",
-      "description": "Minden funkció engedélyezéséhez tartozó kapcsoló címke"
-   },
-   "features": {
-      "message": "Funkciók",
-      "description": "Egyéni funkciók szakasz"
-   },
-   "collapseRightPanel": {
-      "message": "Jobb Panel Összecsukása",
-      "description": "Jobb panel összecsukásának funkciója"
-   },
-   "expandCreateModal": {
-      "message": "Létrehozás Modális Kibővítése",
-      "description": "Létrehozás modális kibővítésének funkciója"
-   },
-   "viewLinkedTickets": {
-      "message": "Kapcsolt Jegyek Megtekintése",
-      "description": "Kapcsolt jegyek megtekintésének funkciója"
-   },
-   "expandImages": {
-      "message": "Képek Kibővítése",
-      "description": "Képek kibővítésének funkciója"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Jobb panel összecsukása ]",
-      "description": "Jobb panel összecsukása gomb címe"
-   },
-   "openRightPaneTitle": {
-      "message": "Jobb panel megnyitása ]",
-      "description": "Jobb panel összecsukott állapotban lévő cím"
-   },
-   "collapseModalTitle": {
-      "message": "Modális összecsukása ]",
-      "description": "Modális összecsukása gomb címe"
-   },
-   "expandModalTitle": {
-      "message": "Modális kibővítése ]",
-      "description": "Modális összecsukott állapotban lévő cím"
-   },
-   "expandImagesTitle": {
-      "message": "Képek kibővítése/összecsukása (Ctrl+Shift+Z)",
-      "description": "Képek kibővítése/összecsukása gomb címe"
-   },
-   "byExtension": {
-      "message": "Jira Kiterjesztés által",
-      "description": "Kiterjesztés attribúciós szövege"
-   },
-   "linkedTicketsTitle": {
-      "message": "Kapcsolt Jegyek",
-      "description": "Kapcsolt jegyek tooltip címe"
-   },
-   "noLinkedTickets": {
-      "message": "Nincsenek kapcsolt jegyek.",
-      "description": "Üzenet, ha nem találhatók kapcsolt jegyek"
-   },
-   "errorTitle": {
-      "message": "Hiba",
-      "description": "Hiba címe"
-   },
-   "assigneeTitle": {
-      "message": "Hozzárendelve: $assignee$",
-      "description": "Hozzárendelt tooltip",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "John Doe"
-         }
+  "extDesc": {
+    "message": "Jira. Gombokat ad a jobb oldali panel összecsukásához, a létrehozási modal kibővítéséhez, képek nagyításához és a kapcsolódó jegyek megtekintéséhez.",
+    "description": "Kiterjesztés leírása"
+  },
+  "extName": {
+    "message": "Jira Optimalizáló",
+    "description": "Kiterjesztés neve"
+  },
+  "settingsTitle": {
+    "message": "Jira Kiterjesztés Beállítások",
+    "description": "Beállítások felugró ablak fő címe"
+  },
+  "reloadRequired": {
+    "message": "Újratöltés szükséges!",
+    "description": "Figyelmeztető üzenet újratöltés szükségeskor"
+  },
+  "globalSettings": {
+    "message": "Globális Beállítások",
+    "description": "Globális beállítások szakasz"
+  },
+  "enableFeatures": {
+    "message": "Funkciók Engedélyezése",
+    "description": "Minden funkció engedélyezéséhez tartozó kapcsoló címke"
+  },
+  "features": {
+    "message": "Funkciók",
+    "description": "Egyéni funkciók szakasz"
+  },
+  "collapseRightPanel": {
+    "message": "Jobb Panel Összecsukása",
+    "description": "Jobb panel összecsukásának funkciója"
+  },
+  "expandCreateModal": {
+    "message": "Létrehozás Modális Kibővítése",
+    "description": "Létrehozás modális kibővítésének funkciója"
+  },
+  "viewLinkedTickets": {
+    "message": "Kapcsolt Jegyek Megtekintése",
+    "description": "Kapcsolt jegyek megtekintésének funkciója"
+  },
+  "expandImages": {
+    "message": "Képek Kibővítése",
+    "description": "Képek kibővítésének funkciója"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Jobb panel összecsukása ]",
+    "description": "Jobb panel összecsukása gomb címe"
+  },
+  "openRightPaneTitle": {
+    "message": "Jobb panel megnyitása ]",
+    "description": "Jobb panel összecsukott állapotban lévő cím"
+  },
+  "collapseModalTitle": {
+    "message": "Modális összecsukása ]",
+    "description": "Modális összecsukása gomb címe"
+  },
+  "expandModalTitle": {
+    "message": "Modális kibővítése ]",
+    "description": "Modális összecsukott állapotban lévő cím"
+  },
+  "expandImagesTitle": {
+    "message": "Képek kibővítése/összecsukása (Ctrl+Shift+Z)",
+    "description": "Képek kibővítése/összecsukása gomb címe"
+  },
+  "byExtension": {
+    "message": "Jira Kiterjesztés által",
+    "description": "Kiterjesztés attribúciós szövege"
+  },
+  "linkedTicketsTitle": {
+    "message": "Kapcsolt Jegyek",
+    "description": "Kapcsolt jegyek tooltip címe"
+  },
+  "noLinkedTickets": {
+    "message": "Nincsenek kapcsolt jegyek.",
+    "description": "Üzenet, ha nem találhatók kapcsolt jegyek"
+  },
+  "errorTitle": {
+    "message": "Hiba",
+    "description": "Hiba címe"
+  },
+  "assigneeTitle": {
+    "message": "Hozzárendelve: $assignee$",
+    "description": "Hozzárendelt tooltip",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "John Doe"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Probléma típus tooltip",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Bug"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "blokkolja"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Probléma típus tooltip",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Bug"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "blokkolja"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Probléma aria címke",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "Folyamatban"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Probléma aria címke",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "Folyamatban"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Kapcsolt jegyek betöltése...",
-      "description": "Betöltési üzenet a kapcsolt jegyek tooltiphez"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Kapcsolt jegyek betöltése...",
+    "description": "Betöltési üzenet a kapcsolt jegyek tooltiphez"
+  }
 }

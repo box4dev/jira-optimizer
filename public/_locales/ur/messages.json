@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "جیرا. ورک سپیس کو بڑھانے کے لئے بٹن شامل کریں، دائیں پینل کو چھپائیں اور متعلقہ مسائل دیکھنے کے لئے ماڈل شامل کریں۔",
-      "description": "ایکسٹینشن کی تفصیل"
-   },
-   "extName": {
-      "message": "جیرا ورک سپیس ایکسپینڈر",
-      "description": "ایکسٹینشن کا نام"
-   },
-   "settingsTitle": {
-      "message": "جیرا ایکسپینڈ سیٹنگز",
-      "description": "سیٹنگز پاپ اپ کا مرکزی عنوان"
-   },
-   "reloadRequired": {
-      "message": "دوبارہ لوڈ کرنا ضروری ہے!",
-      "description": "جب دوبارہ لوڈ کرنا ضروری ہو تو انتباہی پیغام"
-   },
-   "globalSettings": {
-      "message": "گلوبل سیٹنگز",
-      "description": "گلوبل سیٹنگز سیکشن"
-   },
-   "enableFeatures": {
-      "message": "فیچرز کو فعال کریں",
-      "description": "تمام فیچرز کو فعال کرنے کے لیے ٹوگل لیبل"
-   },
-   "features": {
-      "message": "فیچرز",
-      "description": "انفرادی فیچرز سیکشن"
-   },
-   "collapseRightPanel": {
-      "message": "دائیں پینل کو چھپائیں",
-      "description": "دائیں پینل کو چھپانے کا فیچر"
-   },
-   "expandCreateModal": {
-      "message": "کرئٹ ماڈل کو بڑھائیں",
-      "description": "کرئٹ ماڈل کو بڑھانے کا فیچر"
-   },
-   "viewLinkedTickets": {
-      "message": "لنکڈ ٹکٹس دیکھیں",
-      "description": "لنکڈ ٹکٹس دیکھنے کا فیچر"
-   },
-   "expandImages": {
-      "message": "تصاویر کو بڑھائیں",
-      "description": "تصاویر کو بڑھانے کا فیچر"
-   },
-   "collapseRightPaneTitle": {
-      "message": "دائیں پینل کو چھپائیں ]",
-      "description": "دائیں پینل کو چھپانے کے بٹن کا عنوان"
-   },
-   "openRightPaneTitle": {
-      "message": "دائیں پینل کو کھولیں ]",
-      "description": "جب دائیں پینل چھپا ہوا ہو تو عنوان"
-   },
-   "collapseModalTitle": {
-      "message": "ماڈل کو چھپائیں ]",
-      "description": "ماڈل چھپانے کے بٹن کا عنوان"
-   },
-   "expandModalTitle": {
-      "message": "ماڈل کو بڑھائیں ]",
-      "description": "جب ماڈل چھپا ہوا ہو تو عنوان"
-   },
-   "expandImagesTitle": {
-      "message": "تصاویر کو بڑھائیں/چھپائیں (Ctrl+Shift+Z)",
-      "description": "تصاویر کو بڑھانے/چھپانے کے بٹن کا عنوان"
-   },
-   "byExtension": {
-      "message": "جیرا ایکسپینڈ ایکسٹینشن کے ذریعے",
-      "description": "ایکسٹینشن کی نسبت کا متن"
-   },
-   "linkedTicketsTitle": {
-      "message": "لنکڈ ٹکٹس",
-      "description": "لنکڈ ٹکٹس ٹول ٹپ کا عنوان"
-   },
-   "noLinkedTickets": {
-      "message": "کوئی لنکڈ ٹکٹس نہیں ملے۔",
-      "description": "جب لنکڈ ٹکٹس نہیں ملے تو پیغام"
-   },
-   "errorTitle": {
-      "message": "غلطی",
-      "description": "غلطی کا عنوان"
-   },
-   "assigneeTitle": {
-      "message": "تفویض کردہ: $assignee$",
-      "description": "تفویض کردہ ٹول ٹپ",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "جان ڈو"
-         }
+  "extDesc": {
+    "message": "Jira. دائیں پینل کو سمیٹنے، بنائے جانے والے موڈل کو بڑھانے، تصاویر کو پھیلانے اور متعلقہ ٹکٹس دیکھنے کے لیے بٹن شامل کرتا ہے.",
+    "description": "ایکسٹینشن کی تفصیل"
+  },
+  "extName": {
+    "message": "Jira بہترین ساز",
+    "description": "ایکسٹینشن کا نام"
+  },
+  "settingsTitle": {
+    "message": "جیرا ایکسپینڈ سیٹنگز",
+    "description": "سیٹنگز پاپ اپ کا مرکزی عنوان"
+  },
+  "reloadRequired": {
+    "message": "دوبارہ لوڈ کرنا ضروری ہے!",
+    "description": "جب دوبارہ لوڈ کرنا ضروری ہو تو انتباہی پیغام"
+  },
+  "globalSettings": {
+    "message": "گلوبل سیٹنگز",
+    "description": "گلوبل سیٹنگز سیکشن"
+  },
+  "enableFeatures": {
+    "message": "فیچرز کو فعال کریں",
+    "description": "تمام فیچرز کو فعال کرنے کے لیے ٹوگل لیبل"
+  },
+  "features": {
+    "message": "فیچرز",
+    "description": "انفرادی فیچرز سیکشن"
+  },
+  "collapseRightPanel": {
+    "message": "دائیں پینل کو چھپائیں",
+    "description": "دائیں پینل کو چھپانے کا فیچر"
+  },
+  "expandCreateModal": {
+    "message": "کرئٹ ماڈل کو بڑھائیں",
+    "description": "کرئٹ ماڈل کو بڑھانے کا فیچر"
+  },
+  "viewLinkedTickets": {
+    "message": "لنکڈ ٹکٹس دیکھیں",
+    "description": "لنکڈ ٹکٹس دیکھنے کا فیچر"
+  },
+  "expandImages": {
+    "message": "تصاویر کو بڑھائیں",
+    "description": "تصاویر کو بڑھانے کا فیچر"
+  },
+  "collapseRightPaneTitle": {
+    "message": "دائیں پینل کو چھپائیں ]",
+    "description": "دائیں پینل کو چھپانے کے بٹن کا عنوان"
+  },
+  "openRightPaneTitle": {
+    "message": "دائیں پینل کو کھولیں ]",
+    "description": "جب دائیں پینل چھپا ہوا ہو تو عنوان"
+  },
+  "collapseModalTitle": {
+    "message": "ماڈل کو چھپائیں ]",
+    "description": "ماڈل چھپانے کے بٹن کا عنوان"
+  },
+  "expandModalTitle": {
+    "message": "ماڈل کو بڑھائیں ]",
+    "description": "جب ماڈل چھپا ہوا ہو تو عنوان"
+  },
+  "expandImagesTitle": {
+    "message": "تصاویر کو بڑھائیں/چھپائیں (Ctrl+Shift+Z)",
+    "description": "تصاویر کو بڑھانے/چھپانے کے بٹن کا عنوان"
+  },
+  "byExtension": {
+    "message": "جیرا ایکسپینڈ ایکسٹینشن کے ذریعے",
+    "description": "ایکسٹینشن کی نسبت کا متن"
+  },
+  "linkedTicketsTitle": {
+    "message": "لنکڈ ٹکٹس",
+    "description": "لنکڈ ٹکٹس ٹول ٹپ کا عنوان"
+  },
+  "noLinkedTickets": {
+    "message": "کوئی لنکڈ ٹکٹس نہیں ملے۔",
+    "description": "جب لنکڈ ٹکٹس نہیں ملے تو پیغام"
+  },
+  "errorTitle": {
+    "message": "غلطی",
+    "description": "غلطی کا عنوان"
+  },
+  "assigneeTitle": {
+    "message": "تفویض کردہ: $assignee$",
+    "description": "تفویض کردہ ٹول ٹپ",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "جان ڈو"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "مسئلہ کی قسم کا ٹول ٹپ",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "بگ"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "روک رہا ہے"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "مسئلہ کی قسم کا ٹول ٹپ",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "بگ"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "روک رہا ہے"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "مسئلہ aria لیبل",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "جاری ہے"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "مسئلہ aria لیبل",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "جاری ہے"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "لنکڈ ٹکٹس لوڈ ہو رہے ہیں...",
-      "description": "لنکڈ ٹکٹس ٹول ٹپ کے لیے لوڈنگ پیغام"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "لنکڈ ٹکٹس لوڈ ہو رہے ہیں...",
+    "description": "لنکڈ ٹکٹس ٹول ٹپ کے لیے لوڈنگ پیغام"
+  }
 }

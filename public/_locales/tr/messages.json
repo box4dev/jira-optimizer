@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Çalışma alanını genişletmek için düğme ekleyin, sağ paneli toplayın ve ilgili sorunları görmek için modal ekleyin.",
-      "description": "Uzantı açıklaması"
-   },
-   "extName": {
-      "message": "Jira Çalışma Alanı Genişletici",
-      "description": "Uzantı adı"
-   },
-   "settingsTitle": {
-      "message": "Jira Genişletme Ayarları",
-      "description": "Ayarlar açılır penceresinin ana başlığı"
-   },
-   "reloadRequired": {
-      "message": "Yeniden yükleme gerekli!",
-      "description": "Yeniden yükleme gerekli olduğunda uyarı mesajı"
-   },
-   "globalSettings": {
-      "message": "Genel Ayarlar",
-      "description": "Genel ayarlar bölümü"
-   },
-   "enableFeatures": {
-      "message": "Özellikleri Etkinleştir",
-      "description": "Tüm özellikleri etkinleştirmek için geçiş etiketi"
-   },
-   "features": {
-      "message": "Özellikler",
-      "description": "Bireysel özellikler bölümü"
-   },
-   "collapseRightPanel": {
-      "message": "Sağ Paneli Daralt",
-      "description": "Sağ paneli daraltma özelliği"
-   },
-   "expandCreateModal": {
-      "message": "Oluştur Modalını Genişlet",
-      "description": "Oluştur modalını genişletme özelliği"
-   },
-   "viewLinkedTickets": {
-      "message": "Bağlı Biletlere Bak",
-      "description": "Bağlı biletlere bakma özelliği"
-   },
-   "expandImages": {
-      "message": "Resimleri Genişlet",
-      "description": "Resimleri genişletme özelliği"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Sağ paneli daralt ]",
-      "description": "Sağ paneli daraltma düğmesi başlığı"
-   },
-   "openRightPaneTitle": {
-      "message": "Sağ paneli aç ]",
-      "description": "Sağ panel daraltıldığında başlık"
-   },
-   "collapseModalTitle": {
-      "message": "Modalı daralt ]",
-      "description": "Modal daraltma düğmesi başlığı"
-   },
-   "expandModalTitle": {
-      "message": "Modalı genişlet ]",
-      "description": "Modal daraltıldığında başlık"
-   },
-   "expandImagesTitle": {
-      "message": "Resimleri Genişlet/Daralt (Ctrl+Shift+Z)",
-      "description": "Resimleri genişlet/daralt düğmesi başlığı"
-   },
-   "byExtension": {
-      "message": "Jira Genişlet Uzantısı tarafından",
-      "description": "Uzantı atıf metni"
-   },
-   "linkedTicketsTitle": {
-      "message": "Bağlı Biletler",
-      "description": "Bağlı biletler araç ipucu başlığı"
-   },
-   "noLinkedTickets": {
-      "message": "Bağlı bilet bulunamadı.",
-      "description": "Bağlı bilet bulunamadığında mesaj"
-   },
-   "errorTitle": {
-      "message": "Hata",
-      "description": "Hata başlığı"
-   },
-   "assigneeTitle": {
-      "message": "Atanan: $assignee$",
-      "description": "Atanan araç ipucu",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "John Doe"
-         }
+  "extDesc": {
+    "message": "Jira. Sağ paneli daraltmak, oluşturma modalini genişletmek, görselleri büyütmek ve bağlı biletleri görüntülemek için düğmeler ekler.",
+    "description": "Uzantı açıklaması"
+  },
+  "extName": {
+    "message": "Jira Optimizatörü",
+    "description": "Uzantı adı"
+  },
+  "settingsTitle": {
+    "message": "Jira Genişletme Ayarları",
+    "description": "Ayarlar açılır penceresinin ana başlığı"
+  },
+  "reloadRequired": {
+    "message": "Yeniden yükleme gerekli!",
+    "description": "Yeniden yükleme gerekli olduğunda uyarı mesajı"
+  },
+  "globalSettings": {
+    "message": "Genel Ayarlar",
+    "description": "Genel ayarlar bölümü"
+  },
+  "enableFeatures": {
+    "message": "Özellikleri Etkinleştir",
+    "description": "Tüm özellikleri etkinleştirmek için geçiş etiketi"
+  },
+  "features": {
+    "message": "Özellikler",
+    "description": "Bireysel özellikler bölümü"
+  },
+  "collapseRightPanel": {
+    "message": "Sağ Paneli Daralt",
+    "description": "Sağ paneli daraltma özelliği"
+  },
+  "expandCreateModal": {
+    "message": "Oluştur Modalını Genişlet",
+    "description": "Oluştur modalını genişletme özelliği"
+  },
+  "viewLinkedTickets": {
+    "message": "Bağlı Biletlere Bak",
+    "description": "Bağlı biletlere bakma özelliği"
+  },
+  "expandImages": {
+    "message": "Resimleri Genişlet",
+    "description": "Resimleri genişletme özelliği"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Sağ paneli daralt ]",
+    "description": "Sağ paneli daraltma düğmesi başlığı"
+  },
+  "openRightPaneTitle": {
+    "message": "Sağ paneli aç ]",
+    "description": "Sağ panel daraltıldığında başlık"
+  },
+  "collapseModalTitle": {
+    "message": "Modalı daralt ]",
+    "description": "Modal daraltma düğmesi başlığı"
+  },
+  "expandModalTitle": {
+    "message": "Modalı genişlet ]",
+    "description": "Modal daraltıldığında başlık"
+  },
+  "expandImagesTitle": {
+    "message": "Resimleri Genişlet/Daralt (Ctrl+Shift+Z)",
+    "description": "Resimleri genişlet/daralt düğmesi başlığı"
+  },
+  "byExtension": {
+    "message": "Jira Genişlet Uzantısı tarafından",
+    "description": "Uzantı atıf metni"
+  },
+  "linkedTicketsTitle": {
+    "message": "Bağlı Biletler",
+    "description": "Bağlı biletler araç ipucu başlığı"
+  },
+  "noLinkedTickets": {
+    "message": "Bağlı bilet bulunamadı.",
+    "description": "Bağlı bilet bulunamadığında mesaj"
+  },
+  "errorTitle": {
+    "message": "Hata",
+    "description": "Hata başlığı"
+  },
+  "assigneeTitle": {
+    "message": "Atanan: $assignee$",
+    "description": "Atanan araç ipucu",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "John Doe"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Sorun türü araç ipucu",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Hata"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "engelliyor"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Sorun türü araç ipucu",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Hata"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "engelliyor"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Sorun aria etiketi",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "Devam ediyor"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Sorun aria etiketi",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "Devam ediyor"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Bağlı biletler yükleniyor...",
-      "description": "Bağlı biletler araç ipucu için yükleme mesajı"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Bağlı biletler yükleniyor...",
+    "description": "Bağlı biletler araç ipucu için yükleme mesajı"
+  }
 }

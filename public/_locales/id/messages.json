@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Tambahkan tombol untuk memperluas ruang kerja, lipat panel kanan, dan modal untuk melihat isu terkait.",
-      "description": "Deskripsi ekstensi"
-   },
-   "extName": {
-      "message": "Pembesar Ruang Kerja Jira",
-      "description": "Nama ekstensi"
-   },
-   "settingsTitle": {
-      "message": "Pengaturan Perluas Jira",
-      "description": "Judul utama popup pengaturan"
-   },
-   "reloadRequired": {
-      "message": "Muat ulang diperlukan!",
-      "description": "Pesan peringatan saat muat ulang diperlukan"
-   },
-   "globalSettings": {
-      "message": "Pengaturan Global",
-      "description": "Bagian pengaturan global"
-   },
-   "enableFeatures": {
-      "message": "Aktifkan Fitur",
-      "description": "Label toggle untuk mengaktifkan semua fitur"
-   },
-   "features": {
-      "message": "Fitur",
-      "description": "Bagian fitur individual"
-   },
-   "collapseRightPanel": {
-      "message": "Lipat Panel Kanan",
-      "description": "Fitur untuk melipat panel kanan"
-   },
-   "expandCreateModal": {
-      "message": "Perluas Modal Buat",
-      "description": "Fitur untuk memperluas modal buat"
-   },
-   "viewLinkedTickets": {
-      "message": "Lihat Tiket Terkait",
-      "description": "Fitur untuk melihat tiket terkait"
-   },
-   "expandImages": {
-      "message": "Perluas Gambar",
-      "description": "Fitur untuk memperluas gambar"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Lipat panel kanan ]",
-      "description": "Judul tombol untuk melipat panel kanan"
-   },
-   "openRightPaneTitle": {
-      "message": "Buka panel kanan ]",
-      "description": "Judul saat panel kanan dilipat"
-   },
-   "collapseModalTitle": {
-      "message": "Lipat modal ]",
-      "description": "Judul tombol untuk melipat modal"
-   },
-   "expandModalTitle": {
-      "message": "Perluas modal ]",
-      "description": "Judul saat modal dilipat"
-   },
-   "expandImagesTitle": {
-      "message": "Perluas/Lipat gambar (Ctrl+Shift+Z)",
-      "description": "Judul tombol untuk perluas/lipat gambar"
-   },
-   "byExtension": {
-      "message": "Oleh Ekstensi Perluas Jira",
-      "description": "Teks atribusi ekstensi"
-   },
-   "linkedTicketsTitle": {
-      "message": "Tiket Terkait",
-      "description": "Judul tooltip tiket terkait"
-   },
-   "noLinkedTickets": {
-      "message": "Tidak ada tiket terkait.",
-      "description": "Pesan saat tidak ada tiket terkait yang ditemukan"
-   },
-   "errorTitle": {
-      "message": "Kesalahan",
-      "description": "Judul kesalahan"
-   },
-   "assigneeTitle": {
-      "message": "Ditugaskan: $assignee$",
-      "description": "Tooltip penugasan",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "John Doe"
-         }
+  "extDesc": {
+    "message": "Jira. Menambahkan tombol untuk Mengecilkan Panel Kanan, Memperluas Modal Pembuatan, Memperbesar Gambar, dan Melihat Tiket Terkait.",
+    "description": "Deskripsi ekstensi"
+  },
+  "extName": {
+    "message": "Pengoptimal Jira",
+    "description": "Nama ekstensi"
+  },
+  "settingsTitle": {
+    "message": "Pengaturan Perluas Jira",
+    "description": "Judul utama popup pengaturan"
+  },
+  "reloadRequired": {
+    "message": "Muat ulang diperlukan!",
+    "description": "Pesan peringatan saat muat ulang diperlukan"
+  },
+  "globalSettings": {
+    "message": "Pengaturan Global",
+    "description": "Bagian pengaturan global"
+  },
+  "enableFeatures": {
+    "message": "Aktifkan Fitur",
+    "description": "Label toggle untuk mengaktifkan semua fitur"
+  },
+  "features": {
+    "message": "Fitur",
+    "description": "Bagian fitur individual"
+  },
+  "collapseRightPanel": {
+    "message": "Lipat Panel Kanan",
+    "description": "Fitur untuk melipat panel kanan"
+  },
+  "expandCreateModal": {
+    "message": "Perluas Modal Buat",
+    "description": "Fitur untuk memperluas modal buat"
+  },
+  "viewLinkedTickets": {
+    "message": "Lihat Tiket Terkait",
+    "description": "Fitur untuk melihat tiket terkait"
+  },
+  "expandImages": {
+    "message": "Perluas Gambar",
+    "description": "Fitur untuk memperluas gambar"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Lipat panel kanan ]",
+    "description": "Judul tombol untuk melipat panel kanan"
+  },
+  "openRightPaneTitle": {
+    "message": "Buka panel kanan ]",
+    "description": "Judul saat panel kanan dilipat"
+  },
+  "collapseModalTitle": {
+    "message": "Lipat modal ]",
+    "description": "Judul tombol untuk melipat modal"
+  },
+  "expandModalTitle": {
+    "message": "Perluas modal ]",
+    "description": "Judul saat modal dilipat"
+  },
+  "expandImagesTitle": {
+    "message": "Perluas/Lipat gambar (Ctrl+Shift+Z)",
+    "description": "Judul tombol untuk perluas/lipat gambar"
+  },
+  "byExtension": {
+    "message": "Oleh Ekstensi Perluas Jira",
+    "description": "Teks atribusi ekstensi"
+  },
+  "linkedTicketsTitle": {
+    "message": "Tiket Terkait",
+    "description": "Judul tooltip tiket terkait"
+  },
+  "noLinkedTickets": {
+    "message": "Tidak ada tiket terkait.",
+    "description": "Pesan saat tidak ada tiket terkait yang ditemukan"
+  },
+  "errorTitle": {
+    "message": "Kesalahan",
+    "description": "Judul kesalahan"
+  },
+  "assigneeTitle": {
+    "message": "Ditugaskan: $assignee$",
+    "description": "Tooltip penugasan",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "John Doe"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Tooltip jenis isu",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Bug"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "memblokir"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Tooltip jenis isu",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Bug"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "memblokir"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Label aria isu",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "Sedang Berlangsung"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Label aria isu",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "Sedang Berlangsung"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Memuat tiket terkait...",
-      "description": "Pesan pemuatan untuk tooltip tiket terkait"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Memuat tiket terkait...",
+    "description": "Pesan pemuatan untuk tooltip tiket terkait"
+  }
 }

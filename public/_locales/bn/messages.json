@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira। কাজক্ষেত্র প্রসারিত করার জন্য বোতাম যোগ করুন, ডান প্যানেল ক্ষেষণ করুন এবং সম্পর্কিত সমস্যা দেখার জন্য মডাল যোগ করুন।",
-      "description": "এক্সটেনশনের বর্ণনা"
-   },
-   "extName": {
-      "message": "Jira ওয়ার্কস্পেস এক্সপ্যান্ডার",
-      "description": "এক্সটেনশনের নাম"
-   },
-   "settingsTitle": {
-      "message": "Jira এক্সপ্যান্ড সেটিংস",
-      "description": "সেটিংস পপআপের প্রধান শিরোনাম"
-   },
-   "reloadRequired": {
-      "message": "রিলোড প্রয়োজন!",
-      "description": "রিলোড প্রয়োজন হলে সতর্কতা বার্তা"
-   },
-   "globalSettings": {
-      "message": "গ্লোবাল সেটিংস",
-      "description": "গ্লোবাল সেটিংস বিভাগ"
-   },
-   "enableFeatures": {
-      "message": "ফিচারগুলি সক্ষম করুন",
-      "description": "সমস্ত ফিচার সক্ষম করার টগল লেবেল"
-   },
-   "features": {
-      "message": "ফিচারসমূহ",
-      "description": "স্বতন্ত্র ফিচারের বিভাগ"
-   },
-   "collapseRightPanel": {
-      "message": "ডান প্যানেল কোলাপস করুন",
-      "description": "ডান প্যানেল কোলাপস করার ফিচার"
-   },
-   "expandCreateModal": {
-      "message": "ক্রিয়েট মোডাল প্রসারিত করুন",
-      "description": "ক্রিয়েট মোডাল প্রসারিত করার ফিচার"
-   },
-   "viewLinkedTickets": {
-      "message": "লিঙ্ক করা টিকেট দেখুন",
-      "description": "লিঙ্ক করা টিকেট দেখার ফিচার"
-   },
-   "expandImages": {
-      "message": "ছবি প্রসারিত করুন",
-      "description": "ছবি প্রসারিত করার ফিচার"
-   },
-   "collapseRightPaneTitle": {
-      "message": "ডান প্যানেল কোলাপস করুন ]",
-      "description": "ডান প্যানেল কোলাপস বোতামের শিরোনাম"
-   },
-   "openRightPaneTitle": {
-      "message": "ডান প্যানেল খুলুন ]",
-      "description": "ডান প্যানেল কোলাপস হলে শিরোনাম"
-   },
-   "collapseModalTitle": {
-      "message": "মোডাল কোলাপস করুন ]",
-      "description": "মোডাল কোলাপস বোতামের শিরোনাম"
-   },
-   "expandModalTitle": {
-      "message": "মোডাল প্রসারিত করুন ]",
-      "description": "মোডাল কোলাপস হলে শিরোনাম"
-   },
-   "expandImagesTitle": {
-      "message": "ছবি প্রসারিত/কোলাপস করুন (Ctrl+Shift+Z)",
-      "description": "ছবি প্রসারিত/কোলাপস বোতামের শিরোনাম"
-   },
-   "byExtension": {
-      "message": "Jira এক্সপ্যান্ড এক্সটেনশন দ্বারা",
-      "description": "এক্সটেনশন অ্যাট্রিবিউশন টেক্সট"
-   },
-   "linkedTicketsTitle": {
-      "message": "লিঙ্ক করা টিকেট",
-      "description": "লিঙ্ক করা টিকেট টুলটিপের শিরোনাম"
-   },
-   "noLinkedTickets": {
-      "message": "কোন লিঙ্ক করা টিকেট নেই।",
-      "description": "কোন লিঙ্ক করা টিকেট না পাওয়া গেলে বার্তা"
-   },
-   "errorTitle": {
-      "message": "ত্রুটি",
-      "description": "ত্রুটির শিরোনাম"
-   },
-   "assigneeTitle": {
-      "message": "অ্যাসাইনি: $assignee$",
-      "description": "অ্যাসাইনি টুলটিপ",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "জন ডো"
-         }
+  "extDesc": {
+    "message": "Jira. ডান প্যানেল সঙ্কুচিত করার, তৈরির মডাল বিস্তৃত করার, ছবিগুলো বড় করার এবং লিঙ্ক করা টিকিট দেখানোর বোতাম যোগ করে.",
+    "description": "এক্সটেনশনের বর্ণনা"
+  },
+  "extName": {
+    "message": "Jira অপটিমাইজার",
+    "description": "এক্সটেনশনের নাম"
+  },
+  "settingsTitle": {
+    "message": "Jira এক্সপ্যান্ড সেটিংস",
+    "description": "সেটিংস পপআপের প্রধান শিরোনাম"
+  },
+  "reloadRequired": {
+    "message": "রিলোড প্রয়োজন!",
+    "description": "রিলোড প্রয়োজন হলে সতর্কতা বার্তা"
+  },
+  "globalSettings": {
+    "message": "গ্লোবাল সেটিংস",
+    "description": "গ্লোবাল সেটিংস বিভাগ"
+  },
+  "enableFeatures": {
+    "message": "ফিচারগুলি সক্ষম করুন",
+    "description": "সমস্ত ফিচার সক্ষম করার টগল লেবেল"
+  },
+  "features": {
+    "message": "ফিচারসমূহ",
+    "description": "স্বতন্ত্র ফিচারের বিভাগ"
+  },
+  "collapseRightPanel": {
+    "message": "ডান প্যানেল কোলাপস করুন",
+    "description": "ডান প্যানেল কোলাপস করার ফিচার"
+  },
+  "expandCreateModal": {
+    "message": "ক্রিয়েট মোডাল প্রসারিত করুন",
+    "description": "ক্রিয়েট মোডাল প্রসারিত করার ফিচার"
+  },
+  "viewLinkedTickets": {
+    "message": "লিঙ্ক করা টিকেট দেখুন",
+    "description": "লিঙ্ক করা টিকেট দেখার ফিচার"
+  },
+  "expandImages": {
+    "message": "ছবি প্রসারিত করুন",
+    "description": "ছবি প্রসারিত করার ফিচার"
+  },
+  "collapseRightPaneTitle": {
+    "message": "ডান প্যানেল কোলাপস করুন ]",
+    "description": "ডান প্যানেল কোলাপস বোতামের শিরোনাম"
+  },
+  "openRightPaneTitle": {
+    "message": "ডান প্যানেল খুলুন ]",
+    "description": "ডান প্যানেল কোলাপস হলে শিরোনাম"
+  },
+  "collapseModalTitle": {
+    "message": "মোডাল কোলাপস করুন ]",
+    "description": "মোডাল কোলাপস বোতামের শিরোনাম"
+  },
+  "expandModalTitle": {
+    "message": "মোডাল প্রসারিত করুন ]",
+    "description": "মোডাল কোলাপস হলে শিরোনাম"
+  },
+  "expandImagesTitle": {
+    "message": "ছবি প্রসারিত/কোলাপস করুন (Ctrl+Shift+Z)",
+    "description": "ছবি প্রসারিত/কোলাপস বোতামের শিরোনাম"
+  },
+  "byExtension": {
+    "message": "Jira এক্সপ্যান্ড এক্সটেনশন দ্বারা",
+    "description": "এক্সটেনশন অ্যাট্রিবিউশন টেক্সট"
+  },
+  "linkedTicketsTitle": {
+    "message": "লিঙ্ক করা টিকেট",
+    "description": "লিঙ্ক করা টিকেট টুলটিপের শিরোনাম"
+  },
+  "noLinkedTickets": {
+    "message": "কোন লিঙ্ক করা টিকেট নেই।",
+    "description": "কোন লিঙ্ক করা টিকেট না পাওয়া গেলে বার্তা"
+  },
+  "errorTitle": {
+    "message": "ত্রুটি",
+    "description": "ত্রুটির শিরোনাম"
+  },
+  "assigneeTitle": {
+    "message": "অ্যাসাইনি: $assignee$",
+    "description": "অ্যাসাইনি টুলটিপ",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "জন ডো"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "ইস্যু টাইপ টুলটিপ",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "বাগ"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "ব্লক করে"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "ইস্যু টাইপ টুলটিপ",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "বাগ"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "ব্লক করে"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "ইস্যু aria লেবেল",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "চলমান"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "ইস্যু aria লেবেল",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "চলমান"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "লিঙ্ক করা টিকেট লোড হচ্ছে...",
-      "description": "লিঙ্ক করা টিকেট টুলটিপের জন্য লোডিং বার্তা"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "লিঙ্ক করা টিকেট লোড হচ্ছে...",
+    "description": "লিঙ্ক করা টিকেট টুলটিপের জন্য লোডিং বার্তা"
+  }
 }

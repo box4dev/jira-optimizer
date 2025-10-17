@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Agrega botones para expandir el espacio de trabajo, colapsar el panel derecho y el modal para ver los problemas relacionados.",
-      "description": "Descripción de la extensión"
-   },
-   "extName": {
-      "message": "Expansor de Espacio de Trabajo de Jira",
-      "description": "Nombre de la extensión"
-   },
-   "settingsTitle": {
-      "message": "Configuración de Jira Expand",
-      "description": "Título principal del popup de configuración"
-   },
-   "reloadRequired": {
-      "message": "¡Recarga requerida!",
-      "description": "Mensaje de advertencia cuando se requiere recarga"
-   },
-   "globalSettings": {
-      "message": "Configuración Global",
-      "description": "Sección de configuración global"
-   },
-   "enableFeatures": {
-      "message": "Habilitar Funcionalidades",
-      "description": "Etiqueta del toggle para habilitar todas las funcionalidades"
-   },
-   "features": {
-      "message": "Funcionalidades",
-      "description": "Sección de funcionalidades individuales"
-   },
-   "collapseRightPanel": {
-      "message": "Colapsar Panel Derecho",
-      "description": "Funcionalidad para colapsar el panel derecho"
-   },
-   "expandCreateModal": {
-      "message": "Expandir Modal de Creación",
-      "description": "Funcionalidad para expandir el modal de creación"
-   },
-   "viewLinkedTickets": {
-      "message": "Ver Tickets Vinculados",
-      "description": "Funcionalidad para ver tickets vinculados"
-   },
-   "expandImages": {
-      "message": "Expandir Imágenes",
-      "description": "Funcionalidad para expandir imágenes"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Colapsar panel derecho ]",
-      "description": "Título del botón para colapsar panel derecho"
-   },
-   "openRightPaneTitle": {
-      "message": "Abrir panel derecho ]",
-      "description": "Título cuando el panel derecho está colapsado"
-   },
-   "collapseModalTitle": {
-      "message": "Colapsar modal ]",
-      "description": "Título del botón para colapsar modal"
-   },
-   "expandModalTitle": {
-      "message": "Expandir modal ]",
-      "description": "Título cuando el modal está colapsado"
-   },
-   "expandImagesTitle": {
-      "message": "Expandir/Colapsar imágenes (Ctrl+Shift+Z)",
-      "description": "Título del botón para expandir/colapsar imágenes"
-   },
-   "byExtension": {
-      "message": "Por Jira Expand Extension",
-      "description": "Texto de atribución de la extensión"
-   },
-   "linkedTicketsTitle": {
-      "message": "Tickets Vinculados",
-      "description": "Título del tooltip de tickets vinculados"
-   },
-   "noLinkedTickets": {
-      "message": "No hay tickets vinculados.",
-      "description": "Mensaje cuando no se encontraron tickets vinculados"
-   },
-   "errorTitle": {
-      "message": "Error",
-      "description": "Título de error"
-   },
-   "assigneeTitle": {
-      "message": "Asignado: $assignee$",
-      "description": "Tooltip del asignado",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "Juan Pérez"
-         }
+  "extDesc": {
+    "message": "Jira. Añade botones para Colapsar el Panel Derecho, Expandir el Modal de Creación, Ampliar Imágenes y Ver Tickets Vinculados.",
+    "description": "Descripción de la extensión"
+  },
+  "extName": {
+    "message": "Optimizador Jira",
+    "description": "Nombre de la extensión"
+  },
+  "settingsTitle": {
+    "message": "Configuración de Jira Expand",
+    "description": "Título principal del popup de configuración"
+  },
+  "reloadRequired": {
+    "message": "¡Recarga requerida!",
+    "description": "Mensaje de advertencia cuando se requiere recarga"
+  },
+  "globalSettings": {
+    "message": "Configuración Global",
+    "description": "Sección de configuración global"
+  },
+  "enableFeatures": {
+    "message": "Habilitar Funcionalidades",
+    "description": "Etiqueta del toggle para habilitar todas las funcionalidades"
+  },
+  "features": {
+    "message": "Funcionalidades",
+    "description": "Sección de funcionalidades individuales"
+  },
+  "collapseRightPanel": {
+    "message": "Colapsar Panel Derecho",
+    "description": "Funcionalidad para colapsar el panel derecho"
+  },
+  "expandCreateModal": {
+    "message": "Expandir Modal de Creación",
+    "description": "Funcionalidad para expandir el modal de creación"
+  },
+  "viewLinkedTickets": {
+    "message": "Ver Tickets Vinculados",
+    "description": "Funcionalidad para ver tickets vinculados"
+  },
+  "expandImages": {
+    "message": "Expandir Imágenes",
+    "description": "Funcionalidad para expandir imágenes"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Colapsar panel derecho ]",
+    "description": "Título del botón para colapsar panel derecho"
+  },
+  "openRightPaneTitle": {
+    "message": "Abrir panel derecho ]",
+    "description": "Título cuando el panel derecho está colapsado"
+  },
+  "collapseModalTitle": {
+    "message": "Colapsar modal ]",
+    "description": "Título del botón para colapsar modal"
+  },
+  "expandModalTitle": {
+    "message": "Expandir modal ]",
+    "description": "Título cuando el modal está colapsado"
+  },
+  "expandImagesTitle": {
+    "message": "Expandir/Colapsar imágenes (Ctrl+Shift+Z)",
+    "description": "Título del botón para expandir/colapsar imágenes"
+  },
+  "byExtension": {
+    "message": "Por Jira Expand Extension",
+    "description": "Texto de atribución de la extensión"
+  },
+  "linkedTicketsTitle": {
+    "message": "Tickets Vinculados",
+    "description": "Título del tooltip de tickets vinculados"
+  },
+  "noLinkedTickets": {
+    "message": "No hay tickets vinculados.",
+    "description": "Mensaje cuando no se encontraron tickets vinculados"
+  },
+  "errorTitle": {
+    "message": "Error",
+    "description": "Título de error"
+  },
+  "assigneeTitle": {
+    "message": "Asignado: $assignee$",
+    "description": "Tooltip del asignado",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "Juan Pérez"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Tooltip del tipo de issue",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Bug"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "bloquea"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Tooltip del tipo de issue",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Bug"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "bloquea"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Etiqueta aria del issue",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "En Progreso"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Etiqueta aria del issue",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "En Progreso"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Cargando tickets vinculados...",
-      "description": "Mensaje de carga para el tooltip de tickets vinculados"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Cargando tickets vinculados...",
+    "description": "Mensaje de carga para el tooltip de tickets vinculados"
+  }
 }

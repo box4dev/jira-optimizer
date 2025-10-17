@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Добавьте кнопки для расширения рабочего пространства, скройте правую панель и модальное окно для просмотра связанных проблем.",
-      "description": "Описание расширения"
-   },
-   "extName": {
-      "message": "Расширитель рабочего пространства Jira",
-      "description": "Название расширения"
-   },
-   "settingsTitle": {
-      "message": "Настройки Расширения Jira",
-      "description": "Главный заголовок всплывающего окна настроек"
-   },
-   "reloadRequired": {
-      "message": "Требуется перезагрузка!",
-      "description": "Предупреждающее сообщение при необходимости перезагрузки"
-   },
-   "globalSettings": {
-      "message": "Глобальные Настройки",
-      "description": "Раздел глобальных настроек"
-   },
-   "enableFeatures": {
-      "message": "Включить Функции",
-      "description": "Метка переключателя для включения всех функций"
-   },
-   "features": {
-      "message": "Функции",
-      "description": "Раздел отдельных функций"
-   },
-   "collapseRightPanel": {
-      "message": "Свернуть Правую Панель",
-      "description": "Функция для сворачивания правой панели"
-   },
-   "expandCreateModal": {
-      "message": "Расширить Модальное Окно Создания",
-      "description": "Функция для расширения модального окна создания"
-   },
-   "viewLinkedTickets": {
-      "message": "Просмотреть Связанные Заявки",
-      "description": "Функция для просмотра связанных заявок"
-   },
-   "expandImages": {
-      "message": "Расширить Изображения",
-      "description": "Функция для расширения изображений"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Свернуть правую панель ]",
-      "description": "Заголовок кнопки для сворачивания правой панели"
-   },
-   "openRightPaneTitle": {
-      "message": "Открыть правую панель ]",
-      "description": "Заголовок когда правая панель свернута"
-   },
-   "collapseModalTitle": {
-      "message": "Свернуть модальное окно ]",
-      "description": "Заголовок кнопки для сворачивания модального окна"
-   },
-   "expandModalTitle": {
-      "message": "Расширить модальное окно ]",
-      "description": "Заголовок когда модальное окно свернуто"
-   },
-   "expandImagesTitle": {
-      "message": "Расширить/Свернуть изображения (Ctrl+Shift+Z)",
-      "description": "Заголовок кнопки для расширения/сворачивания изображений"
-   },
-   "byExtension": {
-      "message": "От Расширения Jira Expand",
-      "description": "Текст атрибуции расширения"
-   },
-   "linkedTicketsTitle": {
-      "message": "Связанные Заявки",
-      "description": "Заголовок всплывающей подсказки связанных заявок"
-   },
-   "noLinkedTickets": {
-      "message": "Нет связанных заявок.",
-      "description": "Сообщение когда связанные заявки не найдены"
-   },
-   "errorTitle": {
-      "message": "Ошибка",
-      "description": "Заголовок ошибки"
-   },
-   "assigneeTitle": {
-      "message": "Ответственный: $assignee$",
-      "description": "Всплывающая подсказка ответственного",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "Иван Петров"
-         }
+  "extDesc": {
+    "message": "Jira. Добавляет кнопки для свёртывания правой панели, развёртывания модального окна создания, увеличения изображений и просмотра связанных тикетов.",
+    "description": "Описание расширения"
+  },
+  "extName": {
+    "message": "Оптимизатор Jira",
+    "description": "Название расширения"
+  },
+  "settingsTitle": {
+    "message": "Настройки Расширения Jira",
+    "description": "Главный заголовок всплывающего окна настроек"
+  },
+  "reloadRequired": {
+    "message": "Требуется перезагрузка!",
+    "description": "Предупреждающее сообщение при необходимости перезагрузки"
+  },
+  "globalSettings": {
+    "message": "Глобальные Настройки",
+    "description": "Раздел глобальных настроек"
+  },
+  "enableFeatures": {
+    "message": "Включить Функции",
+    "description": "Метка переключателя для включения всех функций"
+  },
+  "features": {
+    "message": "Функции",
+    "description": "Раздел отдельных функций"
+  },
+  "collapseRightPanel": {
+    "message": "Свернуть Правую Панель",
+    "description": "Функция для сворачивания правой панели"
+  },
+  "expandCreateModal": {
+    "message": "Расширить Модальное Окно Создания",
+    "description": "Функция для расширения модального окна создания"
+  },
+  "viewLinkedTickets": {
+    "message": "Просмотреть Связанные Заявки",
+    "description": "Функция для просмотра связанных заявок"
+  },
+  "expandImages": {
+    "message": "Расширить Изображения",
+    "description": "Функция для расширения изображений"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Свернуть правую панель ]",
+    "description": "Заголовок кнопки для сворачивания правой панели"
+  },
+  "openRightPaneTitle": {
+    "message": "Открыть правую панель ]",
+    "description": "Заголовок когда правая панель свернута"
+  },
+  "collapseModalTitle": {
+    "message": "Свернуть модальное окно ]",
+    "description": "Заголовок кнопки для сворачивания модального окна"
+  },
+  "expandModalTitle": {
+    "message": "Расширить модальное окно ]",
+    "description": "Заголовок когда модальное окно свернуто"
+  },
+  "expandImagesTitle": {
+    "message": "Расширить/Свернуть изображения (Ctrl+Shift+Z)",
+    "description": "Заголовок кнопки для расширения/сворачивания изображений"
+  },
+  "byExtension": {
+    "message": "От Расширения Jira Expand",
+    "description": "Текст атрибуции расширения"
+  },
+  "linkedTicketsTitle": {
+    "message": "Связанные Заявки",
+    "description": "Заголовок всплывающей подсказки связанных заявок"
+  },
+  "noLinkedTickets": {
+    "message": "Нет связанных заявок.",
+    "description": "Сообщение когда связанные заявки не найдены"
+  },
+  "errorTitle": {
+    "message": "Ошибка",
+    "description": "Заголовок ошибки"
+  },
+  "assigneeTitle": {
+    "message": "Ответственный: $assignee$",
+    "description": "Всплывающая подсказка ответственного",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "Иван Петров"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Всплывающая подсказка типа проблемы",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Баг"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "блокирует"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Всплывающая подсказка типа проблемы",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Баг"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "блокирует"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Aria метка проблемы",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "В работе"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Aria метка проблемы",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "В работе"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Загрузка связанных заявок...",
-      "description": "Сообщение загрузки для всплывающей подсказки связанных заявок"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Загрузка связанных заявок...",
+    "description": "Сообщение загрузки для всплывающей подсказки связанных заявок"
+  }
 }

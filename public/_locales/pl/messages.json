@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Dodaj przyciski do rozszerzania przestrzeni roboczej, zwiń panel prawy i dodaj okno modalne do wyświetlania powiązanych problemów.",
-      "description": "Opis rozszerzenia"
-   },
-   "extName": {
-      "message": "Rozszerzacz Przestrzeni Roboczej Jira",
-      "description": "Nazwa rozszerzenia"
-   },
-   "settingsTitle": {
-      "message": "Ustawienia Rozszerzenia Jira",
-      "description": "Główny tytuł okna ustawień"
-   },
-   "reloadRequired": {
-      "message": "Wymagane przeładowanie!",
-      "description": "Komunikat ostrzegawczy gdy wymagane jest przeładowanie"
-   },
-   "globalSettings": {
-      "message": "Ustawienia Globalne",
-      "description": "Sekcja ustawień globalnych"
-   },
-   "enableFeatures": {
-      "message": "Włącz Funkcje",
-      "description": "Etykieta przełącznika do włączania wszystkich funkcji"
-   },
-   "features": {
-      "message": "Funkcje",
-      "description": "Sekcja indywidualnych funkcji"
-   },
-   "collapseRightPanel": {
-      "message": "Zwiń Panel Prawy",
-      "description": "Funkcja zwijania prawego panelu"
-   },
-   "expandCreateModal": {
-      "message": "Rozszerz Modal Tworzenia",
-      "description": "Funkcja rozszerzania modalu tworzenia"
-   },
-   "viewLinkedTickets": {
-      "message": "Zobacz Połączone Zgłoszenia",
-      "description": "Funkcja przeglądania połączonych zgłoszeń"
-   },
-   "expandImages": {
-      "message": "Rozszerz Obrazy",
-      "description": "Funkcja rozszerzania obrazów"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Zwiń panel prawy ]",
-      "description": "Tytuł przycisku zwijania panelu prawego"
-   },
-   "openRightPaneTitle": {
-      "message": "Otwórz panel prawy ]",
-      "description": "Tytuł gdy panel prawy jest zwinięty"
-   },
-   "collapseModalTitle": {
-      "message": "Zwiń modal ]",
-      "description": "Tytuł przycisku zwijania modalu"
-   },
-   "expandModalTitle": {
-      "message": "Rozszerz modal ]",
-      "description": "Tytuł gdy modal jest zwinięty"
-   },
-   "expandImagesTitle": {
-      "message": "Rozszerz/Zwiń obrazy (Ctrl+Shift+Z)",
-      "description": "Tytuł przycisku rozszerzania/zwijania obrazów"
-   },
-   "byExtension": {
-      "message": "Przez rozszerzenie Jira Rozwiń",
-      "description": "Tekst przypisania rozszerzenia"
-   },
-   "linkedTicketsTitle": {
-      "message": "Połączone Zgłoszenia",
-      "description": "Tytuł etykietki połączonych zgłoszeń"
-   },
-   "noLinkedTickets": {
-      "message": "Brak połączonych zgłoszeń.",
-      "description": "Komunikat gdy nie znaleziono połączonych zgłoszeń"
-   },
-   "errorTitle": {
-      "message": "Błąd",
-      "description": "Tytuł błędu"
-   },
-   "assigneeTitle": {
-      "message": "Przypisany: $assignee$",
-      "description": "Etykietka przypisanego",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "Jan Kowalski"
-         }
+  "extDesc": {
+    "message": "Jira. Dodaje przyciski do zwinięcia prawego panelu, rozwinięcia modala tworzenia, powiększania obrazów i wyświetlania powiązanych zgłoszeń.",
+    "description": "Opis rozszerzenia"
+  },
+  "extName": {
+    "message": "Optymalizator Jira",
+    "description": "Nazwa rozszerzenia"
+  },
+  "settingsTitle": {
+    "message": "Ustawienia Rozszerzenia Jira",
+    "description": "Główny tytuł okna ustawień"
+  },
+  "reloadRequired": {
+    "message": "Wymagane przeładowanie!",
+    "description": "Komunikat ostrzegawczy gdy wymagane jest przeładowanie"
+  },
+  "globalSettings": {
+    "message": "Ustawienia Globalne",
+    "description": "Sekcja ustawień globalnych"
+  },
+  "enableFeatures": {
+    "message": "Włącz Funkcje",
+    "description": "Etykieta przełącznika do włączania wszystkich funkcji"
+  },
+  "features": {
+    "message": "Funkcje",
+    "description": "Sekcja indywidualnych funkcji"
+  },
+  "collapseRightPanel": {
+    "message": "Zwiń Panel Prawy",
+    "description": "Funkcja zwijania prawego panelu"
+  },
+  "expandCreateModal": {
+    "message": "Rozszerz Modal Tworzenia",
+    "description": "Funkcja rozszerzania modalu tworzenia"
+  },
+  "viewLinkedTickets": {
+    "message": "Zobacz Połączone Zgłoszenia",
+    "description": "Funkcja przeglądania połączonych zgłoszeń"
+  },
+  "expandImages": {
+    "message": "Rozszerz Obrazy",
+    "description": "Funkcja rozszerzania obrazów"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Zwiń panel prawy ]",
+    "description": "Tytuł przycisku zwijania panelu prawego"
+  },
+  "openRightPaneTitle": {
+    "message": "Otwórz panel prawy ]",
+    "description": "Tytuł gdy panel prawy jest zwinięty"
+  },
+  "collapseModalTitle": {
+    "message": "Zwiń modal ]",
+    "description": "Tytuł przycisku zwijania modalu"
+  },
+  "expandModalTitle": {
+    "message": "Rozszerz modal ]",
+    "description": "Tytuł gdy modal jest zwinięty"
+  },
+  "expandImagesTitle": {
+    "message": "Rozszerz/Zwiń obrazy (Ctrl+Shift+Z)",
+    "description": "Tytuł przycisku rozszerzania/zwijania obrazów"
+  },
+  "byExtension": {
+    "message": "Przez rozszerzenie Jira Rozwiń",
+    "description": "Tekst przypisania rozszerzenia"
+  },
+  "linkedTicketsTitle": {
+    "message": "Połączone Zgłoszenia",
+    "description": "Tytuł etykietki połączonych zgłoszeń"
+  },
+  "noLinkedTickets": {
+    "message": "Brak połączonych zgłoszeń.",
+    "description": "Komunikat gdy nie znaleziono połączonych zgłoszeń"
+  },
+  "errorTitle": {
+    "message": "Błąd",
+    "description": "Tytuł błędu"
+  },
+  "assigneeTitle": {
+    "message": "Przypisany: $assignee$",
+    "description": "Etykietka przypisanego",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "Jan Kowalski"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Etykietka typu problemu",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Błąd"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "blokuje"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Etykietka typu problemu",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Błąd"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "blokuje"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Etykieta aria problemu",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "W trakcie"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Etykieta aria problemu",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "W trakcie"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Ładowanie połączonych zgłoszeń...",
-      "description": "Komunikat ładowania dla etykietki połączonych zgłoszeń"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Ładowanie połączonych zgłoszeń...",
+    "description": "Komunikat ładowania dla etykietki połączonych zgłoszeń"
+  }
 }

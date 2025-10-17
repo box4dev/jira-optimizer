@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Ajoute des boutons pour étendre l'espace de travail, réduire le volet droit et le modal pour afficher les problèmes associés.",
-      "description": "Description de l'extension"
-   },
-   "extName": {
-      "message": "Expanseur d'Espace de Travail Jira",
-      "description": "Nom de l'extension"
-   },
-   "settingsTitle": {
-      "message": "Paramètres Jira Expand",
-      "description": "Titre principal du popup de paramètres"
-   },
-   "reloadRequired": {
-      "message": "Rechargement requis !",
-      "description": "Message d'avertissement quand le rechargement est requis"
-   },
-   "globalSettings": {
-      "message": "Paramètres Globaux",
-      "description": "Section des paramètres globaux"
-   },
-   "enableFeatures": {
-      "message": "Activer les Fonctionnalités",
-      "description": "Étiquette du toggle pour activer toutes les fonctionnalités"
-   },
-   "features": {
-      "message": "Fonctionnalités",
-      "description": "Section des fonctionnalités individuelles"
-   },
-   "collapseRightPanel": {
-      "message": "Réduire le Panneau Droit",
-      "description": "Fonctionnalité pour réduire le panneau droit"
-   },
-   "expandCreateModal": {
-      "message": "Étendre la Modale de Création",
-      "description": "Fonctionnalité pour étendre la modale de création"
-   },
-   "viewLinkedTickets": {
-      "message": "Voir les Tickets Liés",
-      "description": "Fonctionnalité pour voir les tickets liés"
-   },
-   "expandImages": {
-      "message": "Étendre les Images",
-      "description": "Fonctionnalité pour étendre les images"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Réduire le volet droit ]",
-      "description": "Titre du bouton pour réduire le volet droit"
-   },
-   "openRightPaneTitle": {
-      "message": "Ouvrir le volet droit ]",
-      "description": "Titre quand le volet droit est réduit"
-   },
-   "collapseModalTitle": {
-      "message": "Réduire la modale ]",
-      "description": "Titre du bouton pour réduire la modale"
-   },
-   "expandModalTitle": {
-      "message": "Étendre la modale ]",
-      "description": "Titre quand la modale est réduite"
-   },
-   "expandImagesTitle": {
-      "message": "Étendre/Réduire les images (Ctrl+Shift+Z)",
-      "description": "Titre du bouton pour étendre/réduire les images"
-   },
-   "byExtension": {
-      "message": "Par Jira Expand Extension",
-      "description": "Texte d'attribution de l'extension"
-   },
-   "linkedTicketsTitle": {
-      "message": "Tickets Liés",
-      "description": "Titre de l'infobulle des tickets liés"
-   },
-   "noLinkedTickets": {
-      "message": "Aucun ticket lié.",
-      "description": "Message quand aucun ticket lié n'est trouvé"
-   },
-   "errorTitle": {
-      "message": "Erreur",
-      "description": "Titre d'erreur"
-   },
-   "assigneeTitle": {
-      "message": "Assigné : $assignee$",
-      "description": "Infobulle de l'assigné",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "Jean Dupont"
-         }
+  "extDesc": {
+    "message": "Jira. Ajoute des boutons pour Réduire le panneau droit, Agrandir le modal de création, Agrandir les images et Voir les tickets liés.",
+    "description": "Description de l'extension"
+  },
+  "extName": {
+    "message": "Optimiseur Jira",
+    "description": "Nom de l'extension"
+  },
+  "settingsTitle": {
+    "message": "Paramètres Jira Expand",
+    "description": "Titre principal du popup de paramètres"
+  },
+  "reloadRequired": {
+    "message": "Rechargement requis !",
+    "description": "Message d'avertissement quand le rechargement est requis"
+  },
+  "globalSettings": {
+    "message": "Paramètres Globaux",
+    "description": "Section des paramètres globaux"
+  },
+  "enableFeatures": {
+    "message": "Activer les Fonctionnalités",
+    "description": "Étiquette du toggle pour activer toutes les fonctionnalités"
+  },
+  "features": {
+    "message": "Fonctionnalités",
+    "description": "Section des fonctionnalités individuelles"
+  },
+  "collapseRightPanel": {
+    "message": "Réduire le Panneau Droit",
+    "description": "Fonctionnalité pour réduire le panneau droit"
+  },
+  "expandCreateModal": {
+    "message": "Étendre la Modale de Création",
+    "description": "Fonctionnalité pour étendre la modale de création"
+  },
+  "viewLinkedTickets": {
+    "message": "Voir les Tickets Liés",
+    "description": "Fonctionnalité pour voir les tickets liés"
+  },
+  "expandImages": {
+    "message": "Étendre les Images",
+    "description": "Fonctionnalité pour étendre les images"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Réduire le volet droit ]",
+    "description": "Titre du bouton pour réduire le volet droit"
+  },
+  "openRightPaneTitle": {
+    "message": "Ouvrir le volet droit ]",
+    "description": "Titre quand le volet droit est réduit"
+  },
+  "collapseModalTitle": {
+    "message": "Réduire la modale ]",
+    "description": "Titre du bouton pour réduire la modale"
+  },
+  "expandModalTitle": {
+    "message": "Étendre la modale ]",
+    "description": "Titre quand la modale est réduite"
+  },
+  "expandImagesTitle": {
+    "message": "Étendre/Réduire les images (Ctrl+Shift+Z)",
+    "description": "Titre du bouton pour étendre/réduire les images"
+  },
+  "byExtension": {
+    "message": "Par Jira Expand Extension",
+    "description": "Texte d'attribution de l'extension"
+  },
+  "linkedTicketsTitle": {
+    "message": "Tickets Liés",
+    "description": "Titre de l'infobulle des tickets liés"
+  },
+  "noLinkedTickets": {
+    "message": "Aucun ticket lié.",
+    "description": "Message quand aucun ticket lié n'est trouvé"
+  },
+  "errorTitle": {
+    "message": "Erreur",
+    "description": "Titre d'erreur"
+  },
+  "assigneeTitle": {
+    "message": "Assigné : $assignee$",
+    "description": "Infobulle de l'assigné",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "Jean Dupont"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Infobulle du type d'issue",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Bug"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "bloque"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Infobulle du type d'issue",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Bug"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "bloque"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Étiquette aria de l'issue",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "En cours"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Étiquette aria de l'issue",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "En cours"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Chargement des tickets liés...",
-      "description": "Message de chargement pour l'infobulle des tickets liés"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Chargement des tickets liés...",
+    "description": "Message de chargement pour l'infobulle des tickets liés"
+  }
 }

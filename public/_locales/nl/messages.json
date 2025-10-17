@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Voeg knoppen toe om de werkruimte uit te breiden, de rechterpaneel in te klappen en een modaal toe te voegen om gerelateerde problemen te bekijken.",
-      "description": "Extensiebeschrijving"
-   },
-   "extName": {
-      "message": "Jira Werkruimte-Expander",
-      "description": "Extensienaam"
-   },
-   "settingsTitle": {
-      "message": "Jira Uitbreiden Instellingen",
-      "description": "Hoofdtitel van instellingen popup"
-   },
-   "reloadRequired": {
-      "message": "Herladen vereist!",
-      "description": "Waarschuwingsbericht wanneer herladen vereist is"
-   },
-   "globalSettings": {
-      "message": "Globale Instellingen",
-      "description": "Globale instellingen sectie"
-   },
-   "enableFeatures": {
-      "message": "Functies Inschakelen",
-      "description": "Toggle label om alle functies in te schakelen"
-   },
-   "features": {
-      "message": "Functies",
-      "description": "Individuele functies sectie"
-   },
-   "collapseRightPanel": {
-      "message": "Rechterpaneel Inklappen",
-      "description": "Functie om rechterpaneel in te klappen"
-   },
-   "expandCreateModal": {
-      "message": "Aanmaak Modal Uitbreiden",
-      "description": "Functie om aanmaak modal uit te breiden"
-   },
-   "viewLinkedTickets": {
-      "message": "Gekoppelde Tickets Bekijken",
-      "description": "Functie om gekoppelde tickets te bekijken"
-   },
-   "expandImages": {
-      "message": "Afbeeldingen Uitbreiden",
-      "description": "Functie om afbeeldingen uit te breiden"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Rechterpaneel inklappen ]",
-      "description": "Titel van rechterpaneel inklappen knop"
-   },
-   "openRightPaneTitle": {
-      "message": "Rechterpaneel openen ]",
-      "description": "Titel wanneer rechterpaneel is ingeklapt"
-   },
-   "collapseModalTitle": {
-      "message": "Modal inklappen ]",
-      "description": "Titel van modal inklappen knop"
-   },
-   "expandModalTitle": {
-      "message": "Modal uitbreiden ]",
-      "description": "Titel wanneer modal is ingeklapt"
-   },
-   "expandImagesTitle": {
-      "message": "Afbeeldingen uitbreiden/inklappen (Ctrl+Shift+Z)",
-      "description": "Titel van afbeeldingen uitbreiden/inklappen knop"
-   },
-   "byExtension": {
-      "message": "Door Jira Uitbreiden Extensie",
-      "description": "Extensie toeschrijving tekst"
-   },
-   "linkedTicketsTitle": {
-      "message": "Gekoppelde Tickets",
-      "description": "Titel van gekoppelde tickets tooltip"
-   },
-   "noLinkedTickets": {
-      "message": "Geen gekoppelde tickets.",
-      "description": "Bericht wanneer geen gekoppelde tickets gevonden zijn"
-   },
-   "errorTitle": {
-      "message": "Fout",
-      "description": "Fout titel"
-   },
-   "assigneeTitle": {
-      "message": "Toegewezen: $assignee$",
-      "description": "Toegewezen tooltip",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "Jan Jansen"
-         }
+  "extDesc": {
+    "message": "Jira. Voegt knoppen toe om het rechterpaneel in te klappen, het aanmaak‑modal uit te klappen, afbeeldingen te vergroten en gekoppelde tickets te bekijken.",
+    "description": "Extensiebeschrijving"
+  },
+  "extName": {
+    "message": "Jira‑Optimizer",
+    "description": "Extensienaam"
+  },
+  "settingsTitle": {
+    "message": "Jira Uitbreiden Instellingen",
+    "description": "Hoofdtitel van instellingen popup"
+  },
+  "reloadRequired": {
+    "message": "Herladen vereist!",
+    "description": "Waarschuwingsbericht wanneer herladen vereist is"
+  },
+  "globalSettings": {
+    "message": "Globale Instellingen",
+    "description": "Globale instellingen sectie"
+  },
+  "enableFeatures": {
+    "message": "Functies Inschakelen",
+    "description": "Toggle label om alle functies in te schakelen"
+  },
+  "features": {
+    "message": "Functies",
+    "description": "Individuele functies sectie"
+  },
+  "collapseRightPanel": {
+    "message": "Rechterpaneel Inklappen",
+    "description": "Functie om rechterpaneel in te klappen"
+  },
+  "expandCreateModal": {
+    "message": "Aanmaak Modal Uitbreiden",
+    "description": "Functie om aanmaak modal uit te breiden"
+  },
+  "viewLinkedTickets": {
+    "message": "Gekoppelde Tickets Bekijken",
+    "description": "Functie om gekoppelde tickets te bekijken"
+  },
+  "expandImages": {
+    "message": "Afbeeldingen Uitbreiden",
+    "description": "Functie om afbeeldingen uit te breiden"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Rechterpaneel inklappen ]",
+    "description": "Titel van rechterpaneel inklappen knop"
+  },
+  "openRightPaneTitle": {
+    "message": "Rechterpaneel openen ]",
+    "description": "Titel wanneer rechterpaneel is ingeklapt"
+  },
+  "collapseModalTitle": {
+    "message": "Modal inklappen ]",
+    "description": "Titel van modal inklappen knop"
+  },
+  "expandModalTitle": {
+    "message": "Modal uitbreiden ]",
+    "description": "Titel wanneer modal is ingeklapt"
+  },
+  "expandImagesTitle": {
+    "message": "Afbeeldingen uitbreiden/inklappen (Ctrl+Shift+Z)",
+    "description": "Titel van afbeeldingen uitbreiden/inklappen knop"
+  },
+  "byExtension": {
+    "message": "Door Jira Uitbreiden Extensie",
+    "description": "Extensie toeschrijving tekst"
+  },
+  "linkedTicketsTitle": {
+    "message": "Gekoppelde Tickets",
+    "description": "Titel van gekoppelde tickets tooltip"
+  },
+  "noLinkedTickets": {
+    "message": "Geen gekoppelde tickets.",
+    "description": "Bericht wanneer geen gekoppelde tickets gevonden zijn"
+  },
+  "errorTitle": {
+    "message": "Fout",
+    "description": "Fout titel"
+  },
+  "assigneeTitle": {
+    "message": "Toegewezen: $assignee$",
+    "description": "Toegewezen tooltip",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "Jan Jansen"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Probleemtype tooltip",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Bug"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "blokkeert"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Probleemtype tooltip",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Bug"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "blokkeert"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Probleem aria label",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "In uitvoering"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Probleem aria label",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "In uitvoering"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Gekoppelde tickets laden...",
-      "description": "Laadbericht voor gekoppelde tickets tooltip"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Gekoppelde tickets laden...",
+    "description": "Laadbericht voor gekoppelde tickets tooltip"
+  }
 }

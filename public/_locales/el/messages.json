@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Προσθέστε κουμπιά για να επεκτείνετε τον χώρο εργασίας, να κρύψετε το δεξιό πλαίσιο και να προσθέσετε modal για να δείτε σχετικά θέματα.",
-      "description": "Περιγραφή επέκτασης"
-   },
-   "extName": {
-      "message": "Επεκτατής Χώρου Εργασίας Jira",
-      "description": "Όνομα επέκτασης"
-   },
-   "settingsTitle": {
-      "message": "Ρυθμίσεις Jira Επέκτασης",
-      "description": "Κύριος τίτλος popup ρυθμίσεων"
-   },
-   "reloadRequired": {
-      "message": "Απαιτείται Επαναφόρτωση!",
-      "description": "Μήνυμα προειδοποίησης όταν απαιτείται επαναφόρτωση"
-   },
-   "globalSettings": {
-      "message": "Γενικές Ρυθμίσεις",
-      "description": "Τμήμα γενικών ρυθμίσεων"
-   },
-   "enableFeatures": {
-      "message": "Ενεργοποίηση Λειτουργιών",
-      "description": "Ετικέτα εναλλαγής για ενεργοποίηση όλων των λειτουργιών"
-   },
-   "features": {
-      "message": "Λειτουργίες",
-      "description": "Τμήμα ατομικών λειτουργιών"
-   },
-   "collapseRightPanel": {
-      "message": "Σύμπτυξη Δεξιού Πλαισίου",
-      "description": "Λειτουργία για σύμπτυξη δεξιού πλαισίου"
-   },
-   "expandCreateModal": {
-      "message": "Επέκταση Modal Δημιουργίας",
-      "description": "Λειτουργία για επέκταση modal δημιουργίας"
-   },
-   "viewLinkedTickets": {
-      "message": "Προβολή Συνδεδεμένων Αιτήσεων",
-      "description": "Λειτουργία για προβολή συνδεδεμένων αιτήσεων"
-   },
-   "expandImages": {
-      "message": "Επέκταση Εικόνων",
-      "description": "Λειτουργία για επέκταση εικόνων"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Σύμπτυξη δεξιού πλαισίου ]",
-      "description": "Τίτλος κουμπιού σύμπτυξης δεξιού πλαισίου"
-   },
-   "openRightPaneTitle": {
-      "message": "Άνοιγμα δεξιού πλαισίου ]",
-      "description": "Τίτλος όταν το δεξί πλαίσιο είναι συμπτυγμένο"
-   },
-   "collapseModalTitle": {
-      "message": "Σύμπτυξη modal ]",
-      "description": "Τίτλος κουμπιού σύμπτυξης modal"
-   },
-   "expandModalTitle": {
-      "message": "Επέκταση modal ]",
-      "description": "Τίτλος όταν το modal είναι συμπτυγμένο"
-   },
-   "expandImagesTitle": {
-      "message": "Επέκταση/Σύμπτυξη εικόνων (Ctrl+Shift+Z)",
-      "description": "Τίτλος κουμπιού επέκτασης/σύμπτυξης εικόνων"
-   },
-   "byExtension": {
-      "message": "Από την Επέκταση Jira Επέκταση",
-      "description": "Κείμενο απόδοσης επέκτασης"
-   },
-   "linkedTicketsTitle": {
-      "message": "Συνδεδεμένες Αιτήσεις",
-      "description": "Τίτλος tooltip συνδεδεμένων αιτήσεων"
-   },
-   "noLinkedTickets": {
-      "message": "Δεν βρέθηκαν συνδεδεμένες αιτήσεις.",
-      "description": "Μήνυμα όταν δεν βρέθηκαν συνδεδεμένες αιτήσεις"
-   },
-   "errorTitle": {
-      "message": "Σφάλμα",
-      "description": "Τίτλος σφάλματος"
-   },
-   "assigneeTitle": {
-      "message": "Ανατεθειμένος: $assignee$",
-      "description": "Tooltip ανατεθειμένου",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "Γιάννης Παπαδόπουλος"
-         }
+  "extDesc": {
+    "message": "Jira. Προσθέτει κουμπιά για σύμπτυξη του δεξιού πλαισίου, επέκταση του modal δημιουργίας, μεγέθυνση εικόνων και προβολή σχετιζόμενων ζητημάτων.",
+    "description": "Περιγραφή επέκτασης"
+  },
+  "extName": {
+    "message": "Βελτιστοποιητής Jira",
+    "description": "Όνομα επέκτασης"
+  },
+  "settingsTitle": {
+    "message": "Ρυθμίσεις Jira Επέκτασης",
+    "description": "Κύριος τίτλος popup ρυθμίσεων"
+  },
+  "reloadRequired": {
+    "message": "Απαιτείται Επαναφόρτωση!",
+    "description": "Μήνυμα προειδοποίησης όταν απαιτείται επαναφόρτωση"
+  },
+  "globalSettings": {
+    "message": "Γενικές Ρυθμίσεις",
+    "description": "Τμήμα γενικών ρυθμίσεων"
+  },
+  "enableFeatures": {
+    "message": "Ενεργοποίηση Λειτουργιών",
+    "description": "Ετικέτα εναλλαγής για ενεργοποίηση όλων των λειτουργιών"
+  },
+  "features": {
+    "message": "Λειτουργίες",
+    "description": "Τμήμα ατομικών λειτουργιών"
+  },
+  "collapseRightPanel": {
+    "message": "Σύμπτυξη Δεξιού Πλαισίου",
+    "description": "Λειτουργία για σύμπτυξη δεξιού πλαισίου"
+  },
+  "expandCreateModal": {
+    "message": "Επέκταση Modal Δημιουργίας",
+    "description": "Λειτουργία για επέκταση modal δημιουργίας"
+  },
+  "viewLinkedTickets": {
+    "message": "Προβολή Συνδεδεμένων Αιτήσεων",
+    "description": "Λειτουργία για προβολή συνδεδεμένων αιτήσεων"
+  },
+  "expandImages": {
+    "message": "Επέκταση Εικόνων",
+    "description": "Λειτουργία για επέκταση εικόνων"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Σύμπτυξη δεξιού πλαισίου ]",
+    "description": "Τίτλος κουμπιού σύμπτυξης δεξιού πλαισίου"
+  },
+  "openRightPaneTitle": {
+    "message": "Άνοιγμα δεξιού πλαισίου ]",
+    "description": "Τίτλος όταν το δεξί πλαίσιο είναι συμπτυγμένο"
+  },
+  "collapseModalTitle": {
+    "message": "Σύμπτυξη modal ]",
+    "description": "Τίτλος κουμπιού σύμπτυξης modal"
+  },
+  "expandModalTitle": {
+    "message": "Επέκταση modal ]",
+    "description": "Τίτλος όταν το modal είναι συμπτυγμένο"
+  },
+  "expandImagesTitle": {
+    "message": "Επέκταση/Σύμπτυξη εικόνων (Ctrl+Shift+Z)",
+    "description": "Τίτλος κουμπιού επέκτασης/σύμπτυξης εικόνων"
+  },
+  "byExtension": {
+    "message": "Από την Επέκταση Jira Επέκταση",
+    "description": "Κείμενο απόδοσης επέκτασης"
+  },
+  "linkedTicketsTitle": {
+    "message": "Συνδεδεμένες Αιτήσεις",
+    "description": "Τίτλος tooltip συνδεδεμένων αιτήσεων"
+  },
+  "noLinkedTickets": {
+    "message": "Δεν βρέθηκαν συνδεδεμένες αιτήσεις.",
+    "description": "Μήνυμα όταν δεν βρέθηκαν συνδεδεμένες αιτήσεις"
+  },
+  "errorTitle": {
+    "message": "Σφάλμα",
+    "description": "Τίτλος σφάλματος"
+  },
+  "assigneeTitle": {
+    "message": "Ανατεθειμένος: $assignee$",
+    "description": "Tooltip ανατεθειμένου",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "Γιάννης Παπαδόπουλος"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Tooltip τύπου θέματος",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Σφάλμα"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "μπλοκάρει"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Tooltip τύπου θέματος",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Σφάλμα"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "μπλοκάρει"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Aria label θέματος",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "Σε Εξέλιξη"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Aria label θέματος",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "Σε Εξέλιξη"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Φόρτωση συνδεδεμένων αιτήσεων...",
-      "description": "Μήνυμα φόρτωσης για tooltip συνδεδεμένων αιτήσεων"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Φόρτωση συνδεδεμένων αιτήσεων...",
+    "description": "Μήνυμα φόρτωσης για tooltip συνδεδεμένων αιτήσεων"
+  }
 }

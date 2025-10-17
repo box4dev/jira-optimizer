@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. 添加按钮以扩展工作区，折叠右侧面板并添加模式以查看相关问题。",
-      "description": "扩展描述"
-   },
-   "extName": {
-      "message": "Jira 工作区扩展器",
-      "description": "扩展名称"
-   },
-   "settingsTitle": {
-      "message": "Jira 扩展设置",
-      "description": "设置弹出窗口的主要标题"
-   },
-   "reloadRequired": {
-      "message": "需要重新加载！",
-      "description": "需要重新加载时的警告消息"
-   },
-   "globalSettings": {
-      "message": "全局设置",
-      "description": "全局设置部分"
-   },
-   "enableFeatures": {
-      "message": "启用功能",
-      "description": "切换标签以启用所有功能"
-   },
-   "features": {
-      "message": "功能",
-      "description": "单个功能部分"
-   },
-   "collapseRightPanel": {
-      "message": "折叠右侧面板",
-      "description": "折叠右侧面板的功能"
-   },
-   "expandCreateModal": {
-      "message": "扩展创建模式",
-      "description": "扩展创建模式的功能"
-   },
-   "viewLinkedTickets": {
-      "message": "查看链接工单",
-      "description": "查看链接工单的功能"
-   },
-   "expandImages": {
-      "message": "扩展图片",
-      "description": "扩展图片的功能"
-   },
-   "collapseRightPaneTitle": {
-      "message": "折叠右侧面板 ]",
-      "description": "折叠右侧面板按钮的标题"
-   },
-   "openRightPaneTitle": {
-      "message": "打开右侧面板 ]",
-      "description": "右侧面板折叠时的标题"
-   },
-   "collapseModalTitle": {
-      "message": "折叠模态框 ]",
-      "description": "折叠模态框按钮的标题"
-   },
-   "expandModalTitle": {
-      "message": "扩展模态框 ]",
-      "description": "模态框折叠时的标题"
-   },
-   "expandImagesTitle": {
-      "message": "扩展/折叠图片 (Ctrl+Shift+Z)",
-      "description": "扩展/折叠图片按钮的标题"
-   },
-   "byExtension": {
-      "message": "由 Jira 扩展插件提供",
-      "description": "插件归属文本"
-   },
-   "linkedTicketsTitle": {
-      "message": "关联工单",
-      "description": "关联工单工具提示的标题"
-   },
-   "noLinkedTickets": {
-      "message": "未找到关联工单。",
-      "description": "未找到关联工单时的消息"
-   },
-   "errorTitle": {
-      "message": "错误",
-      "description": "错误标题"
-   },
-   "assigneeTitle": {
-      "message": "负责人：$assignee$",
-      "description": "负责人工具提示",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "张三"
-         }
+  "extDesc": {
+    "message": "Jira。添加按钮以折叠右侧面板、展开创建模态窗口、放大图片并查看关联工单.",
+    "description": "扩展描述"
+  },
+  "extName": {
+    "message": "Jira 优化器",
+    "description": "扩展名称"
+  },
+  "settingsTitle": {
+    "message": "Jira 扩展设置",
+    "description": "设置弹出窗口的主要标题"
+  },
+  "reloadRequired": {
+    "message": "需要重新加载！",
+    "description": "需要重新加载时的警告消息"
+  },
+  "globalSettings": {
+    "message": "全局设置",
+    "description": "全局设置部分"
+  },
+  "enableFeatures": {
+    "message": "启用功能",
+    "description": "切换标签以启用所有功能"
+  },
+  "features": {
+    "message": "功能",
+    "description": "单个功能部分"
+  },
+  "collapseRightPanel": {
+    "message": "折叠右侧面板",
+    "description": "折叠右侧面板的功能"
+  },
+  "expandCreateModal": {
+    "message": "扩展创建模式",
+    "description": "扩展创建模式的功能"
+  },
+  "viewLinkedTickets": {
+    "message": "查看链接工单",
+    "description": "查看链接工单的功能"
+  },
+  "expandImages": {
+    "message": "扩展图片",
+    "description": "扩展图片的功能"
+  },
+  "collapseRightPaneTitle": {
+    "message": "折叠右侧面板 ]",
+    "description": "折叠右侧面板按钮的标题"
+  },
+  "openRightPaneTitle": {
+    "message": "打开右侧面板 ]",
+    "description": "右侧面板折叠时的标题"
+  },
+  "collapseModalTitle": {
+    "message": "折叠模态框 ]",
+    "description": "折叠模态框按钮的标题"
+  },
+  "expandModalTitle": {
+    "message": "扩展模态框 ]",
+    "description": "模态框折叠时的标题"
+  },
+  "expandImagesTitle": {
+    "message": "扩展/折叠图片 (Ctrl+Shift+Z)",
+    "description": "扩展/折叠图片按钮的标题"
+  },
+  "byExtension": {
+    "message": "由 Jira 扩展插件提供",
+    "description": "插件归属文本"
+  },
+  "linkedTicketsTitle": {
+    "message": "关联工单",
+    "description": "关联工单工具提示的标题"
+  },
+  "noLinkedTickets": {
+    "message": "未找到关联工单。",
+    "description": "未找到关联工单时的消息"
+  },
+  "errorTitle": {
+    "message": "错误",
+    "description": "错误标题"
+  },
+  "assigneeTitle": {
+    "message": "负责人：$assignee$",
+    "description": "负责人工具提示",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "张三"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "问题类型工具提示",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "缺陷"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "阻塞"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "问题类型工具提示",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "缺陷"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "阻塞"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "问题 aria 标签",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "进行中"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "问题 aria 标签",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "进行中"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "正在加载关联工单...",
-      "description": "关联工单工具提示的加载消息"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "正在加载关联工单...",
+    "description": "关联工单工具提示的加载消息"
+  }
 }

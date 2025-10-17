@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. اضافه کردن دکمه ها برای گسترش فضای کاری، جمع کردن پنل راست و مدال برای مشاهده مشکلات مرتبط.",
-      "description": "توضیح افزونه"
-   },
-   "extName": {
-      "message": "گسترش‌دهنده فضای کاری Jira",
-      "description": "نام افزونه"
-   },
-   "settingsTitle": {
-      "message": "تنظیمات گسترش Jira",
-      "description": "عنوان اصلی پنجره تنظیمات"
-   },
-   "reloadRequired": {
-      "message": "بارگذاری مجدد لازم است!",
-      "description": "پیام هشدار هنگام نیاز به بارگذاری مجدد"
-   },
-   "globalSettings": {
-      "message": "تنظیمات عمومی",
-      "description": "بخش تنظیمات عمومی"
-   },
-   "enableFeatures": {
-      "message": "فعال کردن ویژگی ها",
-      "description": "برچسب تغییر برای فعال کردن تمام ویژگی ها"
-   },
-   "features": {
-      "message": "ویژگی ها",
-      "description": "بخش ویژگی های جداگانه"
-   },
-   "collapseRightPanel": {
-      "message": "جمع کردن پنل راست",
-      "description": "ویژگی برای جمع کردن پنل راست"
-   },
-   "expandCreateModal": {
-      "message": "گسترش مدال ایجاد",
-      "description": "ویژگی برای گسترش مدال ایجاد"
-   },
-   "viewLinkedTickets": {
-      "message": "مشاهده تیکت های مرتبط",
-      "description": "ویژگی برای مشاهده تیکت های مرتبط"
-   },
-   "expandImages": {
-      "message": "گسترش تصاویر",
-      "description": "ویژگی برای گسترش تصاویر"
-   },
-   "collapseRightPaneTitle": {
-      "message": "جمع کردن پنل راست ]",
-      "description": "عنوان دکمه جمع کردن پنل راست"
-   },
-   "openRightPaneTitle": {
-      "message": "باز کردن پنل راست ]",
-      "description": "عنوان وقتی پنل راست جمع شده است"
-   },
-   "collapseModalTitle": {
-      "message": "جمع کردن مدال ]",
-      "description": "عنوان دکمه جمع کردن مدال"
-   },
-   "expandModalTitle": {
-      "message": "گسترش مدال ]",
-      "description": "عنوان وقتی مدال جمع شده است"
-   },
-   "expandImagesTitle": {
-      "message": "گسترش/جمع کردن تصاویر (Ctrl+Shift+Z)",
-      "description": "عنوان دکمه گسترش/جمع کردن تصاویر"
-   },
-   "byExtension": {
-      "message": "توسط افزونه گسترش Jira",
-      "description": "متن نسبت افزونه"
-   },
-   "linkedTicketsTitle": {
-      "message": "تیکت های مرتبط",
-      "description": "عنوان راهنمای ابزار تیکت های مرتبط"
-   },
-   "noLinkedTickets": {
-      "message": "تیکت مرتبطی یافت نشد.",
-      "description": "پیام وقتی تیکت مرتبطی یافت نشد"
-   },
-   "errorTitle": {
-      "message": "خطا",
-      "description": "عنوان خطا"
-   },
-   "assigneeTitle": {
-      "message": "محول شده به: $assignee$",
-      "description": "راهنمای ابزار محول شده",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "جان دو"
-         }
+  "extDesc": {
+    "message": "Jira. دکمه‌هایی اضافه می‌کند برای جمع‌کردن پنل سمت راست، گسترش پنجرهٔ مدال ایجاد، گسترش تصاویر و نمایش تیکت‌های مرتبط.",
+    "description": "توضیح افزونه"
+  },
+  "extName": {
+    "message": "بهینه‌ساز Jira",
+    "description": "نام افزونه"
+  },
+  "settingsTitle": {
+    "message": "تنظیمات گسترش Jira",
+    "description": "عنوان اصلی پنجره تنظیمات"
+  },
+  "reloadRequired": {
+    "message": "بارگذاری مجدد لازم است!",
+    "description": "پیام هشدار هنگام نیاز به بارگذاری مجدد"
+  },
+  "globalSettings": {
+    "message": "تنظیمات عمومی",
+    "description": "بخش تنظیمات عمومی"
+  },
+  "enableFeatures": {
+    "message": "فعال کردن ویژگی ها",
+    "description": "برچسب تغییر برای فعال کردن تمام ویژگی ها"
+  },
+  "features": {
+    "message": "ویژگی ها",
+    "description": "بخش ویژگی های جداگانه"
+  },
+  "collapseRightPanel": {
+    "message": "جمع کردن پنل راست",
+    "description": "ویژگی برای جمع کردن پنل راست"
+  },
+  "expandCreateModal": {
+    "message": "گسترش مدال ایجاد",
+    "description": "ویژگی برای گسترش مدال ایجاد"
+  },
+  "viewLinkedTickets": {
+    "message": "مشاهده تیکت های مرتبط",
+    "description": "ویژگی برای مشاهده تیکت های مرتبط"
+  },
+  "expandImages": {
+    "message": "گسترش تصاویر",
+    "description": "ویژگی برای گسترش تصاویر"
+  },
+  "collapseRightPaneTitle": {
+    "message": "جمع کردن پنل راست ]",
+    "description": "عنوان دکمه جمع کردن پنل راست"
+  },
+  "openRightPaneTitle": {
+    "message": "باز کردن پنل راست ]",
+    "description": "عنوان وقتی پنل راست جمع شده است"
+  },
+  "collapseModalTitle": {
+    "message": "جمع کردن مدال ]",
+    "description": "عنوان دکمه جمع کردن مدال"
+  },
+  "expandModalTitle": {
+    "message": "گسترش مدال ]",
+    "description": "عنوان وقتی مدال جمع شده است"
+  },
+  "expandImagesTitle": {
+    "message": "گسترش/جمع کردن تصاویر (Ctrl+Shift+Z)",
+    "description": "عنوان دکمه گسترش/جمع کردن تصاویر"
+  },
+  "byExtension": {
+    "message": "توسط افزونه گسترش Jira",
+    "description": "متن نسبت افزونه"
+  },
+  "linkedTicketsTitle": {
+    "message": "تیکت های مرتبط",
+    "description": "عنوان راهنمای ابزار تیکت های مرتبط"
+  },
+  "noLinkedTickets": {
+    "message": "تیکت مرتبطی یافت نشد.",
+    "description": "پیام وقتی تیکت مرتبطی یافت نشد"
+  },
+  "errorTitle": {
+    "message": "خطا",
+    "description": "عنوان خطا"
+  },
+  "assigneeTitle": {
+    "message": "محول شده به: $assignee$",
+    "description": "راهنمای ابزار محول شده",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "جان دو"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "راهنمای ابزار نوع مسئله",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "باگ"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "مسدود می کند"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "راهنمای ابزار نوع مسئله",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "باگ"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "مسدود می کند"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "برچسب aria مسئله",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "در حال انجام"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "برچسب aria مسئله",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "در حال انجام"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "بارگذاری تیکت های مرتبط...",
-      "description": "پیام بارگذاری برای راهنمای ابزار تیکت های مرتبط"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "بارگذاری تیکت های مرتبط...",
+    "description": "پیام بارگذاری برای راهنمای ابزار تیکت های مرتبط"
+  }
 }

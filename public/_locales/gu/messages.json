@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. વર્કસ્પેસ વિસ્તૃત કરવા માટે બટન ઉમેરો, ડાબી પેન અને સંબંધિત મુદ્દાઓ જોવા માટે મોડલ જોડો.",
-      "description": "એક્સટેંશનનું વર્ણન"
-   },
-   "extName": {
-      "message": "Jira વર્કસ્પેસ વિસ્તારક",
-      "description": "એક્સટેંશનનું નામ"
-   },
-   "settingsTitle": {
-      "message": "Jira વિસ્તૃત સેટિંગ્સ",
-      "description": "સેટિંગ્સ પોપઅપનું મુખ્ય શીર્ષક"
-   },
-   "reloadRequired": {
-      "message": "રીલોડ જરૂરી છે!",
-      "description": "રીલોડ જરૂરી હોય ત્યારે ચેતવણી સંદેશ"
-   },
-   "globalSettings": {
-      "message": "ગ્લોબલ સેટિંગ્સ",
-      "description": "ગ્લોબલ સેટિંગ્સ વિભાગ"
-   },
-   "enableFeatures": {
-      "message": "ફીચર્સ સક્ષમ કરો",
-      "description": "તમામ ફીચર્સ સક્ષમ કરવા માટે ટોગલ લેબલ"
-   },
-   "features": {
-      "message": "ફીચર્સ",
-      "description": "વ્યક્તિગત ફીચર્સ વિભાગ"
-   },
-   "collapseRightPanel": {
-      "message": "જમણી પેનલને ભંગ કરો",
-      "description": "જમણી પેનલ ભંગ કરવાની ફીચર"
-   },
-   "expandCreateModal": {
-      "message": "ક્રિએટ મોડલ વિસ્તૃત કરો",
-      "description": "ક્રિએટ મોડલ વિસ્તૃત કરવાની ફીચર"
-   },
-   "viewLinkedTickets": {
-      "message": "લિંક કરેલ ટિકિટ્સ જુઓ",
-      "description": "લિંક કરેલ ટિકિટ્સ જોવાની ફીચર"
-   },
-   "expandImages": {
-      "message": "ઇમેજીસ વિસ્તૃત કરો",
-      "description": "ઇમેજીસ વિસ્તૃત કરવાની ફીચર"
-   },
-   "collapseRightPaneTitle": {
-      "message": "જમણી પેનલને ભંગ કરો ]",
-      "description": "જમણી પેનલ ભંગ કરવાના બટનનું શીર્ષક"
-   },
-   "openRightPaneTitle": {
-      "message": "જમણી પેનલને ખોલો ]",
-      "description": "જમણી પેનલ ભંગ થયેલ હોય ત્યારે શીર્ષક"
-   },
-   "collapseModalTitle": {
-      "message": "મોડલને ભંગ કરો ]",
-      "description": "મોડલ ભંગ કરવાના બટનનું શીર્ષક"
-   },
-   "expandModalTitle": {
-      "message": "મોડલને વિસ્તૃત કરો ]",
-      "description": "મોડલ ભંગ થયેલ હોય ત્યારે શીર્ષક"
-   },
-   "expandImagesTitle": {
-      "message": "ઇમેજીસ વિસ્તૃત/ભંગ કરો (Ctrl+Shift+Z)",
-      "description": "ઇમેજીસ વિસ્તૃત/ભંગ કરવાના બટનનું શીર્ષક"
-   },
-   "byExtension": {
-      "message": "Jira વિસ્તૃત એક્સટેંશન દ્વારા",
-      "description": "એક્સટેંશન અટ્રિબ્યુશન ટેક્સ્ટ"
-   },
-   "linkedTicketsTitle": {
-      "message": "લિંક કરેલ ટિકિટ્સ",
-      "description": "લિંક કરેલ ટિકિટ્સ ટૂલટિપનું શીર્ષક"
-   },
-   "noLinkedTickets": {
-      "message": "કોઈ લિંક કરેલ ટિકિટ્સ નથી.",
-      "description": "કોઈ લિંક કરેલ ટિકિટ્સ મળી ન હોય ત્યારે સંદેશ"
-   },
-   "errorTitle": {
-      "message": "ભૂલ",
-      "description": "ભૂલનું શીર્ષક"
-   },
-   "assigneeTitle": {
-      "message": "એસાઇની: $assignee$",
-      "description": "એસાઇની ટૂલટિપ",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "જ્હોન ડો"
-         }
+  "extDesc": {
+    "message": "Jira. જમણી પેનલ સંકોચવા, ક્રિએટ મોડલ વધારવા, છબીઓ વધારવા અને સંબંધિત ટિકિટ જોવા માટે બટનો ઉમેરે છે.",
+    "description": "એક્સટેંશનનું વર્ણન"
+  },
+  "extName": {
+    "message": "Jira Optimizer",
+    "description": "એક્સટેંશનનું નામ"
+  },
+  "settingsTitle": {
+    "message": "Jira વિસ્તૃત સેટિંગ્સ",
+    "description": "સેટિંગ્સ પોપઅપનું મુખ્ય શીર્ષક"
+  },
+  "reloadRequired": {
+    "message": "રીલોડ જરૂરી છે!",
+    "description": "રીલોડ જરૂરી હોય ત્યારે ચેતવણી સંદેશ"
+  },
+  "globalSettings": {
+    "message": "ગ્લોબલ સેટિંગ્સ",
+    "description": "ગ્લોબલ સેટિંગ્સ વિભાગ"
+  },
+  "enableFeatures": {
+    "message": "ફીચર્સ સક્ષમ કરો",
+    "description": "તમામ ફીચર્સ સક્ષમ કરવા માટે ટોગલ લેબલ"
+  },
+  "features": {
+    "message": "ફીચર્સ",
+    "description": "વ્યક્તિગત ફીચર્સ વિભાગ"
+  },
+  "collapseRightPanel": {
+    "message": "જમણી પેનલને ભંગ કરો",
+    "description": "જમણી પેનલ ભંગ કરવાની ફીચર"
+  },
+  "expandCreateModal": {
+    "message": "ક્રિએટ મોડલ વિસ્તૃત કરો",
+    "description": "ક્રિએટ મોડલ વિસ્તૃત કરવાની ફીચર"
+  },
+  "viewLinkedTickets": {
+    "message": "લિંક કરેલ ટિકિટ્સ જુઓ",
+    "description": "લિંક કરેલ ટિકિટ્સ જોવાની ફીચર"
+  },
+  "expandImages": {
+    "message": "ઇમેજીસ વિસ્તૃત કરો",
+    "description": "ઇમેજીસ વિસ્તૃત કરવાની ફીચર"
+  },
+  "collapseRightPaneTitle": {
+    "message": "જમણી પેનલને ભંગ કરો ]",
+    "description": "જમણી પેનલ ભંગ કરવાના બટનનું શીર્ષક"
+  },
+  "openRightPaneTitle": {
+    "message": "જમણી પેનલને ખોલો ]",
+    "description": "જમણી પેનલ ભંગ થયેલ હોય ત્યારે શીર્ષક"
+  },
+  "collapseModalTitle": {
+    "message": "મોડલને ભંગ કરો ]",
+    "description": "મોડલ ભંગ કરવાના બટનનું શીર્ષક"
+  },
+  "expandModalTitle": {
+    "message": "મોડલને વિસ્તૃત કરો ]",
+    "description": "મોડલ ભંગ થયેલ હોય ત્યારે શીર્ષક"
+  },
+  "expandImagesTitle": {
+    "message": "ઇમેજીસ વિસ્તૃત/ભંગ કરો (Ctrl+Shift+Z)",
+    "description": "ઇમેજીસ વિસ્તૃત/ભંગ કરવાના બટનનું શીર્ષક"
+  },
+  "byExtension": {
+    "message": "Jira વિસ્તૃત એક્સટેંશન દ્વારા",
+    "description": "એક્સટેંશન અટ્રિબ્યુશન ટેક્સ્ટ"
+  },
+  "linkedTicketsTitle": {
+    "message": "લિંક કરેલ ટિકિટ્સ",
+    "description": "લિંક કરેલ ટિકિટ્સ ટૂલટિપનું શીર્ષક"
+  },
+  "noLinkedTickets": {
+    "message": "કોઈ લિંક કરેલ ટિકિટ્સ નથી.",
+    "description": "કોઈ લિંક કરેલ ટિકિટ્સ મળી ન હોય ત્યારે સંદેશ"
+  },
+  "errorTitle": {
+    "message": "ભૂલ",
+    "description": "ભૂલનું શીર્ષક"
+  },
+  "assigneeTitle": {
+    "message": "એસાઇની: $assignee$",
+    "description": "એસાઇની ટૂલટિપ",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "જ્હોન ડો"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "ઇશ્યુ પ્રકાર ટૂલટિપ",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "બગ"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "બ્લોક કરે છે"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "ઇશ્યુ પ્રકાર ટૂલટિપ",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "બગ"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "બ્લોક કરે છે"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "ઇશ્યુ aria લેબલ",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "ચાલુ છે"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "ઇશ્યુ aria લેબલ",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "ચાલુ છે"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "લિંક કરેલ ટિકિટ્સ લોડ કરી રહ્યાં છે...",
-      "description": "લિંક કરેલ ટિકિટ્સ ટૂલટિપ માટે લોડિંગ સંદેશ"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "લિંક કરેલ ટિકિટ્સ લોડ કરી રહ્યાં છે...",
+    "description": "લિંક કરેલ ટિકિટ્સ ટૂલટિપ માટે લોડિંગ સંદેશ"
+  }
 }

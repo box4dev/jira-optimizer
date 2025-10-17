@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Adiciona botões para expandir o espaço de trabalho, recolher o painel direito e o modal para visualizar problemas relacionados.",
-      "description": "Descrição da extensão"
-   },
-   "extName": {
-      "message": "Expansor de Espaço de Trabalho do Jira",
-      "description": "Nome da extensão"
-   },
-   "settingsTitle": {
-      "message": "Configurações do Jira Expand",
-      "description": "Título principal do popup de configurações"
-   },
-   "reloadRequired": {
-      "message": "Recarregamento necessário!",
-      "description": "Mensagem de aviso quando recarregamento é necessário"
-   },
-   "globalSettings": {
-      "message": "Configurações Globais",
-      "description": "Seção de configurações globais"
-   },
-   "enableFeatures": {
-      "message": "Habilitar Funcionalidades",
-      "description": "Label do toggle para habilitar todas as funcionalidades"
-   },
-   "features": {
-      "message": "Funcionalidades",
-      "description": "Seção de funcionalidades individuais"
-   },
-   "collapseRightPanel": {
-      "message": "Recolher Painel Direito",
-      "description": "Funcionalidade para recolher o painel direito"
-   },
-   "expandCreateModal": {
-      "message": "Expandir Modal de Criação",
-      "description": "Funcionalidade para expandir o modal de criação"
-   },
-   "viewLinkedTickets": {
-      "message": "Visualizar Tickets Vinculados",
-      "description": "Funcionalidade para visualizar tickets vinculados"
-   },
-   "expandImages": {
-      "message": "Expandir Imagens",
-      "description": "Funcionalidade para expandir imagens"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Recolher painel direito ]",
-      "description": "Título do botão para recolher o painel direito"
-   },
-   "openRightPaneTitle": {
-      "message": "Abrir painel direito ]",
-      "description": "Título quando o painel direito está recolhido"
-   },
-   "collapseModalTitle": {
-      "message": "Recolher modal ]",
-      "description": "Título do botão para recolher o modal"
-   },
-   "expandModalTitle": {
-      "message": "Expandir modal ]",
-      "description": "Título quando o modal está recolhido"
-   },
-   "expandImagesTitle": {
-      "message": "Expandir/Recolher imagens (Ctrl+Shift+Z)",
-      "description": "Título do botão para expandir/recolher imagens"
-   },
-   "byExtension": {
-      "message": "Por Jira Expand Extension",
-      "description": "Texto de atribuição da extensão"
-   },
-   "linkedTicketsTitle": {
-      "message": "Tickets Vinculados",
-      "description": "Título do tooltip de tickets vinculados"
-   },
-   "noLinkedTickets": {
-      "message": "Nenhum ticket vinculado.",
-      "description": "Mensagem quando não há tickets vinculados encontrados"
-   },
-   "errorTitle": {
-      "message": "Erro",
-      "description": "Título de erro"
-   },
-   "assigneeTitle": {
-      "message": "Responsável: $assignee$",
-      "description": "Tooltip do responsável",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "João Silva"
-         }
+  "extDesc": {
+    "message": "Jira. Adiciona botões para Recolher Painel Direito, Expandir Modal de Criação, Expandir Imagens e Visualizar Tickets Vinculados.",
+    "description": "Descrição da extensão"
+  },
+  "extName": {
+    "message": "Jira Optimizer",
+    "description": "Nome da extensão"
+  },
+  "settingsTitle": {
+    "message": "Configurações do Jira Expand",
+    "description": "Título principal do popup de configurações"
+  },
+  "reloadRequired": {
+    "message": "Recarregamento necessário!",
+    "description": "Mensagem de aviso quando recarregamento é necessário"
+  },
+  "globalSettings": {
+    "message": "Configurações Globais",
+    "description": "Seção de configurações globais"
+  },
+  "enableFeatures": {
+    "message": "Habilitar Funcionalidades",
+    "description": "Label do toggle para habilitar todas as funcionalidades"
+  },
+  "features": {
+    "message": "Funcionalidades",
+    "description": "Seção de funcionalidades individuais"
+  },
+  "collapseRightPanel": {
+    "message": "Recolher Painel Direito",
+    "description": "Funcionalidade para recolher o painel direito"
+  },
+  "expandCreateModal": {
+    "message": "Expandir Modal de Criação",
+    "description": "Funcionalidade para expandir o modal de criação"
+  },
+  "viewLinkedTickets": {
+    "message": "Visualizar Tickets Vinculados",
+    "description": "Funcionalidade para visualizar tickets vinculados"
+  },
+  "expandImages": {
+    "message": "Expandir Imagens",
+    "description": "Funcionalidade para expandir imagens"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Recolher painel direito ]",
+    "description": "Título do botão para recolher o painel direito"
+  },
+  "openRightPaneTitle": {
+    "message": "Abrir painel direito ]",
+    "description": "Título quando o painel direito está recolhido"
+  },
+  "collapseModalTitle": {
+    "message": "Recolher modal ]",
+    "description": "Título do botão para recolher o modal"
+  },
+  "expandModalTitle": {
+    "message": "Expandir modal ]",
+    "description": "Título quando o modal está recolhido"
+  },
+  "expandImagesTitle": {
+    "message": "Expandir/Recolher imagens (Ctrl+Shift+Z)",
+    "description": "Título do botão para expandir/recolher imagens"
+  },
+  "byExtension": {
+    "message": "Por Jira Expand Extension",
+    "description": "Texto de atribuição da extensão"
+  },
+  "linkedTicketsTitle": {
+    "message": "Tickets Vinculados",
+    "description": "Título do tooltip de tickets vinculados"
+  },
+  "noLinkedTickets": {
+    "message": "Nenhum ticket vinculado.",
+    "description": "Mensagem quando não há tickets vinculados encontrados"
+  },
+  "errorTitle": {
+    "message": "Erro",
+    "description": "Título de erro"
+  },
+  "assigneeTitle": {
+    "message": "Responsável: $assignee$",
+    "description": "Tooltip do responsável",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "João Silva"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Tooltip do tipo de issue",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Bug"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "bloqueia"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Tooltip do tipo de issue",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Bug"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "bloqueia"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Rótulo aria da issue",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "Em Andamento"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Rótulo aria da issue",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "Em Andamento"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Carregando tickets vinculados...",
-      "description": "Mensagem de carregamento para o tooltip de tickets vinculados"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Carregando tickets vinculados...",
+    "description": "Mensagem de carregamento para o tooltip de tickets vinculados"
+  }
 }

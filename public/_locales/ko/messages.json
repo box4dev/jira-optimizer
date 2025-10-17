@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira 작업 공간 확장을 위한 버튼 추가, 오른쪽 패널 접기 및 관련 문제를 보기 위한 모달 추가",
-      "description": "확장 프로그램 설명"
-   },
-   "extName": {
-      "message": "Jira 작업 공간 익스팬더",
-      "description": "확장 프로그램 이름"
-   },
-   "settingsTitle": {
-      "message": "Jira 확장 설정",
-      "description": "설정 팝업의 메인 제목"
-   },
-   "reloadRequired": {
-      "message": "다시 로드 필요!",
-      "description": "다시 로드가 필요할 때 경고 메시지"
-   },
-   "globalSettings": {
-      "message": "전역 설정",
-      "description": "전역 설정 섹션"
-   },
-   "enableFeatures": {
-      "message": "기능 활성화",
-      "description": "모든 기능을 활성화하기 위한 토글 레이블"
-   },
-   "features": {
-      "message": "기능",
-      "description": "개별 기능 섹션"
-   },
-   "collapseRightPanel": {
-      "message": "오른쪽 패널 접기",
-      "description": "오른쪽 패널을 접는 기능"
-   },
-   "expandCreateModal": {
-      "message": "생성 모달 확장",
-      "description": "생성 모달을 확장하는 기능"
-   },
-   "viewLinkedTickets": {
-      "message": "연결된 티켓 보기",
-      "description": "연결된 티켓을 보는 기능"
-   },
-   "expandImages": {
-      "message": "이미지 확장",
-      "description": "이미지를 확장하는 기능"
-   },
-   "collapseRightPaneTitle": {
-      "message": "오른쪽 패널 접기 ]",
-      "description": "오른쪽 패널을 접는 버튼의 제목"
-   },
-   "openRightPaneTitle": {
-      "message": "오른쪽 패널 열기 ]",
-      "description": "오른쪽 패널이 접혀 있는 경우 제목"
-   },
-   "collapseModalTitle": {
-      "message": "모달 접기 ]",
-      "description": "모달을 접는 버튼의 제목"
-   },
-   "expandModalTitle": {
-      "message": "모달 확장 ]",
-      "description": "모달이 접혀 있는 경우 제목"
-   },
-   "expandImagesTitle": {
-      "message": "이미지 확장/접기 (Ctrl+Shift+Z)",
-      "description": "이미지를 확장/접는 버튼의 제목"
-   },
-   "byExtension": {
-      "message": "Jira 확장 프로그램에 의해",
-      "description": "확장 프로그램 속성 텍스트"
-   },
-   "linkedTicketsTitle": {
-      "message": "연결된 티켓",
-      "description": "연결된 티켓 툴팁 제목"
-   },
-   "noLinkedTickets": {
-      "message": "연결된 티켓이 없습니다.",
-      "description": "연결된 티켓을 찾을 수 없는 경우 메시지"
-   },
-   "errorTitle": {
-      "message": "오류",
-      "description": "오류 제목"
-   },
-   "assigneeTitle": {
-      "message": "담당자: $assignee$",
-      "description": "담당자 툴팁",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "김철수"
-         }
+  "extDesc": {
+    "message": "Jira. 오른쪽 패널 축소, 생성 모달 확장, 이미지 확대, 연결된 티켓 보기 버튼을 추가합니다.",
+    "description": "확장 프로그램 설명"
+  },
+  "extName": {
+    "message": "Jira 최적화",
+    "description": "확장 프로그램 이름"
+  },
+  "settingsTitle": {
+    "message": "Jira 확장 설정",
+    "description": "설정 팝업의 메인 제목"
+  },
+  "reloadRequired": {
+    "message": "다시 로드 필요!",
+    "description": "다시 로드가 필요할 때 경고 메시지"
+  },
+  "globalSettings": {
+    "message": "전역 설정",
+    "description": "전역 설정 섹션"
+  },
+  "enableFeatures": {
+    "message": "기능 활성화",
+    "description": "모든 기능을 활성화하기 위한 토글 레이블"
+  },
+  "features": {
+    "message": "기능",
+    "description": "개별 기능 섹션"
+  },
+  "collapseRightPanel": {
+    "message": "오른쪽 패널 접기",
+    "description": "오른쪽 패널을 접는 기능"
+  },
+  "expandCreateModal": {
+    "message": "생성 모달 확장",
+    "description": "생성 모달을 확장하는 기능"
+  },
+  "viewLinkedTickets": {
+    "message": "연결된 티켓 보기",
+    "description": "연결된 티켓을 보는 기능"
+  },
+  "expandImages": {
+    "message": "이미지 확장",
+    "description": "이미지를 확장하는 기능"
+  },
+  "collapseRightPaneTitle": {
+    "message": "오른쪽 패널 접기 ]",
+    "description": "오른쪽 패널을 접는 버튼의 제목"
+  },
+  "openRightPaneTitle": {
+    "message": "오른쪽 패널 열기 ]",
+    "description": "오른쪽 패널이 접혀 있는 경우 제목"
+  },
+  "collapseModalTitle": {
+    "message": "모달 접기 ]",
+    "description": "모달을 접는 버튼의 제목"
+  },
+  "expandModalTitle": {
+    "message": "모달 확장 ]",
+    "description": "모달이 접혀 있는 경우 제목"
+  },
+  "expandImagesTitle": {
+    "message": "이미지 확장/접기 (Ctrl+Shift+Z)",
+    "description": "이미지를 확장/접는 버튼의 제목"
+  },
+  "byExtension": {
+    "message": "Jira 확장 프로그램에 의해",
+    "description": "확장 프로그램 속성 텍스트"
+  },
+  "linkedTicketsTitle": {
+    "message": "연결된 티켓",
+    "description": "연결된 티켓 툴팁 제목"
+  },
+  "noLinkedTickets": {
+    "message": "연결된 티켓이 없습니다.",
+    "description": "연결된 티켓을 찾을 수 없는 경우 메시지"
+  },
+  "errorTitle": {
+    "message": "오류",
+    "description": "오류 제목"
+  },
+  "assigneeTitle": {
+    "message": "담당자: $assignee$",
+    "description": "담당자 툴팁",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "김철수"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "이슈 유형 툴팁",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "버그"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "차단"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "이슈 유형 툴팁",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "버그"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "차단"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "이슈 aria 라벨",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "진행 중"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "이슈 aria 라벨",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "진행 중"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "연결된 티켓 로딩 중...",
-      "description": "연결된 티켓 툴팁용 로딩 메시지"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "연결된 티켓 로딩 중...",
+    "description": "연결된 티켓 툴팁용 로딩 메시지"
+  }
 }

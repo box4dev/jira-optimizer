@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira。ワークスペースを拡張するためのボタンを追加し、右パネルを折りたたみ、関連する問題を表示するためのモーダルを追加します。",
-      "description": "拡張機能の説明"
-   },
-   "extName": {
-      "message": "Jira ワークスペースエキスパンダー",
-      "description": "拡張機能の名前"
-   },
-   "settingsTitle": {
-      "message": "Jira 拡張設定",
-      "description": "設定ポップアップのメインタイトル"
-   },
-   "reloadRequired": {
-      "message": "再読み込みが必要です！",
-      "description": "再読み込みが必要な場合の警告メッセージ"
-   },
-   "globalSettings": {
-      "message": "グローバル設定",
-      "description": "グローバル設定セクション"
-   },
-   "enableFeatures": {
-      "message": "機能を有効化",
-      "description": "すべての機能を有効化するためのトグルラベル"
-   },
-   "features": {
-      "message": "機能",
-      "description": "個別の機能セクション"
-   },
-   "collapseRightPanel": {
-      "message": "右パネルを折りたたむ",
-      "description": "右パネルを折りたたむ機能"
-   },
-   "expandCreateModal": {
-      "message": "作成モーダルを拡張",
-      "description": "作成モーダルを拡張する機能"
-   },
-   "viewLinkedTickets": {
-      "message": "リンクされたチケットを表示",
-      "description": "リンクされたチケットを表示する機能"
-   },
-   "expandImages": {
-      "message": "画像を拡張",
-      "description": "画像を拡張する機能"
-   },
-   "collapseRightPaneTitle": {
-      "message": "右パネルを折りたたむ ]",
-      "description": "右パネルを折りたたむボタンのタイトル"
-   },
-   "openRightPaneTitle": {
-      "message": "右パネルを開く ]",
-      "description": "右パネルが折りたたまれている場合のタイトル"
-   },
-   "collapseModalTitle": {
-      "message": "モーダルを折りたたむ ]",
-      "description": "モーダルを折りたたむボタンのタイトル"
-   },
-   "expandModalTitle": {
-      "message": "モーダルを拡張 ]",
-      "description": "モーダルが折りたたまれている場合のタイトル"
-   },
-   "expandImagesTitle": {
-      "message": "画像を拡張/折りたたむ (Ctrl+Shift+Z)",
-      "description": "画像を拡張/折りたたむボタンのタイトル"
-   },
-   "byExtension": {
-      "message": "Jira 拡張拡張機能による",
-      "description": "拡張機能の帰属テキスト"
-   },
-   "linkedTicketsTitle": {
-      "message": "リンクされたチケット",
-      "description": "リンクされたチケットのツールチップのタイトル"
-   },
-   "noLinkedTickets": {
-      "message": "リンクされたチケットがありません。",
-      "description": "リンクされたチケットが見つからない場合のメッセージ"
-   },
-   "errorTitle": {
-      "message": "エラー",
-      "description": "エラーのタイトル"
-   },
-   "assigneeTitle": {
-      "message": "担当者: $assignee$",
-      "description": "担当者のツールチップ",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "山田太郎"
-         }
+  "extDesc": {
+    "message": "Jira。右パネルを折りたたむ、作成モーダルを展開する、画像を拡大する、関連チケットを表示するボタンを追加します。",
+    "description": "拡張機能の説明"
+  },
+  "extName": {
+    "message": "Jira オプティマイザー",
+    "description": "拡張機能の名前"
+  },
+  "settingsTitle": {
+    "message": "Jira 拡張設定",
+    "description": "設定ポップアップのメインタイトル"
+  },
+  "reloadRequired": {
+    "message": "再読み込みが必要です！",
+    "description": "再読み込みが必要な場合の警告メッセージ"
+  },
+  "globalSettings": {
+    "message": "グローバル設定",
+    "description": "グローバル設定セクション"
+  },
+  "enableFeatures": {
+    "message": "機能を有効化",
+    "description": "すべての機能を有効化するためのトグルラベル"
+  },
+  "features": {
+    "message": "機能",
+    "description": "個別の機能セクション"
+  },
+  "collapseRightPanel": {
+    "message": "右パネルを折りたたむ",
+    "description": "右パネルを折りたたむ機能"
+  },
+  "expandCreateModal": {
+    "message": "作成モーダルを拡張",
+    "description": "作成モーダルを拡張する機能"
+  },
+  "viewLinkedTickets": {
+    "message": "リンクされたチケットを表示",
+    "description": "リンクされたチケットを表示する機能"
+  },
+  "expandImages": {
+    "message": "画像を拡張",
+    "description": "画像を拡張する機能"
+  },
+  "collapseRightPaneTitle": {
+    "message": "右パネルを折りたたむ ]",
+    "description": "右パネルを折りたたむボタンのタイトル"
+  },
+  "openRightPaneTitle": {
+    "message": "右パネルを開く ]",
+    "description": "右パネルが折りたたまれている場合のタイトル"
+  },
+  "collapseModalTitle": {
+    "message": "モーダルを折りたたむ ]",
+    "description": "モーダルを折りたたむボタンのタイトル"
+  },
+  "expandModalTitle": {
+    "message": "モーダルを拡張 ]",
+    "description": "モーダルが折りたたまれている場合のタイトル"
+  },
+  "expandImagesTitle": {
+    "message": "画像を拡張/折りたたむ (Ctrl+Shift+Z)",
+    "description": "画像を拡張/折りたたむボタンのタイトル"
+  },
+  "byExtension": {
+    "message": "Jira 拡張拡張機能による",
+    "description": "拡張機能の帰属テキスト"
+  },
+  "linkedTicketsTitle": {
+    "message": "リンクされたチケット",
+    "description": "リンクされたチケットのツールチップのタイトル"
+  },
+  "noLinkedTickets": {
+    "message": "リンクされたチケットがありません。",
+    "description": "リンクされたチケットが見つからない場合のメッセージ"
+  },
+  "errorTitle": {
+    "message": "エラー",
+    "description": "エラーのタイトル"
+  },
+  "assigneeTitle": {
+    "message": "担当者: $assignee$",
+    "description": "担当者のツールチップ",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "山田太郎"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "課題タイプのツールチップ",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "バグ"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "ブロック"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "課題タイプのツールチップ",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "バグ"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "ブロック"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "課題のariaラベル",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "進行中"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "課題のariaラベル",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "進行中"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "リンクされたチケットを読み込み中...",
-      "description": "リンクされたチケットのツールチップの読み込みメッセージ"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "リンクされたチケットを読み込み中...",
+    "description": "リンクされたチケットのツールチップの読み込みメッセージ"
+  }
 }

@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Thêm nút để mở rộng Không gian Làm việc, ẩn bảng điều khiển bên phải và thêm mô hình để xem các vấn đề liên quan.",
-      "description": "Mô tả tiện ích"
-   },
-   "extName": {
-      "message": "Bộ Mở rộng Không gian Làm việc Jira",
-      "description": "Tên tiện ích"
-   },
-   "settingsTitle": {
-      "message": "Cài đặt Mở rộng Jira",
-      "description": "Tiêu đề chính của cửa sổ bật lên cài đặt"
-   },
-   "reloadRequired": {
-      "message": "Cần tải lại!",
-      "description": "Thông báo cảnh báo khi cần tải lại"
-   },
-   "globalSettings": {
-      "message": "Cài đặt Toàn cầu",
-      "description": "Phần cài đặt toàn cầu"
-   },
-   "enableFeatures": {
-      "message": "Bật Tính năng",
-      "description": "Nhãn chuyển đổi để bật tất cả các tính năng"
-   },
-   "features": {
-      "message": "Tính năng",
-      "description": "Phần tính năng cá nhân"
-   },
-   "collapseRightPanel": {
-      "message": "Thu gọn Bảng điều khiển Bên phải",
-      "description": "Tính năng để thu gọn bảng điều khiển bên phải"
-   },
-   "expandCreateModal": {
-      "message": "Mở rộng Modal Tạo",
-      "description": "Tính năng để mở rộng modal tạo"
-   },
-   "viewLinkedTickets": {
-      "message": "Xem Vé Liên kết",
-      "description": "Tính năng để xem vé liên kết"
-   },
-   "expandImages": {
-      "message": "Mở rộng Hình ảnh",
-      "description": "Tính năng để mở rộng hình ảnh"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Thu gọn bảng điều khiển bên phải ]",
-      "description": "Tiêu đề nút thu gọn bảng điều khiển bên phải"
-   },
-   "openRightPaneTitle": {
-      "message": "Mở bảng điều khiển bên phải ]",
-      "description": "Tiêu đề khi bảng điều khiển bên phải được thu gọn"
-   },
-   "collapseModalTitle": {
-      "message": "Thu gọn modal ]",
-      "description": "Tiêu đề nút thu gọn modal"
-   },
-   "expandModalTitle": {
-      "message": "Mở rộng modal ]",
-      "description": "Tiêu đề khi modal được thu gọn"
-   },
-   "expandImagesTitle": {
-      "message": "Mở rộng/Thu gọn hình ảnh (Ctrl+Shift+Z)",
-      "description": "Tiêu đề nút mở rộng/thu gọn hình ảnh"
-   },
-   "byExtension": {
-      "message": "Bởi tiện ích mở rộng Jira Expand",
-      "description": "Văn bản ghi công tiện ích"
-   },
-   "linkedTicketsTitle": {
-      "message": "Vé Liên kết",
-      "description": "Tiêu đề tooltip vé liên kết"
-   },
-   "noLinkedTickets": {
-      "message": "Không tìm thấy vé liên kết.",
-      "description": "Thông báo khi không tìm thấy vé liên kết"
-   },
-   "errorTitle": {
-      "message": "Lỗi",
-      "description": "Tiêu đề lỗi"
-   },
-   "assigneeTitle": {
-      "message": "Người được giao: $assignee$",
-      "description": "Tooltip người được giao",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "John Doe"
-         }
+  "extDesc": {
+    "message": "Jira. Thêm nút để thu gọn bảng phải, mở rộng modal tạo, phóng to hình ảnh và xem vé liên kết.",
+    "description": "Mô tả tiện ích"
+  },
+  "extName": {
+    "message": "Bộ tối ưu Jira",
+    "description": "Tên tiện ích"
+  },
+  "settingsTitle": {
+    "message": "Cài đặt Mở rộng Jira",
+    "description": "Tiêu đề chính của cửa sổ bật lên cài đặt"
+  },
+  "reloadRequired": {
+    "message": "Cần tải lại!",
+    "description": "Thông báo cảnh báo khi cần tải lại"
+  },
+  "globalSettings": {
+    "message": "Cài đặt Toàn cầu",
+    "description": "Phần cài đặt toàn cầu"
+  },
+  "enableFeatures": {
+    "message": "Bật Tính năng",
+    "description": "Nhãn chuyển đổi để bật tất cả các tính năng"
+  },
+  "features": {
+    "message": "Tính năng",
+    "description": "Phần tính năng cá nhân"
+  },
+  "collapseRightPanel": {
+    "message": "Thu gọn Bảng điều khiển Bên phải",
+    "description": "Tính năng để thu gọn bảng điều khiển bên phải"
+  },
+  "expandCreateModal": {
+    "message": "Mở rộng Modal Tạo",
+    "description": "Tính năng để mở rộng modal tạo"
+  },
+  "viewLinkedTickets": {
+    "message": "Xem Vé Liên kết",
+    "description": "Tính năng để xem vé liên kết"
+  },
+  "expandImages": {
+    "message": "Mở rộng Hình ảnh",
+    "description": "Tính năng để mở rộng hình ảnh"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Thu gọn bảng điều khiển bên phải ]",
+    "description": "Tiêu đề nút thu gọn bảng điều khiển bên phải"
+  },
+  "openRightPaneTitle": {
+    "message": "Mở bảng điều khiển bên phải ]",
+    "description": "Tiêu đề khi bảng điều khiển bên phải được thu gọn"
+  },
+  "collapseModalTitle": {
+    "message": "Thu gọn modal ]",
+    "description": "Tiêu đề nút thu gọn modal"
+  },
+  "expandModalTitle": {
+    "message": "Mở rộng modal ]",
+    "description": "Tiêu đề khi modal được thu gọn"
+  },
+  "expandImagesTitle": {
+    "message": "Mở rộng/Thu gọn hình ảnh (Ctrl+Shift+Z)",
+    "description": "Tiêu đề nút mở rộng/thu gọn hình ảnh"
+  },
+  "byExtension": {
+    "message": "Bởi tiện ích mở rộng Jira Expand",
+    "description": "Văn bản ghi công tiện ích"
+  },
+  "linkedTicketsTitle": {
+    "message": "Vé Liên kết",
+    "description": "Tiêu đề tooltip vé liên kết"
+  },
+  "noLinkedTickets": {
+    "message": "Không tìm thấy vé liên kết.",
+    "description": "Thông báo khi không tìm thấy vé liên kết"
+  },
+  "errorTitle": {
+    "message": "Lỗi",
+    "description": "Tiêu đề lỗi"
+  },
+  "assigneeTitle": {
+    "message": "Người được giao: $assignee$",
+    "description": "Tooltip người được giao",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "John Doe"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Tooltip loại vấn đề",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Lỗi"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "chặn"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Tooltip loại vấn đề",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Lỗi"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "chặn"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Nhãn aria vấn đề",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "Đang tiến hành"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Nhãn aria vấn đề",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "Đang tiến hành"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Đang tải vé liên kết...",
-      "description": "Thông báo tải cho tooltip vé liên kết"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Đang tải vé liên kết...",
+    "description": "Thông báo tải cho tooltip vé liên kết"
+  }
 }

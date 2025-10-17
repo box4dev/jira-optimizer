@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Adăugați butoane pentru extinderea spațiului de lucru, pliați panoul din dreapta și adăugați un modal pentru a vizualiza problemele relevante.",
-      "description": "Descrierea extensiei"
-   },
-   "extName": {
-      "message": "Extensor Spațiu de Lucru Jira",
-      "description": "Numele extensiei"
-   },
-   "settingsTitle": {
-      "message": "Setări Extindere Jira",
-      "description": "Titlul principal al popup-ului de setări"
-   },
-   "reloadRequired": {
-      "message": "Repornire necesară!",
-      "description": "Mesaj de avertizare când repornirea este necesară"
-   },
-   "globalSettings": {
-      "message": "Setări Globale",
-      "description": "Secțiunea de setări globale"
-   },
-   "enableFeatures": {
-      "message": "Activați Funcționalitățile",
-      "description": "Eticheta pentru activarea tuturor funcționalităților"
-   },
-   "features": {
-      "message": "Funcționalități",
-      "description": "Secțiunea funcționalităților individuale"
-   },
-   "collapseRightPanel": {
-      "message": "Pliați Panoul Drept",
-      "description": "Funcționalitate pentru plierea panoului drept"
-   },
-   "expandCreateModal": {
-      "message": "Extindeți Modalul de Creare",
-      "description": "Funcționalitate pentru extinderea modalului de creare"
-   },
-   "viewLinkedTickets": {
-      "message": "Vizualizați Bilete Conectate",
-      "description": "Funcționalitate pentru vizualizarea biletelor conectate"
-   },
-   "expandImages": {
-      "message": "Extindeți Imaginile",
-      "description": "Funcționalitate pentru extinderea imaginilor"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Pliați panoul drept ]",
-      "description": "Titlul butonului pentru plierea panoului drept"
-   },
-   "openRightPaneTitle": {
-      "message": "Deschideți panoul drept ]",
-      "description": "Titlul când panoul drept este pliat"
-   },
-   "collapseModalTitle": {
-      "message": "Pliați modalul ]",
-      "description": "Titlul butonului pentru plierea modalului"
-   },
-   "expandModalTitle": {
-      "message": "Extindeți modalul ]",
-      "description": "Titlul când modalul este pliat"
-   },
-   "expandImagesTitle": {
-      "message": "Extindeți/Pliați imaginile (Ctrl+Shift+Z)",
-      "description": "Titlul butonului pentru extinderea/plierea imaginilor"
-   },
-   "byExtension": {
-      "message": "De Extensia Extindere Jira",
-      "description": "Textul de atribuire al extensiei"
-   },
-   "linkedTicketsTitle": {
-      "message": "Bilete Conectate",
-      "description": "Titlul tooltip-ului biletelor conectate"
-   },
-   "noLinkedTickets": {
-      "message": "Nu există bilete conectate.",
-      "description": "Mesaj când nu sunt găsite bilete conectate"
-   },
-   "errorTitle": {
-      "message": "Eroare",
-      "description": "Titlul erorii"
-   },
-   "assigneeTitle": {
-      "message": "Responsabil: $assignee$",
-      "description": "Tooltip-ul responsabilului",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "Ion Popescu"
-         }
+  "extDesc": {
+    "message": "Jira. Adaugă butoane pentru restrângerea panoului drept, extinderea modalului de creare, extinderea imaginilor și vizualizarea tichetelor legate.",
+    "description": "Descrierea extensiei"
+  },
+  "extName": {
+    "message": "Optimizator Jira",
+    "description": "Numele extensiei"
+  },
+  "settingsTitle": {
+    "message": "Setări Extindere Jira",
+    "description": "Titlul principal al popup-ului de setări"
+  },
+  "reloadRequired": {
+    "message": "Repornire necesară!",
+    "description": "Mesaj de avertizare când repornirea este necesară"
+  },
+  "globalSettings": {
+    "message": "Setări Globale",
+    "description": "Secțiunea de setări globale"
+  },
+  "enableFeatures": {
+    "message": "Activați Funcționalitățile",
+    "description": "Eticheta pentru activarea tuturor funcționalităților"
+  },
+  "features": {
+    "message": "Funcționalități",
+    "description": "Secțiunea funcționalităților individuale"
+  },
+  "collapseRightPanel": {
+    "message": "Pliați Panoul Drept",
+    "description": "Funcționalitate pentru plierea panoului drept"
+  },
+  "expandCreateModal": {
+    "message": "Extindeți Modalul de Creare",
+    "description": "Funcționalitate pentru extinderea modalului de creare"
+  },
+  "viewLinkedTickets": {
+    "message": "Vizualizați Bilete Conectate",
+    "description": "Funcționalitate pentru vizualizarea biletelor conectate"
+  },
+  "expandImages": {
+    "message": "Extindeți Imaginile",
+    "description": "Funcționalitate pentru extinderea imaginilor"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Pliați panoul drept ]",
+    "description": "Titlul butonului pentru plierea panoului drept"
+  },
+  "openRightPaneTitle": {
+    "message": "Deschideți panoul drept ]",
+    "description": "Titlul când panoul drept este pliat"
+  },
+  "collapseModalTitle": {
+    "message": "Pliați modalul ]",
+    "description": "Titlul butonului pentru plierea modalului"
+  },
+  "expandModalTitle": {
+    "message": "Extindeți modalul ]",
+    "description": "Titlul când modalul este pliat"
+  },
+  "expandImagesTitle": {
+    "message": "Extindeți/Pliați imaginile (Ctrl+Shift+Z)",
+    "description": "Titlul butonului pentru extinderea/plierea imaginilor"
+  },
+  "byExtension": {
+    "message": "De Extensia Extindere Jira",
+    "description": "Textul de atribuire al extensiei"
+  },
+  "linkedTicketsTitle": {
+    "message": "Bilete Conectate",
+    "description": "Titlul tooltip-ului biletelor conectate"
+  },
+  "noLinkedTickets": {
+    "message": "Nu există bilete conectate.",
+    "description": "Mesaj când nu sunt găsite bilete conectate"
+  },
+  "errorTitle": {
+    "message": "Eroare",
+    "description": "Titlul erorii"
+  },
+  "assigneeTitle": {
+    "message": "Responsabil: $assignee$",
+    "description": "Tooltip-ul responsabilului",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "Ion Popescu"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Tooltip-ul tipului de problemă",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Bug"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "blochează"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Tooltip-ul tipului de problemă",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Bug"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "blochează"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Eticheta aria a problemei",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "În desfășurare"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Eticheta aria a problemei",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "În desfășurare"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Se încarcă biletele conectate...",
-      "description": "Mesaj de încărcare pentru tooltip-ul biletelor conectate"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Se încarcă biletele conectate...",
+    "description": "Mesaj de încărcare pentru tooltip-ul biletelor conectate"
+  }
 }

@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Aggiungi pulsanti per espandere l'area di lavoro, piega il pannello destro e il modale per visualizzare i problemi correlati.",
-      "description": "Descrizione dell'estensione"
-   },
-   "extName": {
-      "message": "Espansore Area di Lavoro Jira",
-      "description": "Nome dell'estensione"
-   },
-   "settingsTitle": {
-      "message": "Impostazioni Jira Expand",
-      "description": "Titolo principale del popup delle impostazioni"
-   },
-   "reloadRequired": {
-      "message": "Ricarica richiesta!",
-      "description": "Messaggio di avviso quando è richiesta la ricarica"
-   },
-   "globalSettings": {
-      "message": "Impostazioni Globali",
-      "description": "Sezione delle impostazioni globali"
-   },
-   "enableFeatures": {
-      "message": "Abilita Funzionalità",
-      "description": "Etichetta del toggle per abilitare tutte le funzionalità"
-   },
-   "features": {
-      "message": "Funzionalità",
-      "description": "Sezione delle funzionalità individuali"
-   },
-   "collapseRightPanel": {
-      "message": "Comprimi Pannello Destro",
-      "description": "Funzionalità per comprimere il pannello destro"
-   },
-   "expandCreateModal": {
-      "message": "Espandi Modale Creazione",
-      "description": "Funzionalità per espandere il modale di creazione"
-   },
-   "viewLinkedTickets": {
-      "message": "Visualizza Ticket Collegati",
-      "description": "Funzionalità per visualizzare i ticket collegati"
-   },
-   "expandImages": {
-      "message": "Espandi Immagini",
-      "description": "Funzionalità per espandere le immagini"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Comprimi pannello destro ]",
-      "description": "Titolo del pulsante per comprimere pannello destro"
-   },
-   "openRightPaneTitle": {
-      "message": "Apri pannello destro ]",
-      "description": "Titolo quando il pannello destro è compresso"
-   },
-   "collapseModalTitle": {
-      "message": "Comprimi modale ]",
-      "description": "Titolo del pulsante per comprimere modale"
-   },
-   "expandModalTitle": {
-      "message": "Espandi modale ]",
-      "description": "Titolo quando il modale è compresso"
-   },
-   "expandImagesTitle": {
-      "message": "Espandi/Comprimi immagini (Ctrl+Shift+Z)",
-      "description": "Titolo del pulsante per espandi/comprimi immagini"
-   },
-   "byExtension": {
-      "message": "Da Estensione Espandi Jira",
-      "description": "Testo di attribuzione estensione"
-   },
-   "linkedTicketsTitle": {
-      "message": "Ticket Collegati",
-      "description": "Titolo del tooltip ticket collegati"
-   },
-   "noLinkedTickets": {
-      "message": "Nessun ticket collegato.",
-      "description": "Messaggio quando non sono stati trovati ticket collegati"
-   },
-   "errorTitle": {
-      "message": "Errore",
-      "description": "Titolo errore"
-   },
-   "assigneeTitle": {
-      "message": "Assegnato: $assignee$",
-      "description": "Tooltip assegnato",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "Mario Rossi"
-         }
+  "extDesc": {
+    "message": "Jira. Aggiunge pulsanti per Ridurre il Pannello Destro, Espandere il modal di creazione, Ingrandire le immagini e Visualizzare i ticket collegati.",
+    "description": "Descrizione dell'estensione"
+  },
+  "extName": {
+    "message": "Ottimizzatore Jira",
+    "description": "Nome dell'estensione"
+  },
+  "settingsTitle": {
+    "message": "Impostazioni Jira Expand",
+    "description": "Titolo principale del popup delle impostazioni"
+  },
+  "reloadRequired": {
+    "message": "Ricarica richiesta!",
+    "description": "Messaggio di avviso quando è richiesta la ricarica"
+  },
+  "globalSettings": {
+    "message": "Impostazioni Globali",
+    "description": "Sezione delle impostazioni globali"
+  },
+  "enableFeatures": {
+    "message": "Abilita Funzionalità",
+    "description": "Etichetta del toggle per abilitare tutte le funzionalità"
+  },
+  "features": {
+    "message": "Funzionalità",
+    "description": "Sezione delle funzionalità individuali"
+  },
+  "collapseRightPanel": {
+    "message": "Comprimi Pannello Destro",
+    "description": "Funzionalità per comprimere il pannello destro"
+  },
+  "expandCreateModal": {
+    "message": "Espandi Modale Creazione",
+    "description": "Funzionalità per espandere il modale di creazione"
+  },
+  "viewLinkedTickets": {
+    "message": "Visualizza Ticket Collegati",
+    "description": "Funzionalità per visualizzare i ticket collegati"
+  },
+  "expandImages": {
+    "message": "Espandi Immagini",
+    "description": "Funzionalità per espandere le immagini"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Comprimi pannello destro ]",
+    "description": "Titolo del pulsante per comprimere pannello destro"
+  },
+  "openRightPaneTitle": {
+    "message": "Apri pannello destro ]",
+    "description": "Titolo quando il pannello destro è compresso"
+  },
+  "collapseModalTitle": {
+    "message": "Comprimi modale ]",
+    "description": "Titolo del pulsante per comprimere modale"
+  },
+  "expandModalTitle": {
+    "message": "Espandi modale ]",
+    "description": "Titolo quando il modale è compresso"
+  },
+  "expandImagesTitle": {
+    "message": "Espandi/Comprimi immagini (Ctrl+Shift+Z)",
+    "description": "Titolo del pulsante per espandi/comprimi immagini"
+  },
+  "byExtension": {
+    "message": "Da Estensione Espandi Jira",
+    "description": "Testo di attribuzione estensione"
+  },
+  "linkedTicketsTitle": {
+    "message": "Ticket Collegati",
+    "description": "Titolo del tooltip ticket collegati"
+  },
+  "noLinkedTickets": {
+    "message": "Nessun ticket collegato.",
+    "description": "Messaggio quando non sono stati trovati ticket collegati"
+  },
+  "errorTitle": {
+    "message": "Errore",
+    "description": "Titolo errore"
+  },
+  "assigneeTitle": {
+    "message": "Assegnato: $assignee$",
+    "description": "Tooltip assegnato",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "Mario Rossi"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Tooltip tipo problema",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Bug"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "blocca"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Tooltip tipo problema",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Bug"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "blocca"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Etichetta aria problema",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "In Corso"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Etichetta aria problema",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "In Corso"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Caricamento ticket collegati...",
-      "description": "Messaggio di caricamento per il tooltip ticket collegati"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Caricamento ticket collegati...",
+    "description": "Messaggio di caricamento per il tooltip ticket collegati"
+  }
 }

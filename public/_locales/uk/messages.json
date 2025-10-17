@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Додайте кнопки для розширення робочого простору, згортання правої панелі та модальне вікно для перегляду пов'язаних проблем.",
-      "description": "Опис розширення"
-   },
-   "extName": {
-      "message": "Розширювач робочого простору Jira",
-      "description": "Назва розширення"
-   },
-   "settingsTitle": {
-      "message": "Налаштування розширення Jira",
-      "description": "Головна назва спливаючого вікна налаштувань"
-   },
-   "reloadRequired": {
-      "message": "Потрібне перезавантаження!",
-      "description": "Попереджувальне повідомлення, коли потрібне перезавантаження"
-   },
-   "globalSettings": {
-      "message": "Глобальні налаштування",
-      "description": "Розділ глобальних налаштувань"
-   },
-   "enableFeatures": {
-      "message": "Увімкнути функції",
-      "description": "Мітка перемикача для увімкнення всіх функцій"
-   },
-   "features": {
-      "message": "Функції",
-      "description": "Розділ окремих функцій"
-   },
-   "collapseRightPanel": {
-      "message": "Згорнути праву панель",
-      "description": "Функція для згортання правої панелі"
-   },
-   "expandCreateModal": {
-      "message": "Розширити модальне вікно створення",
-      "description": "Функція для розширення модального вікна створення"
-   },
-   "viewLinkedTickets": {
-      "message": "Переглянути пов'язані заявки",
-      "description": "Функція для перегляду пов'язаних заявок"
-   },
-   "expandImages": {
-      "message": "Розширити зображення",
-      "description": "Функція для розширення зображень"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Згорнути праву панель ]",
-      "description": "Заголовок кнопки згортання правої панелі"
-   },
-   "openRightPaneTitle": {
-      "message": "Відкрити праву панель ]",
-      "description": "Заголовок коли права панель згорнута"
-   },
-   "collapseModalTitle": {
-      "message": "Згорнути модальне вікно ]",
-      "description": "Заголовок кнопки згортання модального вікна"
-   },
-   "expandModalTitle": {
-      "message": "Розширити модальне вікно ]",
-      "description": "Заголовок коли модальне вікно згорнуте"
-   },
-   "expandImagesTitle": {
-      "message": "Розширити/Згорнути зображення (Ctrl+Shift+Z)",
-      "description": "Заголовок кнопки розширення/згортання зображень"
-   },
-   "byExtension": {
-      "message": "Від розширення Jira Expand",
-      "description": "Текст атрибуції розширення"
-   },
-   "linkedTicketsTitle": {
-      "message": "Пов'язані заявки",
-      "description": "Заголовок підказки пов'язаних заявок"
-   },
-   "noLinkedTickets": {
-      "message": "Пов'язаних заявок не знайдено.",
-      "description": "Повідомлення коли пов'язані заявки не знайдені"
-   },
-   "errorTitle": {
-      "message": "Помилка",
-      "description": "Заголовок помилки"
-   },
-   "assigneeTitle": {
-      "message": "Виконавець: $assignee$",
-      "description": "Підказка виконавця",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "Джон Доу"
-         }
+  "extDesc": {
+    "message": "Jira. Додає кнопки для згортання правої панелі, розгортання модального вікна створення, збільшення зображень та перегляду пов'язаних тікетів.",
+    "description": "Опис розширення"
+  },
+  "extName": {
+    "message": "Оптимізатор Jira",
+    "description": "Назва розширення"
+  },
+  "settingsTitle": {
+    "message": "Налаштування розширення Jira",
+    "description": "Головна назва спливаючого вікна налаштувань"
+  },
+  "reloadRequired": {
+    "message": "Потрібне перезавантаження!",
+    "description": "Попереджувальне повідомлення, коли потрібне перезавантаження"
+  },
+  "globalSettings": {
+    "message": "Глобальні налаштування",
+    "description": "Розділ глобальних налаштувань"
+  },
+  "enableFeatures": {
+    "message": "Увімкнути функції",
+    "description": "Мітка перемикача для увімкнення всіх функцій"
+  },
+  "features": {
+    "message": "Функції",
+    "description": "Розділ окремих функцій"
+  },
+  "collapseRightPanel": {
+    "message": "Згорнути праву панель",
+    "description": "Функція для згортання правої панелі"
+  },
+  "expandCreateModal": {
+    "message": "Розширити модальне вікно створення",
+    "description": "Функція для розширення модального вікна створення"
+  },
+  "viewLinkedTickets": {
+    "message": "Переглянути пов'язані заявки",
+    "description": "Функція для перегляду пов'язаних заявок"
+  },
+  "expandImages": {
+    "message": "Розширити зображення",
+    "description": "Функція для розширення зображень"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Згорнути праву панель ]",
+    "description": "Заголовок кнопки згортання правої панелі"
+  },
+  "openRightPaneTitle": {
+    "message": "Відкрити праву панель ]",
+    "description": "Заголовок коли права панель згорнута"
+  },
+  "collapseModalTitle": {
+    "message": "Згорнути модальне вікно ]",
+    "description": "Заголовок кнопки згортання модального вікна"
+  },
+  "expandModalTitle": {
+    "message": "Розширити модальне вікно ]",
+    "description": "Заголовок коли модальне вікно згорнуте"
+  },
+  "expandImagesTitle": {
+    "message": "Розширити/Згорнути зображення (Ctrl+Shift+Z)",
+    "description": "Заголовок кнопки розширення/згортання зображень"
+  },
+  "byExtension": {
+    "message": "Від розширення Jira Expand",
+    "description": "Текст атрибуції розширення"
+  },
+  "linkedTicketsTitle": {
+    "message": "Пов'язані заявки",
+    "description": "Заголовок підказки пов'язаних заявок"
+  },
+  "noLinkedTickets": {
+    "message": "Пов'язаних заявок не знайдено.",
+    "description": "Повідомлення коли пов'язані заявки не знайдені"
+  },
+  "errorTitle": {
+    "message": "Помилка",
+    "description": "Заголовок помилки"
+  },
+  "assigneeTitle": {
+    "message": "Виконавець: $assignee$",
+    "description": "Підказка виконавця",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "Джон Доу"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Підказка типу проблеми",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Помилка"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "блокує"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Підказка типу проблеми",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Помилка"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "блокує"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Aria мітка проблеми",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "В роботі"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Aria мітка проблеми",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "В роботі"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Завантаження пов'язаних заявок...",
-      "description": "Повідомлення завантаження для підказки пов'язаних заявок"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Завантаження пов'язаних заявок...",
+    "description": "Повідомлення завантаження для підказки пов'язаних заявок"
+  }
 }

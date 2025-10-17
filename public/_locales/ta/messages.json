@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. பணி இடத்தை விரிவாக்க பொத்தானைச் சேர்க்கவும், வலப்பக்க பேனலை முடக்கவும் மற்றும் தொடர்புடைய சிக்கல்களைக் காண மாடலைச் சேர்க்கவும்.",
-      "description": "நீட்டிப்பு விளக்கம்"
-   },
-   "extName": {
-      "message": "Jira பணி இட விரிவாக்கம்",
-      "description": "நீட்டிப்பு பெயர்"
-   },
-   "settingsTitle": {
-      "message": "Jira விரிவாக்க அமைப்புகள்",
-      "description": "அமைப்புகள் பாப்பப்பின் முதன்மை தலைப்பு"
-   },
-   "reloadRequired": {
-      "message": "மீண்டும் ஏற்றுதல் தேவை!",
-      "description": "மீண்டும் ஏற்றுதல் தேவைப்படும்போது எச்சரிக்கை செய்தி"
-   },
-   "globalSettings": {
-      "message": "உலகளாவிய அமைப்புகள்",
-      "description": "உலகளாவிய அமைப்புகள் பிரிவு"
-   },
-   "enableFeatures": {
-      "message": "செயல்பாடுகளை இயக்கு",
-      "description": "அனைத்து செயல்பாடுகளையும் இயக்குவதற்கான மாற்றி பெயர்"
-   },
-   "features": {
-      "message": "செயல்பாடுகள்",
-      "description": "தனிப்பட்ட செயல்பாடுகள் பிரிவு"
-   },
-   "collapseRightPanel": {
-      "message": "வலது பேனலை மூடு",
-      "description": "வலது பேனலை மூடுவதற்கான செயல்பாடு"
-   },
-   "expandCreateModal": {
-      "message": "உருவாக்க மோடலை விரிவாக்கு",
-      "description": "உருவாக்க மோடலை விரிவாக்குவதற்கான செயல்பாடு"
-   },
-   "viewLinkedTickets": {
-      "message": "இணைக்கப்பட்ட டிக்கெட்டுகளைப் பார்",
-      "description": "இணைக்கப்பட்ட டிக்கெட்டுகளைப் பார்ப்பதற்கான செயல்பாடு"
-   },
-   "expandImages": {
-      "message": "படங்களை விரிவாக்கு",
-      "description": "படங்களை விரிவாக்குவதற்கான செயல்பாடு"
-   },
-   "collapseRightPaneTitle": {
-      "message": "வலது பேனலை மூடு ]",
-      "description": "வலது பேனலை மூடுவதற்கான பொத்தானின் தலைப்பு"
-   },
-   "openRightPaneTitle": {
-      "message": "வலது பேனலைத் திற ]",
-      "description": "வலது பேனல் மூடப்பட்டிருக்கும்போது தலைப்பு"
-   },
-   "collapseModalTitle": {
-      "message": "மோடலை மூடு ]",
-      "description": "மோடலை மூடுவதற்கான பொத்தானின் தலைப்பு"
-   },
-   "expandModalTitle": {
-      "message": "மோடலை விரிவாக்கு ]",
-      "description": "மோடல் மூடப்பட்டிருக்கும்போது தலைப்பு"
-   },
-   "expandImagesTitle": {
-      "message": "படங்களை விரிவாக்கு/மூடு (Ctrl+Shift+Z)",
-      "description": "படங்களை விரிவாக்கு/மூடுவதற்கான பொத்தானின் தலைப்பு"
-   },
-   "byExtension": {
-      "message": "Jira விரிவாக்க நீட்டிப்பு மூலம்",
-      "description": "நீட்டிப்பு உரிமையியல் உரை"
-   },
-   "linkedTicketsTitle": {
-      "message": "இணைக்கப்பட்ட டிக்கெட்டுகள்",
-      "description": "இணைக்கப்பட்ட டிக்கெட்டுகள் டூல்டிப்பின் தலைப்பு"
-   },
-   "noLinkedTickets": {
-      "message": "இணைக்கப்பட்ட டிக்கெட்டுகள் இல்லை.",
-      "description": "இணைக்கப்பட்ட டிக்கெட்டுகள் கிடைக்கவில்லை என்பதைத் தெரிவிக்கும் செய்தி"
-   },
-   "errorTitle": {
-      "message": "பிழை",
-      "description": "பிழை தலைப்பு"
-   },
-   "assigneeTitle": {
-      "message": "ஒதுக்கப்பட்டவர்: $assignee$",
-      "description": "ஒதுக்கப்பட்டவர் டூல்டிப்",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "ஜான் டோ"
-         }
+  "extDesc": {
+    "message": "Jira. வலது பலகையை சுருக்க, உருவாக்க மாடலை விரிவாக்க, படங்களை விரிவாக்க மற்றும் தொடர்புடைய டிக்கெட்டுகளை பார்க்க பொத்தான்களை சேர்க்கிறது.",
+    "description": "நீட்டிப்பு விளக்கம்"
+  },
+  "extName": {
+    "message": "Jira ஆக்டிமைசர்",
+    "description": "நீட்டிப்பு பெயர்"
+  },
+  "settingsTitle": {
+    "message": "Jira விரிவாக்க அமைப்புகள்",
+    "description": "அமைப்புகள் பாப்பப்பின் முதன்மை தலைப்பு"
+  },
+  "reloadRequired": {
+    "message": "மீண்டும் ஏற்றுதல் தேவை!",
+    "description": "மீண்டும் ஏற்றுதல் தேவைப்படும்போது எச்சரிக்கை செய்தி"
+  },
+  "globalSettings": {
+    "message": "உலகளாவிய அமைப்புகள்",
+    "description": "உலகளாவிய அமைப்புகள் பிரிவு"
+  },
+  "enableFeatures": {
+    "message": "செயல்பாடுகளை இயக்கு",
+    "description": "அனைத்து செயல்பாடுகளையும் இயக்குவதற்கான மாற்றி பெயர்"
+  },
+  "features": {
+    "message": "செயல்பாடுகள்",
+    "description": "தனிப்பட்ட செயல்பாடுகள் பிரிவு"
+  },
+  "collapseRightPanel": {
+    "message": "வலது பேனலை மூடு",
+    "description": "வலது பேனலை மூடுவதற்கான செயல்பாடு"
+  },
+  "expandCreateModal": {
+    "message": "உருவாக்க மோடலை விரிவாக்கு",
+    "description": "உருவாக்க மோடலை விரிவாக்குவதற்கான செயல்பாடு"
+  },
+  "viewLinkedTickets": {
+    "message": "இணைக்கப்பட்ட டிக்கெட்டுகளைப் பார்",
+    "description": "இணைக்கப்பட்ட டிக்கெட்டுகளைப் பார்ப்பதற்கான செயல்பாடு"
+  },
+  "expandImages": {
+    "message": "படங்களை விரிவாக்கு",
+    "description": "படங்களை விரிவாக்குவதற்கான செயல்பாடு"
+  },
+  "collapseRightPaneTitle": {
+    "message": "வலது பேனலை மூடு ]",
+    "description": "வலது பேனலை மூடுவதற்கான பொத்தானின் தலைப்பு"
+  },
+  "openRightPaneTitle": {
+    "message": "வலது பேனலைத் திற ]",
+    "description": "வலது பேனல் மூடப்பட்டிருக்கும்போது தலைப்பு"
+  },
+  "collapseModalTitle": {
+    "message": "மோடலை மூடு ]",
+    "description": "மோடலை மூடுவதற்கான பொத்தானின் தலைப்பு"
+  },
+  "expandModalTitle": {
+    "message": "மோடலை விரிவாக்கு ]",
+    "description": "மோடல் மூடப்பட்டிருக்கும்போது தலைப்பு"
+  },
+  "expandImagesTitle": {
+    "message": "படங்களை விரிவாக்கு/மூடு (Ctrl+Shift+Z)",
+    "description": "படங்களை விரிவாக்கு/மூடுவதற்கான பொத்தானின் தலைப்பு"
+  },
+  "byExtension": {
+    "message": "Jira விரிவாக்க நீட்டிப்பு மூலம்",
+    "description": "நீட்டிப்பு உரிமையியல் உரை"
+  },
+  "linkedTicketsTitle": {
+    "message": "இணைக்கப்பட்ட டிக்கெட்டுகள்",
+    "description": "இணைக்கப்பட்ட டிக்கெட்டுகள் டூல்டிப்பின் தலைப்பு"
+  },
+  "noLinkedTickets": {
+    "message": "இணைக்கப்பட்ட டிக்கெட்டுகள் இல்லை.",
+    "description": "இணைக்கப்பட்ட டிக்கெட்டுகள் கிடைக்கவில்லை என்பதைத் தெரிவிக்கும் செய்தி"
+  },
+  "errorTitle": {
+    "message": "பிழை",
+    "description": "பிழை தலைப்பு"
+  },
+  "assigneeTitle": {
+    "message": "ஒதுக்கப்பட்டவர்: $assignee$",
+    "description": "ஒதுக்கப்பட்டவர் டூல்டிப்",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "ஜான் டோ"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "சிக்கல் வகை டூல்டிப்",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "பிழை"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "தடுக்கிறது"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "சிக்கல் வகை டூல்டிப்",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "பிழை"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "தடுக்கிறது"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "சிக்கல் aria லேபிள்",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "நடைபெற்றுக்கொண்டிருக்கிறது"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "சிக்கல் aria லேபிள்",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "நடைபெற்றுக்கொண்டிருக்கிறது"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "இணைக்கப்பட்ட டிக்கெட்டுகளை ஏற்றுகிறது...",
-      "description": "இணைக்கப்பட்ட டிக்கெட்டுகள் டூல்டிப்பிற்கான ஏற்றுதல் செய்தி"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "இணைக்கப்பட்ட டிக்கெட்டுகளை ஏற்றுகிறது...",
+    "description": "இணைக்கப்பட்ட டிக்கெட்டுகள் டூல்டிப்பிற்கான ஏற்றுதல் செய்தி"
+  }
 }

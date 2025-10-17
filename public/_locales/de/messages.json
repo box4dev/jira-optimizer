@@ -1,124 +1,124 @@
 {
-   "extDesc": {
-      "message": "Jira. Fügt Schaltflächen hinzu, um den Arbeitsbereich zu erweitern, das rechte Panel zu reduzieren und das Modal für verwandte Probleme anzuzeigen.",
-      "description": "Erweiterungsbeschreibung"
-   },
-   "extName": {
-      "message": "Jira Arbeitsbereich-Expander",
-      "description": "Name der Erweiterung"
-   },
-   "settingsTitle": {
-      "message": "Jira Expand Einstellungen",
-      "description": "Haupttitel des Einstellungs-Popups"
-   },
-   "reloadRequired": {
-      "message": "Neuladen erforderlich!",
-      "description": "Warnmeldung wenn Neuladen erforderlich ist"
-   },
-   "globalSettings": {
-      "message": "Globale Einstellungen",
-      "description": "Abschnitt für globale Einstellungen"
-   },
-   "enableFeatures": {
-      "message": "Funktionen aktivieren",
-      "description": "Beschriftung für Toggle um alle Funktionen zu aktivieren"
-   },
-   "features": {
-      "message": "Funktionen",
-      "description": "Abschnitt für einzelne Funktionen"
-   },
-   "collapseRightPanel": {
-      "message": "Rechtes Panel zuklappen",
-      "description": "Funktion um rechtes Panel zu zuklappen"
-   },
-   "expandCreateModal": {
-      "message": "Erstellmodal erweitern",
-      "description": "Funktion um Erstellmodal zu erweitern"
-   },
-   "viewLinkedTickets": {
-      "message": "Verknüpfte Tickets ansehen",
-      "description": "Funktion um verknüpfte Tickets anzusehen"
-   },
-   "expandImages": {
-      "message": "Bilder erweitern",
-      "description": "Funktion um Bilder zu erweitern"
-   },
-   "collapseRightPaneTitle": {
-      "message": "Rechtes Panel zuklappen ]",
-      "description": "Titel für rechte Panel zuklappen Schaltfläche"
-   },
-   "openRightPaneTitle": {
-      "message": "Rechtes Panel öffnen ]",
-      "description": "Titel wenn rechtes Panel zugeklappt ist"
-   },
-   "collapseModalTitle": {
-      "message": "Modal zuklappen ]",
-      "description": "Titel für Modal zuklappen Schaltfläche"
-   },
-   "expandModalTitle": {
-      "message": "Modal erweitern ]",
-      "description": "Titel wenn Modal zugeklappt ist"
-   },
-   "expandImagesTitle": {
-      "message": "Bilder erweitern/zuklappen (Ctrl+Shift+Z)",
-      "description": "Titel für Bilder erweitern/zuklappen Schaltfläche"
-   },
-   "byExtension": {
-      "message": "Von Jira Expand Extension",
-      "description": "Extension Zuschreibungstext"
-   },
-   "linkedTicketsTitle": {
-      "message": "Verknüpfte Tickets",
-      "description": "Titel für verknüpfte Tickets Tooltip"
-   },
-   "noLinkedTickets": {
-      "message": "Keine verknüpften Tickets.",
-      "description": "Nachricht wenn keine verknüpften Tickets gefunden"
-   },
-   "errorTitle": {
-      "message": "Fehler",
-      "description": "Fehlertitel"
-   },
-   "assigneeTitle": {
-      "message": "Zugewiesen: $assignee$",
-      "description": "Zugewiesener Tooltip",
-      "placeholders": {
-         "assignee": {
-            "content": "$1",
-            "example": "Max Mustermann"
-         }
+  "extDesc": {
+    "message": "Jira. Fügt Schaltflächen hinzu, um das rechte Panel zu reduzieren, das Erstellungs‑Modal zu erweitern, Bilder zu vergrößern und verknüpfte Tickets anzuzeigen.",
+    "description": "Erweiterungsbeschreibung"
+  },
+  "extName": {
+    "message": "Jira‑Optimierer",
+    "description": "Name der Erweiterung"
+  },
+  "settingsTitle": {
+    "message": "Jira Expand Einstellungen",
+    "description": "Haupttitel des Einstellungs-Popups"
+  },
+  "reloadRequired": {
+    "message": "Neuladen erforderlich!",
+    "description": "Warnmeldung wenn Neuladen erforderlich ist"
+  },
+  "globalSettings": {
+    "message": "Globale Einstellungen",
+    "description": "Abschnitt für globale Einstellungen"
+  },
+  "enableFeatures": {
+    "message": "Funktionen aktivieren",
+    "description": "Beschriftung für Toggle um alle Funktionen zu aktivieren"
+  },
+  "features": {
+    "message": "Funktionen",
+    "description": "Abschnitt für einzelne Funktionen"
+  },
+  "collapseRightPanel": {
+    "message": "Rechtes Panel zuklappen",
+    "description": "Funktion um rechtes Panel zu zuklappen"
+  },
+  "expandCreateModal": {
+    "message": "Erstellmodal erweitern",
+    "description": "Funktion um Erstellmodal zu erweitern"
+  },
+  "viewLinkedTickets": {
+    "message": "Verknüpfte Tickets ansehen",
+    "description": "Funktion um verknüpfte Tickets anzusehen"
+  },
+  "expandImages": {
+    "message": "Bilder erweitern",
+    "description": "Funktion um Bilder zu erweitern"
+  },
+  "collapseRightPaneTitle": {
+    "message": "Rechtes Panel zuklappen ]",
+    "description": "Titel für rechte Panel zuklappen Schaltfläche"
+  },
+  "openRightPaneTitle": {
+    "message": "Rechtes Panel öffnen ]",
+    "description": "Titel wenn rechtes Panel zugeklappt ist"
+  },
+  "collapseModalTitle": {
+    "message": "Modal zuklappen ]",
+    "description": "Titel für Modal zuklappen Schaltfläche"
+  },
+  "expandModalTitle": {
+    "message": "Modal erweitern ]",
+    "description": "Titel wenn Modal zugeklappt ist"
+  },
+  "expandImagesTitle": {
+    "message": "Bilder erweitern/zuklappen (Ctrl+Shift+Z)",
+    "description": "Titel für Bilder erweitern/zuklappen Schaltfläche"
+  },
+  "byExtension": {
+    "message": "Von Jira Expand Extension",
+    "description": "Extension Zuschreibungstext"
+  },
+  "linkedTicketsTitle": {
+    "message": "Verknüpfte Tickets",
+    "description": "Titel für verknüpfte Tickets Tooltip"
+  },
+  "noLinkedTickets": {
+    "message": "Keine verknüpften Tickets.",
+    "description": "Nachricht wenn keine verknüpften Tickets gefunden"
+  },
+  "errorTitle": {
+    "message": "Fehler",
+    "description": "Fehlertitel"
+  },
+  "assigneeTitle": {
+    "message": "Zugewiesen: $assignee$",
+    "description": "Zugewiesener Tooltip",
+    "placeholders": {
+      "assignee": {
+        "content": "$1",
+        "example": "Max Mustermann"
       }
-   },
-   "issueTypeTitle": {
-      "message": "$type$ ($relationship$)",
-      "description": "Problemtyp Tooltip",
-      "placeholders": {
-         "type": {
-            "content": "$1",
-            "example": "Bug"
-         },
-         "relationship": {
-            "content": "$2",
-            "example": "blockiert"
-         }
+    }
+  },
+  "issueTypeTitle": {
+    "message": "$type$ ($relationship$)",
+    "description": "Problemtyp Tooltip",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "Bug"
+      },
+      "relationship": {
+        "content": "$2",
+        "example": "blockiert"
       }
-   },
-   "issueAriaLabel": {
-      "message": "$key$ $status$",
-      "description": "Problem Aria Label",
-      "placeholders": {
-         "key": {
-            "content": "$1",
-            "example": "PROJ-123"
-         },
-         "status": {
-            "content": "$2",
-            "example": "In Bearbeitung"
-         }
+    }
+  },
+  "issueAriaLabel": {
+    "message": "$key$ $status$",
+    "description": "Problem Aria Label",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "PROJ-123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "In Bearbeitung"
       }
-   },
-   "loadingLinkedTickets": {
-      "message": "Verknüpfte Tickets werden geladen...",
-      "description": "Lademeldung für verknüpfte Tickets Tooltip"
-   }
+    }
+  },
+  "loadingLinkedTickets": {
+    "message": "Verknüpfte Tickets werden geladen...",
+    "description": "Lademeldung für verknüpfte Tickets Tooltip"
+  }
 }
