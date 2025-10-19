@@ -78,6 +78,10 @@ function replaceI18nPlaceholders() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Definir lang dinamicamente baseado na localização atual
+  const uiLanguage = chrome.i18n.getUILanguage();
+  document.documentElement.lang = uiLanguage;
+
   // Aplicar internacionalização primeiro
   replaceI18nPlaceholders();
 
