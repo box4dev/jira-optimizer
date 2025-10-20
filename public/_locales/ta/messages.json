@@ -4,11 +4,11 @@
     "description": "நீட்டிப்பு விளக்கம்"
   },
   "extName": {
-    "message": "Jira ஆக்டிமைசர்",
+    "message": "Jira மேம்படுத்தி",
     "description": "நீட்டிப்பு பெயர்"
   },
   "settingsTitle": {
-    "message": "Jira ஆக்டிமைசர் - அமைப்புகள்",
+    "message": "Jira மேம்படுத்தி",
     "description": "அமைப்புகள் பாப்பப்பின் முதன்மை தலைப்பு"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "படங்களை விரிவாக்கு/மூடுவதற்கான பொத்தானின் தலைப்பு"
   },
   "byExtension": {
-    "message": "Jira ஆக்டிமைசர் நீட்டிப்பு மூலம்",
+    "message": "Jira மேம்படுத்தி மூலம்",
     "description": "நீட்டிப்பு உரிமையியல் உரை"
   },
   "linkedTicketsTitle": {

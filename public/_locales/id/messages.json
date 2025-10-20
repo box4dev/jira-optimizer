@@ -8,7 +8,7 @@
     "description": "Nama ekstensi"
   },
   "settingsTitle": {
-    "message": "Pengoptimal Jira - Pengaturan",
+    "message": "Pengoptimal Jira",
     "description": "Judul utama popup pengaturan"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Judul tombol untuk perluas/lipat gambar"
   },
   "byExtension": {
-    "message": "Oleh Pengoptimal Jira Ekstensi",
+    "message": "Oleh Pengoptimal Jira",
     "description": "Teks atribusi ekstensi"
   },
   "linkedTicketsTitle": {

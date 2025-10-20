@@ -8,7 +8,7 @@
     "description": "اسم الإضافة"
   },
   "settingsTitle": {
-    "message": "محسن Jira - الإعدادات",
+    "message": "محسن Jira",
     "description": "العنوان الرئيسي لنافذة الإعدادات"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "عنوان زر توسيع/طي الصور"
   },
   "byExtension": {
-    "message": "بواسطة إضافة محسن Jira",
+    "message": "بواسطة محسن Jira",
     "description": "نص نسبة الإضافة"
   },
   "linkedTicketsTitle": {

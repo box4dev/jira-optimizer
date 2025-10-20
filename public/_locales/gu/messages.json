@@ -4,11 +4,11 @@
     "description": "એક્સટેંશનનું વર્ણન"
   },
   "extName": {
-    "message": "Jira Optimizer",
+    "message": "Jira ઑપ્ટિમાઇઝર",
     "description": "એક્સટેંશનનું નામ"
   },
   "settingsTitle": {
-    "message": "Jira Optimizer - સેટિંગ્સ",
+    "message": "Jira ઑપ્ટિમાઇઝર",
     "description": "સેટિંગ્સ પોપઅપનું મુખ્ય શીર્ષક"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "ઇમેજીસ વિસ્તૃત/ભંગ કરવાના બટનનું શીર્ષક"
   },
   "byExtension": {
-    "message": "Jira ઑપ્ટિમાઇઝર એક્સટેંશન દ્વારા",
+    "message": "Jira ઑપ્ટિમાઇઝર દ્વારા",
     "description": "એક્સટેંશન અટ્રિબ્યુશન ટેક્સ્ટ"
   },
   "linkedTicketsTitle": {

@@ -8,7 +8,7 @@
     "description": "Kiterjesztés neve"
   },
   "settingsTitle": {
-    "message": "Jira Optimalizáló - Beállítások",
+    "message": "Jira Optimalizáló",
     "description": "Beállítások felugró ablak fő címe"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Képek kibővítése/összecsukása gomb címe"
   },
   "byExtension": {
-    "message": "Jira Optimalizáló által",
+    "message": "Készítette: Jira Optimalizáló",
     "description": "Kiterjesztés attribúciós szövege"
   },
   "linkedTicketsTitle": {

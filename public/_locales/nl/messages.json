@@ -4,11 +4,11 @@
     "description": "Extensiebeschrijving"
   },
   "extName": {
-    "message": "Jira-Optimizer",
+    "message": "Jira Optimalisator",
     "description": "Extensienaam"
   },
   "settingsTitle": {
-    "message": "Jira-Optimizer - Instellingen",
+    "message": "Jira Optimalisator",
     "description": "Hoofdtitel van instellingen popup"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Titel van afbeeldingen uitbreiden/inklappen knop"
   },
   "byExtension": {
-    "message": "Door Jira-Optimizer Extensie",
+    "message": "Door Jira Optimalisator",
     "description": "Extensie toeschrijving tekst"
   },
   "linkedTicketsTitle": {

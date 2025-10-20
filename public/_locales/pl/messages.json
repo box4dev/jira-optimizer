@@ -8,7 +8,7 @@
     "description": "Nazwa rozszerzenia"
   },
   "settingsTitle": {
-    "message": "Optymalizator Jira - Ustawienia",
+    "message": "Optymalizator Jira",
     "description": "Główny tytuł okna ustawień"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Tytuł przycisku rozszerzania/zwijania obrazów"
   },
   "byExtension": {
-    "message": "Przez Optymalizator Jira Rozszerzenie",
+    "message": "Przez Optymalizator Jira",
     "description": "Tekst przypisania rozszerzenia"
   },
   "linkedTicketsTitle": {

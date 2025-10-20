@@ -8,7 +8,7 @@
     "description": "Name der Erweiterung"
   },
   "settingsTitle": {
-    "message": "Jira-Optimierer - Einstellungen",
+    "message": "Jira-Optimierer",
     "description": "Haupttitel des Einstellungs-Popups"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Titel für Bilder erweitern/zuklappen Schaltfläche"
   },
   "byExtension": {
-    "message": "Von Jira-Optimierer Extension",
+    "message": "Von Jira-Optimierer",
     "description": "Extension Zuschreibungstext"
   },
   "linkedTicketsTitle": {

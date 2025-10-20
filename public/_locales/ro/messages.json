@@ -8,7 +8,7 @@
     "description": "Numele extensiei"
   },
   "settingsTitle": {
-    "message": "Optimizator Jira - Setări",
+    "message": "Optimizator Jira",
     "description": "Titlul principal al popup-ului de setări"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Titlul butonului pentru extinderea/plierea imaginilor"
   },
   "byExtension": {
-    "message": "De Optimizator Jira Extensie",
+    "message": "De Optimizator Jira",
     "description": "Textul de atribuire al extensiei"
   },
   "linkedTicketsTitle": {

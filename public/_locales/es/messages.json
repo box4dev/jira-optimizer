@@ -8,7 +8,7 @@
     "description": "Nombre de la extensión"
   },
   "settingsTitle": {
-    "message": "Optimizador Jira - Configuración",
+    "message": "Optimizador Jira",
     "description": "Título principal del popup de configuración"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Título del botón para expandir/colapsar imágenes"
   },
   "byExtension": {
-    "message": "Por Optimizador Jira Extension",
+    "message": "Por Optimizador Jira",
     "description": "Texto de atribución de la extensión"
   },
   "linkedTicketsTitle": {

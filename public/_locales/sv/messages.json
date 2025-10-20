@@ -4,11 +4,11 @@
     "description": "Tilläggsbeskrivning"
   },
   "extName": {
-    "message": "Jira-optimiserare",
+    "message": "Jira-optimerare",
     "description": "Tilläggsnamn"
   },
   "settingsTitle": {
-    "message": "Jira-optimiserare - Inställningar",
+    "message": "Jira-optimerare",
     "description": "Huvudrubrik för inställnings-popup"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Titel för utöka/kollapsa bilder-knapp"
   },
   "byExtension": {
-    "message": "Av Jira-Optimiserare Tillägg",
+    "message": "Av Jira-optimerare",
     "description": "Tilläggs-attributions-text"
   },
   "linkedTicketsTitle": {

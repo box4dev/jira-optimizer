@@ -4,11 +4,11 @@
     "description": "توضیح افزونه"
   },
   "extName": {
-    "message": "بهینه‌ساز Jira",
+    "message": "بهینه ساز جیرا",
     "description": "نام افزونه"
   },
   "settingsTitle": {
-    "message": "بهینه‌ساز Jira - تنظیمات",
+    "message": "بهینه ساز جیرا",
     "description": "عنوان اصلی پنجره تنظیمات"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "عنوان دکمه گسترش/جمع کردن تصاویر"
   },
   "byExtension": {
-    "message": "توسط افزونه بهینه‌ساز Jira",
+    "message": "توسط بهینه ساز جیرا",
     "description": "متن نسبت افزونه"
   },
   "linkedTicketsTitle": {

@@ -4,11 +4,11 @@
     "description": "확장 프로그램 설명"
   },
   "extName": {
-    "message": "Jira 최적화",
+    "message": "Jira 최적화 도구",
     "description": "확장 프로그램 이름"
   },
   "settingsTitle": {
-    "message": "Jira 최적화 - 설정",
+    "message": "Jira 최적화 도구",
     "description": "설정 팝업의 메인 제목"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "이미지를 확장/접는 버튼의 제목"
   },
   "byExtension": {
-    "message": "Jira 최적화 확장 프로그램에 의해",
+    "message": "Jira 최적화 도구",
     "description": "확장 프로그램 속성 텍스트"
   },
   "linkedTicketsTitle": {

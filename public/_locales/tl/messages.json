@@ -8,7 +8,7 @@
     "description": "Pangalan ng extension"
   },
   "settingsTitle": {
-    "message": "Jira Optimizer - Mga Setting",
+    "message": "Jira Optimizer",
     "description": "Pangunahing pamagat ng popup ng mga setting"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Pamagat ng button ng palawakin/tago ang mga larawan"
   },
   "byExtension": {
-    "message": "Sa pamamagitan ng Jira Expand Extension",
+    "message": "Ng Jira Optimizer",
     "description": "Teksto ng atribusyon ng extension"
   },
   "linkedTicketsTitle": {

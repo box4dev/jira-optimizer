@@ -8,7 +8,7 @@
     "description": "Nome dell'estensione"
   },
   "settingsTitle": {
-    "message": "Ottimizzatore Jira - Impostazioni",
+    "message": "Ottimizzatore Jira",
     "description": "Titolo principale del popup delle impostazioni"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Titolo del pulsante per espandi/comprimi immagini"
   },
   "byExtension": {
-    "message": "Da Ottimizzatore Jira Estensione",
+    "message": "Di Ottimizzatore Jira",
     "description": "Testo di attribuzione estensione"
   },
   "linkedTicketsTitle": {

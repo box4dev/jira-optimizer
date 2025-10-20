@@ -8,7 +8,7 @@
     "description": "అప్లికేషన్ పేరు"
   },
   "settingsTitle": {
-    "message": "Jira ఆప్టిమైజర్ - సెట్టింగ్స్",
+    "message": "Jira ఆప్టిమైజర్",
     "description": "సెట్టింగుల పాప్అప్ ప్రధాన శీర్షిక"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "చిత్రాలను విస్తరించు/మూసివేయే బటన్ శీర్షిక"
   },
   "byExtension": {
-    "message": "Jira ఆప్టిమైజర్ పొడిగింత ద్వారా",
+    "message": "Jira ఆప్టిమైజర్ ద్వారా",
     "description": "పొడిగింత ఆపాదన పాఠ్యం"
   },
   "linkedTicketsTitle": {

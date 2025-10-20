@@ -8,7 +8,7 @@
     "description": "এক্সটেনশনের নাম"
   },
   "settingsTitle": {
-    "message": "Jira অপটিমাইজার - সেটিংস",
+    "message": "Jira অপটিমাইজার",
     "description": "সেটিংস পপআপের প্রধান শিরোনাম"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "ছবি প্রসারিত/কোলাপস বোতামের শিরোনাম"
   },
   "byExtension": {
-    "message": "Jira অপ্টিমাইজার এক্সটেনশন দ্বারা",
+    "message": "Jira অপটিমাইজার দ্বারা",
     "description": "এক্সটেনশন অ্যাট্রিবিউশন টেক্সট"
   },
   "linkedTicketsTitle": {

@@ -8,7 +8,7 @@
     "description": "ชื่อส่วนขยาย"
   },
   "settingsTitle": {
-    "message": "Jira ตัวเพิ่มประสิทธิภาพ - การตั้งค่า",
+    "message": "Jira ตัวเพิ่มประสิทธิภาพ",
     "description": "หัวเรื่องหลักของป๊อปอัพการตั้งค่า"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "หัวเรื่องปุ่มขยาย/ยุบรูปภาพ"
   },
   "byExtension": {
-    "message": "โดยส่วนขยาย Jira Optimizer",
+    "message": "โดย Jira ตัวเพิ่มประสิทธิภาพ",
     "description": "ข้อความการอ้างอิงส่วนขยาย"
   },
   "linkedTicketsTitle": {

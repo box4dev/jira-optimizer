@@ -8,7 +8,7 @@
     "description": "Название расширения"
   },
   "settingsTitle": {
-    "message": "Оптимизатор Jira - Настройки",
+    "message": "Оптимизатор Jira",
     "description": "Главный заголовок всплывающего окна настроек"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Заголовок кнопки для расширения/сворачивания изображений"
   },
   "byExtension": {
-    "message": "От Оптимизатор Jira Расширение",
+    "message": "От Оптимизатор Jira",
     "description": "Текст атрибуции расширения"
   },
   "linkedTicketsTitle": {

@@ -8,7 +8,7 @@
     "description": "Назва розширення"
   },
   "settingsTitle": {
-    "message": "Оптимізатор Jira - Налаштування",
+    "message": "Оптимізатор Jira",
     "description": "Головна назва спливаючого вікна налаштувань"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Заголовок кнопки розширення/згортання зображень"
   },
   "byExtension": {
-    "message": "Від розширення Jira Optimizer",
+    "message": "Від Jira Оптимізатор",
     "description": "Текст атрибуції розширення"
   },
   "linkedTicketsTitle": {

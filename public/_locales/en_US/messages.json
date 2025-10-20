@@ -8,7 +8,7 @@
     "description": "Extension name"
   },
   "settingsTitle": {
-    "message": "Jira Optimizer - Settings",
+    "message": "Jira Optimizer",
     "description": "Main settings popup title"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Title for expand/collapse images button"
   },
   "byExtension": {
-    "message": "By Jira Expand Extension",
+    "message": "By Jira Optimizer",
     "description": "Extension attribution text"
   },
   "linkedTicketsTitle": {

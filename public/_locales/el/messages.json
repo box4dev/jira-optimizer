@@ -4,11 +4,11 @@
     "description": "Περιγραφή επέκτασης"
   },
   "extName": {
-    "message": "Βελτιστοποιητής Jira",
+    "message": "Jira Βελτιστοποιητής",
     "description": "Όνομα επέκτασης"
   },
   "settingsTitle": {
-    "message": "Βελτιστοποιητής Jira - Ρυθμίσεις",
+    "message": "Jira Βελτιστοποιητής",
     "description": "Κύριος τίτλος popup ρυθμίσεων"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Τίτλος κουμπιού επέκτασης/σύμπτυξης εικόνων"
   },
   "byExtension": {
-    "message": "Από την Επέκταση Jira Βελτιστοποιητής",
+    "message": "Από Jira Βελτιστοποιητής",
     "description": "Κείμενο απόδοσης επέκτασης"
   },
   "linkedTicketsTitle": {

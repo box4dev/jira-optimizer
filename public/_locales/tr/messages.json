@@ -8,7 +8,7 @@
     "description": "Uzantı adı"
   },
   "settingsTitle": {
-    "message": "Jira Optimizatörü - Ayarlar",
+    "message": "Jira Optimizatörü",
     "description": "Ayarlar açılır penceresinin ana başlığı"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Resimleri genişlet/daralt düğmesi başlığı"
   },
   "byExtension": {
-    "message": "Jira Optimizatörü Uzantısı tarafından",
+    "message": "Jira Optimizatörü tarafından",
     "description": "Uzantı atıf metni"
   },
   "linkedTicketsTitle": {

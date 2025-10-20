@@ -8,7 +8,7 @@
     "description": "Nama sambungan"
   },
   "settingsTitle": {
-    "message": "Pengoptimum Jira - Tetapan",
+    "message": "Pengoptimum Jira",
     "description": "Tajuk utama pop timbul tetapan"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Tajuk butang kembangkan/runtuhkan imej"
   },
   "byExtension": {
-    "message": "Oleh Pengoptimum Jira Sambungan",
+    "message": "Oleh Pengoptimum Jira",
     "description": "Teks atribusi sambungan"
   },
   "linkedTicketsTitle": {

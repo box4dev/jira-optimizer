@@ -8,7 +8,7 @@
     "description": "Nom de l'extension"
   },
   "settingsTitle": {
-    "message": "Optimiseur Jira - Paramètres",
+    "message": "Optimiseur Jira",
     "description": "Titre principal du popup de paramètres"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Titre du bouton pour étendre/réduire les images"
   },
   "byExtension": {
-    "message": "Par Optimiseur Jira Extension",
+    "message": "Par Optimiseur Jira",
     "description": "Texte d'attribution de l'extension"
   },
   "linkedTicketsTitle": {

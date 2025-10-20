@@ -4,11 +4,11 @@
     "description": "Descrição da extensão"
   },
   "extName": {
-    "message": "Jira Optimizer",
+    "message": "Otimizador Jira",
     "description": "Nome da extensão"
   },
   "settingsTitle": {
-    "message": "Jira Optimizer - Definições",
+    "message": "Otimizador Jira",
     "description": "Título principal do popup de configurações"
   },
   "reloadRequired": {
@@ -64,7 +64,7 @@
     "description": "Título do botão para expandir/recolher imagens"
   },
   "byExtension": {
-    "message": "Por Jira Optimizer Extension",
+    "message": "Por Otimizador Jira",
     "description": "Texto de atribuição da extensão"
   },
   "linkedTicketsTitle": {
