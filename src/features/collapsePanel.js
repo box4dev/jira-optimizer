@@ -82,7 +82,7 @@ export const CollapsePanel = {
         resizerElement.appendChild(spanCollapseOpen);
       }
     } catch (error) {
-      console.error('Jira Expand Extension: Error adding collapse button:', error);
+      console.error('[Jira Optimizer] Error adding collapse button:', error);
     }
   },
 

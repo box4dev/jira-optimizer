@@ -19,9 +19,9 @@ import { ExpandImages } from './features/expandImages.js';
 const JiraExpandExtension = {
   init() {
     state.jiraType = Utils.getJiraType(); // Determine JiraType early
-    // if (state.jiraType === JiraType.UNKNOWN) {
-    //   console.warn("Jira Expand Extension: Unknown Jira type. Extension might not work correctly.");
-    // }
+    if (state.jiraType === JiraType.UNKNOWN) {
+      console.warn(`[Jira Optimizer] Unknown Jira type. Extension might not work correctly.`);
+    }
     this.loadSettingsAndInitializeFeatures();
     this.setupMutationObserver();
   },
@@ -35,7 +35,7 @@ const JiraExpandExtension = {
         'expandImages'
       ], (settings) => {
         if (chrome.runtime.lastError) {
-          console.error('Jira Expand Extension: Error loading settings:', chrome.runtime.lastError.message);
+          console.error('[Jira Optimizer] Error loading settings:', chrome.runtime.lastError.message);
           this.applyFeaturesBasedOnSettings(); // Use defaults
           return;
         }
@@ -48,8 +48,7 @@ const JiraExpandExtension = {
         this.applyFeaturesBasedOnSettings();
       });
     } else {
-      // console.warn("Jira Expand Extension: chrome.storage.local not available. Using default settings.");
-      // state.settings already has defaults from state.js
+      console.warn("[Jira Optimizer]  chrome.storage.local not available. Using default settings.");
       this.applyFeaturesBasedOnSettings();
     }
   },
@@ -69,7 +68,7 @@ const JiraExpandExtension = {
         ExpandImages.init();
       }
     } else {
-      // console.log("Jira Expand Extension: Not a recognized Jira page or Jira type unknown. Features not activated.");
+      console.log("[Jira Optimizer] Not a recognized Jira page or Jira type unknown. Features not activated.");
     }
   },
 
@@ -83,7 +82,7 @@ const JiraExpandExtension = {
     const observer = new MutationObserver(Utils.debounce((mutations) => {
       // Check if significant DOM changes occurred
       //if (mutations.some(m => m.addedNodes.length > 0 || (m.type === 'attributes' && m.target.id === 'jira'))) {
-      // console.log("Jira Expand Extension: DOM changes detected, re-running feature initializers.");
+      // console.log("[Jira Optimizer] DOM changes detected, re-running feature initializers.");
       this.runFeatureInitializers();
       //}
     }, 500)); // Debounce to avoid excessive calls

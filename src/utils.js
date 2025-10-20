@@ -34,7 +34,7 @@ export const Utils = {
   getSelector(key) {
     const typeSelectors = Selectors[state.jiraType];
     if (!typeSelectors) {
-      // console.warn(`JiraType ${state.jiraType} not found in Selectors.`);
+      console.warn(`[Jira Optimizer] JiraType ${state.jiraType} not found in Selectors.`);
       return Selectors[JiraType.UNKNOWN]?.[key] || ''; // Fallback
     }
     return typeSelectors[key] || '';
@@ -67,7 +67,7 @@ export const Utils = {
         await new Promise(resolve => setTimeout(resolve, 1000));
         return Utils.fetchWithRetry(url, retries - 1); // Use Utils.fetchWithRetry for explicit context
       }
-      // console.error('Jira Expand Extension: Fetch failed after multiple retries:', error);
+      console.error('[Jira Optimizer] Fetch failed after multiple retries:', error);
       throw error;
     }
   }

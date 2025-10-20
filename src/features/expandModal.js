@@ -80,7 +80,7 @@ export const ExpandModal = {
         modalIcons.appendChild(spanShrinkExpand);
       }
     } catch (error) {
-      console.error('Jira Expand Extension: Error adding expand button:', error);
+      console.error('[Jira Optimizer] Error adding expand button:', error);
     }
   },
 

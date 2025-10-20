@@ -20,7 +20,7 @@ export const LinkedIssues = {
       const issueData = await Utils.fetchWithRetry(linkedIssueSelf);
       return issueData.fields.assignee;
     } catch (error) {
-      // console.error('Jira Expand Extension: Error fetching assignee details:', error);
+      console.error('[Jira Optimizer] Error fetching assignee details:', error);
       throw error; // Re-throw to be handled by caller
     }
   },
@@ -58,7 +58,7 @@ export const LinkedIssues = {
           </div>
         </div>`;
     } catch (error) {
-      // console.error('Jira Expand Extension: Error generating linked ticket HTML for', linkedIssue?.key, error);
+      // console.error('[Jira Optimizer] Error generating linked ticket HTML for', linkedIssue?.key, error);
       return `<p>Error displaying details for ${linkedIssue?.key || 'a linked ticket'}.</p>`;
     }
   },
@@ -108,7 +108,7 @@ export const LinkedIssues = {
       }
       return { groupedLinksHtml, title: getI18nMessage('linkedTicketsTitle') };
     } catch (error) {
-      // console.error('Jira Expand Extension: Error fetching linked tickets for', issueKey, error);
+      // console.error('[Jira Optimizer] Error fetching linked tickets for', issueKey, error);
       return { error: `<p>Error fetching linked tickets: ${error.message}</p>`, title: getI18nMessage('errorTitle') };
     }
   },
@@ -143,7 +143,7 @@ export const LinkedIssues = {
       tooltipManager.tooltip.querySelector('.ewj-tooltip-content-container').innerHTML = tooltipContent;
       tooltipManager.adjustPosition(event);
     } catch (err) {
-      // console.error('Jira Expand Extension: Error handling tooltip for', issueKey, err);
+      // console.error('[Jira Optimizer] Error handling tooltip for', issueKey, err);
       if (tooltipManager.tooltip) {
         tooltipManager.tooltip.querySelector('.ewj-tooltip-content-container').innerHTML = `<p>Error: ${err.message}</p>`;
         tooltipManager.adjustPosition(event);
@@ -201,7 +201,7 @@ export const LinkedIssues = {
       try {
         chrome.storage.local.get(['viewLinkedTickets'], (result) => {
           if (chrome.runtime.lastError) {
-            console.warn('Jira Expand Extension: Extension context invalidated. This may happen when the extension is reloaded or updated.');
+            console.warn('[Jira Optimizer] Extension context invalidated. This may happen when the extension is reloaded or updated.');
             return;
           }
           if (result.viewLinkedTickets !== false) {
@@ -218,10 +218,10 @@ export const LinkedIssues = {
           }
         });
       } catch (error) {
-        console.error('Jira Expand Extension: Error in checkAndAddIconsInternal:', error);
+        console.error('[Jira Optimizer] Error in checkAndAddIconsInternal:', error);
       }
     } else {
-      // console.warn("Jira Expand Extension: chrome.storage.local not available. Linked tickets icons may not work as expected.");
+      // console.warn("[Jira Optimizer] chrome.storage.local not available. Linked tickets icons may not work as expected.");
       // Fallback: assume true if storage is not available
       const boardSelector = Utils.getSelector('board');
       if (!boardSelector) return;

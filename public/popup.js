@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   chrome.storage.local.get(Object.keys(settingConfiguration), (savedSettings) => {
     if (chrome.runtime.lastError) {
-      console.error('Error loading settings:', chrome.runtime.lastError.message);
+      console.error('[Jira Optimizer] Error loading settings:', chrome.runtime.lastError.message);
       return;
     }
 
@@ -225,9 +225,9 @@ document.addEventListener('DOMContentLoaded', () => {
   function saveSetting(key, value) {
     chrome.storage.local.set({ [key]: value }, () => {
       if (chrome.runtime.lastError) {
-        console.error(`Error saving setting "${key}":`, chrome.runtime.lastError.message);
+        console.error(`[Jira Optimizer] Error saving setting "${key}":`, chrome.runtime.lastError.message);
       } else {
-        // console.log(`Setting "${key}" saved as: ${value}`); // Optional: for debugging
+        console.log(`[Jira Optimizer] Setting "${key}" saved as: ${value}`); // Optional: for debugging
       }
     });
   }
@@ -245,9 +245,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     chrome.storage.local.set(defaultSettings, () => {
       if (chrome.runtime.lastError) {
-        console.error('Error saving default settings:', chrome.runtime.lastError.message);
+        console.error('[Jira Optimizer] Error saving default settings:', chrome.runtime.lastError.message);
       } else {
-        // console.log('Default settings saved successfully');
+        console.log('[Jira Optimizer] Default settings saved successfully');
       }
     });
   }

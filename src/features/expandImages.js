@@ -44,7 +44,7 @@ export const ExpandImages = {
     try {
       this.resizeImagesAndContainers();
     } catch (error) {
-      console.warn('Jira Expand Extension: Error in applyAutoResize:', error.message);
+      console.warn('[Jira Optimizer] Error in applyAutoResize:', error.message);
     }
   },
 
@@ -97,7 +97,7 @@ export const ExpandImages = {
       for (const selector of selectors) {
         images = document.querySelectorAll(selector);
         if (images.length > 0) {
-          console.log(`Jira Expand Extension: Found ${images.length} images with selector: ${selector}`);
+          console.log(`[Jira Optimizer] Found ${images.length} images with selector: ${selector}`);
           break;
         }
       }
@@ -159,7 +159,7 @@ export const ExpandImages = {
 
       // console.log(`Jira Expand Extension: Toggled ${images.length} images`);
     } catch (error) {
-      console.error('Jira Expand Extension: Error in toggleImageExpansion:', error);
+      console.error('[Jira Optimizer] Error in toggleImageExpansion:', error);
     }
   },
 
@@ -220,7 +220,7 @@ export const ExpandImages = {
         this.observerAdded = true;
       }
     } catch (error) {
-      console.error('Jira Expand Extension: Error adding expand images button:', error);
+      console.error('[Jira Optimizer] Error adding expand images button:', error);
     }
   },
 
