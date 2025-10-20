@@ -26,6 +26,31 @@ export const Utils = {
     return JiraType.UNKNOWN;
   },
 
+  async waitForJiraType(maxWaitTime = 10000, checkInterval = 500) {
+    const startTime = Date.now();
+
+    return new Promise((resolve) => {
+      const checkJiraType = () => {
+        const jiraType = this.getJiraType();
+        if (jiraType !== JiraType.UNKNOWN) {
+          // console.log(`[Jira Optimizer] Jira type detected after ${(Date.now() - startTime)}ms: ${jiraType}`);
+          resolve(jiraType);
+          return;
+        }
+
+        if (Date.now() - startTime >= maxWaitTime) {
+          console.warn("[Jira Optimizer] Timeout waiting for Jira type detection, using UNKNOWN");
+          resolve(JiraType.UNKNOWN);
+          return;
+        }
+
+        setTimeout(checkJiraType, checkInterval);
+      };
+
+      checkJiraType();
+    });
+  },
+
   getProjectKeyFromURL() {
     const match = window.location.pathname.match(/\/projects\/([A-Z]+)\/board/);
     return match ? match[1] : null;

@@ -1,5 +1,5 @@
 /**
- * Jira Expand Extension
+ * Jira Optimizer Extension
  * Enhances Jira Cloud and Server with expandable modals and linked issue viewing
  * @author Marcelo Lourenço
  * @version 2.1 (Refactored)
@@ -16,9 +16,11 @@ import { LinkedIssues } from './features/linkedIssues.js';
 import { ExpandImages } from './features/expandImages.js';
 
 // Main Application
-const JiraExpandExtension = {
-  init() {
-    state.jiraType = Utils.getJiraType(); // Determine JiraType early
+const JiraOptimizerExtension = {
+  async init() {
+    // console.log("[Jira Optimizer] Initializing extension...");
+    state.jiraType = await Utils.waitForJiraType(); // Wait for JiraType to be determined
+    //console.log(`[Jira Optimizer] Jira type detected: ${state.jiraType}`);
     if (state.jiraType === JiraType.UNKNOWN) {
       console.warn(`[Jira Optimizer] Unknown Jira type. Extension might not work correctly.`);
     }
@@ -39,6 +41,7 @@ const JiraExpandExtension = {
           this.applyFeaturesBasedOnSettings(); // Use defaults
           return;
         }
+        // console.log("[Jira Optimizer] Settings loaded:", settings);
         state.settings = {
           collapseRightPanel: settings.collapseRightPanel !== false,
           expandCreateModal: settings.expandCreateModal !== false,
@@ -54,17 +57,22 @@ const JiraExpandExtension = {
   },
 
   applyFeaturesBasedOnSettings() {
+    // console.log("[Jira Optimizer] Applying features based on settings:", state.settings);
     if (state.jiraType !== JiraType.UNKNOWN) {
       if (state.settings.collapseRightPanel) {
+        // console.log("[Jira Optimizer] Initializing CollapsePanel");
         CollapsePanel.init();
       }
       if (state.settings.expandCreateModal) {
+        // console.log("[Jira Optimizer] Initializing ExpandModal");
         ExpandModal.init();
       }
       if (state.settings.viewLinkedTickets) {
+        // console.log("[Jira Optimizer] Initializing LinkedIssues");
         LinkedIssues.init();
       }
       if (state.settings.expandImages) {
+        // console.log("[Jira Optimizer] Initializing ExpandImages");
         ExpandImages.init();
       }
     } else {
@@ -72,9 +80,9 @@ const JiraExpandExtension = {
     }
   },
 
-  runFeatureInitializers() {
+  async runFeatureInitializers() {
     // Re-determine JiraType in case of SPA navigation
-    state.jiraType = Utils.getJiraType();
+    state.jiraType = await Utils.waitForJiraType(2000); // Shorter wait for re-initialization
     this.applyFeaturesBasedOnSettings();
   },
 
@@ -96,12 +104,12 @@ const JiraExpandExtension = {
 };
 
 // Initialize the extension
-function initialize() {
-  setTimeout(() => JiraExpandExtension.init(), 100); // Small delay for page elements
+async function initialize() {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => JiraOptimizerExtension.init());
+  } else {
+    await JiraOptimizerExtension.init();
+  }
 }
 
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initialize);
-} else {
-  initialize();
-}
+initialize();
