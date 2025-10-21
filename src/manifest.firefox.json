@@ -5,8 +5,12 @@
   "description": "__MSG_extDesc__",
   "name": "__MSG_extName__",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
+  "background": {
+    "scripts": ["background.js"]
+  },
   "content_scripts": [
     {
       "matches": [

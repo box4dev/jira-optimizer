@@ -6,6 +6,7 @@
   "scripts": {
     "watch": "set WEBPACK_ENV=chrome && node ./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
     "build": "set WEBPACK_ENV=chrome && node ./node_modules/webpack/bin/webpack.js --mode=production --config config/webpack.config.js",
+    "watch:firefox": "set WEBPACK_ENV=firefox && node ./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
     "build:firefox": "set WEBPACK_ENV=firefox && node ./node_modules/webpack/bin/webpack.js --mode=production --config config/webpack.config.js"
   },
   "devDependencies": {

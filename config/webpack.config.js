@@ -14,7 +14,7 @@ module.exports = () => {
   const config = merge(common, {
     entry: {
       contentScript: PATHS.src + '/contentScript.js',
-      // background: PATHS.src + '/background.js',
+      background: PATHS.src + '/background.js',
       // popup: PATHS.src + '/popup.js',
     },
     plugins: [

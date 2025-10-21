@@ -196,33 +196,29 @@ export const LinkedIssues = {
     }
   },
 
-  checkAndAddIconsInternal() {
-    if (typeof chrome !== "undefined" && chrome.storage && chrome.storage.local && chrome.runtime && chrome.runtime.id) {
-      try {
-        chrome.storage.local.get(['viewLinkedTickets'], (result) => {
-          if (chrome.runtime.lastError) {
-            console.warn('[Jira Optimizer] Extension context invalidated. This may happen when the extension is reloaded or updated.');
-            return;
-          }
-          if (result.viewLinkedTickets !== false) {
-            const boardSelector = Utils.getSelector('board');
-            if (!boardSelector) return;
-            const board = document.querySelector(boardSelector);
-            if (board) {
-              const cardSelector = Utils.getSelector('card');
-              if (!cardSelector) return;
-              const cards = board.querySelectorAll(cardSelector);
-              cards.forEach(card => this.addIconToCard(card));
-              state.currentProjectKey = Utils.getProjectKeyFromURL();
-            }
-          }
-        });
-      } catch (error) {
-        console.error('[Jira Optimizer] Error in checkAndAddIconsInternal:', error);
+  async checkAndAddIconsInternal() {
+    try {
+      // Use messaging to get settings from background script
+      const response = await this.sendMessageToBackground({
+        action: 'storage_get',
+        keys: ['viewLinkedTickets']
+      });
+
+      if (response.success && response.data.viewLinkedTickets !== false) {
+        const boardSelector = Utils.getSelector('board');
+        if (!boardSelector) return;
+        const board = document.querySelector(boardSelector);
+        if (board) {
+          const cardSelector = Utils.getSelector('card');
+          if (!cardSelector) return;
+          const cards = board.querySelectorAll(cardSelector);
+          cards.forEach(card => this.addIconToCard(card));
+          state.currentProjectKey = Utils.getProjectKeyFromURL();
+        }
       }
-    } else {
-      // console.warn("[Jira Optimizer] chrome.storage.local not available. Linked tickets icons may not work as expected.");
-      // Fallback: assume true if storage is not available
+    } catch (error) {
+      console.warn('[Jira Optimizer] Error checking viewLinkedTickets setting:', error);
+      // Fallback: assume true if messaging fails
       const boardSelector = Utils.getSelector('board');
       if (!boardSelector) return;
       const board = document.querySelector(boardSelector);
@@ -234,6 +230,25 @@ export const LinkedIssues = {
         state.currentProjectKey = Utils.getProjectKeyFromURL();
       }
     }
+  },
+
+  // Helper method for messaging
+  sendMessageToBackground(message) {
+    return new Promise((resolve, reject) => {
+      if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) {
+        chrome.runtime.sendMessage(message, (response) => {
+          if (chrome.runtime.lastError) {
+            reject(chrome.runtime.lastError);
+          } else {
+            resolve(response);
+          }
+        });
+      } else if (typeof browser !== 'undefined' && browser.runtime && browser.runtime.sendMessage) {
+        browser.runtime.sendMessage(message).then(resolve).catch(reject);
+      } else {
+        reject(new Error('Runtime messaging not available'));
+      }
+    });
   },
 
   checkAndAddIcons: Utils.debounce(function () { LinkedIssues.checkAndAddIconsInternal(); }, 300),

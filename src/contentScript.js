@@ -28,19 +28,15 @@ const JiraOptimizerExtension = {
     this.setupMutationObserver();
   },
 
-  loadSettingsAndInitializeFeatures() {
-    if (typeof chrome !== "undefined" && chrome.storage && chrome.storage.local && chrome.runtime && chrome.runtime.id) {
-      chrome.storage.local.get([
-        'collapseRightPanel',
-        'expandCreateModal',
-        'viewLinkedTickets',
-        'expandImages'
-      ], (settings) => {
-        if (chrome.runtime.lastError) {
-          console.error('[Jira Optimizer] Error loading settings:', chrome.runtime.lastError.message);
-          this.applyFeaturesBasedOnSettings(); // Use defaults
-          return;
-        }
+  async loadSettingsAndInitializeFeatures() {
+    try {
+      const response = await this.sendMessageToBackground({
+        action: 'storage_get',
+        keys: ['collapseRightPanel', 'expandCreateModal', 'viewLinkedTickets', 'expandImages']
+      });
+
+      if (response.success) {
+        const settings = response.data;
         // console.log("[Jira Optimizer] Settings loaded:", settings);
         state.settings = {
           collapseRightPanel: settings.collapseRightPanel !== false,
@@ -48,12 +44,15 @@ const JiraOptimizerExtension = {
           viewLinkedTickets: settings.viewLinkedTickets !== false,
           expandImages: settings.expandImages !== false
         };
-        this.applyFeaturesBasedOnSettings();
-      });
-    } else {
-      console.warn("[Jira Optimizer]  chrome.storage.local not available. Using default settings.");
-      this.applyFeaturesBasedOnSettings();
+      } else {
+        console.warn('[Jira Optimizer] Error loading settings:', response.error);
+        // Use defaults
+      }
+    } catch (error) {
+      console.warn('[Jira Optimizer] chrome.runtime not available or messaging failed. Using default settings.', error);
     }
+
+    this.applyFeaturesBasedOnSettings();
   },
 
   applyFeaturesBasedOnSettings() {
@@ -101,6 +100,25 @@ const JiraOptimizerExtension = {
       attributes: true // Observe attribute changes on body, e.g. if 'id=jira' is added later
     });
   }
+};
+
+// Cross-browser messaging helper
+JiraOptimizerExtension.sendMessageToBackground = function(message) {
+  return new Promise((resolve, reject) => {
+    if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) {
+      chrome.runtime.sendMessage(message, (response) => {
+        if (chrome.runtime.lastError) {
+          reject(chrome.runtime.lastError);
+        } else {
+          resolve(response);
+        }
+      });
+    } else if (typeof browser !== 'undefined' && browser.runtime && browser.runtime.sendMessage) {
+      browser.runtime.sendMessage(message).then(resolve).catch(reject);
+    } else {
+      reject(new Error('Runtime messaging not available'));
+    }
+  });
 };
 
 // Initialize the extension
