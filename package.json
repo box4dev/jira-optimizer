@@ -22,12 +22,12 @@
     "webpack-merge": "^5.10.0"
   },
   "license": "MIT",
-  "author": "Marcelo Lourenço <qabi.dev@gmail.com>",
+  "author": "Marcelo Lourenço <contact@box4.dev>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marcelo-lourenco/Jira-Expand-Workspace.git"
+    "url": "https://github.com/box4dev/jira-optimizer.git"
   },
-  "bugs": "https://github.com/marcelo-lourenco/Jira-Expand-Workspace/issues",
+  "bugs": "https://github.com/box4dev/jira-optimizer/issues",
   "homepage": "https://box4.dev/projects/chrome-extensions/jira-optimizer/",
   "keywords": [
     "jira",
