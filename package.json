@@ -1,12 +1,14 @@
 {
-  "name": "jira-expand-workspace",
+  "name": "jira-optimizer-extension",
   "version": "1.2.1",
   "description": "Adds buttons to expand the workspace and images, collapse the right pane and modal to view related issues.",
   "private": true,
   "scripts": {
-    "watch": "set WEBPACK_ENV=chrome && node ./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
-    "build": "set WEBPACK_ENV=chrome && node ./node_modules/webpack/bin/webpack.js --mode=production --config config/webpack.config.js",
+    "watch": "node ./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
+    "build": "node ./node_modules/webpack/bin/webpack.js --mode=production --config config/webpack.config.js",
+    "watch:chrome": "set WEBPACK_ENV=chrome && node ./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
     "watch:firefox": "set WEBPACK_ENV=firefox && node ./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
+    "build:chrome": "set WEBPACK_ENV=chrome && node ./node_modules/webpack/bin/webpack.js --mode=production --config config/webpack.config.js",
     "build:firefox": "set WEBPACK_ENV=firefox && node ./node_modules/webpack/bin/webpack.js --mode=production --config config/webpack.config.js"
   },
   "devDependencies": {
@@ -26,11 +28,22 @@
     "url": "https://github.com/marcelo-lourenco/Jira-Expand-Workspace.git"
   },
   "bugs": "https://github.com/marcelo-lourenco/Jira-Expand-Workspace/issues",
-  "homepage": "https://box4.dev/projects/chrome-extensions/jira-expand-workspace/",
+  "homepage": "https://box4.dev/projects/chrome-extensions/jira-optimizer/",
   "keywords": [
-    "Jira",
+    "jira",
     "extension",
+    "chrome-extension",
+    "firefox-addon",
+    "productivity",
+    "workspace",
+    "modal",
+    "collapse",
     "expand",
-    "related issues"
+    "images",
+    "linked-issues",
+    "agile",
+    "atlassian",
+    "browser-extension",
+    "ui-enhancement"
   ]
 }

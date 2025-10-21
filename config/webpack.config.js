@@ -6,19 +6,22 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const PATHS = require('./paths');
 const path = require('path');
 
-module.exports = () => {
-  const env = process.env.WEBPACK_ENV;
-  const isFirefox = env.trim() === 'firefox'; // Define se é Firefox ou Chrome/Edge
+// Function to create configuration for a specific browser
+const createConfig = (browser) => {
+  const isFirefox = browser === 'firefox';
 
-  // Merge webpack configuration files
-  const config = merge(common, {
+  return merge(common, {
+    output: {
+      path: isFirefox ? PATHS.buildFirefox : PATHS.buildChrome,
+      filename: '[name].js',
+    },
     entry: {
       contentScript: PATHS.src + '/contentScript.js',
       background: PATHS.src + '/background.js',
       // popup: PATHS.src + '/popup.js',
     },
     plugins: [
-      // Copia e modifica o manifest.json conforme o ambiente
+      // Copy and modify manifest.json according to the environment
       new CopyWebpackPlugin({
         patterns: [
           {
@@ -37,6 +40,12 @@ module.exports = () => {
       })
     ]
   });
+};
 
-  return config;
+module.exports = () => {
+  // Retorna configurações para Chrome e Firefox
+  return [
+    createConfig('chrome'),
+    createConfig('firefox')
+  ];
 };

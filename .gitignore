@@ -3,6 +3,8 @@
 
 # production
 /build
+/build-chrome
+/build-firefox
 
 # misc
 .DS_Store

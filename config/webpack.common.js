@@ -11,12 +11,13 @@ const PATHS = require('./paths');
 // Whenever user creates an extension, CLI adds `webpack.common.js` file
 // in template's `config` folder
 const common = {
-  output: {
-    // the build folder to output bundles and assets in.
-    path: PATHS.build,
-    // the filename template for entry chunks
-    filename: '[name].js',
-  },
+  // Removed output.path as it will be set in specific settings 
+  // output: {
+  //   // the build folder to output bundles and assets in.
+  //   path: PATHS.build,
+  //   // the filename template for entry chunks
+  //   filename: '[name].js',
+  // },
   devtool: 'source-map',
   stats: {
     all: false,
