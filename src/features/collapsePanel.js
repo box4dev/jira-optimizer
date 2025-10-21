@@ -39,6 +39,12 @@ export const CollapsePanel = {
       const resizerElement = document.querySelector(resizerElementSelector);
 
       if (containerRight && resizerElement && !document.getElementById('ewj-span-collapse-open')) {
+        // Check if we have access to messaging before proceeding
+        if (!this.isMessagingAvailable()) {
+          console.log('[Jira Optimizer] Messaging not available, skipping collapse button initialization');
+          return;
+        }
+
         const spanCollapseOpen = Utils.createElement('span', {
           id: 'ewj-span-collapse-open',
           className: 'ewj-icon-collapse', // Initial state: panel is open, button shows "collapse"
@@ -82,8 +88,19 @@ export const CollapsePanel = {
         resizerElement.appendChild(spanCollapseOpen);
       }
     } catch (error) {
-      console.error('[Jira Optimizer] Error adding collapse button:', error);
+      // Handle extension context invalidated errors gracefully
+      if (error.message && error.message.includes('Extension context invalidated')) {
+        console.log('[Jira Optimizer] Extension context invalidated, collapse button will be added on next page load');
+      } else {
+        console.error('[Jira Optimizer] Error adding collapse button:', error);
+      }
     }
+  },
+
+  // Helper method to check if messaging is available
+  isMessagingAvailable() {
+    return (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) ||
+           (typeof browser !== 'undefined' && browser.runtime && browser.runtime.sendMessage);
   },
 
   setupKeyboardShortcuts() {

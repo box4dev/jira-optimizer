@@ -49,7 +49,13 @@ const JiraOptimizerExtension = {
         // Use defaults
       }
     } catch (error) {
-      console.warn('[Jira Optimizer] chrome.runtime not available or messaging failed. Using default settings.', error);
+      // Handle known extension errors gracefully
+      if (error.message && error.message.includes('Extension context invalidated')) {
+        // Extension was reloaded/refreshed, this is normal - silently use defaults
+        console.log('[Jira Optimizer] Extension context invalidated, using default settings');
+      } else {
+        console.warn('[Jira Optimizer] chrome.runtime not available or messaging failed. Using default settings.', error);
+      }
     }
 
     this.applyFeaturesBasedOnSettings();

@@ -197,6 +197,13 @@ export const LinkedIssues = {
   },
 
   async checkAndAddIconsInternal() {
+    // Only run if we're on a board page (check for board element existence)
+    const boardSelector = Utils.getSelector('board');
+    if (!boardSelector) return;
+
+    const board = document.querySelector(boardSelector);
+    if (!board) return; // Not on a board page, skip execution
+
     try {
       // Use messaging to get settings from background script
       const response = await this.sendMessageToBackground({
@@ -205,30 +212,26 @@ export const LinkedIssues = {
       });
 
       if (response.success && response.data.viewLinkedTickets !== false) {
-        const boardSelector = Utils.getSelector('board');
-        if (!boardSelector) return;
-        const board = document.querySelector(boardSelector);
-        if (board) {
-          const cardSelector = Utils.getSelector('card');
-          if (!cardSelector) return;
-          const cards = board.querySelectorAll(cardSelector);
-          cards.forEach(card => this.addIconToCard(card));
-          state.currentProjectKey = Utils.getProjectKeyFromURL();
-        }
-      }
-    } catch (error) {
-      console.warn('[Jira Optimizer] Error checking viewLinkedTickets setting:', error);
-      // Fallback: assume true if messaging fails
-      const boardSelector = Utils.getSelector('board');
-      if (!boardSelector) return;
-      const board = document.querySelector(boardSelector);
-      if (board) {
         const cardSelector = Utils.getSelector('card');
         if (!cardSelector) return;
         const cards = board.querySelectorAll(cardSelector);
         cards.forEach(card => this.addIconToCard(card));
         state.currentProjectKey = Utils.getProjectKeyFromURL();
       }
+    } catch (error) {
+      // Handle known errors gracefully
+      if (error.message && error.message.includes('Extension context invalidated')) {
+        // Extension was reloaded/refreshed, this is normal - silently ignore
+        return;
+      }
+      console.warn('[Jira Optimizer] Error checking viewLinkedTickets setting:', error);
+
+      // Fallback: assume true if messaging fails (but only on board pages)
+      const cardSelector = Utils.getSelector('card');
+      if (!cardSelector) return;
+      const cards = board.querySelectorAll(cardSelector);
+      cards.forEach(card => this.addIconToCard(card));
+      state.currentProjectKey = Utils.getProjectKeyFromURL();
     }
   },
 

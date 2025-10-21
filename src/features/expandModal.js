@@ -54,6 +54,12 @@ export const ExpandModal = {
       const modalIcons = document.querySelector(modalIconsSelector);
 
       if (modalIssueCreate && modalIssueCreatePositioner && modalIcons && !document.getElementById('ewj-span-shrink-expand')) {
+        // Check if we have access to messaging before proceeding
+        if (!this.isMessagingAvailable()) {
+          console.log('[Jira Optimizer] Messaging not available, skipping expand button initialization');
+          return;
+        }
+
         if (state.jiraType !== JiraType.CLOUD) {
           modalIcons.style.display = 'flex';
         }
@@ -80,8 +86,19 @@ export const ExpandModal = {
         modalIcons.appendChild(spanShrinkExpand);
       }
     } catch (error) {
-      console.error('[Jira Optimizer] Error adding expand button:', error);
+      // Handle extension context invalidated errors gracefully
+      if (error.message && error.message.includes('Extension context invalidated')) {
+        console.log('[Jira Optimizer] Extension context invalidated, expand button will be added on next modal open');
+      } else {
+        console.error('[Jira Optimizer] Error adding expand button:', error);
+      }
     }
+  },
+
+  // Helper method to check if messaging is available
+  isMessagingAvailable() {
+    return (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) ||
+           (typeof browser !== 'undefined' && browser.runtime && browser.runtime.sendMessage);
   },
 
   setupKeyboardShortcuts() {

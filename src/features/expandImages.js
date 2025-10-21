@@ -97,7 +97,7 @@ export const ExpandImages = {
       for (const selector of selectors) {
         images = document.querySelectorAll(selector);
         if (images.length > 0) {
-          console.log(`[Jira Optimizer] Found ${images.length} images with selector: ${selector}`);
+          // console.log(`[Jira Optimizer] Found ${images.length} images with selector: ${selector}`);
           break;
         }
       }
@@ -165,6 +165,12 @@ export const ExpandImages = {
 
   addExpandImagesButton() {
     try {
+      // Check if we have access to messaging before proceeding
+      if (!this.isMessagingAvailable()) {
+        console.log('[Jira Optimizer] Messaging not available, skipping expand images button initialization');
+        return;
+      }
+
       // Create the expand images button span (similar to collapse button)
       if (!document.getElementById('ewj-span-expand-images')) {
         const spanExpandImages = Utils.createElement('span', {
@@ -220,8 +226,19 @@ export const ExpandImages = {
         this.observerAdded = true;
       }
     } catch (error) {
-      console.error('[Jira Optimizer] Error adding expand images button:', error);
+      // Handle extension context invalidated errors gracefully
+      if (error.message && error.message.includes('Extension context invalidated')) {
+        console.log('[Jira Optimizer] Extension context invalidated, expand images button will be added on next page load');
+      } else {
+        console.error('[Jira Optimizer] Error adding expand images button:', error);
+      }
     }
+  },
+
+  // Helper method to check if messaging is available
+  isMessagingAvailable() {
+    return (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) ||
+           (typeof browser !== 'undefined' && browser.runtime && browser.runtime.sendMessage);
   },
 
 
