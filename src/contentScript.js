@@ -21,11 +21,44 @@ const JiraOptimizerExtension = {
     // console.log("[Jira Optimizer] Initializing extension...");
     state.jiraType = await Utils.waitForJiraType(); // Wait for JiraType to be determined
     // console.log(`[Jira Optimizer] Jira type detected: ${state.jiraType}`);
+
+    // Detect and save Jira URL automatically if not saved yet
+    this.detectAndSaveJiraUrl();
+
     if (state.jiraType === JiraType.UNKNOWN) {
       // console.warn(`[Jira Optimizer] Unknown Jira type. Extension might not work correctly.`);
     }
     this.loadSettingsAndInitializeFeatures();
     this.setupMutationObserver();
+  },
+
+  async detectAndSaveJiraUrl() {
+    try {
+      // Check if we already have a saved URL (using sync storage)
+      const response = await this.sendMessageToBackground({
+        action: 'storage_sync_get',
+        keys: ['jiraUrl']
+      });
+
+      if (response.success && response.data && response.data.jiraUrl) {
+        // Already have a saved URL, no need to detect
+        return;
+      }
+
+      // No saved URL, try to detect from current page
+      const detectedUrl = detectJiraInstanceFromPage();
+
+      if (detectedUrl) {
+        // Save the detected URL automatically (using sync storage)
+        await this.sendMessageToBackground({
+          action: 'storage_sync_set',
+          items: { jiraUrl: detectedUrl }
+        });
+        console.log('[Jira Optimizer] Jira URL automatically detected and saved:', detectedUrl);
+      }
+    } catch (error) {
+      console.warn('[Jira Optimizer] Error detecting/saving Jira URL:', error);
+    }
   },
 
   async loadSettingsAndInitializeFeatures() {

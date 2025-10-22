@@ -57,6 +57,28 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       .catch(error => sendResponse({ success: false, error: error.message }));
     return true; // Keep the message channel open for async response
   }
+
+  if (request.action === 'storage_sync_get') {
+    chrome.storage.sync.get(request.keys, (result) => {
+      if (chrome.runtime.lastError) {
+        sendResponse({ success: false, error: chrome.runtime.lastError.message });
+      } else {
+        sendResponse({ success: true, data: result });
+      }
+    });
+    return true; // Keep the message channel open for async response
+  }
+
+  if (request.action === 'storage_sync_set') {
+    chrome.storage.sync.set(request.items, () => {
+      if (chrome.runtime.lastError) {
+        sendResponse({ success: false, error: chrome.runtime.lastError.message });
+      } else {
+        sendResponse({ success: true });
+      }
+    });
+    return true; // Keep the message channel open for async response
+  }
 });
 
 // Initialize default settings on install/update
