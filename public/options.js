@@ -131,13 +131,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Basic validation
     if (jiraUrl && !jiraUrl.match(/^https?:\/\/.+/)) {
-      showMessage('Please enter a valid URL starting with http:// or https://', 'error');
+      showMessage('Please enter a valid URL starting with http:// or https://', 'joc-error-message');
       return;
     }
 
     chrome.storage.local.set({ jiraUrl: jiraUrl }, () => {
       if (chrome.runtime.lastError) {
-        showMessage('Error saving Jira URL', 'error');
+        showMessage('Error saving Jira URL', 'joc-error-message');
       } else {
         showMessage('Jira URL saved successfully!', 'joc-success-message');
         // Hide the info message when URL is successfully saved

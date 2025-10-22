@@ -8,6 +8,8 @@
 import { state } from './state.js';
 import { Utils } from './utils.js';
 import { JiraType } from './constants.js';
+import { Messaging } from './messaging.js';
+import { JiraDetector } from './jiraDetector.js';
 
 // Features
 import { CollapsePanel } from './features/collapsePanel.js';
@@ -19,7 +21,7 @@ import { ExpandImages } from './features/expandImages.js';
 const JiraOptimizerExtension = {
   async init() {
     // console.log("[Jira Optimizer] Initializing extension...");
-    state.jiraType = await Utils.waitForJiraType(); // Wait for JiraType to be determined
+    state.jiraType = await JiraDetector.waitForType(); // Wait for JiraType to be determined
     // console.log(`[Jira Optimizer] Jira type detected: ${state.jiraType}`);
 
     // Detect and save Jira URL automatically if not saved yet
@@ -34,8 +36,8 @@ const JiraOptimizerExtension = {
 
   async detectAndSaveJiraUrl() {
     try {
-      // Check if we already have a saved URL (using local storage)
-      const response = await this.sendMessageToBackground({
+      // Check if we already have a saved URL
+      const response = await Messaging.sendToBackground({
         action: 'storage_local_get',
         keys: ['jiraUrl']
       });
@@ -46,24 +48,24 @@ const JiraOptimizerExtension = {
       }
 
       // No saved URL, try to detect from current page
-      const detectedUrl = detectJiraInstanceFromPage();
+      const detectedUrl = JiraDetector.detectUrlFromPage();
 
       if (detectedUrl) {
-        // Save the detected URL automatically (using local storage)
-        await this.sendMessageToBackground({
+        // Save the detected URL automatically
+        await Messaging.sendToBackground({
           action: 'storage_local_set',
           items: { jiraUrl: detectedUrl }
         });
         console.log('[Jira Optimizer] Jira URL automatically detected and saved:', detectedUrl);
       }
     } catch (error) {
-      console.warn('[Jira Optimizer] Error detecting/saving Jira URL:', error);
+      // console.warn('[Jira Optimizer] Error detecting/saving Jira URL:', error);
     }
   },
 
   async loadSettingsAndInitializeFeatures() {
     try {
-      const response = await this.sendMessageToBackground({
+      const response = await Messaging.sendToBackground({
         action: 'storage_get',
         keys: ['collapseRightPanel', 'expandCreateModal', 'viewLinkedTickets', 'expandImages', 'themeMode']
       });
@@ -121,7 +123,7 @@ const JiraOptimizerExtension = {
 
   async runFeatureInitializers() {
     // Re-determine JiraType in case of SPA navigation
-    state.jiraType = await Utils.waitForJiraType(2000); // Shorter wait for re-initialization
+    state.jiraType = await JiraDetector.waitForType(2000); // Shorter wait for re-initialization
     this.applyFeaturesBasedOnSettings();
   },
 
@@ -142,111 +144,17 @@ const JiraOptimizerExtension = {
   }
 };
 
-// Cross-browser messaging helper
-JiraOptimizerExtension.sendMessageToBackground = function(message) {
-  return new Promise((resolve, reject) => {
-    if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) {
-      chrome.runtime.sendMessage(message, (response) => {
-        if (chrome.runtime.lastError) {
-          reject(chrome.runtime.lastError);
-        } else {
-          resolve(response);
-        }
-      });
-    } else if (typeof browser !== 'undefined' && browser.runtime && browser.runtime.sendMessage) {
-      browser.runtime.sendMessage(message).then(resolve).catch(reject);
-    } else {
-      reject(new Error('Runtime messaging not available'));
-    }
-  });
-};
-
-// Cross-browser messaging helper for content script
-JiraOptimizerExtension.sendMessageToBackground = function(message) {
-  return new Promise((resolve, reject) => {
-    if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) {
-      chrome.runtime.sendMessage(message, (response) => {
-        if (chrome.runtime.lastError) {
-          reject(chrome.runtime.lastError);
-        } else {
-          resolve(response);
-        }
-      });
-    } else if (typeof browser !== 'undefined' && browser.runtime && browser.runtime.sendMessage) {
-      browser.runtime.sendMessage(message).then(resolve).catch(reject);
-    } else {
-      reject(new Error('Runtime messaging not available'));
-    }
-  });
-};
+// Use unified messaging helper
+JiraOptimizerExtension.sendMessageToBackground = Messaging.sendToBackground;
 
 // Listen for messages from background script or popup
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === 'getJiraInstance') {
     // Try to detect Jira instance from current page
-    const jiraUrl = detectJiraInstanceFromPage();
+    const jiraUrl = JiraDetector.detectUrlFromPage();
     sendResponse({ jiraUrl: jiraUrl });
   }
 });
-
-// Function to detect Jira instance from the current page
-function detectJiraInstanceFromPage() {
-  try {
-    const url = new URL(window.location.href);
-
-    // Common Jira detection patterns
-    if (url.hostname.includes('atlassian.net')) {
-      return `${url.protocol}//${url.hostname}`;
-    }
-
-    if (url.hostname.includes('jira')) {
-      return `${url.protocol}//${url.hostname}`;
-    }
-
-    // Look for Jira-specific elements or meta tags that indicate Jira instance
-    const metaTags = document.querySelectorAll('meta[name]');
-    for (let meta of metaTags) {
-      if (meta.name.toLowerCase().includes('jira') || meta.content.toLowerCase().includes('jira')) {
-        return `${url.protocol}//${url.hostname}`;
-      }
-    }
-
-    // Check for specific Jira DOM elements
-    const jiraSelectors = [
-      'meta[name="ajs-context-path"]',
-      'meta[name="ajs-base-url"]',
-      '[data-testid*="jira"]',
-      '.jira-header',
-      '#jira-frontend',
-      '#page'
-    ];
-
-    for (let selector of jiraSelectors) {
-      if (document.querySelector(selector)) {
-        return `${url.protocol}//${url.hostname}`;
-      }
-    }
-
-    // Check for Jira-specific URL patterns
-    const jiraPaths = [
-      '/browse/',
-      '/projects/',
-      '/issues/',
-      '/dashboard',
-      '/secure/dashboard',
-      '/jira/dashboard'
-    ];
-
-    if (jiraPaths.some(path => url.pathname.includes(path))) {
-      return `${url.protocol}//${url.hostname}`;
-    }
-
-  } catch (error) {
-    console.error('[Jira Optimizer] Error detecting Jira instance:', error);
-  }
-
-  return null;
-}
 
 // Initialize the extension
 async function initialize() {

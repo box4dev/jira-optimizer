@@ -1,170 +1,136 @@
-// Background script for Jira Optimizer Extension
-// Handles storage operations and cross-browser compatibility
+/**
+ * Background script for Jira Optimizer Extension
+ * Handles storage operations, messaging and cross-browser compatibility
+ */
 
-// Storage API abstraction for cross-browser compatibility
-const storage = {
-  async get(keys) {
-    return new Promise((resolve, reject) => {
-      if (typeof chrome !== 'undefined' && chrome.storage) {
-        chrome.storage.local.get(keys, (result) => {
-          if (chrome.runtime.lastError) {
-            reject(chrome.runtime.lastError);
-          } else {
-            resolve(result);
-          }
-        });
-      } else if (typeof browser !== 'undefined' && browser.storage) {
-        // Firefox
-        browser.storage.local.get(keys).then(resolve).catch(reject);
-      } else {
-        reject(new Error('Storage API not available'));
-      }
-    });
-  },
+import { Storage } from './storage.js';
+import { JiraDetector } from './jiraDetector.js';
 
-  async set(items) {
-    return new Promise((resolve, reject) => {
-      if (typeof chrome !== 'undefined' && chrome.storage) {
-        chrome.storage.local.set(items, () => {
-          if (chrome.runtime.lastError) {
-            reject(chrome.runtime.lastError);
-          } else {
-            resolve();
-          }
-        });
-      } else if (typeof browser !== 'undefined' && browser.storage) {
-        // Firefox
-        browser.storage.local.set(items).then(resolve).catch(reject);
-      } else {
-        reject(new Error('Storage API not available'));
-      }
-    });
+// Message handlers for storage operations
+const handleStorageGet = async (request, sendResponse) => {
+  try {
+    const result = await Storage.get(request.keys);
+    sendResponse({ success: true, data: result });
+  } catch (error) {
+    sendResponse({ success: false, error: error.message });
+  }
+};
+
+const handleStorageSet = async (request, sendResponse) => {
+  try {
+    await Storage.set(request.items);
+    sendResponse({ success: true });
+  } catch (error) {
+    sendResponse({ success: false, error: error.message });
   }
 };
 
 // Handle messages from content scripts
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-  if (request.action === 'storage_get') {
-    storage.get(request.keys)
-      .then(result => sendResponse({ success: true, data: result }))
-      .catch(error => sendResponse({ success: false, error: error.message }));
-    return true; // Keep the message channel open for async response
-  }
+  switch (request.action) {
+    case 'storage_get':
+      handleStorageGet(request, sendResponse);
+      return true; // Keep the message channel open for async response
 
-  if (request.action === 'storage_set') {
-    storage.set(request.items)
-      .then(() => sendResponse({ success: true }))
-      .catch(error => sendResponse({ success: false, error: error.message }));
-    return true; // Keep the message channel open for async response
-  }
+    case 'storage_set':
+      handleStorageSet(request, sendResponse);
+      return true; // Keep the message channel open for async response
 
-  if (request.action === 'storage_local_get') {
-    chrome.storage.local.get(request.keys, (result) => {
-      if (chrome.runtime.lastError) {
-        sendResponse({ success: false, error: chrome.runtime.lastError.message });
-      } else {
-        sendResponse({ success: true, data: result });
-      }
-    });
-    return true; // Keep the message channel open for async response
-  }
+    case 'storage_local_get':
+      Storage.get(request.keys)
+        .then(result => sendResponse({ success: true, data: result }))
+        .catch(error => sendResponse({ success: false, error: error.message }));
+      return true;
 
-  if (request.action === 'storage_local_set') {
-    chrome.storage.local.set(request.items, () => {
-      if (chrome.runtime.lastError) {
-        sendResponse({ success: false, error: chrome.runtime.lastError.message });
-      } else {
-        sendResponse({ success: true });
-      }
-    });
-    return true; // Keep the message channel open for async response
+    case 'storage_local_set':
+      Storage.set(request.items)
+        .then(() => sendResponse({ success: true }))
+        .catch(error => sendResponse({ success: false, error: error.message }));
+      return true;
   }
 });
 
 // Initialize default settings on install/update
-chrome.runtime.onInstalled.addListener(() => {
+chrome.runtime.onInstalled.addListener(async () => {
   const defaultSettings = {
     collapseRightPanel: true,
     expandCreateModal: true,
     viewLinkedTickets: true,
     expandImages: true,
-    themeMode: 'light' // Add default theme
+    themeMode: 'light'
   };
 
-  storage.get(Object.keys(defaultSettings)).then(savedSettings => {
+  try {
+    const savedSettings = await Storage.get(Object.keys(defaultSettings));
     const hasSavedSettings = Object.keys(savedSettings).length > 0;
+
     if (!hasSavedSettings) {
-      storage.set(defaultSettings).then(() => {
-        console.log('[Jira Optimizer] Default settings initialized');
-      }).catch(error => {
-        console.error('[Jira Optimizer] Error initializing default settings:', error);
-      });
+      await Storage.set(defaultSettings);
+      console.log('[Jira Optimizer] Default settings initialized');
     }
-  }).catch(error => {
-    console.error('[Jira Optimizer] Error checking saved settings:', error);
-  });
+  } catch (error) {
+    console.error('[Jira Optimizer] Error initializing default settings:', error);
+  }
 });
 
-// Handle messages for detecting Jira URL from content script
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-  if (request.action === 'detectJiraUrl') {
-    // Get the URL from the active tab
-    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-      if (tabs[0] && tabs[0].url) {
-        const url = new URL(tabs[0].url);
-        // Check if it's a Jira URL - improved detection
-        if (isJiraUrl(url)) {
-          sendResponse({ detectedUrl: `${url.protocol}//${url.hostname}` });
+// Handle messages for Jira URL detection
+const handleDetectJiraUrl = async (sendResponse) => {
+  try {
+    const tabs = await new Promise((resolve, reject) => {
+      chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+        if (chrome.runtime.lastError) {
+          reject(chrome.runtime.lastError);
         } else {
-          sendResponse({ detectedUrl: null });
+          resolve(tabs);
         }
+      });
+    });
+
+    if (tabs[0] && tabs[0].url) {
+      const url = new URL(tabs[0].url);
+      if (JiraDetector.isJiraUrl(url)) {
+        sendResponse({ detectedUrl: `${url.protocol}//${url.hostname}` });
       } else {
         sendResponse({ detectedUrl: null });
       }
-    });
-    return true; // Keep message channel open for async response
-  }
-
-  if (request.action === 'getJiraUrlFromContent') {
-    // Try to get Jira URL from content script if it's running on a Jira page
-    if (sender.tab && sender.tab.id) {
-      chrome.tabs.sendMessage(sender.tab.id, { action: 'getJiraInstance' }, (response) => {
-        if (chrome.runtime.lastError) {
-          sendResponse({ detectedUrl: null });
-        } else {
-          sendResponse({ detectedUrl: response?.jiraUrl || null });
-        }
-      });
     } else {
       sendResponse({ detectedUrl: null });
     }
-    return true;
+  } catch (error) {
+    sendResponse({ detectedUrl: null });
+  }
+};
+
+const handleGetJiraUrlFromContent = async (sender, sendResponse) => {
+  if (sender.tab && sender.tab.id) {
+    try {
+      const response = await new Promise((resolve, reject) => {
+        chrome.tabs.sendMessage(sender.tab.id, { action: 'getJiraInstance' }, (response) => {
+          if (chrome.runtime.lastError) {
+            reject(chrome.runtime.lastError);
+          } else {
+            resolve(response);
+          }
+        });
+      });
+      sendResponse({ detectedUrl: response?.jiraUrl || null });
+    } catch (error) {
+      sendResponse({ detectedUrl: null });
+    }
+  } else {
+    sendResponse({ detectedUrl: null });
+  }
+};
+
+// Additional message handlers
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  switch (request.action) {
+    case 'detectJiraUrl':
+      handleDetectJiraUrl(sendResponse);
+      return true;
+
+    case 'getJiraUrlFromContent':
+      handleGetJiraUrlFromContent(sender, sendResponse);
+      return true;
   }
 });
-
-// Improved Jira URL detection function
-function isJiraUrl(url) {
-  const hostname = url.hostname.toLowerCase();
-  const pathname = url.pathname.toLowerCase();
-
-  // Common Jira patterns
-  if (hostname.includes('atlassian.net')) {
-    return true;
-  }
-
-  if (hostname.includes('jira')) {
-    return true;
-  }
-
-  // Check for Jira-specific paths that indicate it's a Jira instance
-  const jiraPaths = [
-    '/browse/',
-    '/projects/',
-    '/issues/',
-    '/dashboard',
-    '/secure/dashboard',
-    '/jira/dashboard'
-  ];
-
-  return jiraPaths.some(path => pathname.includes(path));
-}

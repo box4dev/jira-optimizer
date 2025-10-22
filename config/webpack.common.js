@@ -3,6 +3,7 @@
 const SizePlugin = require('size-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 
 const PATHS = require('./paths');
 
@@ -23,6 +24,35 @@ const common = {
     all: false,
     errors: true,
     builtAt: true,
+    warnings: true,
+    assets: true,
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        terserOptions: {
+          compress: {
+            drop_console: false, // Keep console logs for debugging
+            drop_debugger: true,
+            pure_funcs: ['console.debug'], // Remove debug logs in production
+          },
+          mangle: {
+            safari10: true, // Fix Safari 10/11 bugs
+          },
+        },
+      }),
+    ],
+    splitChunks: {
+      chunks: 'all',
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all',
+        },
+      },
+    },
   },
   module: {
     rules: [
@@ -31,15 +61,15 @@ const common = {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
-      // Check for images imported in .js files and
+      // Check for images imported in .js files
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpe?g|gif|svg)$/i,
         use: [
           {
             loader: 'file-loader',
             options: {
               outputPath: 'images',
-              name: '[name].[ext]',
+              name: '[name].[hash].[ext]',
             },
           },
         ],

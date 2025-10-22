@@ -1,6 +1,7 @@
 import { state } from '../state.js';
 import { Utils } from '../utils.js';
 import { UI } from '../ui.js';
+import { Messaging } from '../messaging.js';
 import { JiraType } from '../constants.js';
 
 const { getI18nMessage } = Utils;

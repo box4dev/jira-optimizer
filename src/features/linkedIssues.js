@@ -1,7 +1,8 @@
 import { state } from '../state.js';
 import { Utils } from '../utils.js';
 import { tooltipManager } from '../tooltipManager.js';
-import { STATUS_COLORS, BY_URL, JiraType } from '../constants.js'; // Added JiraType
+import { Messaging } from '../messaging.js';
+import { STATUS_COLORS, BY_URL, JiraType } from '../constants.js';
 
 const { getI18nMessage } = Utils;
 
@@ -206,7 +207,7 @@ export const LinkedIssues = {
 
     try {
       // Use messaging to get settings from background script
-      const response = await this.sendMessageToBackground({
+      const response = await Messaging.sendToBackground({
         action: 'storage_get',
         keys: ['viewLinkedTickets']
       });
@@ -235,24 +236,7 @@ export const LinkedIssues = {
     }
   },
 
-  // Helper method for messaging
-  sendMessageToBackground(message) {
-    return new Promise((resolve, reject) => {
-      if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) {
-        chrome.runtime.sendMessage(message, (response) => {
-          if (chrome.runtime.lastError) {
-            reject(chrome.runtime.lastError);
-          } else {
-            resolve(response);
-          }
-        });
-      } else if (typeof browser !== 'undefined' && browser.runtime && browser.runtime.sendMessage) {
-        browser.runtime.sendMessage(message).then(resolve).catch(reject);
-      } else {
-        reject(new Error('Runtime messaging not available'));
-      }
-    });
-  },
+  // Use unified messaging helper
 
   checkAndAddIcons: Utils.debounce(function () { LinkedIssues.checkAndAddIconsInternal(); }, 300),
 
