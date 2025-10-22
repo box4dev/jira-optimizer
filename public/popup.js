@@ -301,41 +301,41 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /**
-   * Gets the Jira URL either from storage or by detecting from current tab
-   */
-  async function getJiraUrl() {
-    // First, try to get from sync storage (user configured)
-    return new Promise((resolve) => {
-      chrome.storage.sync.get(['jiraUrl'], async (result) => {
-        if (result.jiraUrl) {
-          resolve(result.jiraUrl);
-          return;
-        }
+    * Gets the Jira URL either from storage or by detecting from current tab
+    */
+   async function getJiraUrl() {
+     // First, try to get from local storage (user configured)
+     return new Promise((resolve) => {
+       chrome.storage.local.get(['jiraUrl'], async (result) => {
+         if (result.jiraUrl) {
+           resolve(result.jiraUrl);
+           return;
+         }
 
-        // If not configured, try to detect from active tab via background script
-        try {
-          chrome.runtime.sendMessage({ action: 'detectJiraUrl' }, (response) => {
-            if (response && response.detectedUrl) {
-              resolve(response.detectedUrl);
-              return;
-            }
+         // If not configured, try to detect from active tab via background script
+         try {
+           chrome.runtime.sendMessage({ action: 'detectJiraUrl' }, (response) => {
+             if (response && response.detectedUrl) {
+               resolve(response.detectedUrl);
+               return;
+             }
 
-            // As fallback, try to get from content script if it's a Jira page
-            chrome.runtime.sendMessage({ action: 'getJiraUrlFromContent' }, (response) => {
-              if (response && response.detectedUrl) {
-                resolve(response.detectedUrl);
-              } else {
-                resolve(null);
-              }
-            });
-          });
-        } catch (error) {
-          console.error('Error detecting Jira URL:', error);
-          resolve(null);
-        }
-      });
-    });
-  }
+             // As fallback, try to get from content script if it's a Jira page
+             chrome.runtime.sendMessage({ action: 'getJiraUrlFromContent' }, (response) => {
+               if (response && response.detectedUrl) {
+                 resolve(response.detectedUrl);
+               } else {
+                 resolve(null);
+               }
+             });
+           });
+         } catch (error) {
+           console.error('Error detecting Jira URL:', error);
+           resolve(null);
+         }
+       });
+     });
+   }
 
   /**
    * Saves all default settings to chrome.storage.local.

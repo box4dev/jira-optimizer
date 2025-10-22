@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // const themeSaveMessage = document.getElementById('themeSaveMessage');
 
   // Load saved Jira URL
-  chrome.storage.sync.get(['jiraUrl'], (result) => {
+  chrome.storage.local.get(['jiraUrl'], (result) => {
     if (result.jiraUrl) {
       jiraUrlInput.value = result.jiraUrl;
       // Hide message if URL is configured
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Load saved theme
-  chrome.storage.sync.get(['themeMode'], (result) => {
+  chrome.storage.local.get(['themeMode'], (result) => {
     const savedTheme = result.themeMode || 'light'; // Default to light theme
     themeSelect.value = savedTheme;
     applyTheme(savedTheme);
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    chrome.storage.sync.set({ jiraUrl: jiraUrl }, () => {
+    chrome.storage.local.set({ jiraUrl: jiraUrl }, () => {
       if (chrome.runtime.lastError) {
         showMessage('Error saving Jira URL', 'error');
       } else {
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
   themeSelect.addEventListener('change', () => {
     const selectedTheme = themeSelect.value;
 
-    chrome.storage.sync.set({ themeMode: selectedTheme }, () => {
+    chrome.storage.local.set({ themeMode: selectedTheme }, () => {
       if (chrome.runtime.lastError) {
         console.error('Error saving theme:', chrome.runtime.lastError);
       } else {

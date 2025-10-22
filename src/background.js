@@ -58,8 +58,8 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     return true; // Keep the message channel open for async response
   }
 
-  if (request.action === 'storage_sync_get') {
-    chrome.storage.sync.get(request.keys, (result) => {
+  if (request.action === 'storage_local_get') {
+    chrome.storage.local.get(request.keys, (result) => {
       if (chrome.runtime.lastError) {
         sendResponse({ success: false, error: chrome.runtime.lastError.message });
       } else {
@@ -69,8 +69,8 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     return true; // Keep the message channel open for async response
   }
 
-  if (request.action === 'storage_sync_set') {
-    chrome.storage.sync.set(request.items, () => {
+  if (request.action === 'storage_local_set') {
+    chrome.storage.local.set(request.items, () => {
       if (chrome.runtime.lastError) {
         sendResponse({ success: false, error: chrome.runtime.lastError.message });
       } else {

@@ -34,9 +34,9 @@ const JiraOptimizerExtension = {
 
   async detectAndSaveJiraUrl() {
     try {
-      // Check if we already have a saved URL (using sync storage)
+      // Check if we already have a saved URL (using local storage)
       const response = await this.sendMessageToBackground({
-        action: 'storage_sync_get',
+        action: 'storage_local_get',
         keys: ['jiraUrl']
       });
 
@@ -49,9 +49,9 @@ const JiraOptimizerExtension = {
       const detectedUrl = detectJiraInstanceFromPage();
 
       if (detectedUrl) {
-        // Save the detected URL automatically (using sync storage)
+        // Save the detected URL automatically (using local storage)
         await this.sendMessageToBackground({
-          action: 'storage_sync_set',
+          action: 'storage_local_set',
           items: { jiraUrl: detectedUrl }
         });
         console.log('[Jira Optimizer] Jira URL automatically detected and saved:', detectedUrl);
