@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (chrome.runtime.lastError) {
         showMessage('Error saving Jira URL', 'error');
       } else {
-        showMessage('Jira URL saved successfully!', 'ewj-success-message');
+        showMessage('Jira URL saved successfully!', 'joc-success-message');
         // Hide the info message when URL is successfully saved
         const messageDiv = document.getElementById('jiraUrlMessage');
         if (messageDiv) {

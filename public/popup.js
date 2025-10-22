@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
   };
 
-  const reloadMessageElement = document.getElementById('ewj-reload-message');
+  const reloadMessageElement = document.getElementById('joc-reload-message');
   let reloadMessageTimeout;
 
   /**

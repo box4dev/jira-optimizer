@@ -20,9 +20,9 @@ const JiraOptimizerExtension = {
   async init() {
     // console.log("[Jira Optimizer] Initializing extension...");
     state.jiraType = await Utils.waitForJiraType(); // Wait for JiraType to be determined
-    //console.log(`[Jira Optimizer] Jira type detected: ${state.jiraType}`);
+    // console.log(`[Jira Optimizer] Jira type detected: ${state.jiraType}`);
     if (state.jiraType === JiraType.UNKNOWN) {
-      console.warn(`[Jira Optimizer] Unknown Jira type. Extension might not work correctly.`);
+      // console.warn(`[Jira Optimizer] Unknown Jira type. Extension might not work correctly.`);
     }
     this.loadSettingsAndInitializeFeatures();
     this.setupMutationObserver();

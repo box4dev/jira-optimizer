@@ -53,7 +53,7 @@ export const ExpandModal = {
       const modalIssueCreate = document.querySelector(modalIssueCreateSelector);
       const modalIcons = document.querySelector(modalIconsSelector);
 
-      if (modalIssueCreate && modalIssueCreatePositioner && modalIcons && !document.getElementById('ewj-span-shrink-expand')) {
+      if (modalIssueCreate && modalIssueCreatePositioner && modalIcons && !document.getElementById('joc-span-shrink-expand')) {
         // Check if we have access to messaging before proceeding
         if (!this.isMessagingAvailable()) {
           console.log('[Jira Optimizer] Messaging not available, skipping expand button initialization');
@@ -65,7 +65,7 @@ export const ExpandModal = {
         }
 
         const spanShrinkExpand = Utils.createElement('span', {
-          id: 'ewj-span-shrink-expand',
+          id: 'joc-span-shrink-expand',
           // Initial state: modal will be expanded by default, so button offers to "Collapse"
           title: getI18nMessage('collapseModalTitle')
         });
@@ -118,7 +118,7 @@ export const ExpandModal = {
       // Query elements dynamically inside the handler
       const modalIssueCreatePositionerSelector = Utils.getSelector('modalIssueCreatePositioner');
       const modalIssueCreateSelector = Utils.getSelector('modalIssueCreate');
-      const spanShrinkExpand = document.getElementById('ewj-span-shrink-expand');
+      const spanShrinkExpand = document.getElementById('joc-span-shrink-expand');
 
       const modalIssueCreatePositioner = modalIssueCreatePositionerSelector ? document.querySelector(modalIssueCreatePositionerSelector) : null;
       const modalIssueCreate = modalIssueCreateSelector ? document.querySelector(modalIssueCreateSelector) : null;

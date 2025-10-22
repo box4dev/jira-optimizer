@@ -39,7 +39,7 @@ export const Utils = {
         }
 
         if (Date.now() - startTime >= maxWaitTime) {
-          console.warn("[Jira Optimizer] Timeout waiting for Jira type detection, using UNKNOWN");
+          // console.warn("[Jira Optimizer] Timeout waiting for Jira type detection, using UNKNOWN");
           resolve(JiraType.UNKNOWN);
           return;
         }

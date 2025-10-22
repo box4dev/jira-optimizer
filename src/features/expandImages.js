@@ -16,11 +16,11 @@ export const ExpandImages = {
     if (!state.settings.expandImages) return;
 
     // Injeção de estilos CSS para auto-resize
-    if (!document.getElementById('ewj-auto-resize-styles')) {
+    if (!document.getElementById('joc-auto-resize-styles')) {
       const style = document.createElement('style');
-      style.id = 'ewj-auto-resize-styles';
+      style.id = 'joc-auto-resize-styles';
       style.innerHTML = `
-        img.ewj-img-resized {
+        img.joc-img-resized {
           max-height: auto !important;
           width: 100% !important;
           position: static !important;
@@ -28,12 +28,12 @@ export const ExpandImages = {
           object-fit: contain !important;
         }
 
-        div.ewj-new-file-experience-wrapper {
+        div.joc-new-file-experience-wrapper {
           width: 100% !important;
           max-width: 100% !important;
         }
 
-        div.ewj-rich-media-item.mediaSingleView-content-wrap {
+        div.joc-rich-media-item.mediaSingleView-content-wrap {
           width: 100% !important;
           max-width: 100% !important;
         }
@@ -52,18 +52,18 @@ export const ExpandImages = {
     if (!state.settings.expandImages) return;
 
     // Redimensiona imagens
-    const images = document.querySelectorAll('img[data-testid="media-image"]:not(.ewj-img-resized)');
+    const images = document.querySelectorAll('img[data-testid="media-image"]:not(.joc-img-resized)');
     images.forEach(img => {
-      img.classList.add('ewj-img-resized');
+      img.classList.add('joc-img-resized');
       if (state.jiraType === JiraType.CLOUD) {
-        img.classList.add('ewj-img-auto-expanded');
+        img.classList.add('joc-img-auto-expanded');
       }
     });
 
     // Ajusta containers de mídia
-    const mediaContainers = document.querySelectorAll('div.rich-media-item.mediaSingleView-content-wrap:not(.ewj-container-processed)');
+    const mediaContainers = document.querySelectorAll('div.rich-media-item.mediaSingleView-content-wrap:not(.joc-container-processed)');
     mediaContainers.forEach(container => {
-      container.classList.add('ewj-container-processed');
+      container.classList.add('joc-container-processed');
       container.style.width = '100%';
       container.style.maxWidth = '100%';
 
@@ -110,7 +110,7 @@ export const ExpandImages = {
       }
 
       // Determine if we should expand or collapse based on the first image
-      const shouldExpand = !images[0]?.classList.contains('ewj-img-expanded');
+      const shouldExpand = !images[0]?.classList.contains('joc-img-expanded');
 
       images.forEach(img => {
         // Find the parent containers that should follow the image height
@@ -124,8 +124,8 @@ export const ExpandImages = {
 
         if (shouldExpand) {
           // Expand all images
-          img.classList.add('ewj-img-expanded');
-          img.classList.remove('ewj-img-collapsed');
+          img.classList.add('joc-img-expanded');
+          img.classList.remove('joc-img-collapsed');
           img.style.maxHeight = 'none';
           img.style.width = '100%';
           img.style.maxWidth = 'none'; // Remove maxWidth restriction
@@ -140,8 +140,8 @@ export const ExpandImages = {
           });
         } else {
           // Collapse all images
-          img.classList.remove('ewj-img-expanded');
-          img.classList.add('ewj-img-collapsed');
+          img.classList.remove('joc-img-expanded');
+          img.classList.add('joc-img-collapsed');
           img.style.maxHeight = 'none';
           img.style.maxWidth = '400px'; // Collapse to max width
           img.style.height = 'auto'; // Allow natural height calculation
@@ -172,10 +172,10 @@ export const ExpandImages = {
       }
 
       // Create the expand images button span (similar to collapse button)
-      if (!document.getElementById('ewj-span-expand-images')) {
+      if (!document.getElementById('joc-span-expand-images')) {
         const spanExpandImages = Utils.createElement('span', {
-          id: 'ewj-span-expand-images',
-          className: 'ewj-icon-resize',
+          id: 'joc-span-expand-images',
+          className: 'joc-icon-resize',
           title: getI18nMessage('expandImagesTitle')
         });
 
@@ -189,7 +189,7 @@ export const ExpandImages = {
 
         if (collapseWrapper) {
           // Insert before the collapse button span
-          const collapseButton = document.getElementById('ewj-span-collapse-open');
+          const collapseButton = document.getElementById('joc-span-collapse-open');
           if (collapseButton) {
             collapseWrapper.insertBefore(spanExpandImages, collapseButton);
           } else {

@@ -38,7 +38,7 @@ export const CollapsePanel = {
       const containerRight = document.querySelector(containerRightSelector);
       const resizerElement = document.querySelector(resizerElementSelector);
 
-      if (containerRight && resizerElement && !document.getElementById('ewj-span-collapse-open')) {
+      if (containerRight && resizerElement && !document.getElementById('joc-span-collapse-open')) {
         // Check if we have access to messaging before proceeding
         if (!this.isMessagingAvailable()) {
           console.log('[Jira Optimizer] Messaging not available, skipping collapse button initialization');
@@ -46,8 +46,8 @@ export const CollapsePanel = {
         }
 
         const spanCollapseOpen = Utils.createElement('span', {
-          id: 'ewj-span-collapse-open',
-          className: 'ewj-icon-collapse', // Initial state: panel is open, button shows "collapse"
+          id: 'joc-span-collapse-open',
+          className: 'joc-icon-collapse', // Initial state: panel is open, button shows "collapse"
           title: getI18nMessage('collapseRightPaneTitle') // Initial title, as panel starts open
         });
 
@@ -120,7 +120,7 @@ export const CollapsePanel = {
       // Query elements dynamically inside the handler as their presence might change
       const containerRightSelector = Utils.getSelector('containerRight');
       const containerRight = containerRightSelector ? document.querySelector(containerRightSelector) : null;
-      const spanCollapseOpen = document.getElementById('ewj-span-collapse-open');
+      const spanCollapseOpen = document.getElementById('joc-span-collapse-open');
 
       if (!containerRight || !spanCollapseOpen) return;
 
