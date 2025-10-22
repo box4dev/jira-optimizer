@@ -121,29 +121,29 @@
     "message": "Loading linked tickets...",
     "description": "Loading message for linked tickets tooltip"
   },
-  "searchIssue": {
-    "message": "Search issue",
-    "description": "Title for quick issue search section"
+  "searchTicket": {
+    "message": "Search Ticket",
+    "description": "Title for quick ticket search section"
   },
   "issueId": {
-    "message": "Issue ID",
-    "description": "Label for issue ID input field"
+    "message": "Ticket ID",
+    "description": "Label for ticket ID input field"
   },
   "enterIssueIdPlaceholder": {
-    "message": "Enter Jira issue ID (e.g., PROJ-123)",
-    "description": "Placeholder text for issue ID input"
+    "message": "Enter Jira Ticket ID (e.g., PROJ-123)",
+    "description": "Placeholder text for ticket ID input"
   },
   "openIssue": {
-    "message": "Open Issue",
-    "description": "Button text to open the issue"
+    "message": "Open Ticket",
+    "description": "Button text to open the ticket"
   },
   "pleaseEnterIssueId": {
-    "message": "Please enter an issue ID",
-    "description": "Error message when issue ID is empty"
+    "message": "Please enter an ticket ID",
+    "description": "Error message when ticket ID is empty"
   },
   "errorOpeningIssue": {
-    "message": "Error opening issue. Please check your Jira URL configuration.",
-    "description": "Error message when issue opening fails"
+    "message": "Error opening ticket. Please check your Jira URL configuration.",
+    "description": "Error message when ticket opening fails"
   },
   "optionsPageTitle": {
     "message": "Jira Optimizer - Options",

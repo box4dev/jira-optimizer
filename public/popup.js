@@ -17,7 +17,7 @@ function replaceI18nPlaceholders() {
     '__MSG_expandCreateModal__': 'expandCreateModal',
     '__MSG_viewLinkedTickets__': 'viewLinkedTickets',
     '__MSG_expandImages__': 'expandImages',
-    '__MSG_searchIssue__': 'searchIssue',
+    '__MSG_searchTicket__': 'searchTicket',
     '__MSG_issueId__': 'issueId',
     '__MSG_enterIssueIdPlaceholder__': 'enterIssueIdPlaceholder',
     '__MSG_openIssue__': 'openIssue',
