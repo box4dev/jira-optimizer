@@ -2,6 +2,8 @@
  * Substitui manualmente os placeholders i18n no HTML do options
  * O Chrome Extensions não faz isso automaticamente para options
  */
+
+// ThemeManager is available globally via webpack bundling
 function replaceI18nPlaceholders() {
   // Mapeamento de placeholders para suas respectivas mensagens
   const i18nMap = {
@@ -83,13 +85,13 @@ function replaceI18nPlaceholders() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  // Definir lang dinamicamente baseado na localização atual
-  const uiLanguage = chrome.i18n.getUILanguage();
-  document.documentElement.lang = uiLanguage;
+document.addEventListener('DOMContentLoaded', async () => {
+   // Definir lang dinamicamente baseado na localização atual
+   const uiLanguage = chrome.i18n.getUILanguage();
+   document.documentElement.lang = uiLanguage;
 
-  // Aplicar internacionalização primeiro
-  replaceI18nPlaceholders();
+   // Aplicar internacionalização primeiro
+   replaceI18nPlaceholders();
 
   const jiraUrlInput = document.getElementById('jiraUrl');
   const saveButton = document.getElementById('saveJiraUrl');
@@ -119,11 +121,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Load saved theme
-  chrome.storage.local.get(['themeMode'], (result) => {
-    const savedTheme = result.themeMode || 'light'; // Default to light theme
-    themeSelect.value = savedTheme;
-    applyTheme(savedTheme);
-  });
+  const savedTheme = await ThemeManager.loadAndApplyTheme();
+  themeSelect.value = savedTheme;
 
   // Save Jira URL
   saveButton.addEventListener('click', () => {
@@ -150,21 +149,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Auto-save theme on change
-  themeSelect.addEventListener('change', () => {
+  themeSelect.addEventListener('change', async () => {
     const selectedTheme = themeSelect.value;
-
-    chrome.storage.local.set({ themeMode: selectedTheme }, () => {
-      if (chrome.runtime.lastError) {
-        console.error('Error saving theme:', chrome.runtime.lastError);
-      } else {
-        applyTheme(selectedTheme);
-      }
-    });
-  });
-
-  // Listen for theme changes (preview)
-  themeSelect.addEventListener('change', (e) => {
-    applyTheme(e.target.value);
+    await ThemeManager.saveAndApplyTheme(selectedTheme);
   });
 
   function showMessage(text, type, messageElement = saveMessage) {
@@ -176,35 +163,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 3000);
   }
 
-  function applyTheme(theme) {
-    const root = document.documentElement;
-
-    // Remove existing theme classes
-    root.classList.remove('joc-theme-light', 'joc-theme-dark', 'joc-theme-device');
-
-    // Apply device theme detection if needed
-    if (theme === 'device') {
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      root.classList.add(prefersDark ? 'joc-theme-dark' : 'joc-theme-light');
-
-      // Listen for changes in system preference
-      const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-      const handleChange = (e) => {
-        root.classList.remove('joc-theme-light', 'joc-theme-dark');
-        root.classList.add(e.matches ? 'joc-theme-dark' : 'joc-theme-light');
-      };
-      mediaQuery.addEventListener('change', handleChange);
-
-      // Store the listener to potentially remove it later if theme changes
-      root._deviceThemeListener = handleChange;
-    } else {
-      root.classList.add(`joc-theme-${theme}`);
-      // Remove device listener if it exists
-      if (root._deviceThemeListener) {
-        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-        mediaQuery.removeEventListener('change', root._deviceThemeListener);
-        delete root._deviceThemeListener;
-      }
-    }
-  }
+  // Theme application is now handled by ThemeManager
 });

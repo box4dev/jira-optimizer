@@ -18,7 +18,8 @@ const createConfig = (browser) => {
     entry: {
       contentScript: PATHS.src + '/contentScript.js',
       background: PATHS.src + '/background.js',
-      // popup: PATHS.src + '/popup.js',
+      popup: [PATHS.src + '/themeManager.js', PATHS.public + '/popup.js'],
+      options: [PATHS.src + '/themeManager.js', PATHS.public + '/options.js'],
     },
     plugins: [
       // Copy and modify manifest.json according to the environment

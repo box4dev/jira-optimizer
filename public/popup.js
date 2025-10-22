@@ -2,6 +2,8 @@
  * Substitui manualmente os placeholders i18n no HTML do popup
  * O Chrome Extensions não faz isso automaticamente para popups
  */
+
+// ThemeManager is available globally via webpack bundling
 function replaceI18nPlaceholders() {
   // Mapeamento de placeholders para suas respectivas mensagens
   const i18nMap = {
@@ -84,13 +86,16 @@ function replaceI18nPlaceholders() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  // Definir lang dinamicamente baseado na localização atual
-  const uiLanguage = chrome.i18n.getUILanguage();
-  document.documentElement.lang = uiLanguage;
+document.addEventListener('DOMContentLoaded', async () => {
+   // Definir lang dinamicamente baseado na localização atual
+   const uiLanguage = chrome.i18n.getUILanguage();
+   document.documentElement.lang = uiLanguage;
 
-  // Aplicar internacionalização primeiro
-  replaceI18nPlaceholders();
+   // Aplicar internacionalização primeiro
+   replaceI18nPlaceholders();
+
+   // Aplicar tema salvo
+   await ThemeManager.loadAndApplyTheme();
 
   // Adicionar funcionalidade ao ícone de configurações
   const settingsIcon = document.getElementById('joc-icon-settings');
