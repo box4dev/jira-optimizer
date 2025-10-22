@@ -65,7 +65,8 @@ chrome.runtime.onInstalled.addListener(() => {
     collapseRightPanel: true,
     expandCreateModal: true,
     viewLinkedTickets: true,
-    expandImages: true
+    expandImages: true,
+    themeMode: 'light' // Add default theme
   };
 
   storage.get(Object.keys(defaultSettings)).then(savedSettings => {

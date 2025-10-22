@@ -1,5 +1,61 @@
 /* jira-optimizer-class (joc) */
 
+/* CSS Custom Properties for Theming */
+:root {
+  /* Light theme (default) */
+  --joc-bg-color: #fff;
+  --joc-text-color: #172B4D;
+  --joc-border-color: #dfe1e6;
+  --joc-header-bg: #f8f9fc;
+  --joc-input-bg: #fff;
+  --joc-input-border: #dfe1e6;
+  --joc-button-bg: #0052cc;
+  --joc-button-hover: #0747a6;
+  --joc-success-color: #155724;
+  --joc-success-bg: #D4EDDA;
+  --joc-success-border: #C3E6CB;
+  --joc-error-color: #721c24;
+  --joc-error-bg: #f8d7da;
+  --joc-error-border: #f5c6cb;
+  --joc-info-color: #5E6C84;
+  --joc-info-bg: #FFF3CD;
+  --joc-info-border: #FFEAA7;
+  --joc-section-title: #5E6C84;
+  --joc-footer-bg: #f8f9fc;
+  --joc-footer-text: #5E6C84;
+  --joc-footer-hover: #0052cc;
+}
+
+/* Dark theme */
+.joc-theme-dark {
+  --joc-bg-color: #1a1a1a;
+  --joc-text-color: #ffffff;
+  --joc-border-color: #3d3d3d;
+  --joc-header-bg: #2d2d2d;
+  --joc-input-bg: #2d2d2d;
+  --joc-input-border: #3d3d3d;
+  --joc-button-bg: #0d66d0;
+  --joc-button-hover: #0a5cbd;
+  --joc-success-color: #00d4aa;
+  --joc-success-bg: #1a3d2e;
+  --joc-success-border: #2d5a42;
+  --joc-error-color: #ff6b6b;
+  --joc-error-bg: #3d1a1a;
+  --joc-error-border: #5a2d2d;
+  --joc-info-color: #b0b0b0;
+  --joc-info-bg: #3d3526;
+  --joc-info-border: #5a4d3a;
+  --joc-section-title: #b0b0b0;
+  --joc-footer-bg: #2d2d2d;
+  --joc-footer-text: #b0b0b0;
+  --joc-footer-hover: #0d66d0;
+}
+
+/* Device theme (uses system preference) */
+.joc-theme-device {
+  /* Will be handled by JavaScript based on prefers-color-scheme */
+}
+
 /* Popup */
 .joc-body {
   border: 0;
@@ -12,43 +68,44 @@
 }
 
 .joc-settings-container {
-  width: 500px;
-  background-color: #fff;
-  border-radius: 3px;
-  box-shadow: 0 8px 16px rgba(9, 30, 66, 0.15);
-  overflow: hidden;
-  margin: 0px auto;
-}
+   width: 500px;
+   background-color: var(--joc-bg-color);
+   border-radius: 3px;
+   box-shadow: 0 8px 16px rgba(9, 30, 66, 0.15);
+   overflow: hidden;
+   margin: 0px auto;
+   color: var(--joc-text-color);
+ }
 
 .joc-settings-header {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  min-height: 40px;
-  padding: 0 12px;
-  border-bottom: 1px solid #dee3ed;
-  background: #f8f9fc;
-}
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-between;
+   min-height: 40px;
+   padding: 0 12px;
+   border-bottom: 1px solid var(--joc-border-color);
+   background: var(--joc-header-bg);
+ }
 
 .joc-settings-section {
-  padding: 12px 16px;
-  border-bottom: 1px solid #dfe1e6;
-}
+   padding: 12px 16px;
+   border-bottom: 1px solid var(--joc-border-color);
+ }
 
 .joc-settings-section-main-title {
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 0;
-  color: #5E6C84;
-}
+   font-size: 14px;
+   font-weight: 600;
+   margin-bottom: 0;
+   color: var(--joc-section-title);
+ }
 
 .joc-settings-section-title {
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 12px;
-  color: #5E6C84;
-}
+   font-size: 14px;
+   font-weight: 600;
+   margin-bottom: 12px;
+   color: var(--joc-section-title);
+ }
 
 .joc-setting-item {
   display: flex;
@@ -86,19 +143,36 @@
 }
 
 .joc-setting-field-center input {
-  width: 90%;
-  padding: 8px 12px;
-  border: 1px solid #dfe1e6;
-  border-radius: 3px;
-  font-size: 14px;
-  color: #172B4D;
-}
+   width: 250px;
+   padding: 8px 12px;
+   border: 1px solid var(--joc-input-border);
+   border-radius: 3px;
+   font-size: 14px;
+   color: var(--joc-text-color);
+   background-color: var(--joc-input-bg);
+ }
 
-.joc-setting-field-center input:focus {
-  outline: none;
-  border-color: #0052cc;
-  box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.2);
-}
+ .joc-setting-field-center input:focus {
+   outline: none;
+   border-color: var(--joc-button-bg);
+   box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.2);
+ }
+
+ .joc-setting-field-center select {
+   width: 250px;
+   padding: 8px 12px;
+   border: 1px solid var(--joc-input-border);
+   border-radius: 3px;
+   font-size: 14px;
+   color: var(--joc-text-color);
+   background-color: var(--joc-input-bg);
+ }
+
+ .joc-setting-field-center select:focus {
+   outline: none;
+   border-color: var(--joc-button-bg);
+   box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.2);
+ }
 
 .joc-setting-field-right {
   flex: 0 0 auto;
@@ -107,24 +181,24 @@
 }
 
 .joc-setting-field-right button {
-  padding: 6px 12px;
-  background-color: #0052cc;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
+   padding: 6px 12px;
+   background-color: var(--joc-button-bg);
+   color: white;
+   border: none;
+   border-radius: 3px;
+   font-size: 13px;
+   font-weight: 500;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+ }
 
-.joc-setting-field-right button:hover {
-  background-color: #0747a6;
-}
+ .joc-setting-field-right button:hover {
+   background-color: var(--joc-button-hover);
+ }
 
-.joc-setting-field-right button:active {
-  background-color: #0a3f7a;
-}
+ .joc-setting-field-right button:active {
+   background-color: var(--joc-button-hover);
+ }
 
 .joc-setting-field-right #saveMessage {
   display: block;
@@ -179,55 +253,55 @@ input:checked+.joc-toggle-slider:before {
 }
 
 .joc-setting-label {
-  font-size: 13px;
-  color: #172B4D;
-  line-height: 1.3;
-  word-wrap: break-word;
-  hyphens: auto;
-}
+   font-size: 13px;
+   color: var(--joc-text-color);
+   line-height: 1.3;
+   word-wrap: break-word;
+   hyphens: auto;
+ }
 
 .joc-font-weight {
   font-weight: 600;
 }
 
 .joc-info-message {
-  font-size: 13px;
-  color: #5E6C84;
-  background-color: #FFF3CD;
-  border: 1px solid #FFEAA7;
-  padding: 8px 12px;
-  border-radius: 3px;
-  margin-bottom: 12px;
-  line-height: 1.4;
-}
+   font-size: 13px;
+   color: var(--joc-info-color);
+   background-color: var(--joc-info-bg);
+   border: 1px solid var(--joc-info-border);
+   padding: 8px 12px;
+   border-radius: 3px;
+   margin-bottom: 12px;
+   line-height: 1.4;
+ }
 
 .joc-success-message {
-  margin-bottom: 12px;
-  font-size: 13px;
-  color: #155724;
-  background-color: #D4EDDA;
-  border: 1px solid #C3E6CB;
-  padding: 8px 12px;
-  border-radius: 3px;
-  line-height: 1.4;
-}
+   margin-bottom: 12px;
+   font-size: 13px;
+   color: var(--joc-success-color);
+   background-color: var(--joc-success-bg);
+   border: 1px solid var(--joc-success-border);
+   padding: 8px 12px;
+   border-radius: 3px;
+   line-height: 1.4;
+ }
 
-.joc-error-message {
-  font-size: 13px;
-  color: #721c24;
-  background-color: #f8d7da;
-  border: 1px solid #f5c6cb;
-  padding: 8px 12px;
-  border-radius: 3px;
-  margin-bottom: 12px;
-  line-height: 1.4;
-}
+ .joc-error-message {
+   font-size: 13px;
+   color: var(--joc-error-color);
+   background-color: var(--joc-error-bg);
+   border: 1px solid var(--joc-error-border);
+   padding: 8px 12px;
+   border-radius: 3px;
+   margin-bottom: 12px;
+   line-height: 1.4;
+ }
 
 .joc-divider {
-  height: 1px;
-  background-color: #dfe1e6;
-  margin: 8px 0;
-}
+   height: 1px;
+   background-color: var(--joc-border-color);
+   margin: 8px 0;
+ }
 
 #joc-reload-message {
   margin-left: 10px;
@@ -823,37 +897,37 @@ input:checked+.joc-toggle-slider:before {
 
 /* Footer */
 .joc-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 16px;
-  border-top: 1px solid #dfe1e6;
-  background: #f8f9fc;
-}
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 12px 16px;
+   border-top: 1px solid var(--joc-border-color);
+   background: var(--joc-footer-bg);
+ }
 
-.joc-footer-left {
-  flex: 0 0 auto;
-}
+ .joc-footer-left {
+   flex: 0 0 auto;
+ }
 
-.joc-footer-center {
-  flex: 1;
-}
+ .joc-footer-center {
+   flex: 1;
+ }
 
-.joc-footer-right {
-  flex: 0 0 auto;
-  display: flex;
-  justify-content: flex-end;
-}
+ .joc-footer-right {
+   flex: 0 0 auto;
+   display: flex;
+   justify-content: flex-end;
+ }
 
-.joc-footer a {
-  color: #5E6C84;
-  font-size: 14px;
-  transition: color 0.3s ease;
-}
+ .joc-footer a {
+   color: var(--joc-footer-text);
+   font-size: 14px;
+   transition: color 0.3s ease;
+ }
 
-.joc-footer a:hover {
-  color: #0052cc;
-}
+ .joc-footer a:hover {
+   color: var(--joc-footer-hover);
+ }
 
 
 /* Image expansion states */

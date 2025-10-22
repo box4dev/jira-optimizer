@@ -12,7 +12,14 @@ function replaceI18nPlaceholders() {
     '__MSG_jiraBaseUrl__': 'jiraBaseUrl',
     '__MSG_saveButton__': 'saveButton',
     '__MSG_jiraUrlSavedSuccessfully__': 'jiraUrlSavedSuccessfully',
-    '__MSG_jiraUrlHelpText__': 'jiraUrlHelpText'
+    // '__MSG_jiraUrlHelpText__': 'jiraUrlHelpText',
+    '__MSG_themeConfiguration__': 'themeConfiguration',
+    '__MSG_themeMode__': 'themeMode',
+    '__MSG_themeLight__': 'themeLight',
+    '__MSG_themeDark__': 'themeDark',
+    '__MSG_themeDevice__': 'themeDevice',
+    // '__MSG_themeSavedSuccessfully__': 'themeSavedSuccessfully',
+    // '__MSG_themeHelpText__': 'themeHelpText'
   };
 
   // Função para substituir texto em um elemento e seus filhos
@@ -88,6 +95,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const saveButton = document.getElementById('saveJiraUrl');
   const saveMessage = document.getElementById('saveMessage');
 
+  // Theme elements
+  const themeSelect = document.getElementById('themeMode');
+  // const saveThemeButton = document.getElementById('saveTheme');
+  // const themeSaveMessage = document.getElementById('themeSaveMessage');
+
   // Load saved Jira URL
   chrome.storage.sync.get(['jiraUrl'], (result) => {
     if (result.jiraUrl) {
@@ -104,6 +116,13 @@ document.addEventListener('DOMContentLoaded', () => {
         messageDiv.style.display = 'block';
       }
     }
+  });
+
+  // Load saved theme
+  chrome.storage.sync.get(['themeMode'], (result) => {
+    const savedTheme = result.themeMode || 'light'; // Default to light theme
+    themeSelect.value = savedTheme;
+    applyTheme(savedTheme);
   });
 
   // Save Jira URL
@@ -130,12 +149,62 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  function showMessage(text, type) {
-    saveMessage.textContent = text;
-    saveMessage.className = type;
-    saveMessage.style.display = 'block';
+  // Auto-save theme on change
+  themeSelect.addEventListener('change', () => {
+    const selectedTheme = themeSelect.value;
+
+    chrome.storage.sync.set({ themeMode: selectedTheme }, () => {
+      if (chrome.runtime.lastError) {
+        console.error('Error saving theme:', chrome.runtime.lastError);
+      } else {
+        applyTheme(selectedTheme);
+      }
+    });
+  });
+
+  // Listen for theme changes (preview)
+  themeSelect.addEventListener('change', (e) => {
+    applyTheme(e.target.value);
+  });
+
+  function showMessage(text, type, messageElement = saveMessage) {
+    messageElement.textContent = text;
+    messageElement.className = type;
+    messageElement.style.display = 'block';
     setTimeout(() => {
-      saveMessage.style.display = 'none';
-    }, 30000);
+      messageElement.style.display = 'none';
+    }, 3000);
+  }
+
+  function applyTheme(theme) {
+    const root = document.documentElement;
+
+    // Remove existing theme classes
+    root.classList.remove('joc-theme-light', 'joc-theme-dark', 'joc-theme-device');
+
+    // Apply device theme detection if needed
+    if (theme === 'device') {
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      root.classList.add(prefersDark ? 'joc-theme-dark' : 'joc-theme-light');
+
+      // Listen for changes in system preference
+      const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      const handleChange = (e) => {
+        root.classList.remove('joc-theme-light', 'joc-theme-dark');
+        root.classList.add(e.matches ? 'joc-theme-dark' : 'joc-theme-light');
+      };
+      mediaQuery.addEventListener('change', handleChange);
+
+      // Store the listener to potentially remove it later if theme changes
+      root._deviceThemeListener = handleChange;
+    } else {
+      root.classList.add(`joc-theme-${theme}`);
+      // Remove device listener if it exists
+      if (root._deviceThemeListener) {
+        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        mediaQuery.removeEventListener('change', root._deviceThemeListener);
+        delete root._deviceThemeListener;
+      }
+    }
   }
 });

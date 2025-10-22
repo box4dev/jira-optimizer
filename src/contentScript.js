@@ -32,7 +32,7 @@ const JiraOptimizerExtension = {
     try {
       const response = await this.sendMessageToBackground({
         action: 'storage_get',
-        keys: ['collapseRightPanel', 'expandCreateModal', 'viewLinkedTickets', 'expandImages']
+        keys: ['collapseRightPanel', 'expandCreateModal', 'viewLinkedTickets', 'expandImages', 'themeMode']
       });
 
       if (response.success) {
@@ -42,7 +42,8 @@ const JiraOptimizerExtension = {
           collapseRightPanel: settings.collapseRightPanel !== false,
           expandCreateModal: settings.expandCreateModal !== false,
           viewLinkedTickets: settings.viewLinkedTickets !== false,
-          expandImages: settings.expandImages !== false
+          expandImages: settings.expandImages !== false,
+          themeMode: settings.themeMode || 'light'
         };
       } else {
         console.warn('[Jira Optimizer] Error loading settings:', response.error);

@@ -176,5 +176,33 @@
   "jiraUrlHelpText": {
     "message": "Enter your Jira instance URL. If left empty, the extension will try to detect it automatically from the current tab.",
     "description": "Help text for Jira URL field"
+  },
+  "themeConfiguration": {
+    "message": "Theme Configuration",
+    "description": "Theme configuration section title"
+  },
+  "themeMode": {
+    "message": "Theme Mode",
+    "description": "Label for theme selection field"
+  },
+  "themeLight": {
+    "message": "Light",
+    "description": "Light theme option"
+  },
+  "themeDark": {
+    "message": "Dark",
+    "description": "Dark theme option"
+  },
+  "themeDevice": {
+    "message": "Device",
+    "description": "Device theme option (follows system preference)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Theme saved successfully!",
+    "description": "Success message when theme is saved"
+  },
+  "themeHelpText": {
+    "message": "Choose your preferred theme. 'Device' will automatically follow your system's dark/light mode preference.",
+    "description": "Help text for theme selection"
   }
 }
