@@ -127,6 +127,93 @@ JiraOptimizerExtension.sendMessageToBackground = function(message) {
   });
 };
 
+// Cross-browser messaging helper for content script
+JiraOptimizerExtension.sendMessageToBackground = function(message) {
+  return new Promise((resolve, reject) => {
+    if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) {
+      chrome.runtime.sendMessage(message, (response) => {
+        if (chrome.runtime.lastError) {
+          reject(chrome.runtime.lastError);
+        } else {
+          resolve(response);
+        }
+      });
+    } else if (typeof browser !== 'undefined' && browser.runtime && browser.runtime.sendMessage) {
+      browser.runtime.sendMessage(message).then(resolve).catch(reject);
+    } else {
+      reject(new Error('Runtime messaging not available'));
+    }
+  });
+};
+
+// Listen for messages from background script or popup
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  if (request.action === 'getJiraInstance') {
+    // Try to detect Jira instance from current page
+    const jiraUrl = detectJiraInstanceFromPage();
+    sendResponse({ jiraUrl: jiraUrl });
+  }
+});
+
+// Function to detect Jira instance from the current page
+function detectJiraInstanceFromPage() {
+  try {
+    const url = new URL(window.location.href);
+
+    // Common Jira detection patterns
+    if (url.hostname.includes('atlassian.net')) {
+      return `${url.protocol}//${url.hostname}`;
+    }
+
+    if (url.hostname.includes('jira')) {
+      return `${url.protocol}//${url.hostname}`;
+    }
+
+    // Look for Jira-specific elements or meta tags that indicate Jira instance
+    const metaTags = document.querySelectorAll('meta[name]');
+    for (let meta of metaTags) {
+      if (meta.name.toLowerCase().includes('jira') || meta.content.toLowerCase().includes('jira')) {
+        return `${url.protocol}//${url.hostname}`;
+      }
+    }
+
+    // Check for specific Jira DOM elements
+    const jiraSelectors = [
+      'meta[name="ajs-context-path"]',
+      'meta[name="ajs-base-url"]',
+      '[data-testid*="jira"]',
+      '.jira-header',
+      '#jira-frontend',
+      '#page'
+    ];
+
+    for (let selector of jiraSelectors) {
+      if (document.querySelector(selector)) {
+        return `${url.protocol}//${url.hostname}`;
+      }
+    }
+
+    // Check for Jira-specific URL patterns
+    const jiraPaths = [
+      '/browse/',
+      '/projects/',
+      '/issues/',
+      '/dashboard',
+      '/secure/dashboard',
+      '/jira/dashboard'
+    ];
+
+    if (jiraPaths.some(path => url.pathname.includes(path))) {
+      return `${url.protocol}//${url.hostname}`;
+    }
+
+  } catch (error) {
+    console.error('[Jira Optimizer] Error detecting Jira instance:', error);
+  }
+
+  return null;
+}
+
 // Initialize the extension
 async function initialize() {
   if (document.readyState === 'loading') {

@@ -6,7 +6,8 @@
   "name": "__MSG_extName__",
   "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "tabs"
   ],
   "background": {
     "service_worker": "background.js"
@@ -41,6 +42,6 @@
   },
   "options_ui": {
     "open_in_tab": true,
-    "page": "popup.html"
+    "page": "options.html"
   }
 }

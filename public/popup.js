@@ -13,7 +13,13 @@ function replaceI18nPlaceholders() {
     '__MSG_collapseRightPanel__': 'collapseRightPanel',
     '__MSG_expandCreateModal__': 'expandCreateModal',
     '__MSG_viewLinkedTickets__': 'viewLinkedTickets',
-    '__MSG_expandImages__': 'expandImages'
+    '__MSG_expandImages__': 'expandImages',
+    '__MSG_searchIssue__': 'searchIssue',
+    '__MSG_issueId__': 'issueId',
+    '__MSG_enterIssueIdPlaceholder__': 'enterIssueIdPlaceholder',
+    '__MSG_openIssue__': 'openIssue',
+    '__MSG_pleaseEnterIssueId__': 'pleaseEnterIssueId',
+    '__MSG_errorOpeningIssue__': 'errorOpeningIssue'
   };
 
   // Função para substituir texto em um elemento e seus filhos
@@ -229,6 +235,96 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         console.log(`[Jira Optimizer] Setting "${key}" saved as: ${value}`); // Optional: for debugging
       }
+    });
+  }
+
+  // Quick Open Issue functionality
+  const openIssueButton = document.getElementById('openIssue');
+  const idIssueInput = document.getElementById('idIssue');
+
+  if (openIssueButton && idIssueInput) {
+    openIssueButton.addEventListener('click', async () => {
+      const issueId = idIssueInput.value.trim();
+      if (!issueId) {
+        const issueMessageDiv = document.getElementById('issueMessage');
+        if (issueMessageDiv) {
+          issueMessageDiv.style.display = 'block';
+          setTimeout(() => {
+            issueMessageDiv.style.display = 'none';
+          }, 3000);
+        }
+        return;
+      }
+
+      try {
+        // Get Jira URL from storage or detect from current tab
+        let jiraUrl = await getJiraUrl();
+
+        if (!jiraUrl) {
+          // Open options page to configure Jira URL
+          chrome.runtime.openOptionsPage();
+          return;
+        }
+
+        // Construct the issue URL
+        const issueUrl = `${jiraUrl}/browse/${issueId}`;
+
+        // Open the issue in a new tab
+        chrome.tabs.create({ url: issueUrl });
+      } catch (error) {
+        console.error('Error opening issue:', error);
+        const errorMessageDiv = document.getElementById('errorMessage');
+        if (errorMessageDiv) {
+          errorMessageDiv.style.display = 'block';
+          setTimeout(() => {
+            errorMessageDiv.style.display = 'none';
+          }, 5000);
+        }
+      }
+    });
+
+    // Allow Enter key to trigger open
+    idIssueInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        openIssueButton.click();
+      }
+    });
+  }
+
+  /**
+   * Gets the Jira URL either from storage or by detecting from current tab
+   */
+  async function getJiraUrl() {
+    // First, try to get from sync storage (user configured)
+    return new Promise((resolve) => {
+      chrome.storage.sync.get(['jiraUrl'], async (result) => {
+        if (result.jiraUrl) {
+          resolve(result.jiraUrl);
+          return;
+        }
+
+        // If not configured, try to detect from active tab via background script
+        try {
+          chrome.runtime.sendMessage({ action: 'detectJiraUrl' }, (response) => {
+            if (response && response.detectedUrl) {
+              resolve(response.detectedUrl);
+              return;
+            }
+
+            // As fallback, try to get from content script if it's a Jira page
+            chrome.runtime.sendMessage({ action: 'getJiraUrlFromContent' }, (response) => {
+              if (response && response.detectedUrl) {
+                resolve(response.detectedUrl);
+              } else {
+                resolve(null);
+              }
+            });
+          });
+        } catch (error) {
+          console.error('Error detecting Jira URL:', error);
+          resolve(null);
+        }
+      });
     });
   }
 

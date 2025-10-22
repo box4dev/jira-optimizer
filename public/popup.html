@@ -16,6 +16,27 @@
       <span id="ewj-reload-message">__MSG_reloadRequired__</span>
     </div>
 
+     <div class="ewj-settings-section">
+     <div class="ewj-settings-section-title">__MSG_searchIssue__</div>
+     <div class="ewj-setting-field">
+       <div class="ewj-setting-field-left">
+         <label class="ewj-setting-label ewj-font-weight" for="idIssue">__MSG_issueId__</label>
+       </div>
+       <div class="ewj-setting-field-center">
+         <input type="text" id="idIssue" name="idIssue" placeholder="__MSG_enterIssueIdPlaceholder__" />
+       </div>
+       <div class="ewj-setting-field-right">
+         <button id="openIssue">__MSG_openIssue__</button>
+       </div>
+     </div>
+     <div id="issueMessage" class="ewj-info-message" style="display: none;">
+       <span>__MSG_pleaseEnterIssueId__</span>
+     </div>
+     <div id="errorMessage" class="ewj-error-message" style="display: none;">
+       <span>__MSG_errorOpeningIssue__</span>
+     </div>
+   </div>
+
     <div class="ewj-settings-section">
       <div class="ewj-settings-section-title">__MSG_globalSettings__</div>
       <div class="ewj-setting-item">

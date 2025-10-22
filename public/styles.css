@@ -2,7 +2,7 @@
 .ewj-body {
   margin: 0;
   background: #fff;
-  color: #fff;
+  color: #5E6C84;
   font-size: 14px;
   line-height: 1.4;
   display: flex;
@@ -10,7 +10,7 @@
 }
 
 .ewj-settings-container {
-   width: 400px;
+   width: 500px;
    background-color: #fff;
    border-radius: 3px;
    box-shadow: 0 8px 16px rgba(9, 30, 66, 0.15);
@@ -60,6 +60,76 @@
   margin-bottom: 0;
 }
 
+.ewj-setting-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.ewj-setting-field-left {
+  flex: 0 0 auto;
+  padding-right: 12px;
+  text-align: left;
+}
+
+.ewj-setting-field-left .ewj-setting-label {
+  display: block;
+}
+
+.ewj-setting-field-center {
+  flex: 1;
+  min-width: 0;
+}
+
+.ewj-setting-field-center input {
+  width: 90%;
+  padding: 8px 12px;
+  border: 1px solid #dfe1e6;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #172B4D;
+}
+
+.ewj-setting-field-center input:focus {
+  outline: none;
+  border-color: #0052cc;
+  box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.2);
+}
+
+.ewj-setting-field-right {
+  flex: 0 0 auto;
+  padding-left: 8px;
+  text-align: right;
+}
+
+.ewj-setting-field-right button {
+  padding: 6px 12px;
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.ewj-setting-field-right button:hover {
+  background-color: #0747a6;
+}
+
+.ewj-setting-field-right button:active {
+  background-color: #0a3f7a;
+}
+
+.ewj-setting-field-right #saveMessage {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
 .ewj-toggle-switch {
   position: relative;
   display: inline-block;
@@ -107,11 +177,48 @@ input:checked+.ewj-toggle-slider:before {
 }
 
 .ewj-setting-label {
-   font-size: 13px;
-   color: #172B4D;
-   line-height: 1.3;
-   word-wrap: break-word;
-   hyphens: auto;
+    font-size: 13px;
+    color: #172B4D;
+    line-height: 1.3;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.ewj-font-weight {
+   font-weight: 600;
+}
+
+.ewj-info-message {
+    font-size: 13px;
+    color: #5E6C84;
+    background-color: #FFF3CD;
+    border: 1px solid #FFEAA7;
+    padding: 8px 12px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.ewj-success-message {
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #155724;
+    background-color: #D4EDDA;
+    border: 1px solid #C3E6CB;
+    padding: 8px 12px;
+    border-radius: 3px;
+    line-height: 1.4;
+}
+
+.ewj-error-message {
+    font-size: 13px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 8px 12px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    line-height: 1.4;
 }
 
 .ewj-divider {

@@ -6,6 +6,9 @@
 /build-chrome
 /build-firefox
 
+# help
+/prompt
+
 # misc
 .DS_Store
 

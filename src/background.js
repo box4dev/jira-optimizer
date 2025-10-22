@@ -81,3 +81,67 @@ chrome.runtime.onInstalled.addListener(() => {
     console.error('[Jira Optimizer] Error checking saved settings:', error);
   });
 });
+
+// Handle messages for detecting Jira URL from content script
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  if (request.action === 'detectJiraUrl') {
+    // Get the URL from the active tab
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      if (tabs[0] && tabs[0].url) {
+        const url = new URL(tabs[0].url);
+        // Check if it's a Jira URL - improved detection
+        if (isJiraUrl(url)) {
+          sendResponse({ detectedUrl: `${url.protocol}//${url.hostname}` });
+        } else {
+          sendResponse({ detectedUrl: null });
+        }
+      } else {
+        sendResponse({ detectedUrl: null });
+      }
+    });
+    return true; // Keep message channel open for async response
+  }
+
+  if (request.action === 'getJiraUrlFromContent') {
+    // Try to get Jira URL from content script if it's running on a Jira page
+    if (sender.tab && sender.tab.id) {
+      chrome.tabs.sendMessage(sender.tab.id, { action: 'getJiraInstance' }, (response) => {
+        if (chrome.runtime.lastError) {
+          sendResponse({ detectedUrl: null });
+        } else {
+          sendResponse({ detectedUrl: response?.jiraUrl || null });
+        }
+      });
+    } else {
+      sendResponse({ detectedUrl: null });
+    }
+    return true;
+  }
+});
+
+// Improved Jira URL detection function
+function isJiraUrl(url) {
+  const hostname = url.hostname.toLowerCase();
+  const pathname = url.pathname.toLowerCase();
+
+  // Common Jira patterns
+  if (hostname.includes('atlassian.net')) {
+    return true;
+  }
+
+  if (hostname.includes('jira')) {
+    return true;
+  }
+
+  // Check for Jira-specific paths that indicate it's a Jira instance
+  const jiraPaths = [
+    '/browse/',
+    '/projects/',
+    '/issues/',
+    '/dashboard',
+    '/secure/dashboard',
+    '/jira/dashboard'
+  ];
+
+  return jiraPaths.some(path => pathname.includes(path));
+}

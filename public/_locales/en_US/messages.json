@@ -120,5 +120,61 @@
   "loadingLinkedTickets": {
     "message": "Loading linked tickets...",
     "description": "Loading message for linked tickets tooltip"
+  },
+  "searchIssue": {
+    "message": "Search issue",
+    "description": "Title for quick issue search section"
+  },
+  "issueId": {
+    "message": "Issue ID",
+    "description": "Label for issue ID input field"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Enter Jira issue ID (e.g., PROJ-123)",
+    "description": "Placeholder text for issue ID input"
+  },
+  "openIssue": {
+    "message": "Open Issue",
+    "description": "Button text to open the issue"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Please enter an issue ID",
+    "description": "Error message when issue ID is empty"
+  },
+  "errorOpeningIssue": {
+    "message": "Error opening issue. Please check your Jira URL configuration.",
+    "description": "Error message when issue opening fails"
+  },
+  "optionsPageTitle": {
+    "message": "Jira Optimizer - Options",
+    "description": "Options page title"
+  },
+  "optionsPageHeading": {
+    "message": "Jira Optimizer Options",
+    "description": "Options page heading"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira Instance Configuration",
+    "description": "Jira instance configuration section title"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Please configure your Jira URL to use the quick open feature.",
+    "description": "Message prompting user to configure Jira URL"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira Base URL",
+    "description": "Label for Jira base URL input field"
+  },
+  "saveButton": {
+    "message": "Save",
+    "description": "Save button text"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira URL saved successfully!",
+    "description": "Success message when Jira URL is saved"
+  },
+  "jiraUrlHelpText": {
+    "message": "Enter your Jira instance URL. If left empty, the extension will try to detect it automatically from the current tab.",
+    "description": "Help text for Jira URL field"
   }
 }

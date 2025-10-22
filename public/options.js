@@ -1,0 +1,141 @@
+/**
+ * Substitui manualmente os placeholders i18n no HTML do options
+ * O Chrome Extensions não faz isso automaticamente para options
+ */
+function replaceI18nPlaceholders() {
+  // Mapeamento de placeholders para suas respectivas mensagens
+  const i18nMap = {
+    '__MSG_optionsPageTitle__': 'optionsPageTitle',
+    '__MSG_optionsPageHeading__': 'optionsPageHeading',
+    '__MSG_jiraInstanceConfiguration__': 'jiraInstanceConfiguration',
+    '__MSG_configureJiraUrlMessage__': 'configureJiraUrlMessage',
+    '__MSG_jiraBaseUrl__': 'jiraBaseUrl',
+    '__MSG_saveButton__': 'saveButton',
+    '__MSG_jiraUrlSavedSuccessfully__': 'jiraUrlSavedSuccessfully',
+    '__MSG_jiraUrlHelpText__': 'jiraUrlHelpText'
+  };
+
+  // Função para substituir texto em um elemento e seus filhos
+  function replaceInElement(element) {
+    if (element.nodeType === Node.TEXT_NODE) {
+      let text = element.textContent;
+      let replaced = false;
+
+      Object.keys(i18nMap).forEach(placeholder => {
+        if (text.includes(placeholder)) {
+          const messageKey = i18nMap[placeholder];
+          const translatedText = chrome.i18n.getMessage(messageKey);
+          if (translatedText) {
+            text = text.replace(new RegExp(placeholder, 'g'), translatedText);
+            replaced = true;
+          }
+        }
+      });
+
+      if (replaced) {
+        element.textContent = text;
+      }
+    } else if (element.nodeType === Node.ELEMENT_NODE) {
+      // Processar atributos que podem conter placeholders
+      ['title', 'alt', 'placeholder'].forEach(attr => {
+        if (element.hasAttribute(attr)) {
+          let value = element.getAttribute(attr);
+          Object.keys(i18nMap).forEach(placeholder => {
+            if (value.includes(placeholder)) {
+              const messageKey = i18nMap[placeholder];
+              const translatedText = chrome.i18n.getMessage(messageKey);
+              if (translatedText) {
+                value = value.replace(new RegExp(placeholder, 'g'), translatedText);
+              }
+            }
+          });
+          element.setAttribute(attr, value);
+        }
+      });
+
+      // Processar filhos recursivamente
+      Array.from(element.childNodes).forEach(replaceInElement);
+    }
+  }
+
+  // Aplicar substituição em todo o documento
+  replaceInElement(document.body);
+
+  // Atualizar o título da página se necessário
+  const titleElement = document.querySelector('title');
+  if (titleElement && titleElement.textContent.includes('__MSG_')) {
+    Object.keys(i18nMap).forEach(placeholder => {
+      if (titleElement.textContent.includes(placeholder)) {
+        const messageKey = i18nMap[placeholder];
+        const translatedText = chrome.i18n.getMessage(messageKey);
+        if (translatedText) {
+          titleElement.textContent = titleElement.textContent.replace(new RegExp(placeholder, 'g'), translatedText);
+        }
+      }
+    });
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Definir lang dinamicamente baseado na localização atual
+  const uiLanguage = chrome.i18n.getUILanguage();
+  document.documentElement.lang = uiLanguage;
+
+  // Aplicar internacionalização primeiro
+  replaceI18nPlaceholders();
+
+  const jiraUrlInput = document.getElementById('jiraUrl');
+  const saveButton = document.getElementById('saveJiraUrl');
+  const saveMessage = document.getElementById('saveMessage');
+
+  // Load saved Jira URL
+  chrome.storage.sync.get(['jiraUrl'], (result) => {
+    if (result.jiraUrl) {
+      jiraUrlInput.value = result.jiraUrl;
+      // Hide message if URL is configured
+      const messageDiv = document.getElementById('jiraUrlMessage');
+      if (messageDiv) {
+        messageDiv.style.display = 'none';
+      }
+    } else {
+      // Show message if no URL is configured
+      const messageDiv = document.getElementById('jiraUrlMessage');
+      if (messageDiv) {
+        messageDiv.style.display = 'block';
+      }
+    }
+  });
+
+  // Save Jira URL
+  saveButton.addEventListener('click', () => {
+    const jiraUrl = jiraUrlInput.value.trim();
+
+    // Basic validation
+    if (jiraUrl && !jiraUrl.match(/^https?:\/\/.+/)) {
+      showMessage('Please enter a valid URL starting with http:// or https://', 'error');
+      return;
+    }
+
+    chrome.storage.sync.set({ jiraUrl: jiraUrl }, () => {
+      if (chrome.runtime.lastError) {
+        showMessage('Error saving Jira URL', 'error');
+      } else {
+        showMessage('Jira URL saved successfully!', 'ewj-success-message');
+        // Hide the info message when URL is successfully saved
+        const messageDiv = document.getElementById('jiraUrlMessage');
+        if (messageDiv) {
+          messageDiv.style.display = 'none';
+        }
+      }
+    });
+  });
+
+  function showMessage(text, type) {
+    saveMessage.textContent = text;
+    saveMessage.className = type;
+    saveMessage.style.display = 'block';
+    setTimeout(() => {
+      saveMessage.style.display = 'none';
+    }, 30000);
+  }
+});
