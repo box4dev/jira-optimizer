@@ -6,6 +6,7 @@ function replaceI18nPlaceholders() {
   // Mapeamento de placeholders para suas respectivas mensagens
   const i18nMap = {
     '__MSG_settingsTitle__': 'settingsTitle',
+    '__MSG_optionsPageTitle__': 'optionsPageTitle',
     '__MSG_reloadRequired__': 'reloadRequired',
     '__MSG_globalSettings__': 'globalSettings',
     '__MSG_enableFeatures__': 'enableFeatures',
@@ -90,6 +91,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Aplicar internacionalização primeiro
   replaceI18nPlaceholders();
+
+  // Adicionar funcionalidade ao ícone de configurações
+  const settingsIcon = document.getElementById('joc-icon-settings');
+  if (settingsIcon) {
+    settingsIcon.addEventListener('click', () => {
+      chrome.runtime.openOptionsPage();
+    });
+  }
 
   const settingConfiguration = {
     'enableAll': {
