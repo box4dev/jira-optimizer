@@ -145,6 +145,10 @@
     "message": "Ralat membuka tiket. Sila semak konfigurasi URL Jira anda.",
     "description": "Mesej ralat apabila pembukaan tiket gagal"
   },
+  "invalidIssueFormat": {
+    "message": "Format tidak sah. Guna: PROJ-123, PROJ123, atau nombor sahaja.",
+    "description": "Mesej ralat apabila format ID tiket tidak sah"
+  },
   "optionsPageTitle": {
     "message": "Pengoptimum Jira - Opsyen",
     "description": "Tajuk halaman opsyen"

@@ -145,6 +145,10 @@
     "message": "Fout bij openen ticket. Controleer uw Jira URL configuratie.",
     "description": "Foutbericht wanneer ticket openen mislukt"
   },
+  "invalidIssueFormat": {
+    "message": "Ongeldig formaat. Gebruik: PROJ-123, PROJ123 of alleen cijfers.",
+    "description": "Foutbericht wanneer ticket ID formaat ongeldig is"
+  },
   "optionsPageTitle": {
     "message": "Jira Optimizer - Opties",
     "description": "Opties pagina titel"

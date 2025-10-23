@@ -145,6 +145,10 @@
     "message": "خطأ في فتح التذكرة. يرجى التحقق من إعدادات URL الخاصة بـ Jira.",
     "description": "رسالة خطأ عند فشل فتح التذكرة"
   },
+  "invalidIssueFormat": {
+    "message": "تنسيق غير صحيح. استخدم: PROJ-123، PROJ123، أو أرقام فقط.",
+    "description": "رسالة خطأ عندما يكون تنسيق معرف التذكرة غير صحيح"
+  },
   "optionsPageTitle": {
     "message": "محسن Jira - الخيارات",
     "description": "عنوان صفحة الخيارات"

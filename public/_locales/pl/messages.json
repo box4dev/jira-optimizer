@@ -145,6 +145,10 @@
     "message": "Błąd podczas otwierania biletu. Sprawdź konfigurację URL Jira.",
     "description": "Komunikat błędu, gdy otwarcie biletu nie powiodło się"
   },
+  "invalidIssueFormat": {
+    "message": "Nieprawidłowy format. Użyj: PROJ-123, PROJ123 lub tylko cyfry.",
+    "description": "Komunikat błędu, gdy format ID biletu jest nieprawidłowy"
+  },
   "optionsPageTitle": {
     "message": "Optymalizator Jira - Opcje",
     "description": "Tytuł strony opcji"

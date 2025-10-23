@@ -145,6 +145,10 @@
     "message": "티켓 열기 오류. Jira URL 구성을 확인하세요.",
     "description": "티켓 열기가 실패할 때 오류 메시지"
   },
+  "invalidIssueFormat": {
+    "message": "잘못된 형식입니다. 사용: PROJ-123, PROJ123 또는 숫자만.",
+    "description": "티켓 ID 형식이 잘못된 경우 오류 메시지"
+  },
   "optionsPageTitle": {
     "message": "Jira Optimizer - 옵션",
     "description": "옵션 페이지 제목"

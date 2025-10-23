@@ -145,6 +145,10 @@
     "message": "Erro ao abrir o ticket. Verifique a configuração da URL do Jira.",
     "description": "Mensagem de erro quando a abertura do ticket falha"
   },
+  "invalidIssueFormat": {
+    "message": "Formato inválido. Use: PROJ-123, PROJ123 ou apenas números.",
+    "description": "Mensagem de erro quando o formato do ID do ticket é inválido"
+  },
   "optionsPageTitle": {
     "message": "Otimizador Jira - Opções",
     "description": "Título da página de opções"

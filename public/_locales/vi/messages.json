@@ -204,5 +204,9 @@
   "themeHelpText": {
     "message": "Chọn chủ đề bạn thích. 'Thiết bị' sẽ tự động theo tùy chọn chế độ tối/sáng của hệ thống bạn.",
     "description": "Văn bản trợ giúp cho việc chọn chủ đề"
+  },
+  "invalidIssueFormat": {
+    "message": "Định dạng vé không hợp lệ. Vui lòng nhập ID vé Jira hợp lệ (ví dụ: PROJ-123).",
+    "description": "Thông báo lỗi cho định dạng vé không hợp lệ"
   }
 }

@@ -120,5 +120,93 @@
   "loadingLinkedTickets": {
     "message": "Memuat tiket terkait...",
     "description": "Pesan pemuatan untuk tooltip tiket terkait"
+  },
+  "searchTicket": {
+    "message": "Cari Tiket",
+    "description": "Judul untuk bagian pencarian tiket cepat"
+  },
+  "issueId": {
+    "message": "ID Tiket",
+    "description": "Label untuk kolom input ID tiket"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Masukkan ID Tiket Jira (contoh: PROJ-123)",
+    "description": "Teks placeholder untuk input ID tiket"
+  },
+  "openIssue": {
+    "message": "Buka Tiket",
+    "description": "Teks tombol untuk membuka tiket"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Silakan masukkan ID tiket",
+    "description": "Pesan kesalahan saat ID tiket kosong"
+  },
+  "errorOpeningIssue": {
+    "message": "Kesalahan membuka tiket. Silakan periksa konfigurasi URL Jira Anda.",
+    "description": "Pesan kesalahan saat pembukaan tiket gagal"
+  },
+  "invalidIssueFormat": {
+    "message": "Format tidak valid. Gunakan: PROJ-123, PROJ123, atau hanya angka.",
+    "description": "Pesan kesalahan saat format ID tiket tidak valid"
+  },
+  "optionsPageTitle": {
+    "message": "Pengoptimal Jira - Opsi",
+    "description": "Judul halaman opsi"
+  },
+  "optionsPageHeading": {
+    "message": "Opsi Pengoptimal Jira",
+    "description": "Header halaman opsi"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Konfigurasi Instance Jira",
+    "description": "Judul bagian konfigurasi instance Jira"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Konfigurasikan URL Jira Anda untuk menggunakan fitur buka cepat.",
+    "description": "Pesan yang meminta pengguna untuk mengkonfigurasi URL Jira"
+  },
+  "jiraBaseUrl": {
+    "message": "URL Dasar Jira",
+    "description": "Label untuk kolom input URL dasar Jira"
+  },
+  "saveButton": {
+    "message": "Simpan",
+    "description": "Teks tombol simpan"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "URL Jira berhasil disimpan!",
+    "description": "Pesan sukses saat URL Jira disimpan"
+  },
+  "jiraUrlHelpText": {
+    "message": "Masukkan URL instance Jira Anda. Jika dibiarkan kosong, ekstensi akan mencoba mendeteksinya secara otomatis dari tab saat ini.",
+    "description": "Teks bantuan untuk kolom URL Jira"
+  },
+  "themeConfiguration": {
+    "message": "Konfigurasi Tema",
+    "description": "Judul bagian konfigurasi tema"
+  },
+  "themeMode": {
+    "message": "Mode Tema",
+    "description": "Label untuk kolom pemilihan tema"
+  },
+  "themeLight": {
+    "message": "Terang",
+    "description": "Opsi tema terang"
+  },
+  "themeDark": {
+    "message": "Gelap",
+    "description": "Opsi tema gelap"
+  },
+  "themeDevice": {
+    "message": "Perangkat",
+    "description": "Opsi tema perangkat (mengikuti preferensi sistem)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Tema berhasil disimpan!",
+    "description": "Pesan sukses saat tema disimpan"
+  },
+  "themeHelpText": {
+    "message": "Pilih tema yang Anda inginkan. 'Perangkat' akan secara otomatis mengikuti preferensi mode gelap/terang sistem Anda.",
+    "description": "Teks bantuan untuk pemilihan tema"
   }
 }

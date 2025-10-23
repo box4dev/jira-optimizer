@@ -145,6 +145,10 @@
     "message": "Eroare la deschiderea biletului. Verificați configurația URL-ului Jira.",
     "description": "Mesaj de eroare când deschiderea biletului eșuează"
   },
+  "invalidIssueFormat": {
+    "message": "Format invalid. Utilizați: PROJ-123, PROJ123 sau doar numere.",
+    "description": "Mesaj de eroare când formatul ID-ului biletului este invalid"
+  },
   "optionsPageTitle": {
     "message": "Optimizator Jira - Opțiuni",
     "description": "Titlul paginii de opțiuni"

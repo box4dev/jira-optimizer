@@ -145,6 +145,10 @@
     "message": "Fel vid öppning av ärende. Kontrollera din Jira-URL-konfiguration.",
     "description": "Felmeddelande när öppning av ärende misslyckas"
   },
+  "invalidIssueFormat": {
+    "message": "Ogiltigt format. Använd: PROJ-123, PROJ123 eller endast siffror.",
+    "description": "Felmeddelande när ärende-ID-format är ogiltigt"
+  },
   "optionsPageTitle": {
     "message": "Jira-optimerare - Alternativ",
     "description": "Alternativsidans titel"

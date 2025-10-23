@@ -145,6 +145,10 @@
     "message": "Fehler beim Öffnen des Tickets. Bitte überprüfen Sie Ihre Jira-URL-Konfiguration.",
     "description": "Fehlermeldung wenn Ticket-Öffnung fehlschlägt"
   },
+  "invalidIssueFormat": {
+    "message": "Ungültiges Format. Verwenden Sie: PROJ-123, PROJ123 oder nur Zahlen.",
+    "description": "Fehlermeldung wenn Ticket-ID Format ungültig ist"
+  },
   "optionsPageTitle": {
     "message": "Jira-Optimierer - Optionen",
     "description": "Optionen-Seitentitel"

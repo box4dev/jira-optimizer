@@ -145,6 +145,10 @@
     "message": "Hiba a jegy megnyitásakor. Ellenőrizze a Jira URL konfigurációt.",
     "description": "Hibaüzenet, ha a jegy megnyitása sikertelen"
   },
+  "invalidIssueFormat": {
+    "message": "Érvénytelen formátum. Használja: PROJ-123, PROJ123 vagy csak számokat.",
+    "description": "Hibaüzenet, ha a jegy azonosító formátuma érvénytelen"
+  },
   "optionsPageTitle": {
     "message": "Jira Optimalizáló - Beállítások",
     "description": "Beállítások oldal címe"

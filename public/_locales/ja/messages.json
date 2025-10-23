@@ -145,6 +145,10 @@
     "message": "チケットを開くエラー。Jira URL設定を確認してください。",
     "description": "チケット開示失敗時のエラーメッセージ"
   },
+  "invalidIssueFormat": {
+    "message": "無効な形式です。使用: PROJ-123、PROJ123、または数字のみ。",
+    "description": "チケットID形式が無効な場合のエラーメッセージ"
+  },
   "optionsPageTitle": {
     "message": "Jira オプティマイザー - オプション",
     "description": "オプションぺージのタイトル"

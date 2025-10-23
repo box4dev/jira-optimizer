@@ -204,5 +204,9 @@
   "themeHelpText": {
     "message": "Tercih ettiğiniz temayı seçin. 'Cihaz' otomatik olarak sisteminizin koyu/açık mod tercihini takip edecektir.",
     "description": "Tema seçimi için yardım metni"
+  },
+  "invalidIssueFormat": {
+    "message": "Geçersiz bilet formatı. Lütfen geçerli bir Jira bilet kimliği girin (ör. PROJ-123).",
+    "description": "Geçersiz bilet formatı için hata mesajı"
   }
 }

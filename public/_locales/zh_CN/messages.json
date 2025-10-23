@@ -204,5 +204,9 @@
   "themeHelpText": {
     "message": "选择您偏好的主题。'设备' 将自动跟随您的系统深色/浅色模式偏好。",
     "description": "主题选择的帮助文本"
+  },
+  "invalidIssueFormat": {
+    "message": "无效的工单格式。请请输入有效的 Jira 工单 ID（例如，PROJ-123）。",
+    "description": "无效工单格式的错误消息"
   }
 }

@@ -204,5 +204,9 @@
   "themeHelpText": {
     "message": "Pumili ng iyong gustong tema. Ang 'Device' ay awtomatikong susunod sa preference ng iyong system sa madilim/maliwanag na mode.",
     "description": "Texto ng tulong para sa pili ng tema"
+  },
+  "invalidIssueFormat": {
+    "message": "Hindi wastong format ng ticket. Pakipasok ang isang wastong ID ng Jira ticket (hal., PROJ-123).",
+    "description": "Mensahe ng error para sa hindi wastong format ng ticket"
   }
 }
