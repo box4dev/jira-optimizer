@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "تحميل التذاكر المرتبطة...",
     "description": "رسالة التحميل لتلميح التذاكر المرتبطة"
+  },
+  "searchTicket": {
+    "message": "البحث عن التذكرة",
+    "description": "عنوان لقسم البحث السريع عن التذاكر"
+  },
+  "issueId": {
+    "message": "معرف التذكرة",
+    "description": "تسمية لحقل إدخال معرف التذكرة"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "أدخل معرف تذكرة Jira (مثال: PROJ-123)",
+    "description": "نص العنصر النائب لإدخال معرف التذكرة"
+  },
+  "openIssue": {
+    "message": "فتح التذكرة",
+    "description": "نص الزر لفتح التذكرة"
+  },
+  "pleaseEnterIssueId": {
+    "message": "يرجى إدخال معرف التذكرة",
+    "description": "رسالة خطأ عندما يكون معرف التذكرة فارغًا"
+  },
+  "errorOpeningIssue": {
+    "message": "خطأ في فتح التذكرة. يرجى التحقق من إعدادات URL الخاصة بـ Jira.",
+    "description": "رسالة خطأ عند فشل فتح التذكرة"
+  },
+  "optionsPageTitle": {
+    "message": "محسن Jira - الخيارات",
+    "description": "عنوان صفحة الخيارات"
+  },
+  "optionsPageHeading": {
+    "message": "خيارات محسن Jira",
+    "description": "عنوان صفحة الخيارات"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "إعداد مثيل Jira",
+    "description": "عنوان قسم إعداد مثيل Jira"
+  },
+  "configureJiraUrlMessage": {
+    "message": "يرجى إعداد URL الخاص بـ Jira لاستخدام ميزة الفتح السريع.",
+    "description": "رسالة تطالب المستخدم بإعداد URL Jira"
+  },
+  "jiraBaseUrl": {
+    "message": "URL الأساسي لـ Jira",
+    "description": "تسمية لحقل إدخال URL الأساسي لـ Jira"
+  },
+  "saveButton": {
+    "message": "حفظ",
+    "description": "نص زر الحفظ"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "تم حفظ URL الخاص بـ Jira بنجاح!",
+    "description": "رسالة نجاح عند حفظ URL Jira"
+  },
+  "jiraUrlHelpText": {
+    "message": "أدخل URL الخاص بمثيل Jira الخاص بك. إذا ترك فارغًا، سيحاول الامتداد الكشف عنه تلقائيًا من التبويب الحالي.",
+    "description": "نص المساعدة لحقل URL Jira"
+  },
+  "themeConfiguration": {
+    "message": "إعداد المظهر",
+    "description": "عنوان قسم إعداد المظهر"
+  },
+  "themeMode": {
+    "message": "وضع المظهر",
+    "description": "تسمية لحقل اختيار المظهر"
+  },
+  "themeLight": {
+    "message": "فاتح",
+    "description": "خيار المظهر الفاتح"
+  },
+  "themeDark": {
+    "message": "داكن",
+    "description": "خيار المظهر الداكن"
+  },
+  "themeDevice": {
+    "message": "الجهاز",
+    "description": "خيار مظهر الجهاز (يتبع تفضيل النظام)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "تم حفظ المظهر بنجاح!",
+    "description": "رسالة نجاح عند حفظ المظهر"
+  },
+  "themeHelpText": {
+    "message": "اختر المظهر المفضل لديك. 'الجهاز' سيتبع تلقائيًا تفضيل وضع الداكن/الفاتح في نظامك.",
+    "description": "نص المساعدة لاختيار المظهر"
   }
 }

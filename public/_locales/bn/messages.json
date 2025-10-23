@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "লিঙ্ক করা টিকেট লোড হচ্ছে...",
     "description": "লিঙ্ক করা টিকেট টুলটিপের জন্য লোডিং বার্তা"
+  },
+  "searchTicket": {
+    "message": "টিকেট অনুসন্ধান করুন",
+    "description": "দ্রুত টিকেট অনুসন্ধান বিভাগের জন্য শিরোনাম"
+  },
+  "issueId": {
+    "message": "টিকেট ID",
+    "description": "টিকেট ID ইনপুট ক্ষেত্রের জন্য লেবেল"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Jira টিকেট ID লিখুন (উদা. PROJ-123)",
+    "description": "টিকেট ID ইনপুটের জন্য প্লেসহোল্ডার টেক্সট"
+  },
+  "openIssue": {
+    "message": "টিকেট খুলুন",
+    "description": "টিকেট খুলতে বোতাম টেক্সট"
+  },
+  "pleaseEnterIssueId": {
+    "message": "অনুগ্রহ করে একটি টিকেট ID লিখুন",
+    "description": "টিকেট ID খালি থাকলে ত্রুটি বার্তা"
+  },
+  "errorOpeningIssue": {
+    "message": "টিকেট খোলার সময় ত্রুটি। অনুগ্রহ করে আপনার Jira URL কনফিগারেশন চেক করুন।",
+    "description": "টিকেট খোলার ব্যর্থতায় ত্রুটি বার্তা"
+  },
+  "optionsPageTitle": {
+    "message": "Jira অপটিমাইজার - অপশন",
+    "description": "অপশন পেজ শিরোনাম"
+  },
+  "optionsPageHeading": {
+    "message": "Jira অপটিমাইজার অপশন",
+    "description": "অপশন পেজ শিরোনাম"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira ইন্সট্যান্স কনফিগারেশন",
+    "description": "Jira ইন্সট্যান্স কনফিগারেশন বিভাগ শিরোনাম"
+  },
+  "configureJiraUrlMessage": {
+    "message": "দ্রুত খোলার বৈশিষ্ট্য ব্যবহার করার জন্য আপনার Jira URL কনফিগার করুন।",
+    "description": "ব্যবহারকারীকে Jira URL কনফিগার করার জন্য বার্তা"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira বেস URL",
+    "description": "Jira বেস URL ইনপুট ক্ষেত্রের জন্য লেবেল"
+  },
+  "saveButton": {
+    "message": "সেভ করুন",
+    "description": "সেভ বোতাম টেক্সট"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira URL সফলভাবে সেভ করা হয়েছে!",
+    "description": "Jira URL সেভ হলে সাফল্য বার্তা"
+  },
+  "jiraUrlHelpText": {
+    "message": "আপনার Jira ইন্সট্যান্সের URL লিখুন। যদি খালি রাখা হয়, তাহলে এক্সটেনশন বর্তমান ট্যাব থেকে এটি স্বয়ংক্রিয়ভাবে সনাক্ত করার চেষ্টা করবে।",
+    "description": "Jira URL ক্ষেত্রের জন্য সাহায্য টেক্সট"
+  },
+  "themeConfiguration": {
+    "message": "থিম কনফিগারেশন",
+    "description": "থিম কনফিগারেশন বিভাগ শিরোনাম"
+  },
+  "themeMode": {
+    "message": "থিম মোড",
+    "description": "থিম নির্বাচন ক্ষেত্রের জন্য লেবেল"
+  },
+  "themeLight": {
+    "message": "হালকা",
+    "description": "হালকা থিম বিকল্প"
+  },
+  "themeDark": {
+    "message": "গাঢ়",
+    "description": "গাঢ় থিম বিকল্প"
+  },
+  "themeDevice": {
+    "message": "ডিভাইস",
+    "description": "ডিভাইস থিম বিকল্প (সিস্টেম পছন্দ অনুসরণ করে)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "থিম সফলভাবে সেভ করা হয়েছে!",
+    "description": "থিম সেভ হলে সাফল্য বার্তা"
+  },
+  "themeHelpText": {
+    "message": "আপনার পছন্দের থিম চয়ন করুন। 'ডিভাইস' স্বয়ংক্রিয়ভাবে আপনার সিস্টেমের গাঢ়/হালকা মোড পছন্দ অনুসরণ করবে।",
+    "description": "থিম নির্বাচনের জন্য সাহায্য টেক্সট"
   }
 }

@@ -4,11 +4,11 @@
     "description": "Paglalarawan ng extension"
   },
   "extName": {
-    "message": "Jira Optimizer",
+    "message": "Optimizator Jira",
     "description": "Pangalan ng extension"
   },
   "settingsTitle": {
-    "message": "Jira Optimizer",
+    "message": "Optimizator Jira",
     "description": "Pangunahing pamagat ng popup ng mga setting"
   },
   "reloadRequired": {
@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Naglo-load ng mga link na ticket...",
     "description": "Mensahe ng loading para sa tooltip ng mga link na ticket"
+  },
+  "searchTicket": {
+    "message": "Hanapin ang Ticket",
+    "description": "Pamagat para sa bahagi ng mabilis na paghahanap ng ticket"
+  },
+  "issueId": {
+    "message": "ID ng Ticket",
+    "description": "Label para sa field ng pag-input ng ID ng ticket"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Ipasok ang ID ng Jira Ticket (hal., PROJ-123)",
+    "description": "Texto ng placeholder para sa pag-input ng ID ng ticket"
+  },
+  "openIssue": {
+    "message": "Buksan ang Ticket",
+    "description": "Texto ng button upang buksan ang ticket"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Pakipasok ang isang ID ng ticket",
+    "description": "Mensahe ng error kapag walang laman ang ID ng ticket"
+  },
+  "errorOpeningIssue": {
+    "message": "Error sa pagbubukas ng ticket. Paki-check ang iyong configuration ng Jira URL.",
+    "description": "Mensahe ng error kapag nabigo ang pagbubukas ng ticket"
+  },
+  "optionsPageTitle": {
+    "message": "Jira Optimizer - Mga Opsyon",
+    "description": "Pamagat ng pahina ng mga opsyon"
+  },
+  "optionsPageHeading": {
+    "message": "Mga Opsyon ng Jira Optimizer",
+    "description": "Heading ng pahina ng mga opsyon"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Configuration ng Instance ng Jira",
+    "description": "Pamagat ng bahagi ng configuration ng instance ng Jira"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Paki-configure ang iyong Jira URL upang gamitin ang mabilis na open feature.",
+    "description": "Mensahe na nag-aanyaya sa user na i-configure ang Jira URL"
+  },
+  "jiraBaseUrl": {
+    "message": "Base URL ng Jira",
+    "description": "Label para sa field ng pag-input ng base URL ng Jira"
+  },
+  "saveButton": {
+    "message": "I-save",
+    "description": "Texto ng button ng save"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Matagumpay na na-save ang Jira URL!",
+    "description": "Mensahe ng success kapag na-save ang Jira URL"
+  },
+  "jiraUrlHelpText": {
+    "message": "Ipasok ang URL ng iyong instance ng Jira. Kung iiwan na walang laman, susubukan ng extension na i-detect ito nang awtomatiko mula sa kasalukuyang tab.",
+    "description": "Texto ng tulong para sa field ng Jira URL"
+  },
+  "themeConfiguration": {
+    "message": "Configuration ng Tema",
+    "description": "Pamagat ng bahagi ng configuration ng tema"
+  },
+  "themeMode": {
+    "message": "Mode ng Tema",
+    "description": "Label para sa field ng pili ng tema"
+  },
+  "themeLight": {
+    "message": "Maliwanag",
+    "description": "Opsyon ng maliwanag na tema"
+  },
+  "themeDark": {
+    "message": "Madilim",
+    "description": "Opsyon ng madilim na tema"
+  },
+  "themeDevice": {
+    "message": "Device",
+    "description": "Opsyon ng tema ng device (sumusunod sa preference ng system)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Matagumpay na na-save ang tema!",
+    "description": "Mensahe ng success kapag na-save ang tema"
+  },
+  "themeHelpText": {
+    "message": "Pumili ng iyong gustong tema. Ang 'Device' ay awtomatikong susunod sa preference ng iyong system sa madilim/maliwanag na mode.",
+    "description": "Texto ng tulong para sa pili ng tema"
   }
 }

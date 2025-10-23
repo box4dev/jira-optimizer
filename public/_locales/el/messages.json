@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Φόρτωση συνδεδεμένων αιτήσεων...",
     "description": "Μήνυμα φόρτωσης για tooltip συνδεδεμένων αιτήσεων"
+  },
+  "searchTicket": {
+    "message": "Αναζήτηση Αιτήματος",
+    "description": "Τίτλος για την ενότητα γρήγορης αναζήτησης αιτημάτων"
+  },
+  "issueId": {
+    "message": "ID Αιτήματος",
+    "description": "Ετικέτα για το πεδίο εισαγωγής ID αιτήματος"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Εισάγετε ID Αιτήματος Jira (π.χ., PROJ-123)",
+    "description": "Κείμενο placeholder για την εισαγωγή ID αιτήματος"
+  },
+  "openIssue": {
+    "message": "Άνοιγμα Αιτήματος",
+    "description": "Κείμενο κουμπιού για το άνοιγμα του αιτήματος"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Παρακαλώ εισάγετε ένα ID αιτήματος",
+    "description": "Μήνυμα σφάλματος όταν το ID αιτήματος είναι κενό"
+  },
+  "errorOpeningIssue": {
+    "message": "Σφάλμα ανοίγματος αιτήματος. Ελέγξτε τη διαμόρφωση URL του Jira.",
+    "description": "Μήνυμα σφάλματος όταν το άνοιγμα του αιτήματος αποτυγχάνει"
+  },
+  "optionsPageTitle": {
+    "message": "Jira Optimizer - Επιλογές",
+    "description": "Τίτλος σελίδας επιλογών"
+  },
+  "optionsPageHeading": {
+    "message": "Επιλογές Jira Optimizer",
+    "description": "Κεφαλίδα σελίδας επιλογών"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Διαμόρφωση Περιπτώσεων Jira",
+    "description": "Τίτλος ενότητας διαμόρφωσης περίπτωσης Jira"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Παρακαλώ διαμορφώστε το URL του Jira για να χρησιμοποιήσετε τη λειτουργία γρήγορου ανοίγματος.",
+    "description": "Μήνυμα που προτρέπει τον χρήστη να διαμορφώσει το URL του Jira"
+  },
+  "jiraBaseUrl": {
+    "message": "Βασικό URL Jira",
+    "description": "Ετικέτα για το πεδίο εισαγωγής βασικού URL Jira"
+  },
+  "saveButton": {
+    "message": "Αποθήκευση",
+    "description": "Κείμενο κουμπιού αποθήκευσης"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Το URL του Jira αποθηκεύτηκε με επιτυχία!",
+    "description": "Μήνυμα επιτυχίας όταν το URL του Jira αποθηκεύεται"
+  },
+  "jiraUrlHelpText": {
+    "message": "Εισάγετε το URL της περίπτωσης Jira σας. Αν αφεθεί κενό, η επέκταση θα προσπαθήσει να το ανιχνεύσει αυτόματα από την τρέχουσα καρτέλα.",
+    "description": "Κείμενο βοήθειας για το πεδίο URL Jira"
+  },
+  "themeConfiguration": {
+    "message": "Διαμόρφωση Θέματος",
+    "description": "Τίτλος ενότητας διαμόρφωσης θέματος"
+  },
+  "themeMode": {
+    "message": "Λειτουργία Θέματος",
+    "description": "Ετικέτα για το πεδίο επιλογής θέματος"
+  },
+  "themeLight": {
+    "message": "Φωτεινό",
+    "description": "Επιλογή φωτεινού θέματος"
+  },
+  "themeDark": {
+    "message": "Σκοτεινό",
+    "description": "Επιλογή σκοτεινού θέματος"
+  },
+  "themeDevice": {
+    "message": "Συσκευή",
+    "description": "Επιλογή θέματος συσκευής (ακολουθεί την προτίμηση συστήματος)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Το θέμα αποθηκεύτηκε με επιτυχία!",
+    "description": "Μήνυμα επιτυχίας όταν το θέμα αποθηκεύεται"
+  },
+  "themeHelpText": {
+    "message": "Επιλέξτε το προτιμώμενο θέμα σας. Η 'Συσκευή' θα ακολουθεί αυτόματα την προτίμηση λειτουργίας σκοτεινής/φωτεινής του συστήματός σας.",
+    "description": "Κείμενο βοήθειας για την επιλογή θέματος"
   }
 }

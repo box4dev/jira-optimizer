@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "இணைக்கப்பட்ட டிக்கெட்டுகளை ஏற்றுகிறது...",
     "description": "இணைக்கப்பட்ட டிக்கெட்டுகள் டூல்டிப்பிற்கான ஏற்றுதல் செய்தி"
+  },
+  "searchTicket": {
+    "message": "டிக்கெட்டைத் தேடு",
+    "description": "விரைவு டிக்கெட் தேடல் பகுதிக்கான தலைப்பு"
+  },
+  "issueId": {
+    "message": "டிக்கெட் ID",
+    "description": "டிக்கெட் ID உள்ளீட்டு புலத்திற்கான லேபிள்"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Jira டிக்கெட் ID-ஐ உள்ளீடு செய்யவும் (எ.கா. PROJ-123)",
+    "description": "டிக்கெட் ID உள்ளீட்டிற்கான பிளேஸ்ஹோல்டர் உரை"
+  },
+  "openIssue": {
+    "message": "டிக்கெட்டைத் திற",
+    "description": "டிக்கெட்டைத் திறக்க பொத்தான் உரை"
+  },
+  "pleaseEnterIssueId": {
+    "message": "டிக்கெட் ID-ஐ உள்ளீடு செய்யவும்",
+    "description": "டிக்கெட் ID காலியாக இருக்கும்போது பிழை செய்தி"
+  },
+  "errorOpeningIssue": {
+    "message": "டிக்கெட்டைத் திறக்கும் போது பிழை. உங்கள் Jira URL உள்ளமைவைச் சரிபார்க்கவும்.",
+    "description": "டிக்கெட் திறப்பு தோல்வியடையும் போது பிழை செய்தி"
+  },
+  "optionsPageTitle": {
+    "message": "Jira ஆப்டிமைசர் - விருப்பங்கள்",
+    "description": "விருப்பங்கள் பக்க தலைப்பு"
+  },
+  "optionsPageHeading": {
+    "message": "Jira ஆப்டிமைசர் விருப்பங்கள்",
+    "description": "விருப்பங்கள் பக்க தலைப்பு"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira நிகழ்வு உள்ளமைவு",
+    "description": "Jira நிகழ்வு உள்ளமைவு பிரிவு தலைப்பு"
+  },
+  "configureJiraUrlMessage": {
+    "message": "விரைவு திறப்பு அம்சத்தைப் பயன்படுத்த உங்கள் Jira URL-ஐ உள்ளமைக்கவும்.",
+    "description": "பயனரை Jira URL-ஐ உள்ளமைக்கச் சொல்லும் செய்தி"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira அடிப்படை URL",
+    "description": "Jira அடிப்படை URL உள்ளீட்டு புலத்திற்கான லேபிள்"
+  },
+  "saveButton": {
+    "message": "சேமிக்கு",
+    "description": "சேமிப்பு பொத்தான் உரை"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira URL வெற்றிகரமாக சேமிக்கப்பட்டது!",
+    "description": "Jira URL சேமிக்கப்படும்போது வெற்றி செய்தி"
+  },
+  "jiraUrlHelpText": {
+    "message": "உங்கள் Jira நிகழ்வின் URL-ஐ உள்ளீடு செய்யவும். காலியாக விட்டுவிட்டால், நீட்டிப்பு தற்போதைய தாவலில் இருந்து அதைத் தானாகக் கண்டறிய முயற்சிக்கும்.",
+    "description": "Jira URL புலத்திற்கான உதவி உரை"
+  },
+  "themeConfiguration": {
+    "message": "தீம் உள்ளமைவு",
+    "description": "தீம் உள்ளமைவு பிரிவு தலைப்பு"
+  },
+  "themeMode": {
+    "message": "தீம் முறை",
+    "description": "தீம் தேர்வு புலத்திற்கான லேபிள்"
+  },
+  "themeLight": {
+    "message": "ஒளி",
+    "description": "ஒளி தீம் விருப்பம்"
+  },
+  "themeDark": {
+    "message": "இருள்",
+    "description": "இருள் தீம் விருப்பம்"
+  },
+  "themeDevice": {
+    "message": "சாதனம்",
+    "description": "சாதன தீம் விருப்பம் (சிஸ்டம் விருப்பத்தைப் பின்தொடர்கிறது)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "தீம் வெற்றிகரமாக சேமிக்கப்பட்டது!",
+    "description": "தீம் சேமிக்கப்படும்போது வெற்றி செய்தி"
+  },
+  "themeHelpText": {
+    "message": "உங்கள் விருப்ப தீமைத் தேர்ந்தெடுக்கவும். 'சாதனம்' உங்கள் அமைப்பின் இருள்/ஒளி முறை விருப்பத்தைத் தானாகவே பின்தொடரும்.",
+    "description": "தீம் தேர்விற்கான உதவி உரை"
   }
 }

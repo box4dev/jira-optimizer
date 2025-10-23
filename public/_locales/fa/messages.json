@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "بارگذاری تیکت های مرتبط...",
     "description": "پیام بارگذاری برای راهنمای ابزار تیکت های مرتبط"
+  },
+  "searchTicket": {
+    "message": "جستجوی تیکت",
+    "description": "عنوان بخش جستجوی سریع تیکت"
+  },
+  "issueId": {
+    "message": "شناسه تیکت",
+    "description": "برچسب برای فیلد ورودی شناسه تیکت"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "شناسه تیکت جیرا را وارد کنید (مثلاً PROJ-123)",
+    "description": "متن placeholder برای ورودی شناسه تیکت"
+  },
+  "openIssue": {
+    "message": "باز کردن تیکت",
+    "description": "متن دکمه برای باز کردن تیکت"
+  },
+  "pleaseEnterIssueId": {
+    "message": "لطفاً یک شناسه تیکت وارد کنید",
+    "description": "پیام خطا وقتی شناسه تیکت خالی است"
+  },
+  "errorOpeningIssue": {
+    "message": "خطا در باز کردن تیکت. لطفاً تنظیمات URL جیرا خود را بررسی کنید.",
+    "description": "پیام خطا وقتی باز کردن تیکت شکست می خورد"
+  },
+  "optionsPageTitle": {
+    "message": "بهینه ساز جیرا - گزینه ها",
+    "description": "عنوان صفحه گزینه ها"
+  },
+  "optionsPageHeading": {
+    "message": "گزینه های بهینه ساز جیرا",
+    "description": "سربرگ صفحه گزینه ها"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "تنظیمات نمونه جیرا",
+    "description": "عنوان بخش تنظیمات نمونه جیرا"
+  },
+  "configureJiraUrlMessage": {
+    "message": "لطفاً URL جیرا خود را تنظیم کنید تا از ویژگی باز سریع استفاده کنید.",
+    "description": "پیامی که از کاربر می خواهد URL جیرا را تنظیم کند"
+  },
+  "jiraBaseUrl": {
+    "message": "URL پایه جیرا",
+    "description": "برچسب برای فیلد ورودی URL پایه جیرا"
+  },
+  "saveButton": {
+    "message": "ذخیره",
+    "description": "متن دکمه ذخیره"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "URL جیرا با موفقیت ذخیره شد!",
+    "description": "پیام موفقیت وقتی URL جیرا ذخیره می شود"
+  },
+  "jiraUrlHelpText": {
+    "message": "URL نمونه جیرا خود را وارد کنید. اگر خالی بماند، افزونه سعی خواهد کرد آن را به طور خودکار از برگه فعلی تشخیص دهد.",
+    "description": "متن راهنما برای فیلد URL جیرا"
+  },
+  "themeConfiguration": {
+    "message": "تنظیمات تم",
+    "description": "عنوان بخش تنظیمات تم"
+  },
+  "themeMode": {
+    "message": "حالت تم",
+    "description": "برچسب برای فیلد انتخاب تم"
+  },
+  "themeLight": {
+    "message": "روشن",
+    "description": "گزینه تم روشن"
+  },
+  "themeDark": {
+    "message": "تیره",
+    "description": "گزینه تم تیره"
+  },
+  "themeDevice": {
+    "message": "دستگاه",
+    "description": "گزینه تم دستگاه (طبق ترجیح سیستم)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "تم با موفقیت ذخیره شد!",
+    "description": "پیام موفقیت وقتی تم ذخیره می شود"
+  },
+  "themeHelpText": {
+    "message": "تم ترجیحی خود را انتخاب کنید. 'دستگاه' به طور خودکار ترجیح سیستم شما را برای حالت تاریک/روشن دنبال خواهد کرد.",
+    "description": "متن راهنما برای انتخاب تم"
   }
 }

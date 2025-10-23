@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Загрузка связанных заявок...",
     "description": "Сообщение загрузки для всплывающей подсказки связанных заявок"
+  },
+  "searchTicket": {
+    "message": "Поиск Заявки",
+    "description": "Заголовок раздела быстрого поиска заявки"
+  },
+  "issueId": {
+    "message": "ID Заявки",
+    "description": "Метка для поля ввода ID заявки"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Введите ID Заявки Jira (например, PROJ-123)",
+    "description": "Текст заполнителя для ввода ID заявки"
+  },
+  "openIssue": {
+    "message": "Открыть Заявку",
+    "description": "Текст кнопки для открытия заявки"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Пожалуйста, введите ID заявки",
+    "description": "Сообщение об ошибке, когда ID заявки пустое"
+  },
+  "errorOpeningIssue": {
+    "message": "Ошибка открытия заявки. Проверьте конфигурацию URL Jira.",
+    "description": "Сообщение об ошибке при неудачном открытии заявки"
+  },
+  "optionsPageTitle": {
+    "message": "Оптимизатор Jira - Параметры",
+    "description": "Заголовок страницы параметров"
+  },
+  "optionsPageHeading": {
+    "message": "Параметры Оптимизатора Jira",
+    "description": "Заголовок страницы параметров"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Конфигурация Экземпляра Jira",
+    "description": "Заголовок раздела конфигурации экземпляра Jira"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Пожалуйста, настройте ваш URL Jira для использования функции быстрого открытия.",
+    "description": "Сообщение, предлагающее пользователю настроить URL Jira"
+  },
+  "jiraBaseUrl": {
+    "message": "Базовый URL Jira",
+    "description": "Метка для поля ввода базового URL Jira"
+  },
+  "saveButton": {
+    "message": "Сохранить",
+    "description": "Текст кнопки сохранения"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "URL Jira успешно сохранен!",
+    "description": "Сообщение об успехе при сохранении URL Jira"
+  },
+  "jiraUrlHelpText": {
+    "message": "Введите URL вашего экземпляра Jira. Если оставить пустым, расширение попытается обнаружить его автоматически из текущей вкладки.",
+    "description": "Текст справки для поля URL Jira"
+  },
+  "themeConfiguration": {
+    "message": "Конфигурация Темы",
+    "description": "Заголовок раздела конфигурации темы"
+  },
+  "themeMode": {
+    "message": "Режим Темы",
+    "description": "Метка для поля выбора темы"
+  },
+  "themeLight": {
+    "message": "Светлая",
+    "description": "Вариант светлой темы"
+  },
+  "themeDark": {
+    "message": "Темная",
+    "description": "Вариант темной темы"
+  },
+  "themeDevice": {
+    "message": "Устройство",
+    "description": "Вариант темы устройства (следует системным предпочтениям)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Тема успешно сохранена!",
+    "description": "Сообщение об успехе при сохранении темы"
+  },
+  "themeHelpText": {
+    "message": "Выберите предпочитаемую тему. 'Устройство' автоматически будет следовать предпочтениям режима темный/светлый вашей системы.",
+    "description": "Текст справки для выбора темы"
   }
 }

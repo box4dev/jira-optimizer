@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Verknüpfte Tickets werden geladen...",
     "description": "Lademeldung für verknüpfte Tickets Tooltip"
+  },
+  "searchTicket": {
+    "message": "Ticket suchen",
+    "description": "Titel für Schnell-Ticket-Suche Abschnitt"
+  },
+  "issueId": {
+    "message": "Ticket-ID",
+    "description": "Beschriftung für Ticket-ID Eingabefeld"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Jira Ticket-ID eingeben (z.B. PROJ-123)",
+    "description": "Platzhaltertext für Ticket-ID Eingabe"
+  },
+  "openIssue": {
+    "message": "Ticket öffnen",
+    "description": "Schaltflächentext um das Ticket zu öffnen"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Bitte geben Sie eine Ticket-ID ein",
+    "description": "Fehlermeldung wenn Ticket-ID leer ist"
+  },
+  "errorOpeningIssue": {
+    "message": "Fehler beim Öffnen des Tickets. Bitte überprüfen Sie Ihre Jira-URL-Konfiguration.",
+    "description": "Fehlermeldung wenn Ticket-Öffnung fehlschlägt"
+  },
+  "optionsPageTitle": {
+    "message": "Jira-Optimierer - Optionen",
+    "description": "Optionen-Seitentitel"
+  },
+  "optionsPageHeading": {
+    "message": "Jira-Optimierer Optionen",
+    "description": "Optionen-Seitenüberschrift"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira-Instanz Konfiguration",
+    "description": "Jira-Instanz Konfigurationsabschnittstitel"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Bitte konfigurieren Sie Ihre Jira-URL, um die Schnellöffnungsfunktion zu nutzen.",
+    "description": "Nachricht, die den Benutzer auffordert, die Jira-URL zu konfigurieren"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira Basis-URL",
+    "description": "Beschriftung für Jira Basis-URL Eingabefeld"
+  },
+  "saveButton": {
+    "message": "Speichern",
+    "description": "Speichern-Schaltflächentext"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira-URL erfolgreich gespeichert!",
+    "description": "Erfolgsmeldung wenn Jira-URL gespeichert wird"
+  },
+  "jiraUrlHelpText": {
+    "message": "Geben Sie Ihre Jira-Instanz-URL ein. Wenn leer gelassen, versucht die Erweiterung, sie automatisch vom aktuellen Tab zu erkennen.",
+    "description": "Hilfstext für Jira-URL Feld"
+  },
+  "themeConfiguration": {
+    "message": "Themen-Konfiguration",
+    "description": "Themen-Konfigurationsabschnittstitel"
+  },
+  "themeMode": {
+    "message": "Themen-Modus",
+    "description": "Beschriftung für Themen-Auswahlfeld"
+  },
+  "themeLight": {
+    "message": "Hell",
+    "description": "Helles Thema Option"
+  },
+  "themeDark": {
+    "message": "Dunkel",
+    "description": "Dunkles Thema Option"
+  },
+  "themeDevice": {
+    "message": "Gerät",
+    "description": "Gerät-Thema Option (folgt Systemeinstellung)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Thema erfolgreich gespeichert!",
+    "description": "Erfolgsmeldung wenn Thema gespeichert wird"
+  },
+  "themeHelpText": {
+    "message": "Wählen Sie Ihr bevorzugtes Thema. 'Gerät' folgt automatisch der hellen/dunklen Modus-Einstellung Ihres Systems.",
+    "description": "Hilfstext für Themen-Auswahl"
   }
 }

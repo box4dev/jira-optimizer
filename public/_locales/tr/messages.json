@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Bağlı biletler yükleniyor...",
     "description": "Bağlı biletler araç ipucu için yükleme mesajı"
+  },
+  "searchTicket": {
+    "message": "Bilet Ara",
+    "description": "Hızlı bilet arama bölümü için başlık"
+  },
+  "issueId": {
+    "message": "Bilet ID",
+    "description": "Bilet ID giriş alanı için etiket"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Jira Bilet ID girin (ör. PROJ-123)",
+    "description": "Bilet ID girişi için yer tutucu metin"
+  },
+  "openIssue": {
+    "message": "Bileti Aç",
+    "description": "Bileti açmak için düğme metni"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Lütfen bir bilet ID girin",
+    "description": "Bilet ID boş olduğunda hata mesajı"
+  },
+  "errorOpeningIssue": {
+    "message": "Bilet açılırken hata. Jira URL yapılandırmanızı kontrol edin.",
+    "description": "Bilet açma başarısız olduğunda hata mesajı"
+  },
+  "optionsPageTitle": {
+    "message": "Jira Optimize Edici - Seçenekler",
+    "description": "Seçenekler sayfası başlığı"
+  },
+  "optionsPageHeading": {
+    "message": "Jira Optimize Edici Seçenekler",
+    "description": "Seçenekler sayfası başlığı"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira Örneği Yapılandırması",
+    "description": "Jira örneği yapılandırma bölümü başlığı"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Hızlı açma özelliğini kullanmak için Jira URL'nizi yapılandırın.",
+    "description": "Kullanıcıyı Jira URL'yi yapılandırmaya yönlendiren mesaj"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira Temel URL",
+    "description": "Jira temel URL giriş alanı için etiket"
+  },
+  "saveButton": {
+    "message": "Kaydet",
+    "description": "Kaydet düğmesi metni"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira URL başarıyla kaydedildi!",
+    "description": "Jira URL kaydedildiğinde başarı mesajı"
+  },
+  "jiraUrlHelpText": {
+    "message": "Jira örneğinizin URL'sini girin. Boş bırakılırsa, uzantı mevcut sekmeden otomatik olarak algılamaya çalışacaktır.",
+    "description": "Jira URL alanı için yardım metni"
+  },
+  "themeConfiguration": {
+    "message": "Tema Yapılandırması",
+    "description": "Tema yapılandırma bölümü başlığı"
+  },
+  "themeMode": {
+    "message": "Tema Modu",
+    "description": "Tema seçim alanı için etiket"
+  },
+  "themeLight": {
+    "message": "Açık",
+    "description": "Açık tema seçeneği"
+  },
+  "themeDark": {
+    "message": "Koyu",
+    "description": "Koyu tema seçeneği"
+  },
+  "themeDevice": {
+    "message": "Cihaz",
+    "description": "Cihaz tema seçeneği (sistem tercihini takip eder)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Tema başarıyla kaydedildi!",
+    "description": "Tema kaydedildiğinde başarı mesajı"
+  },
+  "themeHelpText": {
+    "message": "Tercih ettiğiniz temayı seçin. 'Cihaz' otomatik olarak sisteminizin koyu/açık mod tercihini takip edecektir.",
+    "description": "Tema seçimi için yardım metni"
   }
 }

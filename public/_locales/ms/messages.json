@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Memuatkan tiket berkaitan...",
     "description": "Mesej pemuatan untuk tooltip tiket berkaitan"
+  },
+  "searchTicket": {
+    "message": "Cari Tiket",
+    "description": "Tajuk untuk bahagian carian tiket pantas"
+  },
+  "issueId": {
+    "message": "ID Tiket",
+    "description": "Label untuk medan input ID tiket"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Masukkan ID Tiket Jira (cth., PROJ-123)",
+    "description": "Teks placeholder untuk input ID tiket"
+  },
+  "openIssue": {
+    "message": "Buka Tiket",
+    "description": "Teks butang untuk membuka tiket"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Sila masukkan ID tiket",
+    "description": "Mesej ralat apabila ID tiket kosong"
+  },
+  "errorOpeningIssue": {
+    "message": "Ralat membuka tiket. Sila semak konfigurasi URL Jira anda.",
+    "description": "Mesej ralat apabila pembukaan tiket gagal"
+  },
+  "optionsPageTitle": {
+    "message": "Pengoptimum Jira - Opsyen",
+    "description": "Tajuk halaman opsyen"
+  },
+  "optionsPageHeading": {
+    "message": "Opsyen Pengoptimum Jira",
+    "description": "Heading halaman opsyen"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Konfigurasi Instance Jira",
+    "description": "Tajuk bahagian konfigurasi instance Jira"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Sila konfigurasikan URL Jira anda untuk menggunakan ciri buka pantas.",
+    "description": "Mesej yang menggesa pengguna untuk mengkonfigurasikan URL Jira"
+  },
+  "jiraBaseUrl": {
+    "message": "URL Asas Jira",
+    "description": "Label untuk medan input URL asas Jira"
+  },
+  "saveButton": {
+    "message": "Simpan",
+    "description": "Teks butang simpan"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "URL Jira berjaya disimpan!",
+    "description": "Mesej kejayaan apabila URL Jira disimpan"
+  },
+  "jiraUrlHelpText": {
+    "message": "Masukkan URL instance Jira anda. Jika dibiarkan kosong, sambungan akan cuba mengesannya secara automatik dari tab semasa.",
+    "description": "Teks bantuan untuk medan URL Jira"
+  },
+  "themeConfiguration": {
+    "message": "Konfigurasi Tema",
+    "description": "Tajuk bahagian konfigurasi tema"
+  },
+  "themeMode": {
+    "message": "Mod Tema",
+    "description": "Label untuk medan pemilihan tema"
+  },
+  "themeLight": {
+    "message": "Cerah",
+    "description": "Opsyen tema cerah"
+  },
+  "themeDark": {
+    "message": "Gelap",
+    "description": "Opsyen tema gelap"
+  },
+  "themeDevice": {
+    "message": "Peranti",
+    "description": "Opsyen tema peranti (mengikut pilihan sistem)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Tema berjaya disimpan!",
+    "description": "Mesej kejayaan apabila tema disimpan"
+  },
+  "themeHelpText": {
+    "message": "Pilih tema pilihan anda. 'Peranti' akan mengikut pilihan sistem anda untuk mod gelap/cerah secara automatik.",
+    "description": "Teks bantuan untuk pemilihan tema"
   }
 }

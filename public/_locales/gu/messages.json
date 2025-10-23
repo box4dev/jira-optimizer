@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "લિંક કરેલ ટિકિટ્સ લોડ કરી રહ્યાં છે...",
     "description": "લિંક કરેલ ટિકિટ્સ ટૂલટિપ માટે લોડિંગ સંદેશ"
+  },
+  "searchTicket": {
+    "message": "ટિકિટ શોધો",
+    "description": "ઝડપી ટિકિટ શોધ વિભાગ માટે શીર્ષક"
+  },
+  "issueId": {
+    "message": "ટિકિટ ID",
+    "description": "ટિકિટ ID ઇનપુટ ફીલ્ડ માટે લેબલ"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Jira ટિકિટ ID દાખલ કરો (દા.ત. PROJ-123)",
+    "description": "ટિકિટ ID ઇનપુટ માટે પ્લેસહોલ્ડર ટેક્સ્ટ"
+  },
+  "openIssue": {
+    "message": "ટિકિટ ખોલો",
+    "description": "ટિકિટ ખોલવા માટે બટન ટેક્સ્ટ"
+  },
+  "pleaseEnterIssueId": {
+    "message": "કૃપા કરીને ટિકિટ ID દાખલ કરો",
+    "description": "ટિકિટ ID ખાલી હોય ત્યારે ભૂલ સંદેશ"
+  },
+  "errorOpeningIssue": {
+    "message": "ટિકિટ ખોલવામાં ભૂલ. કૃપા કરીને તમારી Jira URL રૂપરેખાંકન તપાસો.",
+    "description": "ટિકિટ ખોલવાનું નિષ્ફળ થાય ત્યારે ભૂલ સંદેશ"
+  },
+  "optionsPageTitle": {
+    "message": "Jira ઑપ્ટિમાઇઝર - વિકલ્પો",
+    "description": "વિકલ્પો પૃષ્ઠ શીર્ષક"
+  },
+  "optionsPageHeading": {
+    "message": "Jira ઑપ્ટિમાઇઝર વિકલ્પો",
+    "description": "વિકલ્પો પૃષ્ઠ શીર્ષક"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira ઇન્સ્ટન્સ રૂપરેખાંકન",
+    "description": "Jira ઇન્સ્ટન્સ રૂપરેખાંકન વિભાગ શીર્ષક"
+  },
+  "configureJiraUrlMessage": {
+    "message": "ઝડપી ખોલવાની સુવિધાનો ઉપયોગ કરવા માટે તમારા Jira URL ને રૂપરેખાંકિત કરો.",
+    "description": "વપરાશકર્તાને Jira URL રૂપરેખાંકિત કરવા માટે સંદેશ"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira બેઝ URL",
+    "description": "Jira બેઝ URL ઇનપુટ ફીલ્ડ માટે લેબલ"
+  },
+  "saveButton": {
+    "message": "સેવ કરો",
+    "description": "સેવ બટન ટેક્સ્ટ"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira URL સફળતાપૂર્વક સેવ થયું!",
+    "description": "Jira URL સેવ થાય ત્યારે સફળતા સંદેશ"
+  },
+  "jiraUrlHelpText": {
+    "message": "તમારા Jira ઇન્સ્ટન્સના URL ને દાખલ કરો. જો ખાલી છોડી દેવામાં આવે તો, એક્સ્ટેંશન વર્તમાન ટૅબમાંથી તેને આપમેળે શોધવાનો પ્રયાસ કરશે.",
+    "description": "Jira URL ફીલ્ડ માટે મદદ ટેક્સ્ટ"
+  },
+  "themeConfiguration": {
+    "message": "થીમ રૂપરેખાંકન",
+    "description": "થીમ રૂપરેખાંકન વિભાગ શીર્ષક"
+  },
+  "themeMode": {
+    "message": "થીમ મોડ",
+    "description": "થીમ પસંદગી ફીલ્ડ માટે લેબલ"
+  },
+  "themeLight": {
+    "message": "હળવું",
+    "description": "હળવી થીમ વિકલ્પ"
+  },
+  "themeDark": {
+    "message": "ગદું",
+    "description": "ગદી થીમ વિકલ્પ"
+  },
+  "themeDevice": {
+    "message": "ડિવાઇસ",
+    "description": "ડિવાઇસ થીમ વિકલ્પ (સિસ્ટમ પસંદગીને અનુસરે છે)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "થીમ સફળતાપૂર્વક સેવ થયું!",
+    "description": "થીમ સેવ થાય ત્યારે સફળતા સંદેશ"
+  },
+  "themeHelpText": {
+    "message": "તમારી પસંદગીની થીમ પસંદ કરો. 'ડિવાઇસ' આપમેળે તમારા સિસ્ટમની ગદી/હળવી મોડ પસંદગીને અનુસરશે.",
+    "description": "થીમ પસંદગી માટે મદદ ટેક્સ્ટ"
   }
 }

@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "กำลังโหลดตั๋วที่เชื่อมโยง...",
     "description": "ข้อความโหลดสำหรับเคล็ดลับเครื่องมือตั๋วที่เชื่อมโยง"
+  },
+  "searchTicket": {
+    "message": "ค้นหาตั๋ว",
+    "description": "หัวข้อสำหรับส่วนค้นหาตั๋วอย่างรวดเร็ว"
+  },
+  "issueId": {
+    "message": "รหัสตั๋ว",
+    "description": "ป้ายกำกับสำหรับฟิลด์ป้อนรหัสตั๋ว"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "ป้อนรหัสตั๋ว Jira (เช่น PROJ-123)",
+    "description": "ข้อความตัวยึดสำหรับการป้อนรหัสตั๋ว"
+  },
+  "openIssue": {
+    "message": "เปิดตั๋ว",
+    "description": "ข้อความปุ่มเพื่อเปิดตั๋ว"
+  },
+  "pleaseEnterIssueId": {
+    "message": "กรุณาป้อนรหัสตั๋ว",
+    "description": "ข้อความข้อผิดพลาดเมื่อรหัสตั๋วว่างเปล่า"
+  },
+  "errorOpeningIssue": {
+    "message": "ข้อผิดพลาดในการเปิดตั๋ว. กรุณาตรวจสอบการตั้งค่า URL Jira ของคุณ.",
+    "description": "ข้อความข้อผิดพลาดเมื่อการเปิดตั๋วล้มเหลว"
+  },
+  "optionsPageTitle": {
+    "message": "Jira Optimizer - ตัวเลือก",
+    "description": "หัวข้อหน้าตัวเลือก"
+  },
+  "optionsPageHeading": {
+    "message": "ตัวเลือก Jira Optimizer",
+    "description": "หัวหน้าหน้าตัวเลือก"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "การตั้งค่าอินสแตนซ์ Jira",
+    "description": "หัวข้อส่วนการตั้งค่าอินสแตนซ์ Jira"
+  },
+  "configureJiraUrlMessage": {
+    "message": "กรุณาตั้งค่า URL Jira ของคุณเพื่อใช้ฟีเจอร์เปิดอย่างรวดเร็ว.",
+    "description": "ข้อความที่แจ้งให้ผู้ใช้ตั้งค่า URL Jira"
+  },
+  "jiraBaseUrl": {
+    "message": "URL พื้นฐาน Jira",
+    "description": "ป้ายกำกับสำหรับฟิลด์ป้อน URL พื้นฐาน Jira"
+  },
+  "saveButton": {
+    "message": "บันทึก",
+    "description": "ข้อความปุ่มบันทึก"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "URL Jira บันทึกเรียบร้อยแล้ว!",
+    "description": "ข้อความสำเร็จเมื่อ URL Jira ถูกบันทึก"
+  },
+  "jiraUrlHelpText": {
+    "message": "ป้อน URL อินสแตนซ์ Jira ของคุณ. หากปล่อยว่างไว้ ส่วนขยายจะพยายามตรวจพบโดยอัตโนมัติจากแท็บปัจจุบัน.",
+    "description": "ข้อความช่วยเหลือสำหรับฟิลด์ URL Jira"
+  },
+  "themeConfiguration": {
+    "message": "การตั้งค่าธีม",
+    "description": "หัวข้อส่วนการตั้งค่าธีม"
+  },
+  "themeMode": {
+    "message": "โหมดธีม",
+    "description": "ป้ายกำกับสำหรับฟิลด์เลือกธีม"
+  },
+  "themeLight": {
+    "message": "สว่าง",
+    "description": "ตัวเลือกธีมสว่าง"
+  },
+  "themeDark": {
+    "message": "มืด",
+    "description": "ตัวเลือกธีมมืด"
+  },
+  "themeDevice": {
+    "message": "อุปกรณ์",
+    "description": "ตัวเลือกธีมอุปกรณ์ (ตามการตั้งระบบ)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "ธีมบันทึกเรียบร้อยแล้ว!",
+    "description": "ข้อความสำเร็จเมื่อธีมถูกบันทึก"
+  },
+  "themeHelpText": {
+    "message": "เลือกธีมที่คุณต้องการ. 'อุปกรณ์' จะติดตามการตั้งค่าโหมดมืด/สว่างของระบบโดยอัตโนมัติ.",
+    "description": "ข้อความช่วยเหลือสำหรับการเลือกธีม"
   }
 }

@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "연결된 티켓 로딩 중...",
     "description": "연결된 티켓 툴팁용 로딩 메시지"
+  },
+  "searchTicket": {
+    "message": "티켓 검색",
+    "description": "빠른 티켓 검색 섹션 제목"
+  },
+  "issueId": {
+    "message": "티켓 ID",
+    "description": "티켓 ID 입력 필드 레이블"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Jira 티켓 ID 입력 (예: PROJ-123)",
+    "description": "티켓 ID 입력용 자리표시자 텍스트"
+  },
+  "openIssue": {
+    "message": "티켓 열기",
+    "description": "티켓을 열기 위한 버튼 텍스트"
+  },
+  "pleaseEnterIssueId": {
+    "message": "티켓 ID를 입력하세요",
+    "description": "티켓 ID가 비어 있을 때 오류 메시지"
+  },
+  "errorOpeningIssue": {
+    "message": "티켓 열기 오류. Jira URL 구성을 확인하세요.",
+    "description": "티켓 열기가 실패할 때 오류 메시지"
+  },
+  "optionsPageTitle": {
+    "message": "Jira Optimizer - 옵션",
+    "description": "옵션 페이지 제목"
+  },
+  "optionsPageHeading": {
+    "message": "Jira Optimizer 옵션",
+    "description": "옵션 페이지 제목"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira 인스턴스 구성",
+    "description": "Jira 인스턴스 구성 섹션 제목"
+  },
+  "configureJiraUrlMessage": {
+    "message": "빠른 열기 기능을 사용하려면 Jira URL을 구성하세요.",
+    "description": "사용자에게 Jira URL 구성 지시 메시지"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira 기본 URL",
+    "description": "Jira 기본 URL 입력 필드 레이블"
+  },
+  "saveButton": {
+    "message": "저장",
+    "description": "저장 버튼 텍스트"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira URL이 성공적으로 저장되었습니다!",
+    "description": "Jira URL 저장 시 성공 메시지"
+  },
+  "jiraUrlHelpText": {
+    "message": "Jira 인스턴스 URL을 입력하세요. 비워두면 확장 프로그램이 현재 탭에서 자동으로 감지하려고 합니다.",
+    "description": "Jira URL 필드 도움말 텍스트"
+  },
+  "themeConfiguration": {
+    "message": "테마 구성",
+    "description": "테마 구성 섹션 제목"
+  },
+  "themeMode": {
+    "message": "테마 모드",
+    "description": "테마 선택 필드 레이블"
+  },
+  "themeLight": {
+    "message": "밝음",
+    "description": "밝은 테마 옵션"
+  },
+  "themeDark": {
+    "message": "어두움",
+    "description": "어두운 테마 옵션"
+  },
+  "themeDevice": {
+    "message": "장치",
+    "description": "장치 테마 옵션 (시스템 기본 설정 따름)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "테마가 성공적으로 저장되었습니다!",
+    "description": "테마 저장 시 성공 메시지"
+  },
+  "themeHelpText": {
+    "message": "원하는 테마를 선택하세요. '장치'는 시스템의 어두운/밝은 모드 기본 설정을 자동으로 따릅니다.",
+    "description": "테마 선택 도움말 텍스트"
   }
 }

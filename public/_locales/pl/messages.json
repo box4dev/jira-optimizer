@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Ładowanie połączonych zgłoszeń...",
     "description": "Komunikat ładowania dla etykietki połączonych zgłoszeń"
+  },
+  "searchTicket": {
+    "message": "Szukaj Biletu",
+    "description": "Tytuł sekcji szybkiego wyszukiwania biletów"
+  },
+  "issueId": {
+    "message": "ID Biletu",
+    "description": "Etykieta pola wprowadzania ID biletu"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Wprowadź ID Biletu Jira (np. PROJ-123)",
+    "description": "Tekst zastępczy dla wprowadzania ID biletu"
+  },
+  "openIssue": {
+    "message": "Otwórz Bilet",
+    "description": "Tekst przycisku otwierania biletu"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Wprowadź ID biletu",
+    "description": "Komunikat błędu, gdy ID biletu jest puste"
+  },
+  "errorOpeningIssue": {
+    "message": "Błąd podczas otwierania biletu. Sprawdź konfigurację URL Jira.",
+    "description": "Komunikat błędu, gdy otwarcie biletu nie powiodło się"
+  },
+  "optionsPageTitle": {
+    "message": "Optymalizator Jira - Opcje",
+    "description": "Tytuł strony opcji"
+  },
+  "optionsPageHeading": {
+    "message": "Opcje Optymalizatora Jira",
+    "description": "Nagłówek strony opcji"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Konfiguracja Instancji Jira",
+    "description": "Tytuł sekcji konfiguracji instancji Jira"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Skonfiguruj swój URL Jira, aby korzystać z funkcji szybkiego otwierania.",
+    "description": "Komunikat zachęcający użytkownika do skonfigurowania URL Jira"
+  },
+  "jiraBaseUrl": {
+    "message": "Podstawowy URL Jira",
+    "description": "Etykieta pola wprowadzania podstawowego URL Jira"
+  },
+  "saveButton": {
+    "message": "Zapisz",
+    "description": "Tekst przycisku zapisz"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "URL Jira zapisany pomyślnie!",
+    "description": "Komunikat sukcesu po zapisaniu URL Jira"
+  },
+  "jiraUrlHelpText": {
+    "message": "Wprowadź URL swojej instancji Jira. Jeśli pozostanie pusty, rozszerzenie spróbuje automatycznie wykryć go z bieżącej karty.",
+    "description": "Tekst pomocy dla pola URL Jira"
+  },
+  "themeConfiguration": {
+    "message": "Konfiguracja Motywu",
+    "description": "Tytuł sekcji konfiguracji motywu"
+  },
+  "themeMode": {
+    "message": "Tryb Motywu",
+    "description": "Etykieta pola wyboru motywu"
+  },
+  "themeLight": {
+    "message": "Jasny",
+    "description": "Opcja jasnego motywu"
+  },
+  "themeDark": {
+    "message": "Ciemny",
+    "description": "Opcja ciemnego motywu"
+  },
+  "themeDevice": {
+    "message": "Urządzenie",
+    "description": "Opcja motywu urządzenia (śledzi preferencje systemu)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Motyw zapisany pomyślnie!",
+    "description": "Komunikat sukcesu po zapisaniu motywu"
+  },
+  "themeHelpText": {
+    "message": "Wybierz preferowany motyw. 'Urządzenie' automatycznie będzie śledzić preferencje trybu ciemnego/jasnego systemu.",
+    "description": "Tekst pomocy dla wyboru motywu"
   }
 }

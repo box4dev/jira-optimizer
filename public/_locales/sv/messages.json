@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Laddar länkade ärenden...",
     "description": "Laddningsmeddelande för länkade ärenden tooltip"
+  },
+  "searchTicket": {
+    "message": "Sök Ärende",
+    "description": "Titel för snabb sökning av ärenden"
+  },
+  "issueId": {
+    "message": "Ärende-ID",
+    "description": "Etikett för ärende-ID-inmatningsfält"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Ange Jira Ärende-ID (t.ex. PROJ-123)",
+    "description": "Platshållartext för ärende-ID-inmatning"
+  },
+  "openIssue": {
+    "message": "Öppna Ärende",
+    "description": "Knapptext för att öppna ärendet"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Ange ett ärende-ID",
+    "description": "Felmeddelande när ärende-ID är tomt"
+  },
+  "errorOpeningIssue": {
+    "message": "Fel vid öppning av ärende. Kontrollera din Jira-URL-konfiguration.",
+    "description": "Felmeddelande när öppning av ärende misslyckas"
+  },
+  "optionsPageTitle": {
+    "message": "Jira-optimerare - Alternativ",
+    "description": "Alternativsidans titel"
+  },
+  "optionsPageHeading": {
+    "message": "Jira-optimerare Alternativ",
+    "description": "Alternativsidans rubrik"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira-instans Konfiguration",
+    "description": "Titel för Jira-instans konfigurationssektion"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Konfigurera din Jira-URL för att använda snabböppningsfunktionen.",
+    "description": "Meddelande som uppmanar användaren att konfigurera Jira-URL"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira Bas-URL",
+    "description": "Etikett för Jira bas-URL-inmatningsfält"
+  },
+  "saveButton": {
+    "message": "Spara",
+    "description": "Spara-knappens text"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira-URL sparad framgångsrikt!",
+    "description": "Framgångsmeddelande när Jira-URL sparas"
+  },
+  "jiraUrlHelpText": {
+    "message": "Ange URL för din Jira-instans. Om den lämnas tom kommer tillägget att försöka upptäcka den automatiskt från den aktuella fliken.",
+    "description": "Hjälptext för Jira-URL-fält"
+  },
+  "themeConfiguration": {
+    "message": "Temakonfiguration",
+    "description": "Titel för temakonfigurationssektion"
+  },
+  "themeMode": {
+    "message": "Temaläge",
+    "description": "Etikett för tema-valfält"
+  },
+  "themeLight": {
+    "message": "Ljust",
+    "description": "Ljust tema-alternativ"
+  },
+  "themeDark": {
+    "message": "Mörkt",
+    "description": "Mörkt tema-alternativ"
+  },
+  "themeDevice": {
+    "message": "Enhet",
+    "description": "Enhet tema-alternativ (följer systeminställning)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Tema sparad framgångsrikt!",
+    "description": "Framgångsmeddelande när tema sparas"
+  },
+  "themeHelpText": {
+    "message": "Välj ditt föredragna tema. 'Enhet' kommer automatiskt att följa ditt systems mörka/ljusa lägespreferens.",
+    "description": "Hjälptext för tema-val"
   }
 }

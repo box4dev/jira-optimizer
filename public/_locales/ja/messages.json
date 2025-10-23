@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "リンクされたチケットを読み込み中...",
     "description": "リンクされたチケットのツールチップの読み込みメッセージ"
+  },
+  "searchTicket": {
+    "message": "チケット検索",
+    "description": "クイックチケット検索セクションのタイトル"
+  },
+  "issueId": {
+    "message": "チケットID",
+    "description": "チケットID入力フィールドのラベル"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "JiraチケットIDを入力 (例: PROJ-123)",
+    "description": "チケットID入力のプレースホルダーテキスト"
+  },
+  "openIssue": {
+    "message": "チケットを開く",
+    "description": "チケットを開くためのボタンテキスト"
+  },
+  "pleaseEnterIssueId": {
+    "message": "チケットIDを入力してください",
+    "description": "チケットIDが空の場合のエラーメッセージ"
+  },
+  "errorOpeningIssue": {
+    "message": "チケットを開くエラー。Jira URL設定を確認してください。",
+    "description": "チケット開示失敗時のエラーメッセージ"
+  },
+  "optionsPageTitle": {
+    "message": "Jira オプティマイザー - オプション",
+    "description": "オプションぺージのタイトル"
+  },
+  "optionsPageHeading": {
+    "message": "Jira オプティマイザー オプション",
+    "description": "オプションぺージの見出し"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jiraインスタンス設定",
+    "description": "Jiraインスタンス設定セクションのタイトル"
+  },
+  "configureJiraUrlMessage": {
+    "message": "クイックオープン機能を使用するにはJira URLを設定してください。",
+    "description": "ユーザーにJira URL設定を促すメッセージ"
+  },
+  "jiraBaseUrl": {
+    "message": "JiraベースURL",
+    "description": "JiraベースURL入力フィールドのラベル"
+  },
+  "saveButton": {
+    "message": "保存",
+    "description": "保存ボタンのテキスト"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira URLが正常に保存されました！",
+    "description": "Jira URL保存時の成功メッセージ"
+  },
+  "jiraUrlHelpText": {
+    "message": "JiraインスタンスURLを入力してください。空の場合、拡張機能は現在のタブから自動検出を試みます。",
+    "description": "Jira URLフィールドのヘルプテキスト"
+  },
+  "themeConfiguration": {
+    "message": "テーマ設定",
+    "description": "テーマ設定セクションのタイトル"
+  },
+  "themeMode": {
+    "message": "テーマモード",
+    "description": "テーマ選択フィールドのラベル"
+  },
+  "themeLight": {
+    "message": "ライト",
+    "description": "ライトテーマオプション"
+  },
+  "themeDark": {
+    "message": "ダーク",
+    "description": "ダークテーマオプション"
+  },
+  "themeDevice": {
+    "message": "デバイス",
+    "description": "デバイステーマオプション（システム設定に従う）"
+  },
+  "themeSavedSuccessfully": {
+    "message": "テーマが正常に保存されました！",
+    "description": "テーマ保存時の成功メッセージ"
+  },
+  "themeHelpText": {
+    "message": "お好みのテーマを選択してください。'デバイス'はシステムのダーク/ライトモード設定を自動的に従います。",
+    "description": "テーマ選択のヘルプテキスト"
   }
 }

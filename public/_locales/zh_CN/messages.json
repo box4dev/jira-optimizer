@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "正在加载关联工单...",
     "description": "关联工单工具提示的加载消息"
+  },
+  "searchTicket": {
+    "message": "搜索工单",
+    "description": "快速工单搜索部分的标题"
+  },
+  "issueId": {
+    "message": "工单 ID",
+    "description": "工单 ID 输入字段的标签"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "输入 Jira 工单 ID（例如，PROJ-123）",
+    "description": "工单 ID 输入的占位符文本"
+  },
+  "openIssue": {
+    "message": "打开工单",
+    "description": "打开工单的按钮文本"
+  },
+  "pleaseEnterIssueId": {
+    "message": "请输入工单 ID",
+    "description": "工单 ID 为空时的错误消息"
+  },
+  "errorOpeningIssue": {
+    "message": "打开工单时出错。请检查您的 Jira URL 配置。",
+    "description": "打开工单失败时的错误消息"
+  },
+  "optionsPageTitle": {
+    "message": "Jira 优化器 - 选项",
+    "description": "选项页面标题"
+  },
+  "optionsPageHeading": {
+    "message": "Jira 优化器选项",
+    "description": "选项页面标题"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira 实例配置",
+    "description": "Jira 实例配置部分标题"
+  },
+  "configureJiraUrlMessage": {
+    "message": "请配置您的 Jira URL 以使用快速打开功能。",
+    "description": "提示用户配置 Jira URL 的消息"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira 基础 URL",
+    "description": "Jira 基础 URL 输入字段的标签"
+  },
+  "saveButton": {
+    "message": "保存",
+    "description": "保存按钮文本"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira URL 保存成功！",
+    "description": "保存 Jira URL 时的成功消息"
+  },
+  "jiraUrlHelpText": {
+    "message": "输入您的 Jira 实例 URL。如果留空，扩展将尝试从当前选项卡自动检测它。",
+    "description": "Jira URL 字段的帮助文本"
+  },
+  "themeConfiguration": {
+    "message": "主题配置",
+    "description": "主题配置部分标题"
+  },
+  "themeMode": {
+    "message": "主题模式",
+    "description": "主题选择字段的标签"
+  },
+  "themeLight": {
+    "message": "浅色",
+    "description": "浅色主题选项"
+  },
+  "themeDark": {
+    "message": "深色",
+    "description": "深色主题选项"
+  },
+  "themeDevice": {
+    "message": "设备",
+    "description": "设备主题选项（跟随系统偏好）"
+  },
+  "themeSavedSuccessfully": {
+    "message": "主题保存成功！",
+    "description": "保存主题时的成功消息"
+  },
+  "themeHelpText": {
+    "message": "选择您偏好的主题。'设备' 将自动跟随您的系统深色/浅色模式偏好。",
+    "description": "主题选择的帮助文本"
   }
 }

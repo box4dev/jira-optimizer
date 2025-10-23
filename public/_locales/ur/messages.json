@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "لنکڈ ٹکٹس لوڈ ہو رہے ہیں...",
     "description": "لنکڈ ٹکٹس ٹول ٹپ کے لیے لوڈنگ پیغام"
+  },
+  "searchTicket": {
+    "message": "ٹکٹ تلاش کریں",
+    "description": "تیزی سے ٹکٹ تلاش کرنے والے سیکشن کے لیے عنوان"
+  },
+  "issueId": {
+    "message": "ٹکٹ ID",
+    "description": "ٹکٹ ID ان پٹ فیلڈ کے لیے لیبل"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Jira ٹکٹ ID درج کریں (مثال: PROJ-123)",
+    "description": "ٹکٹ ID ان پٹ کے لیے پلیس ہولڈر ٹیکسٹ"
+  },
+  "openIssue": {
+    "message": "ٹکٹ کھولیں",
+    "description": "ٹکٹ کھولنے کے لیے بٹن ٹیکسٹ"
+  },
+  "pleaseEnterIssueId": {
+    "message": "براہ کرم ٹکٹ ID درج کریں",
+    "description": "ٹکٹ ID خالی ہونے پر غلطی کا پیغام"
+  },
+  "errorOpeningIssue": {
+    "message": "ٹکٹ کھولنے میں خرابی۔ براہ کرم اپنی Jira URL کی ترتیب چیک کریں۔",
+    "description": "ٹکٹ کھولنے میں ناکامی پر غلطی کا پیغام"
+  },
+  "optionsPageTitle": {
+    "message": "Jira اوپٹیمائزر - اختیارات",
+    "description": "اختیارات صفحہ کا عنوان"
+  },
+  "optionsPageHeading": {
+    "message": "Jira اوپٹیمائزر اختیارات",
+    "description": "اختیارات صفحہ کا عنوان"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira مثال کی ترتیب",
+    "description": "Jira مثال کی ترتیب سیکشن کا عنوان"
+  },
+  "configureJiraUrlMessage": {
+    "message": "تیزی سے کھولنے کی خصوصیت استعمال کرنے کے لیے اپنی Jira URL ترتیب دیں۔",
+    "description": "استعمال کنندہ کو Jira URL ترتیب دینے کا پیغام"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira بنیادی URL",
+    "description": "Jira بنیادی URL ان پٹ فیلڈ کے لیے لیبل"
+  },
+  "saveButton": {
+    "message": "محفوظ کریں",
+    "description": "محفوظ بٹن ٹیکسٹ"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira URL کامیابی سے محفوظ کر دیا گیا!",
+    "description": "Jira URL محفوظ ہونے پر کامیابی کا پیغام"
+  },
+  "jiraUrlHelpText": {
+    "message": "اپنی Jira مثال کا URL درج کریں۔ اگر خالی چھوڑ دیا جائے تو، ایکسٹینشن موجودہ ٹیب سے اسے خود بخود دریافت کرنے کی کوشش کرے گا۔",
+    "description": "Jira URL فیلڈ کے لیے مدد ٹیکسٹ"
+  },
+  "themeConfiguration": {
+    "message": "تھیم کی ترتیب",
+    "description": "تھیم کی ترتیب سیکشن کا عنوان"
+  },
+  "themeMode": {
+    "message": "تھیم موڈ",
+    "description": "تھیم انتخاب فیلڈ کے لیے لیبل"
+  },
+  "themeLight": {
+    "message": "ہلکا",
+    "description": "ہلکا تھیم آپشن"
+  },
+  "themeDark": {
+    "message": "گہرا",
+    "description": "گہرا تھیم آپشن"
+  },
+  "themeDevice": {
+    "message": "ڈیوائس",
+    "description": "ڈیوائس تھیم آپشن (سسٹم کی ترجیح پر عمل کرتا ہے)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "تھیم کامیابی سے محفوظ کر دی گئی!",
+    "description": "تھیم محفوظ ہونے پر کامیابی کا پیغام"
+  },
+  "themeHelpText": {
+    "message": "اپنی پسندیدہ تھیم منتخب کریں۔ 'ڈیوائس' خود بخود آپ کے سسٹم کی گہری/ہلکی موڈ کی ترجیح پر عمل کرے گا۔",
+    "description": "تھیم انتخاب کے لیے مدد ٹیکسٹ"
   }
 }

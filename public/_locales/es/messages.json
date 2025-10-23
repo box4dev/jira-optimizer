@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Cargando tickets vinculados...",
     "description": "Mensaje de carga para el tooltip de tickets vinculados"
+  },
+  "searchTicket": {
+    "message": "Buscar Ticket",
+    "description": "Título para la sección de búsqueda rápida de ticket"
+  },
+  "issueId": {
+    "message": "ID del Ticket",
+    "description": "Etiqueta para el campo de entrada del ID del ticket"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Ingrese el ID del Ticket Jira (ej.: PROJ-123)",
+    "description": "Texto placeholder para el campo de entrada del ID del ticket"
+  },
+  "openIssue": {
+    "message": "Abrir Ticket",
+    "description": "Texto del botón para abrir el ticket"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Por favor, ingrese un ID de ticket",
+    "description": "Mensaje de error cuando el ID del ticket está vacío"
+  },
+  "errorOpeningIssue": {
+    "message": "Error al abrir el ticket. Verifique la configuración de la URL de Jira.",
+    "description": "Mensaje de error cuando la apertura del ticket falla"
+  },
+  "optionsPageTitle": {
+    "message": "Optimizador Jira - Opciones",
+    "description": "Título de la página de opciones"
+  },
+  "optionsPageHeading": {
+    "message": "Opciones del Optimizador Jira",
+    "description": "Encabezado de la página de opciones"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Configuración de la Instancia Jira",
+    "description": "Título de la sección de configuración de la instancia Jira"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Configure la URL de su Jira para usar la función de apertura rápida.",
+    "description": "Mensaje solicitando al usuario configurar la URL de Jira"
+  },
+  "jiraBaseUrl": {
+    "message": "URL Base de Jira",
+    "description": "Etiqueta para el campo de entrada de la URL base de Jira"
+  },
+  "saveButton": {
+    "message": "Guardar",
+    "description": "Texto del botón guardar"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "¡URL de Jira guardada exitosamente!",
+    "description": "Mensaje de éxito cuando la URL de Jira se guarda"
+  },
+  "jiraUrlHelpText": {
+    "message": "Ingrese la URL de su instancia Jira. Si se deja vacío, la extensión intentará detectar automáticamente desde la pestaña actual.",
+    "description": "Texto de ayuda para el campo URL de Jira"
+  },
+  "themeConfiguration": {
+    "message": "Configuración de Tema",
+    "description": "Título de la sección de configuración de tema"
+  },
+  "themeMode": {
+    "message": "Modo de Tema",
+    "description": "Etiqueta para el campo de selección de tema"
+  },
+  "themeLight": {
+    "message": "Claro",
+    "description": "Opción de tema claro"
+  },
+  "themeDark": {
+    "message": "Oscuro",
+    "description": "Opción de tema oscuro"
+  },
+  "themeDevice": {
+    "message": "Dispositivo",
+    "description": "Opción de tema del dispositivo (sigue preferencia del sistema)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "¡Tema guardado exitosamente!",
+    "description": "Mensaje de éxito cuando el tema se guarda"
+  },
+  "themeHelpText": {
+    "message": "Elija su tema preferido. 'Dispositivo' seguirá automáticamente la preferencia de modo claro/oscuro de su sistema.",
+    "description": "Texto de ayuda para la selección de tema"
   }
 }

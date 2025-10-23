@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "लिंक्ड टिकट लोड हो रहे हैं...",
     "description": "लिंक्ड टिकट टूलटिप के लिए लोडिंग संदेश"
+  },
+  "searchTicket": {
+    "message": "टिकट खोजें",
+    "description": "त्वरित टिकट खोज अनुभाग के लिए शीर्षक"
+  },
+  "issueId": {
+    "message": "टिकट ID",
+    "description": "टिकट ID इनपुट फ़ील्ड के लिए लेबल"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Jira टिकट ID दर्ज करें (उदाहरण: PROJ-123)",
+    "description": "टिकट ID इनपुट के लिए प्लेसहोल्डर टेक्स्ट"
+  },
+  "openIssue": {
+    "message": "टिकट खोलें",
+    "description": "टिकट खोलने के लिए बटन टेक्स्ट"
+  },
+  "pleaseEnterIssueId": {
+    "message": "कृपया एक टिकट ID दर्ज करें",
+    "description": "टिकट ID खाली होने पर त्रुटि संदेश"
+  },
+  "errorOpeningIssue": {
+    "message": "टिकट खोलने में त्रुटि। कृपया अपनी Jira URL कॉन्फ़िगरेशन जांचें।",
+    "description": "टिकट खोलने में विफलता पर त्रुटि संदेश"
+  },
+  "optionsPageTitle": {
+    "message": "Jira ऑप्टिमाइज़र - विकल्प",
+    "description": "विकल्प पृष्ठ शीर्षक"
+  },
+  "optionsPageHeading": {
+    "message": "Jira ऑप्टिमाइज़र विकल्प",
+    "description": "विकल्प पृष्ठ शीर्षक"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira इंस्टेंस कॉन्फ़िगरेशन",
+    "description": "Jira इंस्टेंस कॉन्फ़िगरेशन अनुभाग शीर्षक"
+  },
+  "configureJiraUrlMessage": {
+    "message": "त्वरित खोलें सुविधा का उपयोग करने के लिए अपना Jira URL कॉन्फ़िगर करें।",
+    "description": "उपयोगकर्ता को Jira URL कॉन्फ़िगर करने का संकेत देने वाला संदेश"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira बेस URL",
+    "description": "Jira बेस URL इनपुट फ़ील्ड के लिए लेबल"
+  },
+  "saveButton": {
+    "message": "सहेजें",
+    "description": "सेव बटन टेक्स्ट"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira URL सफलतापूर्वक सहेजा गया!",
+    "description": "Jira URL सहेजे जाने पर सफलता संदेश"
+  },
+  "jiraUrlHelpText": {
+    "message": "अपने Jira इंस्टेंस का URL दर्ज करें। यदि खाली छोड़ दिया जाए, तो एक्सटेंशन वर्तमान टैब से इसे स्वचालित रूप से पता लगाने का प्रयास करेगा।",
+    "description": "Jira URL फ़ील्ड के लिए सहायता टेक्स्ट"
+  },
+  "themeConfiguration": {
+    "message": "थीम कॉन्फ़िगरेशन",
+    "description": "थीम कॉन्फ़िगरेशन अनुभाग शीर्षक"
+  },
+  "themeMode": {
+    "message": "थीम मोड",
+    "description": "थीम चयन फ़ील्ड के लिए लेबल"
+  },
+  "themeLight": {
+    "message": "हल्का",
+    "description": "हल्का थीम विकल्प"
+  },
+  "themeDark": {
+    "message": "गहरा",
+    "description": "गहरा थीम विकल्प"
+  },
+  "themeDevice": {
+    "message": "डिवाइस",
+    "description": "डिवाइस थीम विकल्प (सिस्टम वरीयता का अनुसरण करता है)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "थीम सफलतापूर्वक सहेजी गई!",
+    "description": "थीम सहेजे जाने पर सफलता संदेश"
+  },
+  "themeHelpText": {
+    "message": "अपनी पसंदीदा थीम चुनें। 'डिवाइस' स्वचालित रूप से आपके सिस्टम की गहरी/हल्की मोड वरीयता का पालन करेगा।",
+    "description": "थीम चयन के लिए सहायता टेक्स्ट"
   }
 }

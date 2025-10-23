@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Se încarcă biletele conectate...",
     "description": "Mesaj de încărcare pentru tooltip-ul biletelor conectate"
+  },
+  "searchTicket": {
+    "message": "Căutați Bilet",
+    "description": "Titlul secțiunii de căutare rapidă a biletelor"
+  },
+  "issueId": {
+    "message": "ID Bilet",
+    "description": "Eticheta pentru câmpul de introducere ID bilet"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Introduceți ID-ul Biletului Jira (de ex., PROJ-123)",
+    "description": "Textul substituent pentru introducerea ID-ului biletului"
+  },
+  "openIssue": {
+    "message": "Deschideți Biletul",
+    "description": "Textul butonului pentru deschiderea biletului"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Vă rugăm să introduceți un ID de bilet",
+    "description": "Mesaj de eroare când ID-ul biletului este gol"
+  },
+  "errorOpeningIssue": {
+    "message": "Eroare la deschiderea biletului. Verificați configurația URL-ului Jira.",
+    "description": "Mesaj de eroare când deschiderea biletului eșuează"
+  },
+  "optionsPageTitle": {
+    "message": "Optimizator Jira - Opțiuni",
+    "description": "Titlul paginii de opțiuni"
+  },
+  "optionsPageHeading": {
+    "message": "Opțiuni Optimizator Jira",
+    "description": "Antetul paginii de opțiuni"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Configurația Instanței Jira",
+    "description": "Titlul secțiunii de configurație a instanței Jira"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Vă rugăm să configurați URL-ul Jira pentru a utiliza funcția de deschidere rapidă.",
+    "description": "Mesaj care solicită utilizatorului să configureze URL-ul Jira"
+  },
+  "jiraBaseUrl": {
+    "message": "URL de Bază Jira",
+    "description": "Eticheta pentru câmpul de introducere URL de bază Jira"
+  },
+  "saveButton": {
+    "message": "Salvați",
+    "description": "Textul butonului salvare"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "URL-ul Jira a fost salvat cu succes!",
+    "description": "Mesaj de succes când URL-ul Jira este salvat"
+  },
+  "jiraUrlHelpText": {
+    "message": "Introduceți URL-ul instanței dvs. Jira. Dacă este lăsat gol, extensia va încerca să-l detecteze automat din fila curentă.",
+    "description": "Text de ajutor pentru câmpul URL Jira"
+  },
+  "themeConfiguration": {
+    "message": "Configurația Temelor",
+    "description": "Titlul secțiunii de configurație a temelor"
+  },
+  "themeMode": {
+    "message": "Mod Temă",
+    "description": "Eticheta pentru câmpul de selecție a temei"
+  },
+  "themeLight": {
+    "message": "Luminos",
+    "description": "Opțiune temă luminoasă"
+  },
+  "themeDark": {
+    "message": "Întunecat",
+    "description": "Opțiune temă întunecată"
+  },
+  "themeDevice": {
+    "message": "Dispozitiv",
+    "description": "Opțiune temă dispozitiv (urmează preferința sistemului)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Tema salvată cu succes!",
+    "description": "Mesaj de succes când tema este salvată"
+  },
+  "themeHelpText": {
+    "message": "Alegeți tema preferată. 'Dispozitiv' va urma automat preferința modului întunecat/luminos al sistemului dvs.",
+    "description": "Text de ajutor pentru selecția temei"
   }
 }

@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Kapcsolt jegyek betöltése...",
     "description": "Betöltési üzenet a kapcsolt jegyek tooltiphez"
+  },
+  "searchTicket": {
+    "message": "Jegy Keresése",
+    "description": "Gyors jegykeresés szakasz címe"
+  },
+  "issueId": {
+    "message": "Jegy Azonosító",
+    "description": "Jegy azonosító beviteli mező címkéje"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Adja meg a Jira Jegy Azonosítóját (pl. PROJ-123)",
+    "description": "Helyőrző szöveg a jegy azonosító beviteléhez"
+  },
+  "openIssue": {
+    "message": "Jegy Megnyitása",
+    "description": "Gomb szövege a jegy megnyitásához"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Kérjük, adjon meg egy jegyazonosítót",
+    "description": "Hibaüzenet, ha a jegy azonosító üres"
+  },
+  "errorOpeningIssue": {
+    "message": "Hiba a jegy megnyitásakor. Ellenőrizze a Jira URL konfigurációt.",
+    "description": "Hibaüzenet, ha a jegy megnyitása sikertelen"
+  },
+  "optionsPageTitle": {
+    "message": "Jira Optimalizáló - Beállítások",
+    "description": "Beállítások oldal címe"
+  },
+  "optionsPageHeading": {
+    "message": "Jira Optimalizáló Beállítások",
+    "description": "Beállítások oldal fejléce"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira Példány Konfiguráció",
+    "description": "Jira példány konfigurációs szakasz címe"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Kérjük, konfigurálja a Jira URL-t a gyors megnyitás funkció használatához.",
+    "description": "Üzenet, amely felszólítja a felhasználót a Jira URL konfigurálására"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira Alap URL",
+    "description": "Jira alap URL beviteli mező címkéje"
+  },
+  "saveButton": {
+    "message": "Mentés",
+    "description": "Mentés gomb szövege"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira URL sikeresen mentve!",
+    "description": "Sikeres üzenet, amikor a Jira URL elmentésre kerül"
+  },
+  "jiraUrlHelpText": {
+    "message": "Adja meg a Jira példány URL-jét. Ha üresen hagyja, a kiterjesztés automatikusan megpróbálja felismerni az aktuális lapról.",
+    "description": "Súgó szöveg a Jira URL mezőhöz"
+  },
+  "themeConfiguration": {
+    "message": "Téma Konfiguráció",
+    "description": "Téma konfigurációs szakasz címe"
+  },
+  "themeMode": {
+    "message": "Téma Mód",
+    "description": "Téma kiválasztási mező címkéje"
+  },
+  "themeLight": {
+    "message": "Világos",
+    "description": "Világos témaválasztás"
+  },
+  "themeDark": {
+    "message": "Sötét",
+    "description": "Sötét témaválasztás"
+  },
+  "themeDevice": {
+    "message": "Eszköz",
+    "description": "Eszköz témaválasztás (követi a rendszer beállítást)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Téma sikeresen mentve!",
+    "description": "Sikeres üzenet, amikor a téma elmentésre kerül"
+  },
+  "themeHelpText": {
+    "message": "Válassza ki az előnyben részesített témát. Az 'Eszköz' automatikusan követi a rendszer sötét/világos mód beállítását.",
+    "description": "Súgó szöveg a témaválasztáshoz"
   }
 }

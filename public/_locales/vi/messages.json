@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Đang tải vé liên kết...",
     "description": "Thông báo tải cho tooltip vé liên kết"
+  },
+  "searchTicket": {
+    "message": "Tìm Vé",
+    "description": "Tiêu đề cho phần tìm kiếm vé nhanh"
+  },
+  "issueId": {
+    "message": "ID Vé",
+    "description": "Nhãn cho trường nhập ID vé"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Nhập ID Vé Jira (ví dụ: PROJ-123)",
+    "description": "Văn bản giữ chỗ cho việc nhập ID vé"
+  },
+  "openIssue": {
+    "message": "Mở Vé",
+    "description": "Văn bản nút để mở vé"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Vui lòng nhập ID vé",
+    "description": "Thông báo lỗi khi ID vé trống"
+  },
+  "errorOpeningIssue": {
+    "message": "Lỗi khi mở vé. Vui lòng kiểm tra cấu hình URL Jira của bạn.",
+    "description": "Thông báo lỗi khi mở vé thất bại"
+  },
+  "optionsPageTitle": {
+    "message": "Trình tối ưu Jira - Tùy chọn",
+    "description": "Tiêu đề trang tùy chọn"
+  },
+  "optionsPageHeading": {
+    "message": "Tùy chọn Trình tối ưu Jira",
+    "description": "Tiêu đề trang tùy chọn"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Cấu hình Phiên bản Jira",
+    "description": "Tiêu đề phần cấu hình phiên bản Jira"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Vui lòng cấu hình URL Jira của bạn để sử dụng tính năng mở nhanh.",
+    "description": "Thông báo nhắc nhở người dùng cấu hình URL Jira"
+  },
+  "jiraBaseUrl": {
+    "message": "URL Cơ sở Jira",
+    "description": "Nhãn cho trường nhập URL cơ sở Jira"
+  },
+  "saveButton": {
+    "message": "Lưu",
+    "description": "Văn bản nút lưu"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "URL Jira đã được lưu thành công!",
+    "description": "Thông báo thành công khi URL Jira được lưu"
+  },
+  "jiraUrlHelpText": {
+    "message": "Nhập URL phiên bản Jira của bạn. Nếu để trống, tiện ích mở rộng sẽ cố gắng tự động phát hiện từ tab hiện tại.",
+    "description": "Văn bản trợ giúp cho trường URL Jira"
+  },
+  "themeConfiguration": {
+    "message": "Cấu hình Chủ đề",
+    "description": "Tiêu đề phần cấu hình chủ đề"
+  },
+  "themeMode": {
+    "message": "Chế độ Chủ đề",
+    "description": "Nhãn cho trường chọn chủ đề"
+  },
+  "themeLight": {
+    "message": "Sáng",
+    "description": "Tùy chọn chủ đề sáng"
+  },
+  "themeDark": {
+    "message": "Tối",
+    "description": "Tùy chọn chủ đề tối"
+  },
+  "themeDevice": {
+    "message": "Thiết bị",
+    "description": "Tùy chọn chủ đề thiết bị (theo tùy chọn hệ thống)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Chủ đề đã được lưu thành công!",
+    "description": "Thông báo thành công khi chủ đề được lưu"
+  },
+  "themeHelpText": {
+    "message": "Chọn chủ đề bạn thích. 'Thiết bị' sẽ tự động theo tùy chọn chế độ tối/sáng của hệ thống bạn.",
+    "description": "Văn bản trợ giúp cho việc chọn chủ đề"
   }
 }

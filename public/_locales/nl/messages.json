@@ -120,5 +120,89 @@
   "loadingLinkedTickets": {
     "message": "Gekoppelde tickets laden...",
     "description": "Laadbericht voor gekoppelde tickets tooltip"
+  },
+  "searchTicket": {
+    "message": "Zoek Ticket",
+    "description": "Titel voor snelle ticket zoeksectie"
+  },
+  "issueId": {
+    "message": "Ticket ID",
+    "description": "Label voor ticket ID invoerveld"
+  },
+  "enterIssueIdPlaceholder": {
+    "message": "Voer Jira Ticket ID in (bijv., PROJ-123)",
+    "description": "Placeholder tekst voor ticket ID invoer"
+  },
+  "openIssue": {
+    "message": "Open Ticket",
+    "description": "Knoptekst om het ticket te openen"
+  },
+  "pleaseEnterIssueId": {
+    "message": "Voer een ticket ID in",
+    "description": "Foutbericht wanneer ticket ID leeg is"
+  },
+  "errorOpeningIssue": {
+    "message": "Fout bij openen ticket. Controleer uw Jira URL configuratie.",
+    "description": "Foutbericht wanneer ticket openen mislukt"
+  },
+  "optionsPageTitle": {
+    "message": "Jira Optimizer - Opties",
+    "description": "Opties pagina titel"
+  },
+  "optionsPageHeading": {
+    "message": "Jira Optimizer Opties",
+    "description": "Opties pagina kop"
+  },
+  "jiraInstanceConfiguration": {
+    "message": "Jira Instance Configuratie",
+    "description": "Jira instance configuratie sectie titel"
+  },
+  "configureJiraUrlMessage": {
+    "message": "Configureer uw Jira URL om de snelle open functie te gebruiken.",
+    "description": "Bericht dat gebruiker vraagt Jira URL te configureren"
+  },
+  "jiraBaseUrl": {
+    "message": "Jira Basis URL",
+    "description": "Label voor Jira basis URL invoerveld"
+  },
+  "saveButton": {
+    "message": "Opslaan",
+    "description": "Opslaan knoptekst"
+  },
+  "jiraUrlSavedSuccessfully": {
+    "message": "Jira URL succesvol opgeslagen!",
+    "description": "Succesbericht wanneer Jira URL wordt opgeslagen"
+  },
+  "jiraUrlHelpText": {
+    "message": "Voer uw Jira instance URL in. Als het leeg wordt gelaten, zal de extensie proberen het automatisch te detecteren van de huidige tab.",
+    "description": "Helptekst voor Jira URL veld"
+  },
+  "themeConfiguration": {
+    "message": "Thema Configuratie",
+    "description": "Thema configuratie sectie titel"
+  },
+  "themeMode": {
+    "message": "Thema Modus",
+    "description": "Label voor thema selectie veld"
+  },
+  "themeLight": {
+    "message": "Licht",
+    "description": "Lichte thema optie"
+  },
+  "themeDark": {
+    "message": "Donker",
+    "description": "Donkere thema optie"
+  },
+  "themeDevice": {
+    "message": "Apparaat",
+    "description": "Apparaat thema optie (volgt systeemvoorkeur)"
+  },
+  "themeSavedSuccessfully": {
+    "message": "Thema succesvol opgeslagen!",
+    "description": "Succesbericht wanneer thema wordt opgeslagen"
+  },
+  "themeHelpText": {
+    "message": "Kies uw voorkeursthema. 'Apparaat' zal automatisch volgen uw systeem donker/licht modus voorkeur.",
+    "description": "Helptekst voor thema selectie"
   }
 }
