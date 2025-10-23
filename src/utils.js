@@ -83,95 +83,49 @@ export const Utils = {
   },
 
   validateAndNormalizeIssueId(inputValue) {
-    /*
-     Supports various input formats:
-     - PROJ-123 (standard format)
-     - PROJ123 (without dash)
-     - PROJ 123 (with space)
-     - 123 (numbers only for default project)
-     - PROJ_IRM-123 (with underscores in project key)
-     */
+   /* Validation supporting: PROJ-123, PROJ123, PROJ 123, 123 */
 
-     // Input validation and normalization
-     if (!inputValue || typeof inputValue !== 'string') {
-       return { valid: false, normalized: null, error: 'INPUT_INVALID' };
+   if (!inputValue || typeof inputValue !== 'string') {
+     return { valid: false, normalized: null, error: 'INPUT_INVALID' };
+   }
+
+   const normalizedInput = inputValue.toUpperCase().trim();
+   if (!normalizedInput) {
+     return { valid: false, normalized: null, error: 'INPUT_EMPTY' };
+   }
+
+   // Define transformation patterns: [regex, transform function, format type]
+   const patterns = [
+     [/([A-Z_]{1,}-?\d+)/, (match) => match[1], 'standard'],                            // PROJ-123 or PROJ123
+     [/([A-Z_]{1,})\s+(\d+)/, (match) => `${match[1]}-${match[2]}`, 'space_separated'], // PROJ 123
+     [/^(\d+)$/, (match) => match[1], 'numeric_only']                                   // 123
+   ];
+
+   try {
+     for (const [regex, transform, format] of patterns) {
+       const match = normalizedInput.match(regex);
+       if (match) {
+         // Additional validation for project keys (must have at least one letter)
+         if (format !== 'numeric_only' && !/[A-Z_]/.test(match[1])) {
+           continue; // Skip if no letters in project part
+         }
+
+         return {
+           valid: true,
+           normalized: transform(match),
+           error: null,
+           format
+         };
+       }
      }
 
-     let normalizedInput = inputValue.toString().toUpperCase().trim();
+     return { valid: false, normalized: null, error: 'FORMAT_INVALID' };
 
-     // Reject empty strings after trimming
-     if (!normalizedInput) {
-       return { valid: false, normalized: null, error: 'INPUT_EMPTY' };
-     }
-
-     // Simple regex patterns (more permissive than strict JIRA spec)
-     const fullTicketRegex = new RegExp("([A-Z_]{1,}-\\d+)", "i");
-     const semiTicketRegex = new RegExp("([A-Z_]{1,}\\d+)", "i");
-     const spaceTicketRegex = new RegExp("([A-Z_]{1,}(\\s+)\\d+)", "i");
-     const numbersOnlyRegex = new RegExp("(\\d+)", "i");
-
-     try {
-       // Check for standard format first (PROJ-123)
-       const fullTicketMatch = normalizedInput.match(fullTicketRegex);
-       if (fullTicketMatch) {
-         return {
-           valid: true,
-           normalized: fullTicketMatch[0],
-           error: null,
-           format: 'standard'
-         };
-       }
-
-       // Check for compact format (PROJ123)
-       const semiTicketMatch = normalizedInput.match(semiTicketRegex);
-       if (semiTicketMatch) {
-         const semiTicket = semiTicketMatch[0];
-         const jprojectRegex = new RegExp("([A-Z_]{1,})", "i");
-         const jprojectText = semiTicket.match(jprojectRegex);
-         const jprojectNumber = semiTicket.match(numbersOnlyRegex);
-
-         const normalized = jprojectText[0].concat("-", jprojectNumber[0]);
-
-         return {
-           valid: true,
-           normalized: normalized,
-           error: null,
-           format: 'compact'
-         };
-       }
-
-       // Check for space-separated format (PROJ 123)
-       const spaceMatch = normalizedInput.match(spaceTicketRegex);
-       if (spaceMatch) {
-         const normalized = normalizedInput.replace(/\s+/g, "-");
-
-         return {
-           valid: true,
-           normalized: normalized,
-           error: null,
-           format: 'space_separated'
-         };
-       }
-
-       // Check for numeric-only format (123) - for default project
-       const numericMatch = normalizedInput.match(numbersOnlyRegex);
-       if (numericMatch) {
-         return {
-           valid: true,
-           normalized: numericMatch[0],
-           error: null,
-           format: 'numeric_only'
-         };
-       }
-
-       // If none of the patterns match
-       return { valid: false, normalized: null, error: 'FORMAT_INVALID' };
-
-     } catch (error) {
-       console.error('[Jira Optimizer] Error validating issue ID:', error);
-       return { valid: false, normalized: null, error: 'VALIDATION_ERROR' };
-     }
-   },
+   } catch (error) {
+     console.error('[Jira Optimizer] Error validating issue ID:', error);
+     return { valid: false, normalized: null, error: 'VALIDATION_ERROR' };
+   }
+  },
 
   async fetchWithRetry(url, retries = 3) {
     try {
