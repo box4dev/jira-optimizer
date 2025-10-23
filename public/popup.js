@@ -4,6 +4,8 @@
  */
 
 // ThemeManager is available globally via webpack bundling
+import { Utils } from '../src/utils.js';
+
 function replaceI18nPlaceholders() {
   // Mapeamento de placeholders para suas respectivas mensagens
   const i18nMap = {
@@ -260,13 +262,27 @@ document.addEventListener('DOMContentLoaded', async () => {
     openIssueButton.addEventListener('click', async () => {
       const issueId = idIssueInput.value.trim();
       if (!issueId) {
-        const issueMessageDiv = document.getElementById('issueMessage');
-        if (issueMessageDiv) {
-          issueMessageDiv.style.display = 'block';
-          setTimeout(() => {
-            issueMessageDiv.style.display = 'none';
-          }, 3000);
+        showStatusMessage(chrome.i18n.getMessage('pleaseEnterIssueId'), 'info', 3000);
+        return;
+      }
+
+      // Validate the issue ID format
+      const validation = Utils.validateAndNormalizeIssueId(issueId);
+      if (!validation.valid) {
+        // Provide specific error messages based on validation error
+        let errorMessage = chrome.i18n.getMessage('invalidIssueFormat');
+
+        switch(validation.error) {
+          case 'INPUT_EMPTY':
+            errorMessage = chrome.i18n.getMessage('pleaseEnterIssueId');
+            break;
+          case 'FORMAT_INVALID':
+            errorMessage = chrome.i18n.getMessage('invalidIssueFormat');
+            break;
+          // For other specific errors, we can add more cases later if needed
         }
+
+        showStatusMessage(errorMessage, 'error', 5000);
         return;
       }
 
@@ -281,19 +297,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         // Construct the issue URL
-        const issueUrl = `${jiraUrl}/browse/${issueId}`;
+        const issueUrl = `${jiraUrl}/browse/${validation.normalized}`;
 
         // Open the issue in a new tab
         chrome.tabs.create({ url: issueUrl });
       } catch (error) {
         console.error('Error opening issue:', error);
-        const errorMessageDiv = document.getElementById('errorMessage');
-        if (errorMessageDiv) {
-          errorMessageDiv.style.display = 'block';
-          setTimeout(() => {
-            errorMessageDiv.style.display = 'none';
-          }, 5000);
-        }
+        showStatusMessage(chrome.i18n.getMessage('errorOpeningIssue'), 'error', 5000);
       }
     });
 
@@ -341,6 +351,36 @@ document.addEventListener('DOMContentLoaded', async () => {
        });
      });
    }
+
+  /**
+   * Centralized status message display function
+   * @param {string} message - The message to display
+   * @param {string} type - Message type: 'info', 'error', 'success'
+   * @param {number} durationMs - How long to show the message in milliseconds
+   */
+  function showStatusMessage(message, type = 'info', durationMs = 3000) {
+    const statusMessageDiv = document.getElementById('statusMessage');
+    const statusMessageText = document.getElementById('statusMessageText');
+
+    if (statusMessageDiv && statusMessageText) {
+      // Remove any existing status classes
+      statusMessageDiv.classList.remove('joc-info-message', 'joc-error-message', 'joc-success-message');
+
+      // Add appropriate class based on type
+      statusMessageDiv.classList.add(`joc-${type}-message`);
+
+      // Set the message text
+      statusMessageText.textContent = message;
+
+      // Show the message
+      statusMessageDiv.style.display = 'block';
+
+      // Hide after specified duration
+      setTimeout(() => {
+        statusMessageDiv.style.display = 'none';
+      }, durationMs);
+    }
+  }
 
   /**
    * Saves all default settings to chrome.storage.local.

@@ -138,12 +138,16 @@
     "description": "Button text to open the ticket"
   },
   "pleaseEnterIssueId": {
-    "message": "Please enter an ticket ID",
+    "message": "Please enter a ticket ID",
     "description": "Error message when ticket ID is empty"
   },
   "errorOpeningIssue": {
     "message": "Error opening ticket. Please check your Jira URL configuration.",
     "description": "Error message when ticket opening fails"
+  },
+  "invalidIssueFormat": {
+    "message": "Invalid format. Use: PROJ-123, PROJ123, or just numbers.",
+    "description": "Error message when ticket ID format is invalid"
   },
   "optionsPageTitle": {
     "message": "Jira Optimizer - Options",
