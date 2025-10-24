@@ -9,6 +9,7 @@ import { Utils } from '../src/utils.js';
 function replaceI18nPlaceholders() {
   // Mapeamento de placeholders para suas respectivas mensagens
   const i18nMap = {
+    '__MSG_byExtension__': 'byExtension',
     '__MSG_settingsTitle__': 'settingsTitle',
     '__MSG_optionsPageTitle__': 'optionsPageTitle',
     '__MSG_reloadRequired__': 'reloadRequired',

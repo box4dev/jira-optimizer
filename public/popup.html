@@ -10,91 +10,107 @@
 </head>
 
 <body class="joc-body">
-  <div class="joc-settings-container">
-    <div class="joc-settings-header">
-      <div class="joc-settings-section-main-title">__MSG_settingsTitle__</div>
-      <div class="joc-header-right">
+  <div class="joc-popup-container">
+    
+    <header class="joc-popup-header">
+      <div class="joc-popup-header-title">__MSG_settingsTitle__</div>
+      <div class="joc-popup-header-right">
         <span id="joc-reload-message">__MSG_reloadRequired__</span>
         <div id="joc-icon-settings" class="joc-icon-settings" title="__MSG_optionsPageTitle__"></div>
       </div>
-    </div>
+    </header>
 
-     <div class="joc-settings-section">
-     <div class="joc-settings-section-title">__MSG_searchTicket__</div>
-     <div class="joc-setting-field">
-       <div class="joc-setting-field-left">
-         <label class="joc-setting-label joc-font-weight" for="idIssue">__MSG_issueId__</label>
-       </div>
-       <div class="joc-setting-field-center">
-         <input type="text" id="idIssue" name="idIssue" placeholder="__MSG_enterIssueIdPlaceholder__" autofocus/>
-       </div>
-       <div class="joc-setting-field-right">
-         <button id="openIssue">__MSG_openIssue__</button>
-       </div>
-     </div>
-     <div id="statusMessage" class="joc-status-message" style="display: none;">
-       <span id="statusMessageText"></span>
-     </div>
-   </div>
+    <main class="joc-popup-main">
 
-    <div class="joc-settings-section">
-      <div class="joc-settings-section-title">__MSG_globalSettings__</div>
-      <div class="joc-setting-item">
-        <span class="joc-setting-label">__MSG_enableFeatures__</span>
-        <label class="joc-toggle-switch">
-          <input type="checkbox" id="toggle-enableAll">
-          <span class="joc-toggle-slider"></span>
-        </label>
-      </div>
-    </div>
+      <section class="joc-popup-section">
+        <div class="joc-popup-flex-column">
+          <div class="joc-popup-field">
+            <input type="text" id="idIssue" name="idIssue" placeholder="__MSG_enterIssueIdPlaceholder__" autofocus />
+            <button id="openIssue">__MSG_openIssue__</button>
+          </div>
+          <div id="statusMessage" class="joc-status-message" style="display: none;">
+            <span id="statusMessageText"></span>
+          </div>
+        </div>
+        <!--
+        <div class="joc-popup-section-title">__MSG_searchTicket__</div>
+        <div class="joc-setting-field">
+          <div class="joc-setting-field-left">
+            <label class="joc-setting-label joc-font-weight" for="idIssue">__MSG_issueId__</label>
+          </div>
+          <div class="joc-setting-field-center">
+            <input type="text" id="idIssue" name="idIssue" placeholder="__MSG_enterIssueIdPlaceholder__" autofocus />
+          </div>
+          <div class="joc-setting-field-right">
+            <button id="openIssue">__MSG_openIssue__</button>
+          </div>
+        </div>
+        <div id="statusMessage" class="joc-status-message" style="display: none;">
+          <span id="statusMessageText"></span>
+        </div>
+        -->
+      </section>
 
-    <div class="joc-fields-section">
-      <div class="joc-settings-section-title">__MSG_features__</div>
+      <section class="joc-popup-section">
+        <div class="joc-popup-section-title">__MSG_globalSettings__</div>
+        <div class="joc-popup-item">
+          <span class="joc-setting-label">__MSG_enableFeatures__</span>
+          <label class="joc-toggle-switch">
+            <input type="checkbox" id="toggle-enableAll">
+            <span class="joc-toggle-slider"></span>
+          </label>
+        </div>
+      </section>
 
-      <div class="joc-setting-item">
-        <span class="joc-setting-label">__MSG_collapseRightPanel__</span>
-        <label class="joc-toggle-switch">
-          <input type="checkbox" id="toggle-collapseRightPanel">
-          <span class="joc-toggle-slider"></span>
-        </label>
-      </div>
+      <section class="joc-popup-section">
+        <div class="joc-popup-section-title">__MSG_features__</div>
 
-      <div class="joc-setting-item">
-        <span class="joc-setting-label">__MSG_expandCreateModal__</span>
-        <label class="joc-toggle-switch">
-          <input type="checkbox" id="toggle-expandCreateModal">
-          <span class="joc-toggle-slider"></span>
-        </label>
-      </div>
+        <div class="joc-popup-item">
+          <span class="joc-setting-label">__MSG_collapseRightPanel__</span>
+          <label class="joc-toggle-switch">
+            <input type="checkbox" id="toggle-collapseRightPanel">
+            <span class="joc-toggle-slider"></span>
+          </label>
+        </div>
 
-      <div class="joc-setting-item">
-        <span class="joc-setting-label">__MSG_viewLinkedTickets__</span>
-        <label class="joc-toggle-switch">
-          <input type="checkbox" id="toggle-viewLinkedTickets">
-          <span class="joc-toggle-slider"></span>
-        </label>
-      </div>
+        <div class="joc-popup-item">
+          <span class="joc-setting-label">__MSG_expandCreateModal__</span>
+          <label class="joc-toggle-switch">
+            <input type="checkbox" id="toggle-expandCreateModal">
+            <span class="joc-toggle-slider"></span>
+          </label>
+        </div>
 
-      <div class="joc-setting-item">
-        <span class="joc-setting-label">__MSG_expandImages__</span>
-        <label class="joc-toggle-switch">
-          <input type="checkbox" id="toggle-expandImages">
-          <span class="joc-toggle-slider"></span>
-        </label>
-      </div>
-    </div>
+        <div class="joc-popup-item">
+          <span class="joc-setting-label">__MSG_viewLinkedTickets__</span>
+          <label class="joc-toggle-switch">
+            <input type="checkbox" id="toggle-viewLinkedTickets">
+            <span class="joc-toggle-slider"></span>
+          </label>
+        </div>
 
-    <div class="joc-footer">
+        <div class="joc-popup-item">
+          <span class="joc-setting-label">__MSG_expandImages__</span>
+          <label class="joc-toggle-switch">
+            <input type="checkbox" id="toggle-expandImages">
+            <span class="joc-toggle-slider"></span>
+          </label>
+        </div>
+      </section>
+    </main>
+
+    <footer class="joc-popup-footer">
       <div class="joc-footer-left">
         <a href="https://box4.dev" target="_blank" class="joc-img-link">box4.dev</a>
       </div>
       <div class="joc-footer-center"></div>
       <div class="joc-footer-right">
-        <a href="https://chromewebstore.google.com/detail/occanfpdiglllenbekgbnhijeoincilf/reviews" target="_blank" class="joc-img-link">
+        <a href="https://chromewebstore.google.com/detail/occanfpdiglllenbekgbnhijeoincilf/reviews" target="_blank"
+          class="joc-img-link">
           <div class="joc-icon-star"></div>
         </a>
       </div>
-    </div>
+    </footer>
   </div>
   <script src="popup.js"></script>
 </body>
