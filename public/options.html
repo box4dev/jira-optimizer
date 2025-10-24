@@ -6,62 +6,64 @@
   <title>__MSG_optionsPageTitle__</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="joc-body">
-  <div class="joc-settings-container">
-    <div class="joc-settings-header">
-      <span role="img" class="joc-span-logo joc-logo" title="__MSG_byExtension__"></span>
-      <div class="joc-settings-section-main-title">__MSG_optionsPageHeading__</div>
-    </div>
+<body class="joc-body joc-settings-body">
+   <div class="joc-settings-container">
+     <header class="joc-settings-header">
+       <span role="img" class="joc-span-logo joc-logo" title="__MSG_byExtension__"></span>
+       <div class="joc-settings-section-main-title">__MSG_optionsPageHeading__</div>
+     </header>
 
-    <div class="joc-settings-section">
-      <div class="joc-settings-section-title">__MSG_jiraInstanceConfiguration__</div>
-      <div id="jiraUrlMessage" class="joc-info-message" style="display: none;">
-        __MSG_configureJiraUrlMessage__
-      </div>
-      <div class="joc-setting-field">
-        <div class="joc-setting-field-left">
-          <label for="jiraUrl" class="joc-setting-label joc-font-weight">__MSG_jiraBaseUrl__</label>
-        </div>
-        <div class="joc-setting-field-center">
-          <input type="text" id="jiraUrl" placeholder="https://yourcompany.atlassian.net/" />
-        </div>
-        <div class="joc-setting-field-right">
-          <button id="saveJiraUrl">__MSG_saveButton__</button>
-        </div>
-      </div>
-      <div id="saveMessage" class="joc-success-message"  style="display: none;">
-        <span >__MSG_jiraUrlSavedSuccessfully__</span>
-      </div>
-    </div>
+     <main class="joc-settings-main">
+       <div class="joc-settings-section">
+         <div class="joc-settings-section-title">__MSG_jiraInstanceConfiguration__</div>
+         <div id="jiraUrlMessage" class="joc-info-message" style="display: none;">
+           __MSG_configureJiraUrlMessage__
+         </div>
+         <div class="joc-setting-field">
+           <div class="joc-setting-field-left">
+             <label for="jiraUrl" class="joc-setting-label joc-font-weight">__MSG_jiraBaseUrl__</label>
+           </div>
+           <div class="joc-setting-field-center">
+             <input type="text" id="jiraUrl" placeholder="https://yourcompany.atlassian.net/" />
+           </div>
+           <div class="joc-setting-field-right">
+             <button id="saveJiraUrl">__MSG_saveButton__</button>
+           </div>
+         </div>
+         <div id="saveMessage" class="joc-success-message"  style="display: none;">
+           <span >__MSG_jiraUrlSavedSuccessfully__</span>
+         </div>
+       </div>
 
-    <div class="joc-settings-section">
-      <div class="joc-settings-section-title">__MSG_themeConfiguration__</div>
-      <div class="joc-setting-field">
-        <div class="joc-setting-field-left">
-          <label for="themeMode" class="joc-setting-label joc-font-weight">__MSG_themeMode__</label>
-        </div>
-        <div class="joc-setting-field-center">
-          <select id="themeMode" class="joc-theme-select">
-            <option value="light">__MSG_themeLight__</option>
-            <option value="dark">__MSG_themeDark__</option>
-            <option value="device">__MSG_themeDevice__</option>
-          </select>
-        </div>
-      </div>
-    </div>
+       <div class="joc-settings-section">
+         <div class="joc-settings-section-title">__MSG_themeConfiguration__</div>
+         <div class="joc-setting-field">
+           <div class="joc-setting-field-left">
+             <label for="themeMode" class="joc-setting-label joc-font-weight">__MSG_themeMode__</label>
+           </div>
+           <div class="joc-setting-field-center">
+             <select id="themeMode" class="joc-theme-select">
+               <option value="light">__MSG_themeLight__</option>
+               <option value="dark">__MSG_themeDark__</option>
+               <option value="device">__MSG_themeDevice__</option>
+             </select>
+           </div>
+         </div>
+       </div>
+     </main>
 
-    <div class="joc-footer">
-      <div class="joc-footer-left">
-        <a href="https://box4.dev" target="_blank" class="joc-img-link">box4.dev</a>
-      </div>
-      <div class="joc-footer-center"></div>
-      <div class="joc-footer-right">
-        <a href="https://chromewebstore.google.com/detail/occanfpdiglllenbekgbnhijeoincilf/reviews" target="_blank" class="joc-img-link">
-          <div class="joc-icon-star"></div>
-        </a>
-      </div>
-    </div>
-  </div>
+     <footer class="joc-footer">
+       <div class="joc-footer-left">
+         <a href="https://box4.dev" target="_blank" class="joc-img-link">box4.dev</a>
+       </div>
+       <div class="joc-footer-center"></div>
+       <div class="joc-footer-right">
+         <a href="https://chromewebstore.google.com/detail/occanfpdiglllenbekgbnhijeoincilf/reviews" target="_blank" class="joc-img-link">
+           <div class="joc-icon-star"></div>
+         </a>
+       </div>
+     </footer>
+   </div>
   <script src="options.js"></script>
 </body>
 </html>
