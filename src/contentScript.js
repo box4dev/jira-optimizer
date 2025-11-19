@@ -56,7 +56,7 @@ const JiraOptimizerExtension = {
           action: 'storage_local_set',
           items: { jiraUrl: detectedUrl }
         });
-        console.log('[Jira Optimizer] Jira URL automatically detected and saved:', detectedUrl);
+        // console.log('[Jira Optimizer] Jira URL automatically detected and saved:', detectedUrl);
       }
     } catch (error) {
       // console.warn('[Jira Optimizer] Error detecting/saving Jira URL:', error);
@@ -88,7 +88,7 @@ const JiraOptimizerExtension = {
       // Handle known extension errors gracefully
       if (error.message && error.message.includes('Extension context invalidated')) {
         // Extension was reloaded/refreshed, this is normal - silently use defaults
-        console.log('[Jira Optimizer] Extension context invalidated, using default settings');
+        // console.log('[Jira Optimizer] Extension context invalidated, using default settings');
       } else {
         console.warn('[Jira Optimizer] chrome.runtime not available or messaging failed. Using default settings.', error);
       }
@@ -117,7 +117,7 @@ const JiraOptimizerExtension = {
         ExpandImages.init();
       }
     } else {
-      console.log("[Jira Optimizer] Not a recognized Jira page or Jira type unknown. Features not activated.");
+      // console.log("[Jira Optimizer] Not a recognized Jira page or Jira type unknown. Features not activated.");
     }
   },
 

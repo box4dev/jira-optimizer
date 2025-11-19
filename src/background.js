@@ -66,7 +66,7 @@ chrome.runtime.onInstalled.addListener(async () => {
 
     if (!hasSavedSettings) {
       await Storage.set(defaultSettings);
-      console.log('[Jira Optimizer] Default settings initialized');
+      // console.log('[Jira Optimizer] Default settings initialized');
     }
   } catch (error) {
     console.error('[Jira Optimizer] Error initializing default settings:', error);

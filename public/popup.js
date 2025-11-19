@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (chrome.runtime.lastError) {
         console.error(`[Jira Optimizer] Error saving setting "${key}":`, chrome.runtime.lastError.message);
       } else {
-        console.log(`[Jira Optimizer] Setting "${key}" saved as: ${value}`); // Optional: for debugging
+        // console.log(`[Jira Optimizer] Setting "${key}" saved as: ${value}`); // Optional: for debugging
       }
     });
   }
@@ -398,7 +398,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (chrome.runtime.lastError) {
         console.error('[Jira Optimizer] Error saving default settings:', chrome.runtime.lastError.message);
       } else {
-        console.log('[Jira Optimizer] Default settings saved successfully');
+        // console.log('[Jira Optimizer] Default settings saved successfully');
       }
     });
   }

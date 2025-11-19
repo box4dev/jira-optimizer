@@ -57,7 +57,7 @@ export const ExpandModal = {
       if (modalIssueCreate && modalIssueCreatePositioner && modalIcons && !document.getElementById('joc-span-shrink-expand')) {
         // Check if we have access to messaging before proceeding
         if (!this.isMessagingAvailable()) {
-          console.log('[Jira Optimizer] Messaging not available, skipping expand button initialization');
+          // console.log('[Jira Optimizer] Messaging not available, skipping expand button initialization');
           return;
         }
 
@@ -89,7 +89,7 @@ export const ExpandModal = {
     } catch (error) {
       // Handle extension context invalidated errors gracefully
       if (error.message && error.message.includes('Extension context invalidated')) {
-        console.log('[Jira Optimizer] Extension context invalidated, expand button will be added on next modal open');
+        // console.log('[Jira Optimizer] Extension context invalidated, expand button will be added on next modal open');
       } else {
         console.error('[Jira Optimizer] Error adding expand button:', error);
       }

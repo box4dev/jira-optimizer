@@ -168,7 +168,7 @@ export const ExpandImages = {
     try {
       // Check if we have access to messaging before proceeding
       if (!this.isMessagingAvailable()) {
-        console.log('[Jira Optimizer] Messaging not available, skipping expand images button initialization');
+        // console.log('[Jira Optimizer] Messaging not available, skipping expand images button initialization');
         return;
       }
 
@@ -229,7 +229,7 @@ export const ExpandImages = {
     } catch (error) {
       // Handle extension context invalidated errors gracefully
       if (error.message && error.message.includes('Extension context invalidated')) {
-        console.log('[Jira Optimizer] Extension context invalidated, expand images button will be added on next page load');
+        // console.log('[Jira Optimizer] Extension context invalidated, expand images button will be added on next page load');
       } else {
         console.error('[Jira Optimizer] Error adding expand images button:', error);
       }
