@@ -1074,6 +1074,8 @@ input:checked+.joc-toggle-slider:before {
 
 .joc-footer-left {
   flex: 0 0 auto;
+  display: flex;
+  gap: 6px;
 }
 
 .joc-footer-center {
@@ -1084,6 +1086,11 @@ input:checked+.joc-toggle-slider:before {
   flex: 0 0 auto;
   display: flex;
   justify-content: flex-end;
+}
+
+.joc-footer-icon {
+  width: 16px;
+  height: 16px;
 }
 
 .joc-footer
